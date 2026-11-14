@@ -1,0 +1,39 @@
+name: PR check
+
+on:
+  pull_request:
+    branches: [develop]
+
+concurrency:
+  group: pr-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build, test and lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # Pull requests get no signing secrets, so the release build is signed with the debug key.
+      - name: Build, test and lint
+        run: ./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease
+
+      - name: Upload test and lint reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            app/build/reports/
+            app/build/test-results/
