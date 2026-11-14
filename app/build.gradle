@@ -10,8 +10,22 @@ android {
         applicationId 'np.exendahal.summitlauncher'
         minSdk 26
         targetSdk 34
-        versionCode 1
-        versionName '0.1.0'
+        // The release workflow sets these from the tag (v1.2.0 -> 1.2.0) and the run number.
+        versionCode Integer.parseInt(System.getenv('VERSION_CODE') ?: '1')
+        versionName System.getenv('VERSION_NAME') ?: '0.1.0'
+    }
+
+    signingConfigs {
+        release {
+            // Provided by the release workflow from the ANDROID_* repository secrets.
+            def keystore = System.getenv('ANDROID_KEYSTORE_PATH')
+            if (keystore) {
+                storeFile file(keystore)
+                storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('ANDROID_KEY_ALIAS')
+                keyPassword System.getenv('ANDROID_KEY_PASSWORD')
+            }
+        }
     }
 
     // PRD §17: fakeData = demo data from Appendix B, prodData = live Open-Meteo weather.
@@ -32,8 +46,8 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
-            // Sideload builds use the debug key; replace with a real keystore for Play (see README).
-            signingConfig signingConfigs.debug
+            // Signed with the release key in CI; local builds use the debug key so they can still be sideloaded.
+            signingConfig System.getenv('ANDROID_KEYSTORE_PATH') ? signingConfigs.release : signingConfigs.debug
         }
     }
 }
