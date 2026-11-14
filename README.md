@@ -91,9 +91,11 @@ Requirements: JDK 17, Android SDK platform 34. The Gradle 8.7 wrapper is include
 | `prodData` | Live weather (Open-Meteo) and live scores (ESPN public scoreboard) |
 | `fakeData` | Demo weather and scores from the product spec, no network |
 
-Release builds are signed with the debug key so they can be sideloaded. Add a real `signingConfig` before publishing
-to Google Play. On Windows, if the unit tests fail with `Could not find or load main class Files\...`, your `PATH`
-contains a stray `"` character; remove it or run with a cleaned `PATH`.
+Local release builds are signed with the debug key so they can be sideloaded; signed releases come from
+[GitHub Actions](#releases-and-ci). On Windows, if the unit tests fail with `Could not find or load main class Files\...`,
+your `PATH` contains a stray `"` character; remove it or run with a cleaned `PATH`.
+
+Pre-built, signed APKs are attached to each [GitHub release](../../releases).
 
 ### 2. Install on the TV
 Turn on developer options and network debugging on the TV, then from a computer on the same network:
@@ -204,6 +206,36 @@ stack than the spec suggests:
 | Retrofit/OkHttp/Moshi | `HttpURLConnection` + `org.json` | More than one API |
 | WorkManager refresh | Refresh on Home resume when the cache is over 30 min old | Background freshness matters |
 | Bundled Roboto Flex / Noto fonts | System fonts (Android ships the Noto scripts) | Variable-width typography is required |
+
+## Releases and CI
+Two GitHub Actions workflows live in `.github/workflows/`:
+
+| Workflow | Runs on | Does |
+|---|---|---|
+| `pr-check.yml` | Pull requests into `develop` | Builds the release APK, runs the unit tests and lint |
+| `release.yml` | Pushing a tag that starts with `v` | Builds a signed APK, verifies the signature and publishes a GitHub release with it |
+
+To publish a release, tag a commit and push the tag:
+
+```sh
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The tag sets the version name (`v0.1.0` becomes `0.1.0`) and the workflow run number sets the version code. Tags
+with a suffix, such as `v0.2.0-beta.1`, are published as pre-releases.
+
+The release workflow signs with these repository secrets (**Settings › Secrets and variables › Actions**):
+
+| Secret | Value |
+|---|---|
+| `ANDROID_KEYSTORE_BASE64` | The keystore file encoded as one line of base64 |
+| `ANDROID_KEYSTORE_PASSWORD` | Keystore password |
+| `ANDROID_KEY_ALIAS` | Alias of the signing key |
+| `ANDROID_KEY_PASSWORD` | Password of the signing key |
+
+To build a signed APK locally, set the same values as environment variables, with `ANDROID_KEYSTORE_PATH` pointing
+to the keystore file instead of the base64 secret.
 
 ## Contributing
 Bug reports, ideas and pull requests are welcome.
