@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "wallpapers": [
+    {
+      "id": "alpenglow",
+      "name": "Alpenglow",
+      "names": { "ne": "हिमालको लाली" },
+      "author": "Summit",
+      "image": "images/alpenglow.png",
+      "thumb": "thumbs/alpenglow.png"
+    },
+    {
+      "id": "lake",
+      "name": "Mountain lake",
+      "names": { "ne": "हिमाली ताल" },
+      "author": "Summit",
+      "image": "images/lake.png",
+      "thumb": "thumbs/lake.png"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora peaks",
+      "names": { "ne": "अरोराका चुचुरा" },
+      "author": "Summit",
+      "image": "images/aurora.png",
+      "thumb": "thumbs/aurora.png"
+    },
+    {
+      "id": "sunrise",
+      "name": "Summit sunrise",
+      "names": { "ne": "चुचुरोमा सूर्योदय" },
+      "author": "Summit",
+      "image": "images/sunrise.png",
+      "thumb": "thumbs/sunrise.png"
+    },
+    {
+      "id": "misty",
+      "name": "Misty ranges",
+      "names": { "ne": "कुहिरोमा डाँडाहरू" },
+      "author": "Summit",
+      "image": "images/misty.png",
+      "thumb": "thumbs/misty.png"
+    },
+    {
+      "id": "winter",
+      "name": "Winter peaks",
+      "names": { "ne": "हिउँदका चुचुरा" },
+      "author": "Summit",
+      "image": "images/winter.png",
+      "thumb": "thumbs/winter.png"
+    }
+  ]
+}
