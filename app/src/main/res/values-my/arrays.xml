@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>အပြင်အဆင်</item><item>ဖောင့်</item><item>ဘာသာစကား</item><item>ရာသီဥတု</item>
+        <item>ပင်မစခရင်</item><item>တိုက်ရိုက် TV</item><item>အိုင်ကွန်နှင့် အကွက်များ</item><item>ရမှတ်များ</item><item>စခရင်ချွေတာစနစ်</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>အချိန်အလိုက် အလိုအလျောက်</item><item>အမှောင်</item><item>အလင်း</item></string-array>
+    <string-array name="e_theme_colour"><item>နောက်ခံပုံမှ</item><item>သန္တာရောင်</item><item>အစိမ်း</item><item>စိတ်ကြိုက်</item></string-array>
+    <string-array name="e_custom_colour"><item>အနီ</item><item>လိမ္မော်</item><item>အဝါ</item><item>အစိမ်း</item><item>စိမ်းပြာ</item><item>အပြာ</item><item>မဲနယ်</item><item>ခရမ်း</item><item>ပန်းရောင်</item></string-array>
+    <string-array name="e_contrast"><item>ပုံမှန်</item><item>မြင့်</item></string-array>
+    <string-array name="e_animations"><item>အပြည့်</item><item>လျှော့ထား</item><item>ပိတ်</item></string-array>
+    <string-array name="e_wallpaper"><item>တောင်ရှုခင်း</item><item>တောင်ကြောမျဉ်း</item><item>ရိုးရိုး</item><item>ဖေဝါ နေဝင်ချိန်</item><item>ဟိမဝန္တာ ည</item><item>တာရိုင်း လယ်ကွင်းများ</item><item>ဆုတောင်းအလံများ</item></string-array>
+    <string-array name="e_dim"><item>ပိတ်</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>မူရင်း</item><item>ကြီး</item><item>အလွန်ကြီး</item></string-array>
+    <string-array name="e_off_on"><item>ပိတ်</item><item>ဖွင့်</item></string-array>
+    <string-array name="e_on_off"><item>ဖွင့်</item><item>ပိတ်</item></string-array>
+    <string-array name="e_labels"><item>အမြဲ</item><item>ရွေးထားချိန်</item><item>ပိတ်</item></string-array>
+    <string-array name="e_show_hide"><item>ပြ</item><item>ဝှက်</item></string-array>
+    <string-array name="e_calendar"><item>နှစ်မျိုးလုံး</item><item>ဗိက္ကရမ် သမ္ဗတ်</item><item>ခရစ်နှစ်</item></string-array>
+    <string-array name="e_time"><item>12 နာရီ</item><item>24 နာရီ</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>လက်မ</item></string-array>
+    <string-array name="e_watch_tile"><item>အတန်း၏ ပထမ</item><item>ဝှက်ထား</item></string-array>
+    <string-array name="e_fav_order"><item>အသုံးများဆုံး</item><item>ကိုယ်တိုင်</item></string-array>
+    <string-array name="e_health"><item>အမ်ဘီယန့်တွင်သာ</item><item>ပင်မနှင့် အမ်ဘီယန့်</item><item>ပိတ်</item></string-array>
+    <string-array name="e_live_type"><item>TV အဝင်</item><item>အက်ပ်</item></string-array>
+    <string-array name="e_tile_size"><item>အလတ်</item><item>ကြီး</item><item>သေး</item></string-array>
+    <string-array name="e_tile_shape"><item>ထောင့်ဝိုင်း</item><item>လေးထောင့်</item></string-array>
+    <string-array name="e_score_max"><item>4 ခုအထိ</item><item>6 ခုအထိ</item><item>3 ခုအထိ</item><item>2 ခုအထိ</item></string-array>
+    <string-array name="e_stale"><item>“မရနိုင်ပါ” ဟု ပြရန်</item><item>ရမှတ်များ ဝှက်ရန်</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>ကျန်းမာခြင်းသည် တကယ့်ချမ်းသာခြင်း ဖြစ်သည်။ နည်းနည်းလှုပ်ရှားပြီး များများပြုံးပါ။</item>
+        <item>ယနေ့ မိနစ် 20 လမ်းလျှောက်ခြင်းသည် မနက်ဖြန်၏ သင့်အတွက် လက်ဆောင်ဖြစ်သည်။</item>
+        <item>နောက်တစ်ပိုင်း မကြည့်မီ ရေတစ်ခွက် သောက်ပါ။</item>
+        <item>မျက်လုံးကို အနားပေးပါ- မိနစ် 20 တိုင်း စက္ကန့် 20 ကြာ အဝေးကို ကြည့်ပါ။</item>
+        <item>ကောင်းမွန်စွာ အိပ်စက်ခြင်းသည် အကောင်းဆုံး လေ့ကျင့်မှုအစီအစဉ် ဖြစ်သည်။ ယနေ့ည အချိန်မီ ပိတ်ပါ။</item>
+        <item>အနားယူတိုင်း ထ၍ ကိုယ်ကို ဆန့်ပါ။ သင့်ကျောက ကျေးဇူးတင်ပါလိမ့်မည်။</item>
+        <item>တောင်တန်းများ ကြည့်နေသကဲ့သို့ စားပါ- လတ်ဆတ်၊ ရိုးရှင်းပြီး ရာသီအလိုက်။</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Carattere</item><item>Lingua</item><item>Meteo</item>
+        <item>Schermata Home</item><item>TV in diretta</item><item>Icone e riquadri</item><item>Risultati</item><item>Salvaschermo</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto in base all\'ora</item><item>Scuro</item><item>Chiaro</item></string-array>
+    <string-array name="e_theme_colour"><item>Dallo sfondo</item><item>Corallo</item><item>Verde</item><item>Personalizzato</item></string-array>
+    <string-array name="e_custom_colour"><item>Rosso</item><item>Arancione</item><item>Giallo</item><item>Verde</item><item>Verde acqua</item><item>Blu</item><item>Indaco</item><item>Viola</item><item>Rosa</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Alto</item></string-array>
+    <string-array name="e_animations"><item>Complete</item><item>Ridotte</item><item>Disattivate</item></string-array>
+    <string-array name="e_wallpaper"><item>Paesaggio montano</item><item>Linea di cresta</item><item>Tinta unita</item><item>Tramonto sul Phewa</item><item>Notte himalayana</item><item>Campi del Terai</item><item>Bandiere di preghiera</item></string-array>
+    <string-array name="e_dim"><item>Off</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Predefinita</item><item>Grande</item><item>Molto grande</item></string-array>
+    <string-array name="e_off_on"><item>Off</item><item>On</item></string-array>
+    <string-array name="e_on_off"><item>On</item><item>Off</item></string-array>
+    <string-array name="e_labels"><item>Sempre</item><item>Se selezionata</item><item>Mai</item></string-array>
+    <string-array name="e_show_hide"><item>Mostra</item><item>Nascondi</item></string-array>
+    <string-array name="e_calendar"><item>Entrambi</item><item>Bikram Sambat</item><item>Gregoriano</item></string-array>
+    <string-array name="e_time"><item>12 ore</item><item>24 ore</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>pollici</item></string-array>
+    <string-array name="e_watch_tile"><item>Primo nella riga</item><item>Nascosto</item></string-array>
+    <string-array name="e_fav_order"><item>Più usate</item><item>Manuale</item></string-array>
+    <string-array name="e_health"><item>Solo ambient</item><item>Home e ambient</item><item>Off</item></string-array>
+    <string-array name="e_live_type"><item>Ingresso TV</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Medio</item><item>Grande</item><item>Piccolo</item></string-array>
+    <string-array name="e_tile_shape"><item>Arrotondato</item><item>Quadrato</item></string-array>
+    <string-array name="e_score_max"><item>Fino a 4</item><item>Fino a 6</item><item>Fino a 3</item><item>Fino a 2</item></string-array>
+    <string-array name="e_stale"><item>Mostra \"non disponibile\"</item><item>Nascondi risultati</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>La salute è la vera ricchezza. Muoviti un po\', sorridi tanto.</item>
+        <item>Una passeggiata di 20 minuti oggi è un regalo per te di domani.</item>
+        <item>Bevi un bicchiere d\'acqua prima del prossimo episodio.</item>
+        <item>Riposa gli occhi: ogni 20 minuti guarda lontano per 20 secondi.</item>
+        <item>Dormire bene è il miglior piano di allenamento. Stasera spegni in orario.</item>
+        <item>Alzati e fai stretching a ogni pausa. La tua schiena ti ringrazierà.</item>
+        <item>Mangia come se le montagne ti guardassero: fresco, semplice e di stagione.</item>
+    </string-array>
+</resources>

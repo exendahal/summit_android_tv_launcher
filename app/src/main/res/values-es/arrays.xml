@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Fuente</item><item>Idioma</item><item>Tiempo</item>
+        <item>Pantalla de inicio</item><item>TV en directo</item><item>Iconos y mosaicos</item><item>Resultados</item><item>Salvapantallas</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automático según la hora</item><item>Oscuro</item><item>Claro</item></string-array>
+    <string-array name="e_theme_colour"><item>Del fondo</item><item>Coral</item><item>Verde</item><item>Personalizado</item></string-array>
+    <string-array name="e_custom_colour"><item>Rojo</item><item>Naranja</item><item>Amarillo</item><item>Verde</item><item>Verde azulado</item><item>Azul</item><item>Índigo</item><item>Morado</item><item>Rosa</item></string-array>
+    <string-array name="e_contrast"><item>Estándar</item><item>Alto</item></string-array>
+    <string-array name="e_animations"><item>Completas</item><item>Reducidas</item><item>Desactivadas</item></string-array>
+    <string-array name="e_wallpaper"><item>Paisaje de montaña</item><item>Línea de crestas</item><item>Liso</item><item>Atardecer en Phewa</item><item>Noche en el Himalaya</item><item>Campos del Terai</item><item>Banderas de oración</item></string-array>
+    <string-array name="e_dim"><item>No</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Predeterminado</item><item>Grande</item><item>Muy grande</item></string-array>
+    <string-array name="e_off_on"><item>Desactivado</item><item>Activado</item></string-array>
+    <string-array name="e_on_off"><item>Activado</item><item>Desactivado</item></string-array>
+    <string-array name="e_labels"><item>Siempre</item><item>Al seleccionar</item><item>Nunca</item></string-array>
+    <string-array name="e_show_hide"><item>Mostrar</item><item>Ocultar</item></string-array>
+    <string-array name="e_calendar"><item>Ambos</item><item>Bikram Sambat</item><item>Gregoriano</item></string-array>
+    <string-array name="e_time"><item>12 horas</item><item>24 horas</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>pulgadas</item></string-array>
+    <string-array name="e_watch_tile"><item>Primero en la fila</item><item>Oculto</item></string-array>
+    <string-array name="e_fav_order"><item>Más usadas</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Solo en ambiente</item><item>Inicio y ambiente</item><item>Desactivado</item></string-array>
+    <string-array name="e_live_type"><item>Entrada de TV</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Mediano</item><item>Grande</item><item>Pequeño</item></string-array>
+    <string-array name="e_tile_shape"><item>Redondeado</item><item>Cuadrado</item></string-array>
+    <string-array name="e_score_max"><item>Hasta 4</item><item>Hasta 6</item><item>Hasta 3</item><item>Hasta 2</item></string-array>
+    <string-array name="e_stale"><item>Mostrar \"no disponible\"</item><item>Ocultar resultados</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>La salud es tu verdadera riqueza. Muévete un poco y sonríe mucho.</item>
+        <item>Un paseo de 20 minutos hoy es un regalo para tu yo de mañana.</item>
+        <item>Bebe un vaso de agua antes del próximo episodio.</item>
+        <item>Descansa la vista: cada 20 minutos, mira a lo lejos durante 20 segundos.</item>
+        <item>Dormir bien es el mejor plan de entrenamiento. Apaga a tiempo esta noche.</item>
+        <item>Levántate y estírate en cada pausa. Tu espalda te lo agradecerá.</item>
+        <item>Come como si las montañas te miraran: fresco, sencillo y de temporada.</item>
+    </string-array>
+</resources>

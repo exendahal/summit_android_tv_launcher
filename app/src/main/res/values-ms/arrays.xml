@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Fon</item><item>Bahasa</item><item>Cuaca</item>
+        <item>Skrin utama</item><item>TV langsung</item><item>Ikon &amp; jubin</item><item>Skor</item><item>Penyelamat skrin</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto mengikut masa</item><item>Gelap</item><item>Cerah</item></string-array>
+    <string-array name="e_theme_colour"><item>Daripada kertas dinding</item><item>Koral</item><item>Hijau</item><item>Tersuai</item></string-array>
+    <string-array name="e_custom_colour"><item>Merah</item><item>Oren</item><item>Kuning</item><item>Hijau</item><item>Hijau kebiruan</item><item>Biru</item><item>Indigo</item><item>Ungu</item><item>Merah jambu</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Tinggi</item></string-array>
+    <string-array name="e_animations"><item>Penuh</item><item>Dikurangkan</item><item>Mati</item></string-array>
+    <string-array name="e_wallpaper"><item>Pemandangan gunung</item><item>Garisan rabung</item><item>Kosong</item><item>Senja di Phewa</item><item>Malam Himalaya</item><item>Sawah Terai</item><item>Bendera doa</item></string-array>
+    <string-array name="e_dim"><item>Mati</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Lalai</item><item>Besar</item><item>Sangat besar</item></string-array>
+    <string-array name="e_off_on"><item>Mati</item><item>Hidup</item></string-array>
+    <string-array name="e_on_off"><item>Hidup</item><item>Mati</item></string-array>
+    <string-array name="e_labels"><item>Sentiasa</item><item>Apabila dipilih</item><item>Mati</item></string-array>
+    <string-array name="e_show_hide"><item>Tunjukkan</item><item>Sembunyikan</item></string-array>
+    <string-array name="e_calendar"><item>Kedua-duanya</item><item>Bikram Sambat</item><item>Gregorian</item></string-array>
+    <string-array name="e_time"><item>12 jam</item><item>24 jam</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inci</item></string-array>
+    <string-array name="e_watch_tile"><item>Pertama dalam baris</item><item>Disembunyikan</item></string-array>
+    <string-array name="e_fav_order"><item>Paling kerap digunakan</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Penyelamat skrin sahaja</item><item>Utama dan penyelamat skrin</item><item>Mati</item></string-array>
+    <string-array name="e_live_type"><item>Input TV</item><item>Apl</item></string-array>
+    <string-array name="e_tile_size"><item>Sederhana</item><item>Besar</item><item>Kecil</item></string-array>
+    <string-array name="e_tile_shape"><item>Bulat</item><item>Segi empat</item></string-array>
+    <string-array name="e_score_max"><item>Hingga 4</item><item>Hingga 6</item><item>Hingga 3</item><item>Hingga 2</item></string-array>
+    <string-array name="e_stale"><item>Papar \"tidak tersedia\"</item><item>Sembunyikan skor</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Kesihatan ialah kekayaan sebenar anda. Bergerak sedikit, senyum banyak.</item>
+        <item>Berjalan 20 minit hari ini ialah hadiah untuk diri anda esok.</item>
+        <item>Minum segelas air sebelum episod seterusnya.</item>
+        <item>Rehatkan mata: setiap 20 minit, pandang jauh selama 20 saat.</item>
+        <item>Tidur yang cukup ialah pelan latihan terbaik. Tutup TV tepat pada masanya malam ini.</item>
+        <item>Bangun dan regangkan badan setiap kali rehat. Belakang anda akan berterima kasih.</item>
+        <item>Makanlah seolah-olah bukit sedang memerhati: segar, ringkas dan bermusim.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">محافظ صفحه Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_apps">برنامه‌ها</string>
+    <string name="nav_settings">تنظیمات</string>
+    <string name="search">جستجو</string>
+    <string name="tv_settings">تنظیمات Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">تماشای تلویزیون</string>
+    <string name="continue_title">ادامه</string>
+    <string name="favourites_title">موردعلاقه‌ها · برای سنجاق یا جابه‌جایی، OK را نگه دارید</string>
+    <string name="all_apps">همه برنامه‌ها</string>
+    <string name="show_recents">نمایش برنامه‌های اخیر</string>
+    <string name="not_default_banner">Summit را صفحه اصلی خود کنید · برای راهنما OK را بزنید</string>
+    <string name="not_default_title">Summit را صفحه اصلی خود کنید</string>
+    <string name="not_default_help">تنظیمات › برنامه‌ها › برنامه‌های پیش‌فرض › برنامه صفحه اصلی را باز کنید و Summit را انتخاب کنید. برخی دستگاه‌های Google TV اجازه تغییر برنامه صفحه اصلی را نمی‌دهند؛ Summit همچنان از فهرست برنامه‌ها کار می‌کند.</string>
+    <string name="open_settings">باز کردن تنظیمات</string>
+    <string name="dismiss">رد کردن</string>
+    <string name="usage_unavailable">تنظیمات › برنامه‌ها › دسترسی ویژه برنامه › دسترسی به داده‌های استفاده را باز کنید و به Summit اجازه دهید.</string>
+    <string name="move_hint">◀ ▶ جابه‌جایی · OK رها کردن · Back لغو</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">ادامه · %d دقیقه پیش</string>
+    <string name="resume_h">ادامه · %d ساعت پیش</string>
+    <string name="yesterday">دیروز</string>
+    <string name="days_ago">%d روز پیش</string>
+    <string name="last_week">هفته گذشته</string>
+    <string name="updated_now">همین حالا به‌روز شد</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d دقیقه پیش به‌روز شد</item>
+        <item quantity="other">%d دقیقه پیش به‌روز شد</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">زنده</string>
+    <string name="ft">پایان</string>
+    <string name="scores_unavailable">نتایج در دسترس نیست</string>
+    <string name="score_cd">%1$s. برای جزئیات OK را بزنید</string>
+    <string name="score_live_suffix">%1$s · زنده</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">آب‌وهوا در دسترس نیست</string>
+    <string name="hi_lo">ب %1$s ک %2$s</string>
+    <string name="hi_lo_long">بیشینه %1$s · کمینه %2$s</string>
+    <string name="wind_rain">باد %1$s · باران امروز %2$s</string>
+    <string name="weather_title">%1$s · امروز</string>
+    <string name="mountains_line">کوهستان · نامچه بازار %1$s، %2$s</string>
+    <string name="rain_pct">باران %d%%</string>
+    <string name="next_days">۳ روز آینده</string>
+    <string name="change_units">واحدها را در تنظیمات تغییر دهید</string>
+    <string name="part_morning">صبح</string>
+    <string name="part_afternoon">بعدازظهر</string>
+    <string name="part_evening">عصر</string>
+    <string name="part_night">شب</string>
+    <string name="cond_clear">صاف</string>
+    <string name="cond_sunny">آفتابی</string>
+    <string name="cond_partly">نیمه‌ابری</string>
+    <string name="cond_cloudy">ابری</string>
+    <string name="cond_fog">مه‌آلود</string>
+    <string name="cond_rain">باران</string>
+    <string name="cond_snow">بارش برف</string>
+    <string name="cond_thunder">رعدوبرق</string>
+    <string name="sum_all_day">%1$s در تمام روز</string>
+    <string name="sum_morning">%1$s صبح</string>
+    <string name="sum_afternoon">%1$s بعدازظهر</string>
+    <string name="sum_rain_from">باران از %1$s</string>
+    <string name="sum_tonight">%1$s امشب</string>
+    <string name="sum_sep">"، "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">کاتماندو</string>
+    <string name="close">بستن</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ جابه‌جایی · OK باز کردن · نگه داشتن OK برای سنجاق به موردعلاقه‌ها · Back بازگشت به خانه</string>
+    <string name="selected_app">انتخاب‌شده: %s</string>
+    <string name="pin">سنجاق به موردعلاقه‌ها</string>
+    <string name="unpin">برداشتن از موردعلاقه‌ها</string>
+    <string name="move">جابه‌جایی</string>
+    <string name="app_info">اطلاعات برنامه</string>
+    <string name="uninstall">حذف نصب</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">این تلویزیون اجازه نمی‌دهد برنامه‌ها ورودی را عوض کنند. از دکمه Input روی کنترل استفاده کنید.</string>
+    <string name="no_tv_input">ورودی تلویزیون پیدا نشد</string>
+    <string name="ask_every_time">هر بار بپرس</string>
+    <string name="choose_live_app">یک برنامه تلویزیون زنده انتخاب کنید</string>
+    <string name="voice_unavailable">جستجوی صوتی در این تلویزیون در دسترس نیست.</string>
+    <string name="cannot_open">این برنامه باز نمی‌شود.</string>
+
+    <!-- Settings -->
+    <string name="reset">بازنشانی به پیش‌فرض</string>
+    <string name="reset_title">همه تنظیمات لانچر بازنشانی شود؟</string>
+    <string name="reset_body">پوسته، تصویر زمینه، زبان و دیگر تنظیمات لانچر به حالت پیش‌فرض برمی‌گردند. برنامه‌ها و موردعلاقه‌های شما تغییری نمی‌کنند.</string>
+    <string name="cancel">لغو</string>
+    <string name="reset_confirm">بازنشانی</string>
+    <string name="settings_hint">▲ ▼ جابه‌جایی · OK باز کردن یا انتخاب · Back بازگشت. تغییرات فوراً اعمال می‌شوند.</string>
+    <string name="leagues_header">انتخاب کنید چه چیزی در خانه نمایش داده شود · %d انتخاب‌شده</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">پیش‌نمایش</string>
+
+    <string name="opt_mode">حالت</string>
+    <string name="opt_colour">رنگ</string>
+    <string name="opt_use_screensaver">استفاده به‌عنوان محافظ صفحه</string>
+    <string name="screensaver_setup_title">یک بار راه‌اندازی لازم است</string>
+    <string name="screensaver_setup_body">این تلویزیون اجازه نمی‌دهد برنامه‌ها خودشان محافظ صفحه را تغییر دهند. یک بار رایانه را وصل کنید و این را اجرا کنید:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nسپس دوباره این گزینه را روشن کنید.</string>
+    <string name="wallpaper_custom">تصویر من</string>
+    <string name="wallpaper_download_failed">دانلود این تصویر زمینه ممکن نشد. اتصال اینترنت را بررسی کنید.</string>
+    <string name="picture_allow">اجازه دسترسی به تصاویر</string>
+    <string name="picture_denied">دسترسی به عکس‌ها را در تنظیمات › برنامه‌ها › Summit › مجوزها مجاز کنید.</string>
+    <string name="picture_none">هیچ تصویری روی این تلویزیون پیدا نشد.</string>
+    <string name="picture_failed">باز کردن این تصویر ممکن نشد.</string>
+    <string name="picture_n">تصویر %d</string>
+    <string name="opt_custom_colour">رنگ سفارشی</string>
+    <string name="opt_contrast">کنتراست</string>
+    <string name="opt_animations">پویانمایی‌ها</string>
+    <string name="opt_wallpaper">تصویر زمینه</string>
+    <string name="opt_dim">کم‌نور کردن تصویر زمینه</string>
+    <string name="opt_text_size">اندازه متن</string>
+    <string name="opt_digits">ارقام دوناگری</string>
+    <string name="opt_language">زبان</string>
+    <string name="opt_calendar">تقویم</string>
+    <string name="opt_time">قالب زمان</string>
+    <string name="opt_temp">دما</string>
+    <string name="opt_wind">سرعت باد</string>
+    <string name="opt_rain">میزان بارش</string>
+    <string name="opt_location">مکان</string>
+    <string name="opt_show_home">نمایش در خانه</string>
+    <string name="opt_watch_tile">کاشی تماشای تلویزیون</string>
+    <string name="opt_continue">ردیف ادامه</string>
+    <string name="opt_fav_order">ترتیب موردعلاقه‌ها</string>
+    <string name="opt_health">نکته سلامتی</string>
+    <string name="opt_live_type">تماشای تلویزیون از طریق</string>
+    <string name="opt_input">منبع ورودی</string>
+    <string name="opt_live_app">برنامه</string>
+    <string name="opt_boot">باز شدن هنگام روشن شدن تلویزیون</string>
+    <string name="opt_tile_size">اندازه کاشی</string>
+    <string name="opt_tile_shape">شکل کاشی</string>
+    <string name="opt_labels">نام برنامه‌ها</string>
+    <string name="opt_score_max">نمایش در خانه</string>
+    <string name="opt_live_first">اول مسابقه‌های زنده</string>
+    <string name="opt_stale">اگر نتایج به‌روز نشوند</string>
+    <string name="opt_amb_scores">نمایش نتایج زنده</string>
+    <string name="opt_amb_shift">جابه‌جایی ساعت برای محافظت از صفحه</string>
+    <string name="opt_amb_dim">کم‌نور در شب</string>
+
+    <string name="grp_cricket">کریکت</string>
+    <string name="grp_football">فوتبال</string>
+    <string name="grp_basketball">بسکتبال</string>
+    <string name="grp_us">ورزش‌های آمریکایی</string>
+    <string name="grp_tennis">تنیس</string>
+    <string name="grp_motor">موتوراسپرت</string>
+    <string name="grp_golf">گلف</string>
+
+    <!-- Ambient -->
+    <string name="press_any">یک دکمه را بزنید</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">راه‌اندازی لانچر</string>
+    <string name="step_of">مرحله %1$d از %2$d</string>
+    <string name="back">بازگشت</string>
+    <string name="next">ادامه</string>
+    <string name="finish">پایان</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ جابه‌جایی · OK انتخاب · ▶ از گزینه‌ها به ادامه می‌رسد · Back مرحله قبل</string>
+    <string name="s1_title">زبان خود را انتخاب کنید</string>
+    <string name="s1_sub">Summit به‌محض انتخاب شما زبان را عوض می‌کند.</string>
+    <string name="s2_title">تلویزیون را از کجا تماشا می‌کنید؟</string>
+    <string name="s2_sub">«تماشای تلویزیون» در خانه با یک بار فشردن OK این را باز می‌کند.</string>
+    <string name="signal_yes">سیگنال شناسایی شد</string>
+    <string name="signal_no">بدون سیگنال</string>
+    <string name="recommended">پیشنهادی</string>
+    <string name="antenna">آنتن (DTV)</string>
+    <string name="s3_title">خانه چه نتایجی را نشان دهد؟</string>
+    <string name="s3_sub">هر تعداد که می‌خواهید انتخاب کنید. مسابقه‌های زنده اول نمایش داده می‌شوند.</string>
+    <string name="s_fav_title">برنامه‌های موردعلاقه‌تان را انتخاب کنید</string>
+    <string name="s_fav_sub">در خانه قرار می‌گیرند، با یک فشار در دسترس. هر تعداد که می‌خواهید انتخاب کنید.</string>
+    <string name="s_wall_title">یک تصویر زمینه انتخاب کنید</string>
+    <string name="s_wall_sub">پشت خانه و محافظ صفحه نمایش داده می‌شود.</string>
+    <string name="setup_preview_note">صفحه خانه شما. بعداً می‌توانید همه این‌ها را در تنظیمات تغییر دهید.</string>
+    <string name="s4_title">یک ظاهر انتخاب کنید</string>
+    <string name="s4_sub">حالت خودکار از ۶ عصر تا ۶ صبح تیره و در طول روز روشن است.</string>
+    <string name="tennis">تنیس</string>
+    <string name="formula1">فرمول ۱</string>
+    <string name="usage_title">برنامه‌هایی که اخیراً استفاده کرده‌اید در خانه نمایش داده شوند؟</string>
+    <string name="usage_body">اجازه دسترسی به داده‌های استفاده را بدهید تا ردیف ادامه برنامه‌های اخیر شما را نشان دهد.</string>
+    <string name="allow">اجازه دادن</string>
+    <string name="skip">رد شدن</string>
+    <string name="run_setup">اجرای راه‌اندازی اولیه</string>
+    <string name="change_city">تغییر شهر</string>
+    <string name="kick_off">شروع بازی %s</string>
+    <string name="mode_input">ورودی تلویزیون</string>
+    <string name="mode_input_sub">HDMI، AV یا آنتن</string>
+    <string name="mode_app">برنامه</string>
+    <string name="mode_app_sub">یک برنامه تلویزیون زنده</string>
+    <string name="search_city">جستجوی شهر</string>
+    <string name="use_current">استفاده از مکان فعلی</string>
+    <string name="use_current_named">استفاده از مکان فعلی (%s)</string>
+    <string name="searching">در حال جستجو…</string>
+    <string name="no_results">شهری پیدا نشد</string>
+    <string name="search_failed">اکنون جستجو ممکن نیست. اتصال اینترنت را بررسی کنید.</string>
+    <string name="resume_now">ادامه · همین حالا</string>
+</resources>

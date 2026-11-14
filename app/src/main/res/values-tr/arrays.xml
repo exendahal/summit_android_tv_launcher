@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Yazı tipi</item><item>Dil</item><item>Hava durumu</item>
+        <item>Ana ekran</item><item>Canlı TV</item><item>Simgeler ve kutucuklar</item><item>Skorlar</item><item>Ekran koruyucu</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Saate göre otomatik</item><item>Koyu</item><item>Açık</item></string-array>
+    <string-array name="e_theme_colour"><item>Duvar kâğıdından</item><item>Mercan</item><item>Yeşil</item><item>Özel</item></string-array>
+    <string-array name="e_custom_colour"><item>Kırmızı</item><item>Turuncu</item><item>Sarı</item><item>Yeşil</item><item>Camgöbeği</item><item>Mavi</item><item>Çivit</item><item>Mor</item><item>Pembe</item></string-array>
+    <string-array name="e_contrast"><item>Standart</item><item>Yüksek</item></string-array>
+    <string-array name="e_animations"><item>Tam</item><item>Azaltılmış</item><item>Kapalı</item></string-array>
+    <string-array name="e_wallpaper"><item>Dağ manzarası</item><item>Sırt çizgisi</item><item>Düz</item><item>Phewa\'da gün batımı</item><item>Himalaya gecesi</item><item>Terai tarlaları</item><item>Dua bayrakları</item></string-array>
+    <string-array name="e_dim"><item>Kapalı</item><item>%30</item><item>%60</item></string-array>
+    <string-array name="e_text_size"><item>Varsayılan</item><item>Büyük</item><item>Çok büyük</item></string-array>
+    <string-array name="e_off_on"><item>Kapalı</item><item>Açık</item></string-array>
+    <string-array name="e_on_off"><item>Açık</item><item>Kapalı</item></string-array>
+    <string-array name="e_labels"><item>Her zaman</item><item>Seçildiğinde</item><item>Kapalı</item></string-array>
+    <string-array name="e_show_hide"><item>Göster</item><item>Gizle</item></string-array>
+    <string-array name="e_calendar"><item>İkisi de</item><item>Bikram Sambat</item><item>Miladi</item></string-array>
+    <string-array name="e_time"><item>12 saat</item><item>24 saat</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/sa</item><item>m/sn</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inç</item></string-array>
+    <string-array name="e_watch_tile"><item>Satırda ilk</item><item>Gizli</item></string-array>
+    <string-array name="e_fav_order"><item>En çok kullanılan</item><item>Elle</item></string-array>
+    <string-array name="e_health"><item>Yalnızca ekran koruyucu</item><item>Ana Sayfa ve ekran koruyucu</item><item>Kapalı</item></string-array>
+    <string-array name="e_live_type"><item>TV girişi</item><item>Uygulama</item></string-array>
+    <string-array name="e_tile_size"><item>Orta</item><item>Büyük</item><item>Küçük</item></string-array>
+    <string-array name="e_tile_shape"><item>Yuvarlak köşeli</item><item>Kare</item></string-array>
+    <string-array name="e_score_max"><item>En fazla 4</item><item>En fazla 6</item><item>En fazla 3</item><item>En fazla 2</item></string-array>
+    <string-array name="e_stale"><item>“Kullanılamıyor” yaz</item><item>Skorları gizle</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Sağlık gerçek zenginliktir. Biraz hareket edin, bolca gülümseyin.</item>
+        <item>Bugün 20 dakikalık bir yürüyüş, yarınki size bir armağandır.</item>
+        <item>Sonraki bölümden önce bir bardak su için.</item>
+        <item>Gözlerinizi dinlendirin: her 20 dakikada bir, 20 saniye uzağa bakın.</item>
+        <item>İyi uyku en iyi antrenman planıdır. Bu gece zamanında kapatın.</item>
+        <item>Her arada kalkıp esneyin. Sırtınız size teşekkür edecek.</item>
+        <item>Dağlar sizi izliyormuş gibi beslenin: taze, sade ve mevsiminde.</item>
+    </string-array>
+</resources>

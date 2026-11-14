@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>主题</item><item>字体</item><item>语言</item><item>天气</item>
+        <item>主屏幕</item><item>直播电视</item><item>图标和磁贴</item><item>比分</item><item>屏幕保护程序</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>按时间自动</item><item>深色</item><item>浅色</item></string-array>
+    <string-array name="e_theme_colour"><item>取自壁纸</item><item>珊瑚色</item><item>绿色</item><item>自定义</item></string-array>
+    <string-array name="e_custom_colour"><item>红色</item><item>橙色</item><item>黄色</item><item>绿色</item><item>青色</item><item>蓝色</item><item>靛蓝色</item><item>紫色</item><item>粉色</item></string-array>
+    <string-array name="e_contrast"><item>标准</item><item>高</item></string-array>
+    <string-array name="e_animations"><item>完整</item><item>减少</item><item>关闭</item></string-array>
+    <string-array name="e_wallpaper"><item>雪山风光</item><item>山脊线</item><item>纯色</item><item>费瓦湖日落</item><item>喜马拉雅之夜</item><item>特莱田野</item><item>经幡</item></string-array>
+    <string-array name="e_dim"><item>关闭</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>默认</item><item>大</item><item>特大</item></string-array>
+    <string-array name="e_off_on"><item>关闭</item><item>开启</item></string-array>
+    <string-array name="e_on_off"><item>开启</item><item>关闭</item></string-array>
+    <string-array name="e_labels"><item>始终显示</item><item>选中时</item><item>关闭</item></string-array>
+    <string-array name="e_show_hide"><item>显示</item><item>隐藏</item></string-array>
+    <string-array name="e_calendar"><item>两者</item><item>尼泊尔历</item><item>公历</item></string-array>
+    <string-array name="e_time"><item>12 小时制</item><item>24 小时制</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>英寸</item></string-array>
+    <string-array name="e_watch_tile"><item>行首</item><item>隐藏</item></string-array>
+    <string-array name="e_fav_order"><item>最常用</item><item>手动</item></string-array>
+    <string-array name="e_health"><item>仅氛围模式</item><item>主页和氛围模式</item><item>关闭</item></string-array>
+    <string-array name="e_live_type"><item>电视信号源</item><item>应用</item></string-array>
+    <string-array name="e_tile_size"><item>中</item><item>大</item><item>小</item></string-array>
+    <string-array name="e_tile_shape"><item>圆角</item><item>方形</item></string-array>
+    <string-array name="e_score_max"><item>最多 4 个</item><item>最多 6 个</item><item>最多 3 个</item><item>最多 2 个</item></string-array>
+    <string-array name="e_stale"><item>显示“不可用”</item><item>隐藏比分</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>健康才是真正的财富。多动一动，多笑一笑。</item>
+        <item>今天散步 20 分钟，是送给明天的自己的礼物。</item>
+        <item>看下一集之前，先喝一杯水吧。</item>
+        <item>让眼睛休息一下：每隔 20 分钟，远眺 20 秒。</item>
+        <item>好睡眠是最好的训练计划。今晚按时关机吧。</item>
+        <item>每次休息都站起来伸展一下，你的背会感谢你。</item>
+        <item>像群山在看着你一样吃饭：新鲜、简单、应季。</item>
+    </string-array>
+</resources>

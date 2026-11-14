@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>བརྗོད་གཞི།</item><item>ཡིག་གཟུགས།</item><item>སྐད་ཡིག</item><item>གནམ་གཤིས།</item>
+        <item>གཙོ་ངོས།</item><item>ཐད་གཏོང་བརྙན་འཕྲིན།</item><item>རྟགས་རིས་&amp; སྒྲོམ།</item><item>སྐར་གྲངས།</item><item>བརྙན་ཡོལ་སྲུང་སྐྱོབ།</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>དུས་ཚོད་ལྟར་རང་འགུལ།</item><item>ནག་པོ།</item><item>དཀར་པོ།</item></string-array>
+    <string-array name="e_theme_colour"><item>རྒྱབ་ལྗོངས་པར་ནས།</item><item>བྱུ་རུ།</item><item>ལྗང་ཁུ།</item><item>རང་སྒྲིག</item></string-array>
+    <string-array name="e_custom_colour"><item>དམར་པོ།</item><item>ལི་ཁྲ།</item><item>སེར་པོ།</item><item>ལྗང་ཁུ།</item><item>གཡུ་ཁ།</item><item>སྔོན་པོ།</item><item>རམས་མདོག</item><item>སྨུག་པོ།</item><item>ཟིང་སྐྱ།</item></string-array>
+    <string-array name="e_contrast"><item>ཚད་ལྡན།</item><item>མཐོ།</item></string-array>
+    <string-array name="e_animations"><item>ཆ་ཚང་།</item><item>ཉུང་དུ་བཏང་།</item><item>བཀག</item></string-array>
+    <string-array name="e_wallpaper"><item>རི་ལྗོངས།</item><item>རི་སྒང་།</item><item>སྟོང་པ།</item><item>ཕེ་ཝའི་ཉི་ནུབ།</item><item>ཧི་མ་ལ་ཡའི་མཚན་མོ།</item><item>ཏེ་རའི་ཞིང་ཁ།</item><item>རླུང་རྟ།</item></string-array>
+    <string-array name="e_dim"><item>བཀག</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>སྔོན་སྒྲིག</item><item>ཆེན་པོ།</item><item>ཧ་ཅང་ཆེན་པོ།</item></string-array>
+    <string-array name="e_off_on"><item>བཀག</item><item>སྤར།</item></string-array>
+    <string-array name="e_on_off"><item>སྤར།</item><item>བཀག</item></string-array>
+    <string-array name="e_labels"><item>རྟག་ཏུ།</item><item>བདམས་སྐབས།</item><item>བཀག</item></string-array>
+    <string-array name="e_show_hide"><item>སྟོན།</item><item>སྦས།</item></string-array>
+    <string-array name="e_calendar"><item>གཉིས་ཀ</item><item>བིཀ་རམ་སམ་བཏ།</item><item>སྤྱི་ལོ།</item></string-array>
+    <string-array name="e_time"><item>ཆུ་ཚོད་ 12</item><item>ཆུ་ཚོད་ 24</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inches</item></string-array>
+    <string-array name="e_watch_tile"><item>ཕྲེང་གི་དང་པོ།</item><item>སྦས་ཡོད།</item></string-array>
+    <string-array name="e_fav_order"><item>མང་ཤོས་བེད་སྤྱོད།</item><item>ལག་བཟོས།</item></string-array>
+    <string-array name="e_health"><item>Ambient ཁོ་ན།</item><item>གཙོ་ངོས་དང་ Ambient</item><item>བཀག</item></string-array>
+    <string-array name="e_live_type"><item>བརྙན་འཕྲིན་ནང་འཇུག</item><item>མཉེན་ཆས།</item></string-array>
+    <string-array name="e_tile_size"><item>འབྲིང་།</item><item>ཆེན་པོ།</item><item>ཆུང་ཆུང་།</item></string-array>
+    <string-array name="e_tile_shape"><item>ཟླུམ་པོ།</item><item>གྲུ་བཞི།</item></string-array>
+    <string-array name="e_score_max"><item>4 བར།</item><item>6 བར།</item><item>3 བར།</item><item>2 བར།</item></string-array>
+    <string-array name="e_stale"><item>\"མི་འདུག\" ཟེར།</item><item>སྐར་གྲངས་སྦས།</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>འཕྲོད་བསྟེན་ནི་ནོར་གྱི་མཆོག་ཡིན། ཅུང་ཟད་འགུལ་སྐྱོད་བྱོས། མང་པོ་འཛུམ།</item>
+        <item>དེ་རིང་སྐར་མ་ 20 ཡི་གོམ་འགྲོ་ནི་སང་ཉིན་གྱི་ཁྱེད་ལ་སྐྱེས་ཤིག་ཡིན།</item>
+        <item>ལེ་ཚན་རྗེས་མའི་སྔོན་དུ་ཆུ་ཕོར་གང་འཐུང་།</item>
+        <item>མིག་ངལ་གསོ། སྐར་མ་ 20 རེ་ལ་སྐར་ཆ་ 20 རིང་ཐག་རིང་དུ་ལྟོས།</item>
+        <item>གཉིད་བཟང་ནི་སྦྱོང་བརྡར་གྱི་འཆར་གཞི་ལེགས་ཤོས་ཡིན། དོ་དགོང་དུས་ཐོག་ཏུ་སྒོ་རྒྱོབ།</item>
+        <item>ངལ་གསོ་རེ་རེར་ལངས་ནས་ལུས་བརྐྱང་། ཁྱེད་ཀྱི་སྒལ་པས་བཀའ་དྲིན་ཆེ་ཞུ་ངེས།</item>
+        <item>རི་བོས་ལྟ་བཞིན་པ་ལྟར་ཟོ། གསར་པ། སྟབས་བདེ། དུས་ཚོད་དང་མཐུན་པ།</item>
+    </string-array>
+</resources>

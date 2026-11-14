@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">شاشة توقف Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="search">بحث</string>
+    <string name="tv_settings">إعدادات Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">مشاهدة التلفزيون</string>
+    <string name="continue_title">متابعة المشاهدة</string>
+    <string name="favourites_title">المفضلة · اضغط مطولاً على OK للتثبيت أو النقل</string>
+    <string name="all_apps">كل التطبيقات</string>
+    <string name="show_recents">عرض التطبيقات الأخيرة</string>
+    <string name="not_default_banner">اجعل Summit شاشتك الرئيسية · اضغط OK لمعرفة الطريقة</string>
+    <string name="not_default_title">اجعل Summit شاشتك الرئيسية</string>
+    <string name="not_default_help">افتح الإعدادات › التطبيقات › التطبيقات التلقائية › تطبيق الشاشة الرئيسية واختر Summit. بعض أجهزة Google TV لا تسمح بتغيير تطبيق الشاشة الرئيسية، ومع ذلك يعمل Summit من قائمة التطبيقات.</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="dismiss">تجاهل</string>
+    <string name="usage_unavailable">افتح الإعدادات › التطبيقات › الوصول الخاص للتطبيقات › الوصول إلى بيانات الاستخدام واسمح لـ Summit.</string>
+    <string name="move_hint">◀ ▶ نقل · OK إفلات · Back إلغاء</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">استئناف · منذ %d د</string>
+    <string name="resume_h">استئناف · منذ %d س</string>
+    <string name="yesterday">أمس</string>
+    <string name="days_ago">منذ %d أيام</string>
+    <string name="last_week">الأسبوع الماضي</string>
+    <string name="updated_now">تم التحديث الآن</string>
+    <plurals name="updated_ago">
+        <item quantity="zero">تم التحديث منذ %d دقيقة</item>
+        <item quantity="one">تم التحديث منذ %d دقيقة</item>
+        <item quantity="two">تم التحديث منذ %d دقيقة</item>
+        <item quantity="few">تم التحديث منذ %d دقائق</item>
+        <item quantity="many">تم التحديث منذ %d دقيقة</item>
+        <item quantity="other">تم التحديث منذ %d دقيقة</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">مباشر</string>
+    <string name="ft">انتهت</string>
+    <string name="scores_unavailable">النتائج غير متاحة</string>
+    <string name="score_cd">%1$s. اضغط OK للتفاصيل</string>
+    <string name="score_live_suffix">%1$s · مباشر</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">الطقس غير متاح</string>
+    <string name="hi_lo">ع %1$s ص %2$s</string>
+    <string name="hi_lo_long">العظمى %1$s · الصغرى %2$s</string>
+    <string name="wind_rain">الرياح %1$s · أمطار اليوم %2$s</string>
+    <string name="weather_title">%1$s · اليوم</string>
+    <string name="mountains_line">الجبال · نامتشي بازار %1$s، %2$s</string>
+    <string name="rain_pct">أمطار %d%%</string>
+    <string name="next_days">الأيام الثلاثة القادمة</string>
+    <string name="change_units">غيّر الوحدات من الإعدادات</string>
+    <string name="part_morning">الصباح</string>
+    <string name="part_afternoon">بعد الظهر</string>
+    <string name="part_evening">المساء</string>
+    <string name="part_night">الليل</string>
+    <string name="cond_clear">صافٍ</string>
+    <string name="cond_sunny">مشمس</string>
+    <string name="cond_partly">غائم جزئيًا</string>
+    <string name="cond_cloudy">غائم</string>
+    <string name="cond_fog">ضبابي</string>
+    <string name="cond_rain">أمطار</string>
+    <string name="cond_snow">زخات ثلجية</string>
+    <string name="cond_thunder">عواصف رعدية</string>
+    <string name="sum_all_day">%1$s طوال اليوم</string>
+    <string name="sum_morning">%1$s صباحًا</string>
+    <string name="sum_afternoon">%1$s بعد الظهر</string>
+    <string name="sum_rain_from">أمطار من %1$s</string>
+    <string name="sum_tonight">%1$s الليلة</string>
+    <string name="sum_sep">"، "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">كاتماندو</string>
+    <string name="close">إغلاق</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ نقل · OK فتح · اضغط مطولاً على OK للتثبيت في المفضلة · Back للعودة إلى الرئيسية</string>
+    <string name="selected_app">المحدد: %s</string>
+    <string name="pin">تثبيت في المفضلة</string>
+    <string name="unpin">إزالة من المفضلة</string>
+    <string name="move">نقل</string>
+    <string name="app_info">معلومات التطبيق</string>
+    <string name="uninstall">إلغاء التثبيت</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">لا يسمح هذا التلفزيون للتطبيقات بتبديل مصدر الإدخال. استخدم زر Input في جهاز التحكم.</string>
+    <string name="no_tv_input">لم يُعثر على مصدر إدخال للتلفزيون</string>
+    <string name="ask_every_time">السؤال في كل مرة</string>
+    <string name="choose_live_app">اختر تطبيق بث مباشر</string>
+    <string name="voice_unavailable">البحث الصوتي غير متاح على هذا التلفزيون.</string>
+    <string name="cannot_open">لا يمكن فتح هذا التطبيق.</string>
+
+    <!-- Settings -->
+    <string name="reset">إعادة الضبط إلى الافتراضي</string>
+    <string name="reset_title">إعادة ضبط كل إعدادات المشغّل؟</string>
+    <string name="reset_body">يعود المظهر والخلفية واللغة وباقي إعدادات المشغّل إلى قيمها الافتراضية. تبقى تطبيقاتك ومفضلتك كما هي.</string>
+    <string name="cancel">إلغاء</string>
+    <string name="reset_confirm">إعادة الضبط</string>
+    <string name="settings_hint">▲ ▼ نقل · OK فتح أو اختيار · Back للرجوع. تُطبَّق التغييرات فورًا.</string>
+    <string name="leagues_header">اختر ما يظهر في الرئيسية · المحدد %d</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">معاينة</string>
+
+    <string name="opt_mode">الوضع</string>
+    <string name="opt_colour">اللون</string>
+    <string name="opt_use_screensaver">استخدامه كشاشة توقف</string>
+    <string name="screensaver_setup_title">يلزم إعداد لمرة واحدة</string>
+    <string name="screensaver_setup_body">لا يسمح هذا التلفزيون للتطبيقات بتغيير شاشة التوقف بنفسها. وصّل جهاز كمبيوتر مرة واحدة وشغّل:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nثم فعّل هذا الخيار مجددًا.</string>
+    <string name="wallpaper_custom">صورتي</string>
+    <string name="wallpaper_download_failed">تعذّر تنزيل هذه الخلفية. تحقق من الاتصال بالإنترنت.</string>
+    <string name="picture_allow">السماح بالوصول إلى الصور</string>
+    <string name="picture_denied">اسمح بالوصول إلى الصور من الإعدادات › التطبيقات › Summit › الأذونات.</string>
+    <string name="picture_none">لا توجد صور على هذا التلفزيون.</string>
+    <string name="picture_failed">تعذّر فتح هذه الصورة.</string>
+    <string name="picture_n">صورة %d</string>
+    <string name="opt_custom_colour">لون مخصص</string>
+    <string name="opt_contrast">التباين</string>
+    <string name="opt_animations">الرسوم المتحركة</string>
+    <string name="opt_wallpaper">الخلفية</string>
+    <string name="opt_dim">تعتيم الخلفية</string>
+    <string name="opt_text_size">حجم النص</string>
+    <string name="opt_digits">الأرقام الديفاناغارية</string>
+    <string name="opt_language">اللغة</string>
+    <string name="opt_calendar">التقويم</string>
+    <string name="opt_time">تنسيق الوقت</string>
+    <string name="opt_temp">درجة الحرارة</string>
+    <string name="opt_wind">سرعة الرياح</string>
+    <string name="opt_rain">كمية الأمطار</string>
+    <string name="opt_location">الموقع</string>
+    <string name="opt_show_home">العرض في الرئيسية</string>
+    <string name="opt_watch_tile">مربع مشاهدة التلفزيون</string>
+    <string name="opt_continue">صف المتابعة</string>
+    <string name="opt_fav_order">ترتيب المفضلة</string>
+    <string name="opt_health">نصيحة صحية</string>
+    <string name="opt_live_type">مشاهدة التلفزيون عبر</string>
+    <string name="opt_input">مصدر الإدخال</string>
+    <string name="opt_live_app">التطبيق</string>
+    <string name="opt_boot">الفتح عند تشغيل التلفزيون</string>
+    <string name="opt_tile_size">حجم المربعات</string>
+    <string name="opt_tile_shape">شكل المربعات</string>
+    <string name="opt_labels">أسماء التطبيقات</string>
+    <string name="opt_score_max">العرض في الرئيسية</string>
+    <string name="opt_live_first">المباريات المباشرة أولاً</string>
+    <string name="opt_stale">إذا تعذّر تحديث النتائج</string>
+    <string name="opt_amb_scores">عرض النتائج المباشرة</string>
+    <string name="opt_amb_shift">تحريك الساعة لحماية الشاشة</string>
+    <string name="opt_amb_dim">التعتيم ليلاً</string>
+
+    <string name="grp_cricket">الكريكيت</string>
+    <string name="grp_football">كرة القدم</string>
+    <string name="grp_basketball">كرة السلة</string>
+    <string name="grp_us">الرياضات الأمريكية</string>
+    <string name="grp_tennis">التنس</string>
+    <string name="grp_motor">رياضة السيارات</string>
+    <string name="grp_golf">الغولف</string>
+
+    <!-- Ambient -->
+    <string name="press_any">اضغط أي زر</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">إعداد المشغّل</string>
+    <string name="step_of">الخطوة %1$d من %2$d</string>
+    <string name="back">رجوع</string>
+    <string name="next">متابعة</string>
+    <string name="finish">إنهاء</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ نقل · OK تحديد · ▶ من الخيارات للوصول إلى متابعة · Back الخطوة السابقة</string>
+    <string name="s1_title">اختر لغتك</string>
+    <string name="s1_sub">يغيّر Summit اللغة فور اختيارك.</string>
+    <string name="s2_title">أين تشاهد التلفزيون؟</string>
+    <string name="s2_sub">يفتح مربع مشاهدة التلفزيون في الرئيسية هذا المصدر بضغطة واحدة على OK.</string>
+    <string name="signal_yes">تم رصد إشارة</string>
+    <string name="signal_no">لا توجد إشارة</string>
+    <string name="recommended">موصى به</string>
+    <string name="antenna">هوائي (DTV)</string>
+    <string name="s3_title">ما النتائج التي تعرضها الرئيسية؟</string>
+    <string name="s3_sub">اختر ما تشاء. تظهر المباريات المباشرة أولاً.</string>
+    <string name="s_fav_title">اختر تطبيقاتك المفضلة</string>
+    <string name="s_fav_sub">تظهر في الرئيسية على بُعد ضغطة واحدة. اختر ما تشاء.</string>
+    <string name="s_wall_title">اختر خلفية</string>
+    <string name="s_wall_sub">تظهر خلف الرئيسية وشاشة التوقف.</string>
+    <string name="setup_preview_note">هذه شاشتك الرئيسية. يمكنك تغيير كل هذا لاحقًا من الإعدادات.</string>
+    <string name="s4_title">اختر المظهر</string>
+    <string name="s4_sub">الوضع التلقائي داكن من 6 مساءً حتى 6 صباحًا وفاتح خلال النهار.</string>
+    <string name="tennis">التنس</string>
+    <string name="formula1">الفورمولا 1</string>
+    <string name="usage_title">عرض تطبيقاتك المستخدمة مؤخرًا في الرئيسية؟</string>
+    <string name="usage_body">اسمح بالوصول إلى بيانات الاستخدام ليعرض صف المتابعة التطبيقات التي استخدمتها مؤخرًا.</string>
+    <string name="allow">سماح</string>
+    <string name="skip">تخطٍّ</string>
+    <string name="run_setup">تشغيل الإعداد الأولي</string>
+    <string name="change_city">تغيير المدينة</string>
+    <string name="kick_off">الانطلاق %s</string>
+    <string name="mode_input">مصدر إدخال التلفزيون</string>
+    <string name="mode_input_sub">HDMI أو AV أو هوائي</string>
+    <string name="mode_app">تطبيق</string>
+    <string name="mode_app_sub">تطبيق بث مباشر</string>
+    <string name="search_city">ابحث عن مدينة</string>
+    <string name="use_current">استخدام الموقع الحالي</string>
+    <string name="use_current_named">استخدام الموقع الحالي (%s)</string>
+    <string name="searching">جارٍ البحث…</string>
+    <string name="no_results">لم يُعثر على مدن</string>
+    <string name="search_failed">يتعذّر البحث الآن. تحقق من الاتصال بالإنترنت.</string>
+    <string name="resume_now">استئناف · الآن</string>
+</resources>

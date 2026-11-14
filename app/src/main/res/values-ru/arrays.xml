@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Тема</item><item>Шрифт</item><item>Язык</item><item>Погода</item>
+        <item>Главный экран</item><item>ТВ-эфир</item><item>Значки и плитки</item><item>Счёт матчей</item><item>Заставка</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Авто по времени</item><item>Тёмная</item><item>Светлая</item></string-array>
+    <string-array name="e_theme_colour"><item>Из обоев</item><item>Коралловый</item><item>Зелёный</item><item>Свой</item></string-array>
+    <string-array name="e_custom_colour"><item>Красный</item><item>Оранжевый</item><item>Жёлтый</item><item>Зелёный</item><item>Бирюзовый</item><item>Синий</item><item>Индиго</item><item>Фиолетовый</item><item>Розовый</item></string-array>
+    <string-array name="e_contrast"><item>Обычная</item><item>Высокая</item></string-array>
+    <string-array name="e_animations"><item>Полная</item><item>Уменьшенная</item><item>Выкл.</item></string-array>
+    <string-array name="e_wallpaper"><item>Горный пейзаж</item><item>Линия хребта</item><item>Однотонные</item><item>Закат над Пхева</item><item>Ночь в Гималаях</item><item>Поля Тераи</item><item>Молитвенные флажки</item></string-array>
+    <string-array name="e_dim"><item>Выкл.</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Обычный</item><item>Крупный</item><item>Очень крупный</item></string-array>
+    <string-array name="e_off_on"><item>Выкл.</item><item>Вкл.</item></string-array>
+    <string-array name="e_on_off"><item>Вкл.</item><item>Выкл.</item></string-array>
+    <string-array name="e_labels"><item>Всегда</item><item>При выборе</item><item>Выкл.</item></string-array>
+    <string-array name="e_show_hide"><item>Показывать</item><item>Скрывать</item></string-array>
+    <string-array name="e_calendar"><item>Оба</item><item>Бикрам Самбат</item><item>Григорианский</item></string-array>
+    <string-array name="e_time"><item>12-часовой</item><item>24-часовой</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>км/ч</item><item>м/с</item><item>миль/ч</item></string-array>
+    <string-array name="e_rain"><item>мм</item><item>дюймы</item></string-array>
+    <string-array name="e_watch_tile"><item>Первой в ряду</item><item>Скрыта</item></string-array>
+    <string-array name="e_fav_order"><item>По частоте</item><item>Вручную</item></string-array>
+    <string-array name="e_health"><item>Только в заставке</item><item>На главном и в заставке</item><item>Выкл.</item></string-array>
+    <string-array name="e_live_type"><item>ТВ-вход</item><item>Приложение</item></string-array>
+    <string-array name="e_tile_size"><item>Средний</item><item>Крупный</item><item>Мелкий</item></string-array>
+    <string-array name="e_tile_shape"><item>Скруглённые</item><item>Квадратные</item></string-array>
+    <string-array name="e_score_max"><item>До 4</item><item>До 6</item><item>До 3</item><item>До 2</item></string-array>
+    <string-array name="e_stale"><item>Писать «недоступно»</item><item>Скрывать счёт</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Здоровье — главное богатство. Больше двигайтесь и чаще улыбайтесь.</item>
+        <item>20 минут прогулки сегодня — подарок себе на завтра.</item>
+        <item>Выпейте стакан воды перед следующей серией.</item>
+        <item>Дайте глазам отдых: каждые 20 минут смотрите вдаль 20 секунд.</item>
+        <item>Хороший сон — лучший план тренировок. Сегодня выключите ТВ вовремя.</item>
+        <item>Вставайте и потягивайтесь в каждый перерыв. Спина скажет спасибо.</item>
+        <item>Питайтесь так, будто на вас смотрят горы: свежее, простое, сезонное.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>پوسته</item><item>قلم</item><item>زبان</item><item>آب‌وهوا</item>
+        <item>صفحه خانه</item><item>تلویزیون زنده</item><item>نمادها و کاشی‌ها</item><item>نتایج</item><item>محافظ صفحه</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>خودکار بر اساس زمان</item><item>تیره</item><item>روشن</item></string-array>
+    <string-array name="e_theme_colour"><item>از تصویر زمینه</item><item>مرجانی</item><item>سبز</item><item>سفارشی</item></string-array>
+    <string-array name="e_custom_colour"><item>قرمز</item><item>نارنجی</item><item>زرد</item><item>سبز</item><item>سبزآبی</item><item>آبی</item><item>نیلی</item><item>بنفش</item><item>صورتی</item></string-array>
+    <string-array name="e_contrast"><item>استاندارد</item><item>زیاد</item></string-array>
+    <string-array name="e_animations"><item>کامل</item><item>کاهش‌یافته</item><item>خاموش</item></string-array>
+    <string-array name="e_wallpaper"><item>منظره کوهستان</item><item>خط‌الرأس</item><item>ساده</item><item>غروب فیوا</item><item>شب هیمالیا</item><item>مزارع ترای</item><item>پرچم‌های دعا</item></string-array>
+    <string-array name="e_dim"><item>خاموش</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>پیش‌فرض</item><item>بزرگ</item><item>خیلی بزرگ</item></string-array>
+    <string-array name="e_off_on"><item>خاموش</item><item>روشن</item></string-array>
+    <string-array name="e_on_off"><item>روشن</item><item>خاموش</item></string-array>
+    <string-array name="e_labels"><item>همیشه</item><item>هنگام انتخاب</item><item>خاموش</item></string-array>
+    <string-array name="e_show_hide"><item>نمایش</item><item>پنهان</item></string-array>
+    <string-array name="e_calendar"><item>هر دو</item><item>بیکرم سموت</item><item>میلادی</item></string-array>
+    <string-array name="e_time"><item>۱۲ ساعته</item><item>۲۴ ساعته</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>اینچ</item></string-array>
+    <string-array name="e_watch_tile"><item>اول ردیف</item><item>پنهان</item></string-array>
+    <string-array name="e_fav_order"><item>پرکاربردترین</item><item>دستی</item></string-array>
+    <string-array name="e_health"><item>فقط محافظ صفحه</item><item>خانه و محافظ صفحه</item><item>خاموش</item></string-array>
+    <string-array name="e_live_type"><item>ورودی تلویزیون</item><item>برنامه</item></string-array>
+    <string-array name="e_tile_size"><item>متوسط</item><item>بزرگ</item><item>کوچک</item></string-array>
+    <string-array name="e_tile_shape"><item>گرد</item><item>مربع</item></string-array>
+    <string-array name="e_score_max"><item>تا ۴</item><item>تا ۶</item><item>تا ۳</item><item>تا ۲</item></string-array>
+    <string-array name="e_stale"><item>نوشتن «در دسترس نیست»</item><item>پنهان کردن نتایج</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>سلامتی ثروت واقعی شماست. کمی تحرک، بسیار لبخند.</item>
+        <item>۲۰ دقیقه پیاده‌روی امروز، هدیه‌ای است به خودِ فردای شما.</item>
+        <item>قبل از قسمت بعدی یک لیوان آب بنوشید.</item>
+        <item>به چشم‌هایتان استراحت دهید: هر ۲۰ دقیقه، ۲۰ ثانیه به دوردست نگاه کنید.</item>
+        <item>خواب خوب بهترین برنامه تمرینی است. امشب به‌موقع خاموش کنید.</item>
+        <item>در هر وقفه بایستید و کش‌وقوسی بیایید. کمرتان از شما ممنون خواهد شد.</item>
+        <item>طوری غذا بخورید که انگار کوه‌ها تماشا می‌کنند: تازه، ساده و فصلی.</item>
+    </string-array>
+</resources>

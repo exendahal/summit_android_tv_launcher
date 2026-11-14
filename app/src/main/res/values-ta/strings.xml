@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ஆம்பியன்ட்</string>
+
+    <!-- Header -->
+    <string name="nav_home">முகப்பு</string>
+    <string name="nav_apps">ஆப்ஸ்</string>
+    <string name="nav_settings">அமைப்புகள்</string>
+    <string name="search">தேடு</string>
+    <string name="tv_settings">Android TV அமைப்புகள்</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">டிவி பார்</string>
+    <string name="continue_title">தொடர்ந்து பார்</string>
+    <string name="favourites_title">பிடித்தவை · பின் செய்ய அல்லது நகர்த்த OK-ஐ அழுத்திப் பிடிக்கவும்</string>
+    <string name="all_apps">எல்லா ஆப்ஸும்</string>
+    <string name="show_recents">சமீபத்திய ஆப்ஸைக் காட்டு</string>
+    <string name="not_default_banner">Summit-ஐ முகப்புத் திரையாக அமைக்கவும் · எப்படி என அறிய OK அழுத்தவும்</string>
+    <string name="not_default_title">Summit-ஐ முகப்புத் திரையாக அமைக்கவும்</string>
+    <string name="not_default_help">அமைப்புகள் › ஆப்ஸ் › இயல்புநிலை ஆப்ஸ் › முகப்பு ஆப் என்பதைத் திறந்து Summit-ஐத் தேர்ந்தெடுக்கவும். சில Google TV சாதனங்களில் முகப்பு ஆப்பை மாற்ற முடியாது; அப்போதும் ஆப்ஸ் பட்டியலிலிருந்து Summit இயங்கும்.</string>
+    <string name="open_settings">அமைப்புகளைத் திற</string>
+    <string name="dismiss">நிராகரி</string>
+    <string name="usage_unavailable">அமைப்புகள் › ஆப்ஸ் › சிறப்பு ஆப்ஸ் அணுகல் › பயன்பாட்டு அணுகல் என்பதைத் திறந்து Summit-ஐ அனுமதிக்கவும்.</string>
+    <string name="move_hint">◀ ▶ நகர்த்து · OK வை · Back ரத்து</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">தொடர்க · %d நிமி. முன்பு</string>
+    <string name="resume_h">தொடர்க · %d மணி. முன்பு</string>
+    <string name="yesterday">நேற்று</string>
+    <string name="days_ago">%d நாட்களுக்கு முன்பு</string>
+    <string name="last_week">கடந்த வாரம்</string>
+    <string name="updated_now">இப்போதுதான் புதுப்பிக்கப்பட்டது</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d நிமிடத்துக்கு முன்பு புதுப்பிக்கப்பட்டது</item>
+        <item quantity="other">%d நிமிடங்களுக்கு முன்பு புதுப்பிக்கப்பட்டது</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">நேரலை</string>
+    <string name="ft">முடிவு</string>
+    <string name="scores_unavailable">ஸ்கோர்கள் கிடைக்கவில்லை</string>
+    <string name="score_cd">%1$s. விவரங்களுக்கு OK அழுத்தவும்</string>
+    <string name="score_live_suffix">%1$s · நேரலை</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">வானிலை கிடைக்கவில்லை</string>
+    <string name="hi_lo">அதி %1$s குறை %2$s</string>
+    <string name="hi_lo_long">அதிகபட்சம் %1$s · குறைந்தபட்சம் %2$s</string>
+    <string name="wind_rain">காற்று %1$s · இன்று மழை %2$s</string>
+    <string name="weather_title">%1$s · இன்று</string>
+    <string name="mountains_line">மலைகள் · நாம்சே பஜார் %1$s, %2$s</string>
+    <string name="rain_pct">மழை %d%%</string>
+    <string name="next_days">அடுத்த 3 நாட்கள்</string>
+    <string name="change_units">அமைப்புகளில் அலகுகளை மாற்றவும்</string>
+    <string name="part_morning">காலை</string>
+    <string name="part_afternoon">மதியம்</string>
+    <string name="part_evening">மாலை</string>
+    <string name="part_night">இரவு</string>
+    <string name="cond_clear">தெளிவு</string>
+    <string name="cond_sunny">வெயில்</string>
+    <string name="cond_partly">ஓரளவு மேகமூட்டம்</string>
+    <string name="cond_cloudy">மேகமூட்டம்</string>
+    <string name="cond_fog">பனிமூட்டம்</string>
+    <string name="cond_rain">மழை</string>
+    <string name="cond_snow">பனிப்பொழிவு</string>
+    <string name="cond_thunder">இடியுடன் மழை</string>
+    <string name="sum_all_day">நாள் முழுவதும் %1$s</string>
+    <string name="sum_morning">காலையில் %1$s</string>
+    <string name="sum_afternoon">மதியம் %1$s</string>
+    <string name="sum_rain_from">%1$s முதல் மழை</string>
+    <string name="sum_tonight">இன்றிரவு %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">காத்மாண்டு</string>
+    <string name="close">மூடு</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ நகர்த்து · OK திற · பிடித்தவையில் பின் செய்ய OK-ஐ அழுத்திப் பிடி · Back முகப்புக்கு</string>
+    <string name="selected_app">தேர்ந்தெடுத்தது: %s</string>
+    <string name="pin">பிடித்தவையில் பின் செய்</string>
+    <string name="unpin">பிடித்தவையிலிருந்து நீக்கு</string>
+    <string name="move">நகர்த்து</string>
+    <string name="app_info">ஆப் தகவல்</string>
+    <string name="uninstall">நிறுவல் நீக்கு</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">இந்த டிவியில் ஆப்ஸிலிருந்து உள்ளீட்டை மாற்ற முடியாது. ரிமோட்டில் உள்ள Input பட்டனைப் பயன்படுத்தவும்.</string>
+    <string name="no_tv_input">டிவி உள்ளீடு எதுவும் இல்லை</string>
+    <string name="ask_every_time">ஒவ்வொரு முறையும் கேள்</string>
+    <string name="choose_live_app">நேரலை டிவி ஆப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="voice_unavailable">இந்த டிவியில் குரல் தேடல் இல்லை.</string>
+    <string name="cannot_open">இந்த ஆப்பைத் திறக்க முடியாது.</string>
+
+    <!-- Settings -->
+    <string name="reset">இயல்புநிலைக்கு மீட்டமை</string>
+    <string name="reset_title">எல்லா லாஞ்சர் அமைப்புகளையும் மீட்டமைக்கவா?</string>
+    <string name="reset_body">தீம், வால்பேப்பர், மொழி மற்றும் பிற லாஞ்சர் அமைப்புகள் இயல்புநிலைக்குத் திரும்பும். உங்கள் ஆப்ஸும் பிடித்தவையும் அப்படியே இருக்கும்.</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="reset_confirm">மீட்டமை</string>
+    <string name="settings_hint">▲ ▼ நகர்த்து · OK திற அல்லது தேர்ந்தெடு · Back பின்செல்லும். மாற்றங்கள் உடனே பொருந்தும்.</string>
+    <string name="leagues_header">முகப்பில் எது தெரிய வேண்டும் எனத் தேர்ந்தெடுக்கவும் · %d தேர்வு</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">முன்னோட்டம்</string>
+
+    <string name="opt_mode">பயன்முறை</string>
+    <string name="opt_colour">நிறம்</string>
+    <string name="opt_use_screensaver">ஸ்கிரீன்சேவராகப் பயன்படுத்து</string>
+    <string name="screensaver_setup_title">ஒருமுறை அமைப்பு தேவை</string>
+    <string name="screensaver_setup_body">இந்த டிவி ஆப்ஸைத் தானாக ஸ்கிரீன்சேவரை மாற்ற அனுமதிக்காது. ஒருமுறை கணினியை இணைத்து இதை இயக்கவும்:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nபிறகு இதை மீண்டும் இயக்கவும்.</string>
+    <string name="wallpaper_custom">எனது படம்</string>
+    <string name="wallpaper_download_failed">அந்த வால்பேப்பரைப் பதிவிறக்க முடியவில்லை. இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="picture_allow">படங்களை அணுக அனுமதி</string>
+    <string name="picture_denied">அமைப்புகள் › ஆப்ஸ் › Summit › அனுமதிகள் என்பதில் படங்கள் அணுகலை அனுமதிக்கவும்.</string>
+    <string name="picture_none">இந்த டிவியில் படங்கள் எதுவும் இல்லை.</string>
+    <string name="picture_failed">அந்தப் படத்தைத் திறக்க முடியவில்லை.</string>
+    <string name="picture_n">படம் %d</string>
+    <string name="opt_custom_colour">தனிப்பயன் நிறம்</string>
+    <string name="opt_contrast">கான்ட்ராஸ்ட்</string>
+    <string name="opt_animations">அனிமேஷன்கள்</string>
+    <string name="opt_wallpaper">வால்பேப்பர்</string>
+    <string name="opt_dim">வால்பேப்பரை மங்கலாக்கு</string>
+    <string name="opt_text_size">எழுத்து அளவு</string>
+    <string name="opt_digits">தேவநாகரி எண்கள்</string>
+    <string name="opt_language">மொழி</string>
+    <string name="opt_calendar">நாட்காட்டி</string>
+    <string name="opt_time">நேர வடிவம்</string>
+    <string name="opt_temp">வெப்பநிலை</string>
+    <string name="opt_wind">காற்றின் வேகம்</string>
+    <string name="opt_rain">மழையளவு</string>
+    <string name="opt_location">இருப்பிடம்</string>
+    <string name="opt_show_home">முகப்பில் காட்டு</string>
+    <string name="opt_watch_tile">டிவி பார் டைல்</string>
+    <string name="opt_continue">தொடர்ந்து பார் வரிசை</string>
+    <string name="opt_fav_order">பிடித்தவை வரிசைமுறை</string>
+    <string name="opt_health">உடல்நலக் குறிப்பு</string>
+    <string name="opt_live_type">டிவி பார் எதைப் பயன்படுத்தும்</string>
+    <string name="opt_input">உள்ளீட்டு மூலம்</string>
+    <string name="opt_live_app">ஆப்</string>
+    <string name="opt_boot">டிவி தொடங்கும்போது திற</string>
+    <string name="opt_tile_size">டைல் அளவு</string>
+    <string name="opt_tile_shape">டைல் வடிவம்</string>
+    <string name="opt_labels">ஆப் பெயர்கள்</string>
+    <string name="opt_score_max">முகப்பில் காட்டு</string>
+    <string name="opt_live_first">நேரலைப் போட்டிகள் முதலில்</string>
+    <string name="opt_stale">ஸ்கோர்களைப் புதுப்பிக்க முடியாவிட்டால்</string>
+    <string name="opt_amb_scores">நேரலை ஸ்கோர்களைக் காட்டு</string>
+    <string name="opt_amb_shift">திரையைப் பாதுகாக்கக் கடிகாரத்தை நகர்த்து</string>
+    <string name="opt_amb_dim">இரவில் மங்கலாக்கு</string>
+
+    <string name="grp_cricket">கிரிக்கெட்</string>
+    <string name="grp_football">கால்பந்து</string>
+    <string name="grp_basketball">கூடைப்பந்து</string>
+    <string name="grp_us">அமெரிக்க விளையாட்டுகள்</string>
+    <string name="grp_tennis">டென்னிஸ்</string>
+    <string name="grp_motor">மோட்டார் விளையாட்டு</string>
+    <string name="grp_golf">கோல்ஃப்</string>
+
+    <!-- Ambient -->
+    <string name="press_any">ஏதேனும் பட்டனை அழுத்தவும்</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup -->
+    <string name="setup_title">லாஞ்சர் அமைவு</string>
+    <string name="step_of">படி %1$d / %2$d</string>
+    <string name="back">பின்செல்</string>
+    <string name="next">தொடர்க</string>
+    <string name="finish">முடி</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ நகர்த்து · OK தேர்ந்தெடு · தேர்வுகளில் ▶ அழுத்தினால் தொடர்க வரும் · Back முந்தைய படி</string>
+    <string name="s1_title">உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="s1_sub">தேர்ந்தெடுத்தவுடன் Summit மொழி மாறும்.</string>
+    <string name="s2_title">டிவியை எதில் பார்க்கிறீர்கள்?</string>
+    <string name="s2_sub">முகப்பில் உள்ள டிவி பார் இதை ஒரே OK அழுத்தத்தில் திறக்கும்.</string>
+    <string name="signal_yes">சிக்னல் கண்டறியப்பட்டது</string>
+    <string name="signal_no">சிக்னல் இல்லை</string>
+    <string name="recommended">பரிந்துரைக்கப்பட்டது</string>
+    <string name="antenna">ஆன்டெனா (DTV)</string>
+    <string name="s3_title">முகப்பில் எந்த ஸ்கோர்கள் தெரிய வேண்டும்?</string>
+    <string name="s3_sub">விரும்பும் அளவு தேர்ந்தெடுக்கவும். நேரலைப் போட்டிகள் முதலில் காட்டப்படும்.</string>
+    <string name="s_fav_title">உங்களுக்குப் பிடித்த ஆப்ஸைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="s_fav_sub">இவை முகப்பில் இருக்கும், ஒரே அழுத்தத்தில் திறக்கலாம். விரும்பும் அளவு தேர்ந்தெடுக்கவும்.</string>
+    <string name="s_wall_title">வால்பேப்பரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="s_wall_sub">முகப்பு மற்றும் ஸ்கிரீன்சேவரின் பின்னணியில் தெரியும்.</string>
+    <string name="setup_preview_note">உங்கள் முகப்புத் திரை. இவை அனைத்தையும் பின்னர் அமைப்புகளில் மாற்றலாம்.</string>
+    <string name="s4_title">தோற்றத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="s4_sub">தானியங்கு பயன்முறை மாலை 6 முதல் காலை 6 வரை இருண்டதாகவும் பகலில் வெளிர் நிறத்திலும் இருக்கும்.</string>
+    <string name="tennis">டென்னிஸ்</string>
+    <string name="formula1">ஃபார்முலா 1</string>
+    <string name="usage_title">சமீபத்தில் பயன்படுத்திய ஆப்ஸை முகப்பில் காட்டவா?</string>
+    <string name="usage_body">தொடர்ந்து பார் வரிசையில் சமீபத்திய ஆப்ஸ் தெரிய, பயன்பாட்டு அணுகலை அனுமதிக்கவும்.</string>
+    <string name="allow">அனுமதி</string>
+    <string name="skip">தவிர்</string>
+    <string name="run_setup">முதல்முறை அமைவை இயக்கு</string>
+    <string name="change_city">நகரத்தை மாற்று</string>
+    <string name="kick_off">கிக்-ஆஃப் %s</string>
+    <string name="mode_input">டிவி உள்ளீடு</string>
+    <string name="mode_input_sub">HDMI, AV அல்லது ஆன்டெனா</string>
+    <string name="mode_app">ஆப்</string>
+    <string name="mode_app_sub">நேரலை டிவி ஆப்</string>
+    <string name="search_city">நகரத்தைத் தேடு</string>
+    <string name="use_current">தற்போதைய இருப்பிடத்தைப் பயன்படுத்து</string>
+    <string name="use_current_named">தற்போதைய இருப்பிடத்தைப் பயன்படுத்து (%s)</string>
+    <string name="searching">தேடுகிறது…</string>
+    <string name="no_results">நகரங்கள் எதுவும் இல்லை</string>
+    <string name="search_failed">இப்போது தேட முடியவில்லை. இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="resume_now">தொடர்க · இப்போது</string>
+</resources>

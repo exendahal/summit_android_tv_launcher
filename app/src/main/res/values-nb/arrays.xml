@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Skrift</item><item>Språk</item><item>Vær</item>
+        <item>Startskjerm</item><item>Direkte-TV</item><item>Ikoner &amp; fliser</item><item>Resultater</item><item>Skjermsparer</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto etter tid</item><item>Mørkt</item><item>Lyst</item></string-array>
+    <string-array name="e_theme_colour"><item>Fra bakgrunn</item><item>Korall</item><item>Grønn</item><item>Egendefinert</item></string-array>
+    <string-array name="e_custom_colour"><item>Rød</item><item>Oransje</item><item>Gul</item><item>Grønn</item><item>Blågrønn</item><item>Blå</item><item>Indigo</item><item>Lilla</item><item>Rosa</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Høy</item></string-array>
+    <string-array name="e_animations"><item>Fulle</item><item>Reduserte</item><item>Av</item></string-array>
+    <string-array name="e_wallpaper"><item>Fjellandskap</item><item>Fjellrygg</item><item>Ensfarget</item><item>Solnedgang ved Phewa</item><item>Himalaya om natten</item><item>Terai-åkrer</item><item>Bønneflagg</item></string-array>
+    <string-array name="e_dim"><item>Av</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Standard</item><item>Stor</item><item>Ekstra stor</item></string-array>
+    <string-array name="e_off_on"><item>Av</item><item>På</item></string-array>
+    <string-array name="e_on_off"><item>På</item><item>Av</item></string-array>
+    <string-array name="e_labels"><item>Alltid</item><item>Når valgt</item><item>Av</item></string-array>
+    <string-array name="e_show_hide"><item>Vis</item><item>Skjul</item></string-array>
+    <string-array name="e_calendar"><item>Begge</item><item>Bikram Sambat</item><item>Gregoriansk</item></string-array>
+    <string-array name="e_time"><item>12 timer</item><item>24 timer</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>tommer</item></string-array>
+    <string-array name="e_watch_tile"><item>Først i raden</item><item>Skjult</item></string-array>
+    <string-array name="e_fav_order"><item>Mest brukt</item><item>Manuell</item></string-array>
+    <string-array name="e_health"><item>Bare ambient</item><item>Hjem og ambient</item><item>Av</item></string-array>
+    <string-array name="e_live_type"><item>TV-inngang</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Middels</item><item>Stor</item><item>Liten</item></string-array>
+    <string-array name="e_tile_shape"><item>Avrundet</item><item>Firkantet</item></string-array>
+    <string-array name="e_score_max"><item>Opptil 4</item><item>Opptil 6</item><item>Opptil 3</item><item>Opptil 2</item></string-array>
+    <string-array name="e_stale"><item>Vis \"ikke tilgjengelig\"</item><item>Skjul resultater</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Helse er din virkelige rikdom. Beveg deg litt, smil mye.</item>
+        <item>En gåtur på 20 minutter i dag er en gave til deg selv i morgen.</item>
+        <item>Drikk et glass vann før neste episode.</item>
+        <item>Hvil øynene: hvert 20. minutt, se langt bort i 20 sekunder.</item>
+        <item>God søvn er den beste treningsplanen. Skru av i tide i kveld.</item>
+        <item>Reis deg og strekk deg i hver pause. Ryggen din vil takke deg.</item>
+        <item>Spis som om fjellene ser på: ferskt, enkelt og etter sesongen.</item>
+    </string-array>
+</resources>

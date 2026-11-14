@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Θέμα</item><item>Γραμματοσειρά</item><item>Γλώσσα</item><item>Καιρός</item>
+        <item>Αρχική οθόνη</item><item>Ζωντανή TV</item><item>Εικονίδια &amp; πλακίδια</item><item>Σκορ</item><item>Προφύλαξη οθόνης</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Αυτόματα βάσει ώρας</item><item>Σκούρο</item><item>Φωτεινό</item></string-array>
+    <string-array name="e_theme_colour"><item>Από την ταπετσαρία</item><item>Κοραλλί</item><item>Πράσινο</item><item>Προσαρμοσμένο</item></string-array>
+    <string-array name="e_custom_colour"><item>Κόκκινο</item><item>Πορτοκαλί</item><item>Κίτρινο</item><item>Πράσινο</item><item>Γαλαζοπράσινο</item><item>Μπλε</item><item>Λουλακί</item><item>Μωβ</item><item>Ροζ</item></string-array>
+    <string-array name="e_contrast"><item>Κανονική</item><item>Υψηλή</item></string-array>
+    <string-array name="e_animations"><item>Πλήρη</item><item>Μειωμένα</item><item>Ανενεργά</item></string-array>
+    <string-array name="e_wallpaper"><item>Ορεινό τοπίο</item><item>Κορυφογραμμή</item><item>Απλό</item><item>Ηλιοβασίλεμα στη Φέουα</item><item>Νύχτα στα Ιμαλάια</item><item>Χωράφια του Τεράι</item><item>Σημαίες προσευχής</item></string-array>
+    <string-array name="e_dim"><item>Ανενεργό</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Προεπιλογή</item><item>Μεγάλο</item><item>Πολύ μεγάλο</item></string-array>
+    <string-array name="e_off_on"><item>Ανενεργό</item><item>Ενεργό</item></string-array>
+    <string-array name="e_on_off"><item>Ενεργό</item><item>Ανενεργό</item></string-array>
+    <string-array name="e_labels"><item>Πάντα</item><item>Όταν επιλέγεται</item><item>Ανενεργό</item></string-array>
+    <string-array name="e_show_hide"><item>Εμφάνιση</item><item>Απόκρυψη</item></string-array>
+    <string-array name="e_calendar"><item>Και τα δύο</item><item>Μπικράμ Σαμπάτ</item><item>Γρηγοριανό</item></string-array>
+    <string-array name="e_time"><item>12ωρη</item><item>24ωρη</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>ίντσες</item></string-array>
+    <string-array name="e_watch_tile"><item>Πρώτο στη σειρά</item><item>Κρυφό</item></string-array>
+    <string-array name="e_fav_order"><item>Πιο συχνές</item><item>Χειροκίνητα</item></string-array>
+    <string-array name="e_health"><item>Μόνο στην προφύλαξη</item><item>Αρχική και προφύλαξη</item><item>Ανενεργό</item></string-array>
+    <string-array name="e_live_type"><item>Είσοδος TV</item><item>Εφαρμογή</item></string-array>
+    <string-array name="e_tile_size"><item>Μεσαίο</item><item>Μεγάλο</item><item>Μικρό</item></string-array>
+    <string-array name="e_tile_shape"><item>Στρογγυλεμένο</item><item>Τετράγωνο</item></string-array>
+    <string-array name="e_score_max"><item>Έως 4</item><item>Έως 6</item><item>Έως 3</item><item>Έως 2</item></string-array>
+    <string-array name="e_stale"><item>Ένδειξη «μη διαθέσιμο»</item><item>Απόκρυψη σκορ</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Η υγεία είναι ο αληθινός πλούτος. Κινηθείτε λίγο, χαμογελάστε πολύ.</item>
+        <item>Ένας περίπατος 20 λεπτών σήμερα είναι δώρο για τον αυριανό σας εαυτό.</item>
+        <item>Πιείτε ένα ποτήρι νερό πριν από το επόμενο επεισόδιο.</item>
+        <item>Ξεκουράστε τα μάτια: κάθε 20 λεπτά κοιτάξτε μακριά για 20 δευτερόλεπτα.</item>
+        <item>Ο καλός ύπνος είναι το καλύτερο πρόγραμμα προπόνησης. Κλείστε απόψε στην ώρα σας.</item>
+        <item>Σε κάθε διάλειμμα σηκωθείτε και τεντωθείτε. Η πλάτη σας θα σας ευχαριστήσει.</item>
+        <item>Τρώτε σαν να σας κοιτάζουν τα βουνά: φρέσκα, απλά και εποχικά.</item>
+    </string-array>
+</resources>

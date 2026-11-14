@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">Acasă</string>
+    <string name="nav_apps">Aplicații</string>
+    <string name="nav_settings">Setări</string>
+    <string name="search">Căutare</string>
+    <string name="tv_settings">Setări Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Vizionează TV</string>
+    <string name="continue_title">Continuă</string>
+    <string name="favourites_title">Favorite · ține apăsat OK pentru a fixa sau muta</string>
+    <string name="all_apps">Toate aplicațiile</string>
+    <string name="show_recents">Afișează aplicațiile recente</string>
+    <string name="not_default_banner">Setează Summit ca ecran de pornire · apasă OK pentru instrucțiuni</string>
+    <string name="not_default_title">Setează Summit ca ecran de pornire</string>
+    <string name="not_default_help">Deschide Setări › Aplicații › Aplicații prestabilite › Aplicația ecran de pornire și alege Summit. Unele dispozitive Google TV nu permit schimbarea aplicației de pornire; Summit funcționează în continuare din lista de aplicații.</string>
+    <string name="open_settings">Deschide setările</string>
+    <string name="dismiss">Închide</string>
+    <string name="usage_unavailable">Deschide Setări › Aplicații › Acces special pentru aplicații › Acces la datele de utilizare și permite Summit.</string>
+    <string name="move_hint">◀ ▶ mută · OK plasează · Back anulează</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Reia · acum %d min</string>
+    <string name="resume_h">Reia · acum %d h</string>
+    <string name="yesterday">Ieri</string>
+    <string name="days_ago">Acum %d zile</string>
+    <string name="last_week">Săptămâna trecută</string>
+    <string name="updated_now">Actualizat chiar acum</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Actualizat acum %d minut</item>
+        <item quantity="few">Actualizat acum %d minute</item>
+        <item quantity="other">Actualizat acum %d de minute</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LIVE</string>
+    <string name="ft">FINAL</string>
+    <string name="scores_unavailable">Scoruri indisponibile</string>
+    <string name="score_cd">%1$s. Apasă OK pentru detalii</string>
+    <string name="score_live_suffix">%1$s · LIVE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Vremea nu este disponibilă</string>
+    <string name="hi_lo">Max %1$s Min %2$s</string>
+    <string name="hi_lo_long">Maxima %1$s · Minima %2$s</string>
+    <string name="wind_rain">Vânt %1$s · Ploaie azi %2$s</string>
+    <string name="weather_title">%1$s · Azi</string>
+    <string name="mountains_line">Munți · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Ploaie %d%%</string>
+    <string name="next_days">Următoarele 3 zile</string>
+    <string name="change_units">Schimbă unitățile în Setări</string>
+    <string name="part_morning">Dimineață</string>
+    <string name="part_afternoon">După-amiază</string>
+    <string name="part_evening">Seară</string>
+    <string name="part_night">Noapte</string>
+    <string name="cond_clear">Senin</string>
+    <string name="cond_sunny">Însorit</string>
+    <string name="cond_partly">Parțial noros</string>
+    <string name="cond_cloudy">Noros</string>
+    <string name="cond_fog">Ceață</string>
+    <string name="cond_rain">Ploaie</string>
+    <string name="cond_snow">Averse de ninsoare</string>
+    <string name="cond_thunder">Furtuni</string>
+    <string name="sum_all_day">%1$s toată ziua</string>
+    <string name="sum_morning">%1$s dimineața</string>
+    <string name="sum_afternoon">%1$s după-amiaza</string>
+    <string name="sum_rain_from">ploaie de la %1$s</string>
+    <string name="sum_tonight">%1$s în noaptea asta</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Închide</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ mută · OK deschide · ține apăsat OK pentru a fixa la Favorite · Back la Acasă</string>
+    <string name="selected_app">Selectată: %s</string>
+    <string name="pin">Fixează la Favorite</string>
+    <string name="unpin">Elimină din Favorite</string>
+    <string name="move">Mută</string>
+    <string name="app_info">Informații aplicație</string>
+    <string name="uninstall">Dezinstalează</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Acest televizor nu permite aplicațiilor să schimbe sursa. Folosește butonul Input de pe telecomandă.</string>
+    <string name="no_tv_input">Nu s-a găsit nicio sursă TV</string>
+    <string name="ask_every_time">Întreabă de fiecare dată</string>
+    <string name="choose_live_app">Alege o aplicație TV live</string>
+    <string name="voice_unavailable">Căutarea vocală nu este disponibilă pe acest televizor.</string>
+    <string name="cannot_open">Această aplicație nu poate fi deschisă.</string>
+
+    <!-- Settings -->
+    <string name="reset">Revino la valorile implicite</string>
+    <string name="reset_title">Resetezi toate setările launcherului?</string>
+    <string name="reset_body">Tema, imaginea de fundal, limba și celelalte setări ale launcherului revin la valorile implicite. Aplicațiile și favoritele tale rămân neschimbate.</string>
+    <string name="cancel">Anulează</string>
+    <string name="reset_confirm">Resetează</string>
+    <string name="settings_hint">▲ ▼ mută · OK deschide sau alege · Back înapoi. Modificările se aplică imediat.</string>
+    <string name="leagues_header">Alege ce apare pe Acasă · %d selectate</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Previzualizare</string>
+
+    <string name="opt_mode">Mod</string>
+    <string name="opt_colour">Culoare</string>
+    <string name="opt_use_screensaver">Folosește ca screensaver</string>
+    <string name="screensaver_setup_title">Este necesară o configurare unică</string>
+    <string name="screensaver_setup_body">Acest televizor nu permite aplicațiilor să schimbe singure screensaverul. Conectează o dată un computer și rulează:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nApoi activează din nou această opțiune.</string>
+    <string name="wallpaper_custom">Imaginea mea</string>
+    <string name="wallpaper_download_failed">Imaginea de fundal nu a putut fi descărcată. Verifică conexiunea la internet.</string>
+    <string name="picture_allow">Permite accesul la imagini</string>
+    <string name="picture_denied">Permite accesul la fotografii din Setări › Aplicații › Summit › Permisiuni.</string>
+    <string name="picture_none">Nu s-au găsit imagini pe acest televizor.</string>
+    <string name="picture_failed">Imaginea nu a putut fi deschisă.</string>
+    <string name="picture_n">Imaginea %d</string>
+    <string name="opt_custom_colour">Culoare personalizată</string>
+    <string name="opt_contrast">Contrast</string>
+    <string name="opt_animations">Animații</string>
+    <string name="opt_wallpaper">Imagine de fundal</string>
+    <string name="opt_dim">Estompează fundalul</string>
+    <string name="opt_text_size">Dimensiunea textului</string>
+    <string name="opt_digits">Cifre devanagari</string>
+    <string name="opt_language">Limbă</string>
+    <string name="opt_calendar">Calendar</string>
+    <string name="opt_time">Format oră</string>
+    <string name="opt_temp">Temperatură</string>
+    <string name="opt_wind">Viteza vântului</string>
+    <string name="opt_rain">Precipitații</string>
+    <string name="opt_location">Locație</string>
+    <string name="opt_show_home">Afișează pe Acasă</string>
+    <string name="opt_watch_tile">Placa Vizionează TV</string>
+    <string name="opt_continue">Rândul Continuă</string>
+    <string name="opt_fav_order">Ordinea favoritelor</string>
+    <string name="opt_health">Sfat de sănătate</string>
+    <string name="opt_live_type">Vizionează TV folosește</string>
+    <string name="opt_input">Sursă de intrare</string>
+    <string name="opt_live_app">Aplicație</string>
+    <string name="opt_boot">Deschide la pornirea televizorului</string>
+    <string name="opt_tile_size">Dimensiunea plăcilor</string>
+    <string name="opt_tile_shape">Forma plăcilor</string>
+    <string name="opt_labels">Numele aplicațiilor</string>
+    <string name="opt_score_max">Afișează pe Acasă</string>
+    <string name="opt_live_first">Meciurile live primele</string>
+    <string name="opt_stale">Dacă scorurile nu se actualizează</string>
+    <string name="opt_amb_scores">Afișează scorurile live</string>
+    <string name="opt_amb_shift">Mută ceasul pentru a proteja ecranul</string>
+    <string name="opt_amb_dim">Estompează noaptea</string>
+
+    <string name="grp_cricket">Cricket</string>
+    <string name="grp_football">Fotbal</string>
+    <string name="grp_basketball">Baschet</string>
+    <string name="grp_us">Sporturi americane</string>
+    <string name="grp_tennis">Tenis</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Apasă orice buton</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Configurarea launcherului</string>
+    <string name="step_of">Pasul %1$d din %2$d</string>
+    <string name="back">Înapoi</string>
+    <string name="next">Continuă</string>
+    <string name="finish">Finalizează</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ mută · OK selectează · ▶ din opțiuni duce la Continuă · Back pasul anterior</string>
+    <string name="s1_title">Alege limba</string>
+    <string name="s1_sub">Summit schimbă limba imediat ce o alegi.</string>
+    <string name="s2_title">Unde te uiți la TV?</string>
+    <string name="s2_sub">Vizionează TV de pe Acasă deschide asta cu o singură apăsare pe OK.</string>
+    <string name="signal_yes">Semnal detectat</string>
+    <string name="signal_no">Fără semnal</string>
+    <string name="recommended">Recomandat</string>
+    <string name="antenna">Antenă (DVB-T)</string>
+    <string name="s3_title">Ce scoruri să afișeze Acasă?</string>
+    <string name="s3_sub">Alege câte vrei. Meciurile live apar primele.</string>
+    <string name="s_fav_title">Alege aplicațiile preferate</string>
+    <string name="s_fav_sub">Stau pe Acasă, la o apăsare distanță. Alege câte vrei.</string>
+    <string name="s_wall_title">Alege o imagine de fundal</string>
+    <string name="s_wall_sub">Afișată în spatele ecranului Acasă și al screensaverului.</string>
+    <string name="setup_preview_note">Ecranul tău de pornire. Poți schimba totul mai târziu din Setări.</string>
+    <string name="s4_title">Alege un aspect</string>
+    <string name="s4_sub">Automat este întunecat de la 18:00 la 6:00 și luminos ziua.</string>
+    <string name="tennis">Tenis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Afișezi aplicațiile folosite recent pe Acasă?</string>
+    <string name="usage_body">Permite accesul la datele de utilizare pentru ca rândul Continuă să afișeze aplicațiile folosite recent.</string>
+    <string name="allow">Permite</string>
+    <string name="skip">Omite</string>
+    <string name="run_setup">Rulează configurarea inițială</string>
+    <string name="change_city">Schimbă orașul</string>
+    <string name="kick_off">Start %s</string>
+    <string name="mode_input">Sursă TV</string>
+    <string name="mode_input_sub">HDMI, AV sau antenă</string>
+    <string name="mode_app">Aplicație</string>
+    <string name="mode_app_sub">O aplicație TV live</string>
+    <string name="search_city">Caută un oraș</string>
+    <string name="use_current">Folosește locația actuală</string>
+    <string name="use_current_named">Folosește locația actuală (%s)</string>
+    <string name="searching">Se caută…</string>
+    <string name="no_results">Nu s-au găsit orașe</string>
+    <string name="search_failed">Căutarea nu este posibilă acum. Verifică conexiunea la internet.</string>
+    <string name="resume_now">Reia · chiar acum</string>
+</resources>

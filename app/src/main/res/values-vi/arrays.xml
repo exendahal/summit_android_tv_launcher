@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Chủ đề</item><item>Phông chữ</item><item>Ngôn ngữ</item><item>Thời tiết</item>
+        <item>Màn hình chính</item><item>TV trực tiếp</item><item>Biểu tượng &amp; ô</item><item>Tỷ số</item><item>Trình bảo vệ màn hình</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Tự động theo giờ</item><item>Tối</item><item>Sáng</item></string-array>
+    <string-array name="e_theme_colour"><item>Theo hình nền</item><item>San hô</item><item>Xanh lá</item><item>Tùy chỉnh</item></string-array>
+    <string-array name="e_custom_colour"><item>Đỏ</item><item>Cam</item><item>Vàng</item><item>Xanh lá</item><item>Xanh mòng két</item><item>Xanh dương</item><item>Chàm</item><item>Tím</item><item>Hồng</item></string-array>
+    <string-array name="e_contrast"><item>Chuẩn</item><item>Cao</item></string-array>
+    <string-array name="e_animations"><item>Đầy đủ</item><item>Giảm bớt</item><item>Tắt</item></string-array>
+    <string-array name="e_wallpaper"><item>Cảnh núi</item><item>Dải sống núi</item><item>Trơn</item><item>Hoàng hôn Phewa</item><item>Đêm Himalaya</item><item>Đồng ruộng Terai</item><item>Cờ cầu nguyện</item></string-array>
+    <string-array name="e_dim"><item>Tắt</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Mặc định</item><item>Lớn</item><item>Rất lớn</item></string-array>
+    <string-array name="e_off_on"><item>Tắt</item><item>Bật</item></string-array>
+    <string-array name="e_on_off"><item>Bật</item><item>Tắt</item></string-array>
+    <string-array name="e_labels"><item>Luôn hiện</item><item>Khi được chọn</item><item>Tắt</item></string-array>
+    <string-array name="e_show_hide"><item>Hiện</item><item>Ẩn</item></string-array>
+    <string-array name="e_calendar"><item>Cả hai</item><item>Bikram Sambat</item><item>Dương lịch</item></string-array>
+    <string-array name="e_time"><item>12 giờ</item><item>24 giờ</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inch</item></string-array>
+    <string-array name="e_watch_tile"><item>Đầu hàng</item><item>Ẩn</item></string-array>
+    <string-array name="e_fav_order"><item>Dùng nhiều nhất</item><item>Thủ công</item></string-array>
+    <string-array name="e_health"><item>Chỉ Ambient</item><item>Trang chủ và Ambient</item><item>Tắt</item></string-array>
+    <string-array name="e_live_type"><item>Nguồn TV</item><item>Ứng dụng</item></string-array>
+    <string-array name="e_tile_size"><item>Vừa</item><item>Lớn</item><item>Nhỏ</item></string-array>
+    <string-array name="e_tile_shape"><item>Bo tròn</item><item>Vuông</item></string-array>
+    <string-array name="e_score_max"><item>Tối đa 4</item><item>Tối đa 6</item><item>Tối đa 3</item><item>Tối đa 2</item></string-array>
+    <string-array name="e_stale"><item>Hiện “không có”</item><item>Ẩn tỷ số</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Sức khỏe là tài sản thật sự. Vận động một chút, cười thật nhiều.</item>
+        <item>20 phút đi bộ hôm nay là món quà cho chính bạn ngày mai.</item>
+        <item>Uống một ly nước trước khi xem tập tiếp theo nhé.</item>
+        <item>Cho mắt nghỉ ngơi: cứ 20 phút, hãy nhìn ra xa 20 giây.</item>
+        <item>Ngủ ngon là kế hoạch luyện tập tốt nhất. Tối nay hãy tắt TV đúng giờ.</item>
+        <item>Mỗi lần nghỉ, hãy đứng dậy vươn vai. Lưng bạn sẽ cảm ơn bạn.</item>
+        <item>Ăn như thể núi rừng đang dõi theo: tươi, đơn giản và đúng mùa.</item>
+    </string-array>
+</resources>

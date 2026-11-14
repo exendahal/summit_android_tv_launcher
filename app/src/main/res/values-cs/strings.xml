@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit – spořič</string>
+
+    <!-- Header -->
+    <string name="nav_home">Domů</string>
+    <string name="nav_apps">Aplikace</string>
+    <string name="nav_settings">Nastavení</string>
+    <string name="search">Hledat</string>
+    <string name="tv_settings">Nastavení Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Sledovat TV</string>
+    <string name="continue_title">Pokračovat</string>
+    <string name="favourites_title">Oblíbené · podržením OK připnete nebo přesunete</string>
+    <string name="all_apps">Všechny aplikace</string>
+    <string name="show_recents">Zobrazit nedávné aplikace</string>
+    <string name="not_default_banner">Nastavte Summit jako domovskou obrazovku · stiskněte OK pro návod</string>
+    <string name="not_default_title">Nastavte Summit jako domovskou obrazovku</string>
+    <string name="not_default_help">Otevřete Nastavení › Aplikace › Výchozí aplikace › Domovská aplikace a vyberte Summit. Některá zařízení Google TV změnu domovské aplikace neumožňují; Summit i tak funguje ze seznamu aplikací.</string>
+    <string name="open_settings">Otevřít nastavení</string>
+    <string name="dismiss">Zavřít</string>
+    <string name="usage_unavailable">Otevřete Nastavení › Aplikace › Speciální přístup aplikací › Přístup k údajům o využití a povolte Summit.</string>
+    <string name="move_hint">◀ ▶ přesunout · OK umístit · Back zrušit</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Pokračovat · před %d min</string>
+    <string name="resume_h">Pokračovat · před %d h</string>
+    <string name="yesterday">Včera</string>
+    <string name="days_ago">Před dny: %d</string>
+    <string name="last_week">Minulý týden</string>
+    <string name="updated_now">Právě aktualizováno</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Aktualizováno před %d minutou</item>
+        <item quantity="few">Aktualizováno před %d minutami</item>
+        <item quantity="many">Aktualizováno před %d minuty</item>
+        <item quantity="other">Aktualizováno před %d minutami</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">ŽIVĚ</string>
+    <string name="ft">Konec</string>
+    <string name="scores_unavailable">Výsledky nejsou k dispozici</string>
+    <string name="score_cd">%1$s. Stiskněte OK pro podrobnosti</string>
+    <string name="score_live_suffix">%1$s · ŽIVĚ</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Počasí není k dispozici</string>
+    <string name="hi_lo">Max %1$s Min %2$s</string>
+    <string name="hi_lo_long">Max. %1$s · Min. %2$s</string>
+    <string name="wind_rain">Vítr %1$s · Srážky dnes %2$s</string>
+    <string name="weather_title">%1$s · Dnes</string>
+    <string name="mountains_line">Hory · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Déšť %d %%</string>
+    <string name="next_days">Další 3 dny</string>
+    <string name="change_units">Jednotky změníte v Nastavení</string>
+    <string name="part_morning">Ráno</string>
+    <string name="part_afternoon">Odpoledne</string>
+    <string name="part_evening">Večer</string>
+    <string name="part_night">Noc</string>
+    <string name="cond_clear">Jasno</string>
+    <string name="cond_sunny">Slunečno</string>
+    <string name="cond_partly">Polojasno</string>
+    <string name="cond_cloudy">Oblačno</string>
+    <string name="cond_fog">Mlha</string>
+    <string name="cond_rain">Déšť</string>
+    <string name="cond_snow">Sněhové přeháňky</string>
+    <string name="cond_thunder">Bouřky</string>
+    <string name="sum_all_day">%1$s celý den</string>
+    <string name="sum_morning">%1$s ráno</string>
+    <string name="sum_afternoon">odpoledne %1$s</string>
+    <string name="sum_rain_from">déšť od %1$s</string>
+    <string name="sum_tonight">v noci %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Káthmándú</string>
+    <string name="close">Zavřít</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ přesunout · OK otevřít · podržením OK připnete do Oblíbených · Back domů</string>
+    <string name="selected_app">Vybráno: %s</string>
+    <string name="pin">Připnout do Oblíbených</string>
+    <string name="unpin">Odepnout z Oblíbených</string>
+    <string name="move">Přesunout</string>
+    <string name="app_info">Informace o aplikaci</string>
+    <string name="uninstall">Odinstalovat</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Tato televize nedovoluje aplikacím přepínat vstupy. Použijte tlačítko Input na dálkovém ovladači.</string>
+    <string name="no_tv_input">Nenalezen žádný TV vstup</string>
+    <string name="ask_every_time">Pokaždé se zeptat</string>
+    <string name="choose_live_app">Vyberte aplikaci pro živé vysílání</string>
+    <string name="voice_unavailable">Hlasové vyhledávání není na této televizi k dispozici.</string>
+    <string name="cannot_open">Tuto aplikaci nelze otevřít.</string>
+
+    <!-- Settings -->
+    <string name="reset">Obnovit výchozí</string>
+    <string name="reset_title">Obnovit všechna nastavení launcheru?</string>
+    <string name="reset_body">Motiv, tapeta, jazyk a další nastavení launcheru se vrátí na výchozí hodnoty. Aplikace a oblíbené zůstanou beze změny.</string>
+    <string name="cancel">Zrušit</string>
+    <string name="reset_confirm">Obnovit</string>
+    <string name="settings_hint">▲ ▼ přesunout · OK otevřít nebo vybrat · Back zpět. Změny platí okamžitě.</string>
+    <string name="leagues_header">Vyberte, co se zobrazí na domovské obrazovce · vybráno: %d</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Náhled</string>
+
+    <string name="opt_mode">Režim</string>
+    <string name="opt_colour">Barva</string>
+    <string name="opt_use_screensaver">Použít jako spořič obrazovky</string>
+    <string name="screensaver_setup_title">Je potřeba jednorázové nastavení</string>
+    <string name="screensaver_setup_body">Tato televize nedovoluje aplikacím samostatně měnit spořič obrazovky. Jednou připojte počítač a spusťte:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPotom tuto volbu znovu zapněte.</string>
+    <string name="wallpaper_custom">Můj obrázek</string>
+    <string name="wallpaper_download_failed">Tapetu se nepodařilo stáhnout. Zkontrolujte připojení k internetu.</string>
+    <string name="picture_allow">Povolit přístup k obrázkům</string>
+    <string name="picture_denied">Povolte přístup k fotkám v Nastavení › Aplikace › Summit › Oprávnění.</string>
+    <string name="picture_none">Na této televizi nejsou žádné obrázky.</string>
+    <string name="picture_failed">Obrázek se nepodařilo otevřít.</string>
+    <string name="picture_n">Obrázek %d</string>
+    <string name="opt_custom_colour">Vlastní barva</string>
+    <string name="opt_contrast">Kontrast</string>
+    <string name="opt_animations">Animace</string>
+    <string name="opt_wallpaper">Tapeta</string>
+    <string name="opt_dim">Ztmavení tapety</string>
+    <string name="opt_text_size">Velikost textu</string>
+    <string name="opt_digits">Číslice dévanágarí</string>
+    <string name="opt_language">Jazyk</string>
+    <string name="opt_calendar">Kalendář</string>
+    <string name="opt_time">Formát času</string>
+    <string name="opt_temp">Teplota</string>
+    <string name="opt_wind">Rychlost větru</string>
+    <string name="opt_rain">Srážky</string>
+    <string name="opt_location">Poloha</string>
+    <string name="opt_show_home">Zobrazit na domovské obrazovce</string>
+    <string name="opt_watch_tile">Dlaždice Sledovat TV</string>
+    <string name="opt_continue">Řada Pokračovat</string>
+    <string name="opt_fav_order">Pořadí oblíbených</string>
+    <string name="opt_health">Tip pro zdraví</string>
+    <string name="opt_live_type">Sledovat TV používá</string>
+    <string name="opt_input">Zdroj vstupu</string>
+    <string name="opt_live_app">Aplikace</string>
+    <string name="opt_boot">Otevřít po zapnutí TV</string>
+    <string name="opt_tile_size">Velikost dlaždic</string>
+    <string name="opt_tile_shape">Tvar dlaždic</string>
+    <string name="opt_labels">Názvy aplikací</string>
+    <string name="opt_score_max">Zobrazit na domovské obrazovce</string>
+    <string name="opt_live_first">Nejdřív živé zápasy</string>
+    <string name="opt_stale">Když se výsledky neaktualizují</string>
+    <string name="opt_amb_scores">Zobrazovat živé výsledky</string>
+    <string name="opt_amb_shift">Posouvat hodiny kvůli ochraně obrazovky</string>
+    <string name="opt_amb_dim">V noci ztmavit</string>
+
+    <string name="grp_cricket">Kriket</string>
+    <string name="grp_football">Fotbal</string>
+    <string name="grp_basketball">Basketbal</string>
+    <string name="grp_us">Americké sporty</string>
+    <string name="grp_tennis">Tenis</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Stiskněte libovolné tlačítko</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Nastavení launcheru</string>
+    <string name="step_of">Krok %1$d z %2$d</string>
+    <string name="back">Zpět</string>
+    <string name="next">Pokračovat</string>
+    <string name="finish">Dokončit</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ přesunout · OK vybrat · ▶ z voleb vede na Pokračovat · Back předchozí krok</string>
+    <string name="s1_title">Vyberte jazyk</string>
+    <string name="s1_sub">Summit změní jazyk hned po výběru.</string>
+    <string name="s2_title">Kde sledujete televizi?</string>
+    <string name="s2_sub">Sledovat TV na domovské obrazovce to otevře jedním stiskem OK.</string>
+    <string name="signal_yes">Signál nalezen</string>
+    <string name="signal_no">Žádný signál</string>
+    <string name="recommended">Doporučeno</string>
+    <string name="antenna">Anténa (DTV)</string>
+    <string name="s3_title">Které výsledky zobrazovat na domovské obrazovce?</string>
+    <string name="s3_sub">Vyberte libovolný počet. Živé zápasy se zobrazí jako první.</string>
+    <string name="s_fav_title">Vyberte oblíbené aplikace</string>
+    <string name="s_fav_sub">Budou na domovské obrazovce na jedno stisknutí. Vyberte libovolný počet.</string>
+    <string name="s_wall_title">Vyberte tapetu</string>
+    <string name="s_wall_sub">Zobrazuje se za domovskou obrazovkou a spořičem.</string>
+    <string name="setup_preview_note">Vaše domovská obrazovka. Vše můžete později změnit v Nastavení.</string>
+    <string name="s4_title">Vyberte vzhled</string>
+    <string name="s4_sub">Automatický režim je tmavý od 18:00 do 6:00 a přes den světlý.</string>
+    <string name="tennis">Tenis</string>
+    <string name="formula1">Formule 1</string>
+    <string name="usage_title">Zobrazovat nedávno použité aplikace na domovské obrazovce?</string>
+    <string name="usage_body">Povolte přístup k údajům o využití, aby řada Pokračovat mohla zobrazit nedávno použité aplikace.</string>
+    <string name="allow">Povolit</string>
+    <string name="skip">Přeskočit</string>
+    <string name="run_setup">Spustit úvodní nastavení</string>
+    <string name="change_city">Změnit město</string>
+    <string name="kick_off">Výkop %s</string>
+    <string name="mode_input">TV vstup</string>
+    <string name="mode_input_sub">HDMI, AV nebo anténa</string>
+    <string name="mode_app">Aplikace</string>
+    <string name="mode_app_sub">Aplikace pro živé vysílání</string>
+    <string name="search_city">Vyhledat město</string>
+    <string name="use_current">Použít aktuální polohu</string>
+    <string name="use_current_named">Použít aktuální polohu (%s)</string>
+    <string name="searching">Hledání…</string>
+    <string name="no_results">Žádná města nenalezena</string>
+    <string name="search_failed">Teď nelze vyhledávat. Zkontrolujte připojení k internetu.</string>
+    <string name="resume_now">Pokračovat · právě teď</string>
+</resources>

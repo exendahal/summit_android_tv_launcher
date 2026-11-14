@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>테마</item><item>글꼴</item><item>언어</item><item>날씨</item>
+        <item>홈 화면</item><item>실시간 TV</item><item>아이콘 및 타일</item><item>점수</item><item>화면 보호기</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>시간에 따라 자동</item><item>다크</item><item>라이트</item></string-array>
+    <string-array name="e_theme_colour"><item>배경화면에서</item><item>코랄</item><item>그린</item><item>사용자 지정</item></string-array>
+    <string-array name="e_custom_colour"><item>빨강</item><item>주황</item><item>노랑</item><item>초록</item><item>청록</item><item>파랑</item><item>남색</item><item>보라</item><item>분홍</item></string-array>
+    <string-array name="e_contrast"><item>표준</item><item>높음</item></string-array>
+    <string-array name="e_animations"><item>전체</item><item>줄임</item><item>끄기</item></string-array>
+    <string-array name="e_wallpaper"><item>산 풍경</item><item>능선</item><item>단색</item><item>페와 호수 노을</item><item>히말라야의 밤</item><item>테라이 들판</item><item>기도 깃발</item></string-array>
+    <string-array name="e_dim"><item>끄기</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>기본</item><item>크게</item><item>아주 크게</item></string-array>
+    <string-array name="e_off_on"><item>끄기</item><item>켜기</item></string-array>
+    <string-array name="e_on_off"><item>켜기</item><item>끄기</item></string-array>
+    <string-array name="e_labels"><item>항상</item><item>선택 시</item><item>끄기</item></string-array>
+    <string-array name="e_show_hide"><item>표시</item><item>숨기기</item></string-array>
+    <string-array name="e_calendar"><item>둘 다</item><item>비크람 삼바트</item><item>양력</item></string-array>
+    <string-array name="e_time"><item>12시간제</item><item>24시간제</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>인치</item></string-array>
+    <string-array name="e_watch_tile"><item>줄의 맨 앞</item><item>숨김</item></string-array>
+    <string-array name="e_fav_order"><item>자주 사용한 순</item><item>직접 정렬</item></string-array>
+    <string-array name="e_health"><item>앰비언트만</item><item>홈 및 앰비언트</item><item>끄기</item></string-array>
+    <string-array name="e_live_type"><item>TV 입력</item><item>앱</item></string-array>
+    <string-array name="e_tile_size"><item>보통</item><item>크게</item><item>작게</item></string-array>
+    <string-array name="e_tile_shape"><item>둥근 모서리</item><item>정사각형</item></string-array>
+    <string-array name="e_score_max"><item>최대 4개</item><item>최대 6개</item><item>최대 3개</item><item>최대 2개</item></string-array>
+    <string-array name="e_stale"><item>“사용 불가” 표시</item><item>점수 숨기기</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>건강이 진짜 재산입니다. 조금 움직이고, 많이 웃으세요.</item>
+        <item>오늘 20분 산책은 내일의 나에게 주는 선물입니다.</item>
+        <item>다음 회차를 보기 전에 물 한 잔 드세요.</item>
+        <item>눈을 쉬게 하세요. 20분마다 20초 동안 먼 곳을 바라보세요.</item>
+        <item>숙면이 최고의 훈련 계획입니다. 오늘 밤은 제때 끄세요.</item>
+        <item>쉴 때마다 일어나서 스트레칭하세요. 허리가 고마워할 거예요.</item>
+        <item>산이 지켜본다는 마음으로 드세요. 신선하고, 소박하고, 제철인 것으로.</item>
+    </string-array>
+</resources>

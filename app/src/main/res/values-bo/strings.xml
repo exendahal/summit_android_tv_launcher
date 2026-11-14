@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">གཙོ་ངོས།</string>
+    <string name="nav_apps">མཉེན་ཆས།</string>
+    <string name="nav_settings">སྒྲིག་འགོད།</string>
+    <string name="search">འཚོལ་བ།</string>
+    <string name="tv_settings">Android TV སྒྲིག་འགོད།</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">བརྙན་འཕྲིན་ལྟ་བ།</string>
+    <string name="continue_title">མུ་མཐུད།</string>
+    <string name="favourites_title">དགའ་ཤོས། · འཛེར་བའམ་སྤོ་བར་ OK མནན་ནས་འཛིན།</string>
+    <string name="all_apps">མཉེན་ཆས་ཡོངས།</string>
+    <string name="show_recents">ཉེ་ཆར་གྱི་མཉེན་ཆས་སྟོན།</string>
+    <string name="not_default_banner">Summit གཙོ་ངོས་སུ་སྒྲིག · ཇི་ལྟར་བྱེད་ཚུལ་ OK མནོན།</string>
+    <string name="not_default_title">Summit གཙོ་ངོས་སུ་སྒྲིག</string>
+    <string name="not_default_help">སྒྲིག་འགོད། › མཉེན་ཆས། › སྔོན་སྒྲིག་མཉེན་ཆས། › གཙོ་ངོས་མཉེན་ཆས་ཁ་ཕྱེ་ནས་ Summit འདེམས། Google TV ཡོ་བྱད་ཁ་ཤས་ལ་གཙོ་ངོས་མཉེན་ཆས་བསྒྱུར་མི་ཐུབ། འོན་ཀྱང་ Summit མཉེན་ཆས་ཐོ་གཞུང་ནས་བེད་སྤྱོད་ཐུབ།</string>
+    <string name="open_settings">སྒྲིག་འགོད་ཁ་ཕྱེ།</string>
+    <string name="dismiss">འདོར།</string>
+    <string name="usage_unavailable">སྒྲིག་འགོད། › མཉེན་ཆས། › མཉེན་ཆས་ཀྱི་དམིགས་བསལ་ལག་ཁྱེར། › བེད་སྤྱོད་ལག་ཁྱེར་ཁ་ཕྱེ་ནས་ Summit ལ་ཆོག་མཆན་སྤྲོད།</string>
+    <string name="move_hint">◀ ▶ སྤོ། · OK འཇོག · Back འདོར།</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">མུ་མཐུད། · སྐར་མ་ %d སྔོན།</string>
+    <string name="resume_h">མུ་མཐུད། · ཆུ་ཚོད་ %d སྔོན།</string>
+    <string name="yesterday">ཁ་སང་།</string>
+    <string name="days_ago">ཉིན་ %d སྔོན།</string>
+    <string name="last_week">བདུན་ཕྲག་སྔ་མ།</string>
+    <string name="updated_now">ད་ལྟ་གསར་སྒྱུར་བྱས།</string>
+    <plurals name="updated_ago">
+        <item quantity="other">སྐར་མ་ %d སྔོན་གསར་སྒྱུར་བྱས།</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">ཐད་གཏོང་།</string>
+    <string name="ft">མཇུག</string>
+    <string name="scores_unavailable">སྐར་གྲངས་མི་འདུག</string>
+    <string name="score_cd">%1$s། ཞིབ་ཕྲ་ལ་ OK མནོན།</string>
+    <string name="score_live_suffix">%1$s · ཐད་གཏོང་།</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">གནམ་གཤིས་མི་འདུག</string>
+    <string name="hi_lo">མཐོ། %1$s དམའ། %2$s</string>
+    <string name="hi_lo_long">མཐོ་ཤོས། %1$s · དམའ་ཤོས། %2$s</string>
+    <string name="wind_rain">རླུང་། %1$s · དེ་རིང་གི་ཆར་པ། %2$s</string>
+    <string name="weather_title">%1$s · དེ་རིང་།</string>
+    <string name="mountains_line">རི་ཁུལ། · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">ཆར་པ། %d%%</string>
+    <string name="next_days">ཉིན་ 3 རྗེས་མ།</string>
+    <string name="change_units">ཚད་གཞི་སྒྲིག་འགོད་ནང་བསྒྱུར།</string>
+    <string name="part_morning">ཞོགས་པ།</string>
+    <string name="part_afternoon">ཕྱི་དྲོ།</string>
+    <string name="part_evening">དགོང་དྲོ།</string>
+    <string name="part_night">མཚན་མོ།</string>
+    <string name="cond_clear">གསལ་པོ།</string>
+    <string name="cond_sunny">ཉི་མ་ཤར།</string>
+    <string name="cond_partly">ཆ་ཤས་སྤྲིན་པ།</string>
+    <string name="cond_cloudy">སྤྲིན་པ།</string>
+    <string name="cond_fog">ན་བུན།</string>
+    <string name="cond_rain">ཆར་པ།</string>
+    <string name="cond_snow">ཁ་བ་འབབ།</string>
+    <string name="cond_thunder">འབྲུག་སྒྲ།</string>
+    <string name="sum_all_day">ཉིན་གང་ %1$s</string>
+    <string name="sum_morning">ཞོགས་པ་ %1$s</string>
+    <string name="sum_afternoon">ཕྱི་དྲོ་ %1$s</string>
+    <string name="sum_rain_from">%1$s ནས་ཆར་པ།</string>
+    <string name="sum_tonight">དེ་རིང་མཚན་མོ་ %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">ཡམ་བུ།</string>
+    <string name="close">སྒོ་རྒྱག</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ སྤོ། · OK ཁ་ཕྱེ། · དགའ་ཤོས་སུ་འཛེར་བར་ OK མནན་ནས་འཛིན། · Back གཙོ་ངོས་སུ།</string>
+    <string name="selected_app">བདམས་པ། %s</string>
+    <string name="pin">དགའ་ཤོས་སུ་འཛེར།</string>
+    <string name="unpin">དགའ་ཤོས་ནས་འདོར།</string>
+    <string name="move">སྤོ།</string>
+    <string name="app_info">མཉེན་ཆས་ཀྱི་ཆ་འཕྲིན།</string>
+    <string name="uninstall">སྒྲིག་འཇུག་མེད་པ་བཟོ།</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">བརྙན་འཕྲིན་འདིས་མཉེན་ཆས་ནས་ནང་འཇུག་བརྗེ་བར་མི་ཆོག ཐག་རིང་འཕྲུལ་འཁོར་གྱི་ Input མཐེབ་གནོན་བེད་སྤྱོད་གནང་།</string>
+    <string name="no_tv_input">བརྙན་འཕྲིན་ནང་འཇུག་མ་རྙེད།</string>
+    <string name="ask_every_time">ཐེངས་རེ་རེར་འདྲི།</string>
+    <string name="choose_live_app">ཐད་གཏོང་བརྙན་འཕྲིན་མཉེན་ཆས་ཤིག་འདེམས།</string>
+    <string name="voice_unavailable">བརྙན་འཕྲིན་འདིར་སྐད་ཀྱིས་འཚོལ་བ་མི་འདུག</string>
+    <string name="cannot_open">མཉེན་ཆས་འདི་ཁ་ཕྱེ་མི་ཐུབ།</string>
+
+    <!-- Settings -->
+    <string name="reset">སྔོན་སྒྲིག་ལ་བསྐྱར་སྒྲིག</string>
+    <string name="reset_title">གཙོ་ངོས་ཀྱི་སྒྲིག་འགོད་ཡོངས་བསྐྱར་སྒྲིག་བྱེད་དམ།</string>
+    <string name="reset_body">བརྗོད་གཞི། རྒྱབ་ལྗོངས་པར། སྐད་ཡིག་དང་སྒྲིག་འགོད་གཞན་དག་སྔོན་སྒྲིག་ལ་ལོག་ཡོང་། ཁྱེད་ཀྱི་མཉེན་ཆས་དང་དགའ་ཤོས་རྣམས་ཇི་བཞིན་གནས།</string>
+    <string name="cancel">འདོར།</string>
+    <string name="reset_confirm">བསྐྱར་སྒྲིག</string>
+    <string name="settings_hint">▲ ▼ སྤོ། · OK ཁ་ཕྱེ་བའམ་འདེམས། · Back ཕྱིར་ལོག བསྒྱུར་བཅོས་འཕྲལ་དུ་འགྲུབ།</string>
+    <string name="leagues_header">གཙོ་ངོས་སུ་སྟོན་རྒྱུ་འདེམས། · %d བདམས།</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">སྔོན་ལྟ།</string>
+
+    <string name="opt_mode">རྣམ་པ།</string>
+    <string name="opt_colour">ཚོས་གཞི།</string>
+    <string name="opt_use_screensaver">བརྙན་ཡོལ་སྲུང་སྐྱོབ་ཏུ་བེད་སྤྱོད།</string>
+    <string name="screensaver_setup_title">ཐེངས་གཅིག་སྒྲིག་འགོད་དགོས།</string>
+    <string name="screensaver_setup_body">བརྙན་འཕྲིན་འདིས་མཉེན་ཆས་རང་ཉིད་ཀྱིས་བརྙན་ཡོལ་སྲུང་སྐྱོབ་བསྒྱུར་དུ་མི་འཇུག ཐེངས་གཅིག་གློག་ཀླད་སྦྲེལ་ནས་འདི་འཁོར་སྐྱོད་གནང་།\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nདེ་རྗེས་འདི་ཡང་བསྐྱར་སྤར།</string>
+    <string name="wallpaper_custom">ངའི་པར།</string>
+    <string name="wallpaper_download_failed">རྒྱབ་ལྗོངས་པར་དེ་ཕབ་ལེན་བྱེད་མ་ཐུབ། དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་བརྟག་ཞིབ་གནང་།</string>
+    <string name="picture_allow">པར་ལ་ལག་ཁྱེར་སྤྲོད།</string>
+    <string name="picture_denied">སྒྲིག་འགོད། › མཉེན་ཆས། › Summit › ཆོག་མཆན་ནང་པར་རིས་ལ་ལག་ཁྱེར་སྤྲོད།</string>
+    <string name="picture_none">བརྙན་འཕྲིན་འདིར་པར་མ་རྙེད།</string>
+    <string name="picture_failed">པར་དེ་ཁ་ཕྱེ་མ་ཐུབ།</string>
+    <string name="picture_n">པར་ %d</string>
+    <string name="opt_custom_colour">རང་སྒྲིག་ཚོས་གཞི།</string>
+    <string name="opt_contrast">ཁྱད་པར་ཚད།</string>
+    <string name="opt_animations">འགུལ་རིས།</string>
+    <string name="opt_wallpaper">རྒྱབ་ལྗོངས་པར།</string>
+    <string name="opt_dim">རྒྱབ་ལྗོངས་པར་མོག་པོ་བཟོ།</string>
+    <string name="opt_text_size">ཡིག་གཟུགས་ཆེ་ཆུང་།</string>
+    <string name="opt_digits">དེ་ཝ་ནཱ་ག་རཱིའི་ཨང་ཀི།</string>
+    <string name="opt_language">སྐད་ཡིག</string>
+    <string name="opt_calendar">ལོ་ཐོ།</string>
+    <string name="opt_time">དུས་ཚོད་ཀྱི་རྣམ་པ།</string>
+    <string name="opt_temp">དྲོད་ཚད།</string>
+    <string name="opt_wind">རླུང་གི་མྱུར་ཚད།</string>
+    <string name="opt_rain">ཆར་ཚད།</string>
+    <string name="opt_location">གནས་ས།</string>
+    <string name="opt_show_home">གཙོ་ངོས་སུ་སྟོན།</string>
+    <string name="opt_watch_tile">བརྙན་འཕྲིན་ལྟ་བའི་སྒྲོམ།</string>
+    <string name="opt_continue">མུ་མཐུད་ཀྱི་ཕྲེང་།</string>
+    <string name="opt_fav_order">དགའ་ཤོས་ཀྱི་གོ་རིམ།</string>
+    <string name="opt_health">འཕྲོད་བསྟེན་གྱི་སློབ་སྟོན།</string>
+    <string name="opt_live_type">བརྙན་འཕྲིན་ལྟ་བས་བེད་སྤྱོད་བྱེད་པ།</string>
+    <string name="opt_input">ནང་འཇུག་འབྱུང་ཁུངས།</string>
+    <string name="opt_live_app">མཉེན་ཆས།</string>
+    <string name="opt_boot">བརྙན་འཕྲིན་འགོ་འཛུགས་སྐབས་ཁ་ཕྱེ།</string>
+    <string name="opt_tile_size">སྒྲོམ་གྱི་ཆེ་ཆུང་།</string>
+    <string name="opt_tile_shape">སྒྲོམ་གྱི་དབྱིབས།</string>
+    <string name="opt_labels">མཉེན་ཆས་ཀྱི་མིང་།</string>
+    <string name="opt_score_max">གཙོ་ངོས་སུ་སྟོན།</string>
+    <string name="opt_live_first">ཐད་གཏོང་འགྲན་བསྡུར་སྔོན་ལ།</string>
+    <string name="opt_stale">སྐར་གྲངས་གསར་སྒྱུར་མ་ཐུབ་ན།</string>
+    <string name="opt_amb_scores">ཐད་གཏོང་སྐར་གྲངས་སྟོན།</string>
+    <string name="opt_amb_shift">བརྙན་ཡོལ་སྲུང་ཕྱིར་དུས་འཁོར་སྤོ།</string>
+    <string name="opt_amb_dim">མཚན་མོ་མོག་པོ་བཟོ།</string>
+
+    <string name="grp_cricket">ཁྲི་ཁེཊ།</string>
+    <string name="grp_football">རྐང་རྩེད།</string>
+    <string name="grp_basketball">སྒམ་རྩེད།</string>
+    <string name="grp_us">ཨ་རིའི་རྩེད་མོ།</string>
+    <string name="grp_tennis">དྲྭ་རྩེད།</string>
+    <string name="grp_motor">རླངས་འཁོར་རྒྱུག་འགྲན།</string>
+    <string name="grp_golf">གོལ་ཕ།</string>
+
+    <!-- Ambient -->
+    <string name="press_any">མཐེབ་གནོན་གང་རུང་མནོན།</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">གཙོ་ངོས་སྒྲིག་འགོད།</string>
+    <string name="step_of">གོམ་པ་ %1$d / %2$d</string>
+    <string name="back">ཕྱིར་ལོག</string>
+    <string name="next">མུ་མཐུད།</string>
+    <string name="finish">མཇུག་སྒྲིལ།</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ སྤོ། · OK འདེམས། · འདེམས་ཀ་ནས་ ▶ མནན་ན་མུ་མཐུད་དུ་སླེབ། · Back གོམ་པ་སྔ་མ།</string>
+    <string name="s1_title">སྐད་ཡིག་འདེམས།</string>
+    <string name="s1_sub">ཁྱེད་ཀྱིས་འདེམས་མ་ཐག Summit སྐད་ཡིག་བསྒྱུར།</string>
+    <string name="s2_title">བརྙན་འཕྲིན་གང་ནས་ལྟ་གི་ཡོད།</string>
+    <string name="s2_sub">གཙོ་ངོས་ཀྱི་བརྙན་འཕྲིན་ལྟ་བས་ OK ཐེངས་གཅིག་མནན་པས་འདི་ཁ་ཕྱེ།</string>
+    <string name="signal_yes">བརྡ་རྟགས་རྙེད།</string>
+    <string name="signal_no">བརྡ་རྟགས་མེད།</string>
+    <string name="recommended">འོས་སྦྱོར།</string>
+    <string name="antenna">ཨེན་ཊེ་ན། (DTV)</string>
+    <string name="s3_title">གཙོ་ངོས་སུ་སྐར་གྲངས་གང་སྟོན་དགོས།</string>
+    <string name="s3_sub">འདོད་ཚད་འདེམས། ཐད་གཏོང་འགྲན་བསྡུར་སྔོན་ལ་སྟོན།</string>
+    <string name="s_fav_title">དགའ་ཤོས་ཀྱི་མཉེན་ཆས་འདེམས།</string>
+    <string name="s_fav_sub">དེ་དག་གཙོ་ངོས་སུ་གནས་ནས་ཐེངས་གཅིག་མནན་པས་འབྱོར། འདོད་ཚད་འདེམས།</string>
+    <string name="s_wall_title">རྒྱབ་ལྗོངས་པར་ཞིག་འདེམས།</string>
+    <string name="s_wall_sub">གཙོ་ངོས་དང་བརྙན་ཡོལ་སྲུང་སྐྱོབ་ཀྱི་རྒྱབ་ཏུ་སྟོན།</string>
+    <string name="setup_preview_note">ཁྱེད་ཀྱི་གཙོ་ངོས། འདི་ཚང་མ་རྗེས་སུ་སྒྲིག་འགོད་ནང་བསྒྱུར་ཆོག</string>
+    <string name="s4_title">མདངས་ཤིག་འདེམས།</string>
+    <string name="s4_sub">རང་འགུལ་ནི་ཕྱི་དྲོ་ཆུ་ཚོད་ 6 ནས་སྔ་དྲོ་ 6 བར་ནག་པོ་དང་ཉིན་མོ་དཀར་པོ་ཡིན།</string>
+    <string name="tennis">དྲྭ་རྩེད།</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">ཉེ་ཆར་བེད་སྤྱོད་བྱས་པའི་མཉེན་ཆས་གཙོ་ངོས་སུ་སྟོན་ནམ།</string>
+    <string name="usage_body">མུ་མཐུད་ཀྱི་ཕྲེང་དུ་ཁྱེད་ཀྱིས་ཉེ་ཆར་བེད་སྤྱོད་བྱས་པའི་མཉེན་ཆས་སྟོན་ཆེད་བེད་སྤྱོད་ལག་ཁྱེར་སྤྲོད།</string>
+    <string name="allow">ཆོག</string>
+    <string name="skip">མཆོང་།</string>
+    <string name="run_setup">ཐེངས་དང་པོའི་སྒྲིག་འགོད་འཁོར་སྐྱོད།</string>
+    <string name="change_city">གྲོང་ཁྱེར་བསྒྱུར།</string>
+    <string name="kick_off">འགོ་འཛུགས། %s</string>
+    <string name="mode_input">བརྙན་འཕྲིན་ནང་འཇུག</string>
+    <string name="mode_input_sub">HDMI, AV ཡང་ན་ཨེན་ཊེ་ན།</string>
+    <string name="mode_app">མཉེན་ཆས།</string>
+    <string name="mode_app_sub">ཐད་གཏོང་བརྙན་འཕྲིན་མཉེན་ཆས།</string>
+    <string name="search_city">གྲོང་ཁྱེར་འཚོལ།</string>
+    <string name="use_current">ད་ལྟའི་གནས་ས་བེད་སྤྱོད།</string>
+    <string name="use_current_named">ད་ལྟའི་གནས་ས་བེད་སྤྱོད། (%s)</string>
+    <string name="searching">འཚོལ་བཞིན་པ།…</string>
+    <string name="no_results">གྲོང་ཁྱེར་མ་རྙེད།</string>
+    <string name="search_failed">ད་ལྟ་འཚོལ་མི་ཐུབ། དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་བརྟག་ཞིབ་གནང་།</string>
+    <string name="resume_now">མུ་མཐུད། · ད་ལྟ།</string>
+</resources>

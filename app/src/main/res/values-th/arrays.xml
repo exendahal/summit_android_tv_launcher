@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>ธีม</item><item>แบบอักษร</item><item>ภาษา</item><item>สภาพอากาศ</item>
+        <item>หน้าจอหลัก</item><item>ทีวีสด</item><item>ไอคอนและไทล์</item><item>ผลการแข่งขัน</item><item>ภาพพักหน้าจอ</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>อัตโนมัติตามเวลา</item><item>มืด</item><item>สว่าง</item></string-array>
+    <string-array name="e_theme_colour"><item>ตามวอลเปเปอร์</item><item>ปะการัง</item><item>เขียว</item><item>กำหนดเอง</item></string-array>
+    <string-array name="e_custom_colour"><item>แดง</item><item>ส้ม</item><item>เหลือง</item><item>เขียว</item><item>เขียวอมฟ้า</item><item>น้ำเงิน</item><item>คราม</item><item>ม่วง</item><item>ชมพู</item></string-array>
+    <string-array name="e_contrast"><item>มาตรฐาน</item><item>สูง</item></string-array>
+    <string-array name="e_animations"><item>เต็มรูปแบบ</item><item>ลดลง</item><item>ปิด</item></string-array>
+    <string-array name="e_wallpaper"><item>ทิวทัศน์ภูเขา</item><item>แนวสันเขา</item><item>เรียบ</item><item>อาทิตย์ตกที่เฟวา</item><item>ราตรีหิมาลัย</item><item>ทุ่งนาเตราอี</item><item>ธงมนต์</item></string-array>
+    <string-array name="e_dim"><item>ปิด</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ค่าเริ่มต้น</item><item>ใหญ่</item><item>ใหญ่พิเศษ</item></string-array>
+    <string-array name="e_off_on"><item>ปิด</item><item>เปิด</item></string-array>
+    <string-array name="e_on_off"><item>เปิด</item><item>ปิด</item></string-array>
+    <string-array name="e_labels"><item>ตลอดเวลา</item><item>เมื่อเลือก</item><item>ปิด</item></string-array>
+    <string-array name="e_show_hide"><item>แสดง</item><item>ซ่อน</item></string-array>
+    <string-array name="e_calendar"><item>ทั้งสองแบบ</item><item>วิกรมสัมวัต</item><item>สากล</item></string-array>
+    <string-array name="e_time"><item>12 ชั่วโมง</item><item>24 ชั่วโมง</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>นิ้ว</item></string-array>
+    <string-array name="e_watch_tile"><item>แรกสุดในแถว</item><item>ซ่อน</item></string-array>
+    <string-array name="e_fav_order"><item>ใช้บ่อยที่สุด</item><item>จัดเอง</item></string-array>
+    <string-array name="e_health"><item>แอมเบียนต์เท่านั้น</item><item>หน้าหลักและแอมเบียนต์</item><item>ปิด</item></string-array>
+    <string-array name="e_live_type"><item>อินพุตทีวี</item><item>แอป</item></string-array>
+    <string-array name="e_tile_size"><item>กลาง</item><item>ใหญ่</item><item>เล็ก</item></string-array>
+    <string-array name="e_tile_shape"><item>มุมโค้ง</item><item>สี่เหลี่ยม</item></string-array>
+    <string-array name="e_score_max"><item>สูงสุด 4</item><item>สูงสุด 6</item><item>สูงสุด 3</item><item>สูงสุด 2</item></string-array>
+    <string-array name="e_stale"><item>แสดง “ไม่พร้อมใช้งาน”</item><item>ซ่อนผล</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>สุขภาพคือความมั่งคั่งที่แท้จริง ขยับตัวสักนิด ยิ้มให้มากๆ</item>
+        <item>เดิน 20 นาทีวันนี้ คือของขวัญให้ตัวคุณในวันพรุ่งนี้</item>
+        <item>ดื่มน้ำสักแก้วก่อนดูตอนต่อไป</item>
+        <item>พักสายตา: ทุก 20 นาที มองไกลๆ 20 วินาที</item>
+        <item>การนอนหลับที่ดีคือแผนฝึกที่ดีที่สุด คืนนี้ปิดทีวีให้ตรงเวลา</item>
+        <item>ลุกขึ้นยืดเส้นทุกครั้งที่พัก หลังของคุณจะขอบคุณ</item>
+        <item>กินเหมือนภูเขากำลังมองอยู่: สด เรียบง่าย และตามฤดูกาล</item>
+    </string-array>
+</resources>

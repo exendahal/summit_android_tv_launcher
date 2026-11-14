@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Mandhari</item><item>Fonti</item><item>Lugha</item><item>Hali ya hewa</item>
+        <item>Skrini ya Nyumbani</item><item>TV mubashara</item><item>Aikoni &amp; vigae</item><item>Matokeo</item><item>Kiokoa skrini</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Otomatiki kulingana na saa</item><item>Giza</item><item>Angavu</item></string-array>
+    <string-array name="e_theme_colour"><item>Kutoka kwenye picha ya mandharinyuma</item><item>Matumbawe</item><item>Kijani</item><item>Maalum</item></string-array>
+    <string-array name="e_custom_colour"><item>Nyekundu</item><item>Machungwa</item><item>Njano</item><item>Kijani</item><item>Kijani-bluu</item><item>Bluu</item><item>Nili</item><item>Zambarau</item><item>Waridi</item></string-array>
+    <string-array name="e_contrast"><item>Kawaida</item><item>Juu</item></string-array>
+    <string-array name="e_animations"><item>Kamili</item><item>Zilizopunguzwa</item><item>Zimezimwa</item></string-array>
+    <string-array name="e_wallpaper"><item>Mandhari ya milima</item><item>Mstari wa matuta</item><item>Wazi</item><item>Machweo ya Phewa</item><item>Usiku wa Himalaya</item><item>Mashamba ya Terai</item><item>Bendera za maombi</item></string-array>
+    <string-array name="e_dim"><item>Imezimwa</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Chaguomsingi</item><item>Kubwa</item><item>Kubwa zaidi</item></string-array>
+    <string-array name="e_off_on"><item>Imezimwa</item><item>Imewashwa</item></string-array>
+    <string-array name="e_on_off"><item>Imewashwa</item><item>Imezimwa</item></string-array>
+    <string-array name="e_labels"><item>Kila mara</item><item>Ikichaguliwa</item><item>Imezimwa</item></string-array>
+    <string-array name="e_show_hide"><item>Onyesha</item><item>Ficha</item></string-array>
+    <string-array name="e_calendar"><item>Zote mbili</item><item>Bikram Sambat</item><item>Gregori</item></string-array>
+    <string-array name="e_time"><item>Saa 12</item><item>Saa 24</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inchi</item></string-array>
+    <string-array name="e_watch_tile"><item>Ya kwanza kwenye safu</item><item>Imefichwa</item></string-array>
+    <string-array name="e_fav_order"><item>Zinazotumika zaidi</item><item>Kwa mkono</item></string-array>
+    <string-array name="e_health"><item>Kiokoa skrini pekee</item><item>Nyumbani na kiokoa skrini</item><item>Imezimwa</item></string-array>
+    <string-array name="e_live_type"><item>Chanzo cha TV</item><item>Programu</item></string-array>
+    <string-array name="e_tile_size"><item>Wastani</item><item>Kubwa</item><item>Ndogo</item></string-array>
+    <string-array name="e_tile_shape"><item>Pembe za mviringo</item><item>Mraba</item></string-array>
+    <string-array name="e_score_max"><item>Hadi 4</item><item>Hadi 6</item><item>Hadi 3</item><item>Hadi 2</item></string-array>
+    <string-array name="e_stale"><item>Andika \"haipatikani\"</item><item>Ficha matokeo</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Afya ndiyo utajiri wako halisi. Sogea kidogo, tabasamu sana.</item>
+        <item>Matembezi ya dakika 20 leo ni zawadi kwako wa kesho.</item>
+        <item>Kunywa glasi ya maji kabla ya kipindi kijacho.</item>
+        <item>Pumzisha macho: kila baada ya dakika 20, tazama mbali kwa sekunde 20.</item>
+        <item>Usingizi mzuri ndio mpango bora wa mazoezi. Zima kwa wakati usiku wa leo.</item>
+        <item>Simama ujinyooshe kila unapopumzika. Mgongo wako utakushukuru.</item>
+        <item>Kula kana kwamba milima inakutazama: vyakula vibichi, rahisi na vya msimu.</item>
+    </string-array>
+</resources>

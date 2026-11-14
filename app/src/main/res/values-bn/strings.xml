@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit অ্যাম্বিয়েন্ট</string>
+
+    <!-- Header -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_apps">অ্যাপ</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="search">খুঁজুন</string>
+    <string name="tv_settings">Android TV সেটিংস</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">টিভি দেখুন</string>
+    <string name="continue_title">চালিয়ে যান</string>
+    <string name="favourites_title">প্রিয় · পিন করতে বা সরাতে OK চেপে ধরুন</string>
+    <string name="all_apps">সব অ্যাপ</string>
+    <string name="show_recents">সাম্প্রতিক অ্যাপ দেখান</string>
+    <string name="not_default_banner">Summit-কে আপনার হোম স্ক্রিন করুন · কীভাবে, জানতে OK চাপুন</string>
+    <string name="not_default_title">Summit-কে আপনার হোম স্ক্রিন করুন</string>
+    <string name="not_default_help">সেটিংস › অ্যাপ › ডিফল্ট অ্যাপ › হোম অ্যাপ খুলে Summit বেছে নিন। কিছু Google TV ডিভাইসে হোম অ্যাপ বদলানো যায় না; তবুও অ্যাপ তালিকা থেকে Summit চলে।</string>
+    <string name="open_settings">সেটিংস খুলুন</string>
+    <string name="dismiss">বাদ দিন</string>
+    <string name="usage_unavailable">সেটিংস › অ্যাপ › বিশেষ অ্যাপ অ্যাক্সেস › ব্যবহারের অ্যাক্সেস খুলে Summit-কে অনুমতি দিন।</string>
+    <string name="move_hint">◀ ▶ সরান · OK রাখুন · Back বাতিল</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">আবার শুরু · %d মিনিট আগে</string>
+    <string name="resume_h">আবার শুরু · %d ঘণ্টা আগে</string>
+    <string name="yesterday">গতকাল</string>
+    <string name="days_ago">%d দিন আগে</string>
+    <string name="last_week">গত সপ্তাহে</string>
+    <string name="updated_now">এইমাত্র আপডেট হয়েছে</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d মিনিট আগে আপডেট হয়েছে</item>
+        <item quantity="other">%d মিনিট আগে আপডেট হয়েছে</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">লাইভ</string>
+    <string name="ft">শেষ</string>
+    <string name="scores_unavailable">স্কোর পাওয়া যাচ্ছে না</string>
+    <string name="score_cd">%1$s. বিস্তারিত দেখতে OK চাপুন</string>
+    <string name="score_live_suffix">%1$s · লাইভ</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">আবহাওয়া পাওয়া যাচ্ছে না</string>
+    <string name="hi_lo">সর্বো %1$s সর্বনি %2$s</string>
+    <string name="hi_lo_long">সর্বোচ্চ %1$s · সর্বনিম্ন %2$s</string>
+    <string name="wind_rain">বাতাস %1$s · আজ বৃষ্টি %2$s</string>
+    <string name="weather_title">%1$s · আজ</string>
+    <string name="mountains_line">পাহাড় · নামচে বাজার %1$s, %2$s</string>
+    <string name="rain_pct">বৃষ্টি %d%%</string>
+    <string name="next_days">পরের 3 দিন</string>
+    <string name="change_units">সেটিংসে একক বদলান</string>
+    <string name="part_morning">সকাল</string>
+    <string name="part_afternoon">দুপুর</string>
+    <string name="part_evening">সন্ধ্যা</string>
+    <string name="part_night">রাত</string>
+    <string name="cond_clear">পরিষ্কার</string>
+    <string name="cond_sunny">রৌদ্রোজ্জ্বল</string>
+    <string name="cond_partly">আংশিক মেঘলা</string>
+    <string name="cond_cloudy">মেঘলা</string>
+    <string name="cond_fog">কুয়াশা</string>
+    <string name="cond_rain">বৃষ্টি</string>
+    <string name="cond_snow">তুষারপাত</string>
+    <string name="cond_thunder">বজ্রঝড়</string>
+    <string name="sum_all_day">সারাদিন %1$s</string>
+    <string name="sum_morning">সকালে %1$s</string>
+    <string name="sum_afternoon">দুপুরে %1$s</string>
+    <string name="sum_rain_from">%1$s থেকে বৃষ্টি</string>
+    <string name="sum_tonight">আজ রাতে %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">কাঠমান্ডু</string>
+    <string name="close">বন্ধ করুন</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ সরান · OK খুলুন · প্রিয়তে পিন করতে OK চেপে ধরুন · Back হোমে ফিরুন</string>
+    <string name="selected_app">নির্বাচিত: %s</string>
+    <string name="pin">প্রিয়তে পিন করুন</string>
+    <string name="unpin">প্রিয় থেকে আনপিন করুন</string>
+    <string name="move">সরান</string>
+    <string name="app_info">অ্যাপের তথ্য</string>
+    <string name="uninstall">আনইনস্টল করুন</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">এই টিভি অ্যাপ থেকে ইনপুট বদলাতে দেয় না। রিমোটের Input বোতাম ব্যবহার করুন।</string>
+    <string name="no_tv_input">কোনো টিভি ইনপুট পাওয়া যায়নি</string>
+    <string name="ask_every_time">প্রতিবার জিজ্ঞাসা করুন</string>
+    <string name="choose_live_app">একটি লাইভ টিভি অ্যাপ বেছে নিন</string>
+    <string name="voice_unavailable">এই টিভিতে ভয়েস সার্চ নেই।</string>
+    <string name="cannot_open">এই অ্যাপটি খোলা যাচ্ছে না।</string>
+
+    <!-- Settings -->
+    <string name="reset">ডিফল্টে ফেরান</string>
+    <string name="reset_title">লঞ্চারের সব সেটিংস রিসেট করবেন?</string>
+    <string name="reset_body">থিম, ওয়ালপেপার, ভাষা ও লঞ্চারের অন্যান্য সেটিংস ডিফল্টে ফিরে যাবে। আপনার অ্যাপ ও প্রিয় তালিকা যেমন আছে তেমনই থাকবে।</string>
+    <string name="cancel">বাতিল</string>
+    <string name="reset_confirm">রিসেট</string>
+    <string name="settings_hint">▲ ▼ সরান · OK খুলুন বা বেছে নিন · Back পিছনে যায়। পরিবর্তন সঙ্গে সঙ্গে কার্যকর হয়।</string>
+    <string name="leagues_header">হোমে কী দেখাবে বেছে নিন · %dটি নির্বাচিত</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">প্রিভিউ</string>
+
+    <string name="opt_mode">মোড</string>
+    <string name="opt_colour">রং</string>
+    <string name="opt_use_screensaver">স্ক্রিনসেভার হিসেবে ব্যবহার করুন</string>
+    <string name="screensaver_setup_title">একবার সেটআপ করতে হবে</string>
+    <string name="screensaver_setup_body">এই টিভি অ্যাপকে নিজে থেকে স্ক্রিনসেভার বদলাতে দেয় না। একবার কম্পিউটার যুক্ত করে চালান:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nতারপর এটি আবার চালু করুন।</string>
+    <string name="wallpaper_custom">আমার ছবি</string>
+    <string name="wallpaper_download_failed">ওয়ালপেপারটি ডাউনলোড করা যায়নি। ইন্টারনেট সংযোগ দেখুন।</string>
+    <string name="picture_allow">ছবি দেখার অনুমতি দিন</string>
+    <string name="picture_denied">সেটিংস › অ্যাপ › Summit › অনুমতি-তে ফটোর অনুমতি দিন।</string>
+    <string name="picture_none">এই টিভিতে কোনো ছবি পাওয়া যায়নি।</string>
+    <string name="picture_failed">ছবিটি খোলা যায়নি।</string>
+    <string name="picture_n">ছবি %d</string>
+    <string name="opt_custom_colour">নিজের রং</string>
+    <string name="opt_contrast">কনট্রাস্ট</string>
+    <string name="opt_animations">অ্যানিমেশন</string>
+    <string name="opt_wallpaper">ওয়ালপেপার</string>
+    <string name="opt_dim">ওয়ালপেপার ম্লান করুন</string>
+    <string name="opt_text_size">লেখার আকার</string>
+    <string name="opt_digits">দেবনাগরী সংখ্যা</string>
+    <string name="opt_language">ভাষা</string>
+    <string name="opt_calendar">ক্যালেন্ডার</string>
+    <string name="opt_time">সময়ের ফরম্যাট</string>
+    <string name="opt_temp">তাপমাত্রা</string>
+    <string name="opt_wind">বাতাসের গতি</string>
+    <string name="opt_rain">বৃষ্টিপাত</string>
+    <string name="opt_location">অবস্থান</string>
+    <string name="opt_show_home">হোমে দেখান</string>
+    <string name="opt_watch_tile">টিভি দেখুন টাইল</string>
+    <string name="opt_continue">চালিয়ে যান সারি</string>
+    <string name="opt_fav_order">প্রিয় অ্যাপের ক্রম</string>
+    <string name="opt_health">স্বাস্থ্য বার্তা</string>
+    <string name="opt_live_type">টিভি দেখুন খোলে</string>
+    <string name="opt_input">ইনপুট উৎস</string>
+    <string name="opt_live_app">অ্যাপ</string>
+    <string name="opt_boot">টিভি চালু হলে খুলুন</string>
+    <string name="opt_tile_size">টাইলের আকার</string>
+    <string name="opt_tile_shape">টাইলের গড়ন</string>
+    <string name="opt_labels">অ্যাপের নাম</string>
+    <string name="opt_score_max">হোমে দেখান</string>
+    <string name="opt_live_first">লাইভ ম্যাচ আগে</string>
+    <string name="opt_stale">স্কোর আপডেট না হলে</string>
+    <string name="opt_amb_scores">লাইভ স্কোর দেখান</string>
+    <string name="opt_amb_shift">স্ক্রিন বাঁচাতে ঘড়ি সরান</string>
+    <string name="opt_amb_dim">রাতে ম্লান করুন</string>
+
+    <string name="grp_cricket">ক্রিকেট</string>
+    <string name="grp_football">ফুটবল</string>
+    <string name="grp_basketball">বাস্কেটবল</string>
+    <string name="grp_us">মার্কিন খেলা</string>
+    <string name="grp_tennis">টেনিস</string>
+    <string name="grp_motor">মোটরস্পোর্ট</string>
+    <string name="grp_golf">গলফ</string>
+
+    <!-- Ambient -->
+    <string name="press_any">যেকোনো বোতাম চাপুন</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup -->
+    <string name="setup_title">লঞ্চার সেটআপ</string>
+    <string name="step_of">ধাপ %1$d / %2$d</string>
+    <string name="back">পিছনে</string>
+    <string name="next">এগিয়ে যান</string>
+    <string name="finish">শেষ করুন</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ সরান · OK বেছে নিন · বিকল্প থেকে ▶ চাপলে এগিয়ে যান-এ পৌঁছাবেন · Back আগের ধাপ</string>
+    <string name="s1_title">আপনার ভাষা বেছে নিন</string>
+    <string name="s1_sub">বেছে নেওয়ামাত্র Summit-এর ভাষা বদলে যায়।</string>
+    <string name="s2_title">আপনি কোথায় টিভি দেখেন?</string>
+    <string name="s2_sub">হোমের টিভি দেখুন একবার OK চাপলেই এটি খোলে।</string>
+    <string name="signal_yes">সিগন্যাল পাওয়া গেছে</string>
+    <string name="signal_no">সিগন্যাল নেই</string>
+    <string name="recommended">প্রস্তাবিত</string>
+    <string name="antenna">অ্যান্টেনা (DTV)</string>
+    <string name="s3_title">হোমে কোন স্কোর দেখাবে?</string>
+    <string name="s3_sub">যত খুশি বেছে নিন। লাইভ ম্যাচ আগে দেখায়।</string>
+    <string name="s_fav_title">আপনার প্রিয় অ্যাপ বেছে নিন</string>
+    <string name="s_fav_sub">এগুলো হোমে থাকে, এক চাপেই খোলে। যত খুশি বেছে নিন।</string>
+    <string name="s_wall_title">একটি ওয়ালপেপার বেছে নিন</string>
+    <string name="s_wall_sub">হোম ও স্ক্রিনসেভারের পেছনে দেখায়।</string>
+    <string name="setup_preview_note">আপনার হোম স্ক্রিন। এসব পরে সেটিংসে বদলাতে পারবেন।</string>
+    <string name="s4_title">একটি লুক বেছে নিন</string>
+    <string name="s4_sub">অটো সন্ধ্যা 6টা থেকে সকাল 6টা পর্যন্ত ডার্ক আর দিনে লাইট থাকে।</string>
+    <string name="tennis">টেনিস</string>
+    <string name="formula1">ফর্মুলা 1</string>
+    <string name="usage_title">সম্প্রতি ব্যবহৃত অ্যাপ হোমে দেখাবেন?</string>
+    <string name="usage_body">ব্যবহারের অ্যাক্সেস দিন, যাতে চালিয়ে যান সারিতে সম্প্রতি ব্যবহৃত অ্যাপ দেখা যায়।</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="run_setup">প্রথমবারের সেটআপ চালান</string>
+    <string name="change_city">শহর বদলান</string>
+    <string name="kick_off">কিক-অফ %s</string>
+    <string name="mode_input">টিভি ইনপুট</string>
+    <string name="mode_input_sub">HDMI, AV বা অ্যান্টেনা</string>
+    <string name="mode_app">অ্যাপ</string>
+    <string name="mode_app_sub">একটি লাইভ টিভি অ্যাপ</string>
+    <string name="search_city">শহর খুঁজুন</string>
+    <string name="use_current">বর্তমান অবস্থান ব্যবহার করুন</string>
+    <string name="use_current_named">বর্তমান অবস্থান ব্যবহার করুন (%s)</string>
+    <string name="searching">খোঁজা হচ্ছে…</string>
+    <string name="no_results">কোনো শহর পাওয়া যায়নি</string>
+    <string name="search_failed">এখন খোঁজা যাচ্ছে না। ইন্টারনেট সংযোগ দেখুন।</string>
+    <string name="resume_now">আবার শুরু · এইমাত্র</string>
+</resources>

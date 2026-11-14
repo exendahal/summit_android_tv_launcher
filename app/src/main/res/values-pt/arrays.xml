@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Fonte</item><item>Idioma</item><item>Clima</item>
+        <item>Tela inicial</item><item>TV ao vivo</item><item>Ícones e blocos</item><item>Placares</item><item>Protetor de tela</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automático pelo horário</item><item>Escuro</item><item>Claro</item></string-array>
+    <string-array name="e_theme_colour"><item>Do plano de fundo</item><item>Coral</item><item>Verde</item><item>Personalizada</item></string-array>
+    <string-array name="e_custom_colour"><item>Vermelho</item><item>Laranja</item><item>Amarelo</item><item>Verde</item><item>Verde-azulado</item><item>Azul</item><item>Índigo</item><item>Roxo</item><item>Rosa</item></string-array>
+    <string-array name="e_contrast"><item>Padrão</item><item>Alto</item></string-array>
+    <string-array name="e_animations"><item>Completas</item><item>Reduzidas</item><item>Desativadas</item></string-array>
+    <string-array name="e_wallpaper"><item>Paisagem de montanha</item><item>Linha de cumes</item><item>Liso</item><item>Pôr do sol em Phewa</item><item>Noite no Himalaia</item><item>Campos de Terai</item><item>Bandeiras de oração</item></string-array>
+    <string-array name="e_dim"><item>Desativado</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Padrão</item><item>Grande</item><item>Extragrande</item></string-array>
+    <string-array name="e_off_on"><item>Desativado</item><item>Ativado</item></string-array>
+    <string-array name="e_on_off"><item>Ativado</item><item>Desativado</item></string-array>
+    <string-array name="e_labels"><item>Sempre</item><item>Ao selecionar</item><item>Nunca</item></string-array>
+    <string-array name="e_show_hide"><item>Mostrar</item><item>Ocultar</item></string-array>
+    <string-array name="e_calendar"><item>Ambos</item><item>Bikram Sambat</item><item>Gregoriano</item></string-array>
+    <string-array name="e_time"><item>12 horas</item><item>24 horas</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>polegadas</item></string-array>
+    <string-array name="e_watch_tile"><item>Primeiro na fileira</item><item>Oculto</item></string-array>
+    <string-array name="e_fav_order"><item>Mais usados</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Só no ambiente</item><item>Início e ambiente</item><item>Desativado</item></string-array>
+    <string-array name="e_live_type"><item>Entrada de TV</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Médio</item><item>Grande</item><item>Pequeno</item></string-array>
+    <string-array name="e_tile_shape"><item>Arredondado</item><item>Quadrado</item></string-array>
+    <string-array name="e_score_max"><item>Até 4</item><item>Até 6</item><item>Até 3</item><item>Até 2</item></string-array>
+    <string-array name="e_stale"><item>Mostrar \"indisponível\"</item><item>Ocultar placares</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Saúde é a verdadeira riqueza. Mexa-se um pouco, sorria bastante.</item>
+        <item>Uma caminhada de 20 minutos hoje é um presente para o seu eu de amanhã.</item>
+        <item>Beba um copo de água antes do próximo episódio.</item>
+        <item>Descanse os olhos: a cada 20 minutos, olhe para longe por 20 segundos.</item>
+        <item>Dormir bem é o melhor plano de treino. Desligue na hora certa hoje.</item>
+        <item>Levante-se e alongue-se a cada intervalo. Suas costas agradecem.</item>
+        <item>Coma como se as montanhas estivessem olhando: fresco, simples e da estação.</item>
+    </string-array>
+</resources>

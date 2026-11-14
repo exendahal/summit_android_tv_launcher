@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Téma</item><item>Betűtípus</item><item>Nyelv</item><item>Időjárás</item>
+        <item>Kezdőlap</item><item>Élő TV</item><item>Ikonok és csempék</item><item>Eredmények</item><item>Képernyőkímélő</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automatikus, idő szerint</item><item>Sötét</item><item>Világos</item></string-array>
+    <string-array name="e_theme_colour"><item>Háttérképből</item><item>Korall</item><item>Zöld</item><item>Egyéni</item></string-array>
+    <string-array name="e_custom_colour"><item>Piros</item><item>Narancs</item><item>Sárga</item><item>Zöld</item><item>Kékeszöld</item><item>Kék</item><item>Indigó</item><item>Lila</item><item>Rózsaszín</item></string-array>
+    <string-array name="e_contrast"><item>Normál</item><item>Magas</item></string-array>
+    <string-array name="e_animations"><item>Teljes</item><item>Csökkentett</item><item>Ki</item></string-array>
+    <string-array name="e_wallpaper"><item>Hegyi táj</item><item>Gerinc</item><item>Egyszínű</item><item>Naplemente a Phewa-tónál</item><item>Himalájai éjszaka</item><item>Terai mezők</item><item>Imazászlók</item></string-array>
+    <string-array name="e_dim"><item>Ki</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Alapértelmezett</item><item>Nagy</item><item>Extra nagy</item></string-array>
+    <string-array name="e_off_on"><item>Ki</item><item>Be</item></string-array>
+    <string-array name="e_on_off"><item>Be</item><item>Ki</item></string-array>
+    <string-array name="e_labels"><item>Mindig</item><item>Kijelöléskor</item><item>Ki</item></string-array>
+    <string-array name="e_show_hide"><item>Megjelenítés</item><item>Elrejtés</item></string-array>
+    <string-array name="e_calendar"><item>Mindkettő</item><item>Bikram Sambat</item><item>Gergely-naptár</item></string-array>
+    <string-array name="e_time"><item>12 órás</item><item>24 órás</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>hüvelyk</item></string-array>
+    <string-array name="e_watch_tile"><item>Első a sorban</item><item>Rejtett</item></string-array>
+    <string-array name="e_fav_order"><item>Leggyakoribb</item><item>Kézi</item></string-array>
+    <string-array name="e_health"><item>Csak képernyőkímélő</item><item>Kezdőlap és képernyőkímélő</item><item>Ki</item></string-array>
+    <string-array name="e_live_type"><item>TV-bemenet</item><item>Alkalmazás</item></string-array>
+    <string-array name="e_tile_size"><item>Közepes</item><item>Nagy</item><item>Kicsi</item></string-array>
+    <string-array name="e_tile_shape"><item>Lekerekített</item><item>Szögletes</item></string-array>
+    <string-array name="e_score_max"><item>Legfeljebb 4</item><item>Legfeljebb 6</item><item>Legfeljebb 3</item><item>Legfeljebb 2</item></string-array>
+    <string-array name="e_stale"><item>„Nem elérhető” kiírása</item><item>Eredmények elrejtése</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Az egészség az igazi gazdagság. Mozogjon egy kicsit, mosolyogjon sokat.</item>
+        <item>Egy 20 perces séta ma ajándék a holnapi önmagának.</item>
+        <item>Igyon meg egy pohár vizet a következő rész előtt.</item>
+        <item>Pihentesse a szemét: 20 percenként nézzen a távolba 20 másodpercig.</item>
+        <item>A jó alvás a legjobb edzésterv. Ma időben kapcsolja ki.</item>
+        <item>Minden szünetben álljon fel és nyújtózzon. A háta hálás lesz.</item>
+        <item>Egyen úgy, mintha a hegyek figyelnék: frissen, egyszerűen, szezonálisan.</item>
+    </string-array>
+</resources>

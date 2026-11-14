@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Typsnitt</item><item>Språk</item><item>Väder</item>
+        <item>Startskärm</item><item>Live-tv</item><item>Ikoner &amp; rutor</item><item>Resultat</item><item>Skärmsläckare</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto efter tid</item><item>Mörkt</item><item>Ljust</item></string-array>
+    <string-array name="e_theme_colour"><item>Från bakgrund</item><item>Korall</item><item>Grön</item><item>Egen</item></string-array>
+    <string-array name="e_custom_colour"><item>Röd</item><item>Orange</item><item>Gul</item><item>Grön</item><item>Blågrön</item><item>Blå</item><item>Indigo</item><item>Lila</item><item>Rosa</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Hög</item></string-array>
+    <string-array name="e_animations"><item>Fulla</item><item>Minskade</item><item>Av</item></string-array>
+    <string-array name="e_wallpaper"><item>Bergslandskap</item><item>Bergskam</item><item>Enfärgad</item><item>Solnedgång vid Phewa</item><item>Himalaya om natten</item><item>Teraifält</item><item>Böneflaggor</item></string-array>
+    <string-array name="e_dim"><item>Av</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Standard</item><item>Stor</item><item>Extra stor</item></string-array>
+    <string-array name="e_off_on"><item>Av</item><item>På</item></string-array>
+    <string-array name="e_on_off"><item>På</item><item>Av</item></string-array>
+    <string-array name="e_labels"><item>Alltid</item><item>När vald</item><item>Av</item></string-array>
+    <string-array name="e_show_hide"><item>Visa</item><item>Dölj</item></string-array>
+    <string-array name="e_calendar"><item>Båda</item><item>Bikram Sambat</item><item>Gregoriansk</item></string-array>
+    <string-array name="e_time"><item>12-timmars</item><item>24-timmars</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>tum</item></string-array>
+    <string-array name="e_watch_tile"><item>Först i raden</item><item>Dold</item></string-array>
+    <string-array name="e_fav_order"><item>Mest använda</item><item>Manuell</item></string-array>
+    <string-array name="e_health"><item>Endast ambient</item><item>Hem och ambient</item><item>Av</item></string-array>
+    <string-array name="e_live_type"><item>Tv-ingång</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Mellan</item><item>Stor</item><item>Liten</item></string-array>
+    <string-array name="e_tile_shape"><item>Rundad</item><item>Fyrkantig</item></string-array>
+    <string-array name="e_score_max"><item>Upp till 4</item><item>Upp till 6</item><item>Upp till 3</item><item>Upp till 2</item></string-array>
+    <string-array name="e_stale"><item>Visa \"ej tillgängligt\"</item><item>Dölj resultat</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Hälsan är din verkliga rikedom. Rör dig lite, le mycket.</item>
+        <item>En promenad på 20 minuter i dag är en gåva till dig själv i morgon.</item>
+        <item>Drick ett glas vatten före nästa avsnitt.</item>
+        <item>Vila ögonen: var 20:e minut, titta långt bort i 20 sekunder.</item>
+        <item>God sömn är den bästa träningsplanen. Stäng av i tid i kväll.</item>
+        <item>Res dig och sträck på dig i varje paus. Ryggen kommer att tacka dig.</item>
+        <item>Ät som om bergen tittade på: färskt, enkelt och säsongsbetonat.</item>
+    </string-array>
+</resources>

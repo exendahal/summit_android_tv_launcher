@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit แอมเบียนต์</string>
+
+    <!-- Header -->
+    <string name="nav_home">หน้าหลัก</string>
+    <string name="nav_apps">แอป</string>
+    <string name="nav_settings">การตั้งค่า</string>
+    <string name="search">ค้นหา</string>
+    <string name="tv_settings">การตั้งค่า Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">ดูทีวี</string>
+    <string name="continue_title">ดูต่อ</string>
+    <string name="favourites_title">รายการโปรด · กด OK ค้างไว้เพื่อปักหมุดหรือย้าย</string>
+    <string name="all_apps">แอปทั้งหมด</string>
+    <string name="show_recents">แสดงแอปที่ใช้ล่าสุด</string>
+    <string name="not_default_banner">ตั้ง Summit เป็นหน้าจอหลัก · กด OK เพื่อดูวิธี</string>
+    <string name="not_default_title">ตั้ง Summit เป็นหน้าจอหลัก</string>
+    <string name="not_default_help">เปิด การตั้งค่า › แอป › แอปเริ่มต้น › แอปหน้าแรก แล้วเลือก Summit อุปกรณ์ Google TV บางรุ่นไม่อนุญาตให้เปลี่ยนแอปหน้าแรก แต่ยังเปิด Summit จากรายการแอปได้</string>
+    <string name="open_settings">เปิดการตั้งค่า</string>
+    <string name="dismiss">ปิด</string>
+    <string name="usage_unavailable">เปิด การตั้งค่า › แอป › สิทธิ์เข้าถึงพิเศษของแอป › สิทธิ์เข้าถึงการใช้งาน แล้วอนุญาต Summit</string>
+    <string name="move_hint">◀ ▶ ย้าย · OK วาง · Back ยกเลิก</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">ดูต่อ · %d นาทีที่แล้ว</string>
+    <string name="resume_h">ดูต่อ · %d ชม. ที่แล้ว</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <string name="days_ago">%d วันที่แล้ว</string>
+    <string name="last_week">สัปดาห์ที่แล้ว</string>
+    <string name="updated_now">อัปเดตเมื่อสักครู่</string>
+    <plurals name="updated_ago">
+        <item quantity="other">อัปเดตเมื่อ %d นาทีที่แล้ว</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">สด</string>
+    <string name="ft">จบเกม</string>
+    <string name="scores_unavailable">ไม่มีข้อมูลผลการแข่งขัน</string>
+    <string name="score_cd">%1$s กด OK เพื่อดูรายละเอียด</string>
+    <string name="score_live_suffix">%1$s · สด</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">ไม่มีข้อมูลสภาพอากาศ</string>
+    <string name="hi_lo">สูง %1$s ต่ำ %2$s</string>
+    <string name="hi_lo_long">สูงสุด %1$s · ต่ำสุด %2$s</string>
+    <string name="wind_rain">ลม %1$s · ฝนวันนี้ %2$s</string>
+    <string name="weather_title">%1$s · วันนี้</string>
+    <string name="mountains_line">ภูเขา · นัมเชบาซาร์ %1$s, %2$s</string>
+    <string name="rain_pct">ฝน %d%%</string>
+    <string name="next_days">3 วันข้างหน้า</string>
+    <string name="change_units">เปลี่ยนหน่วยได้ในการตั้งค่า</string>
+    <string name="part_morning">เช้า</string>
+    <string name="part_afternoon">บ่าย</string>
+    <string name="part_evening">เย็น</string>
+    <string name="part_night">กลางคืน</string>
+    <string name="cond_clear">ท้องฟ้าแจ่มใส</string>
+    <string name="cond_sunny">แดดจัด</string>
+    <string name="cond_partly">มีเมฆบางส่วน</string>
+    <string name="cond_cloudy">มีเมฆมาก</string>
+    <string name="cond_fog">มีหมอก</string>
+    <string name="cond_rain">ฝนตก</string>
+    <string name="cond_snow">หิมะตกเป็นช่วงๆ</string>
+    <string name="cond_thunder">พายุฝนฟ้าคะนอง</string>
+    <string name="sum_all_day">%1$sทั้งวัน</string>
+    <string name="sum_morning">ช่วงเช้า%1$s</string>
+    <string name="sum_afternoon">ช่วงบ่าย%1$s</string>
+    <string name="sum_rain_from">ฝนตกตั้งแต่ %1$s</string>
+    <string name="sum_tonight">คืนนี้%1$s</string>
+    <string name="sum_sep">" "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s นิ้ว</string>
+    <string name="loc_kathmandu">กาฐมาณฑุ</string>
+    <string name="close">ปิด</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ ย้าย · OK เปิด · กด OK ค้างไว้เพื่อปักหมุดในรายการโปรด · Back กลับหน้าหลัก</string>
+    <string name="selected_app">เลือกแล้ว: %s</string>
+    <string name="pin">ปักหมุดในรายการโปรด</string>
+    <string name="unpin">เลิกปักหมุดจากรายการโปรด</string>
+    <string name="move">ย้าย</string>
+    <string name="app_info">ข้อมูลแอป</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">ทีวีเครื่องนี้ไม่อนุญาตให้แอปสลับอินพุต โปรดใช้ปุ่ม Input บนรีโมต</string>
+    <string name="no_tv_input">ไม่พบอินพุตทีวี</string>
+    <string name="ask_every_time">ถามทุกครั้ง</string>
+    <string name="choose_live_app">เลือกแอปดูทีวีสด</string>
+    <string name="voice_unavailable">ทีวีเครื่องนี้ไม่รองรับการค้นหาด้วยเสียง</string>
+    <string name="cannot_open">เปิดแอปนี้ไม่ได้</string>
+
+    <!-- Settings -->
+    <string name="reset">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="reset_title">รีเซ็ตการตั้งค่า Launcher ทั้งหมดไหม</string>
+    <string name="reset_body">ธีม วอลเปเปอร์ ภาษา และการตั้งค่า Launcher อื่นๆ จะกลับเป็นค่าเริ่มต้น แอปและรายการโปรดของคุณจะยังอยู่เหมือนเดิม</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="reset_confirm">รีเซ็ต</string>
+    <string name="settings_hint">▲ ▼ ย้าย · OK เปิดหรือเลือก · Back ย้อนกลับ การเปลี่ยนแปลงมีผลทันที</string>
+    <string name="leagues_header">เลือกสิ่งที่จะแสดงบนหน้าหลัก · เลือกแล้ว %d รายการ</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">ตัวอย่าง</string>
+
+    <string name="opt_mode">โหมด</string>
+    <string name="opt_colour">สี</string>
+    <string name="opt_use_screensaver">ใช้เป็นภาพพักหน้าจอ</string>
+    <string name="screensaver_setup_title">ต้องตั้งค่าครั้งเดียว</string>
+    <string name="screensaver_setup_body">ทีวีเครื่องนี้ไม่อนุญาตให้แอปเปลี่ยนภาพพักหน้าจอเอง เชื่อมต่อคอมพิวเตอร์หนึ่งครั้งแล้วเรียกใช้:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nจากนั้นเปิดตัวเลือกนี้อีกครั้ง</string>
+    <string name="wallpaper_custom">รูปของฉัน</string>
+    <string name="wallpaper_download_failed">ดาวน์โหลดวอลเปเปอร์นั้นไม่ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="picture_allow">อนุญาตให้เข้าถึงรูปภาพ</string>
+    <string name="picture_denied">อนุญาตการเข้าถึงรูปภาพใน การตั้งค่า › แอป › Summit › สิทธิ์</string>
+    <string name="picture_none">ไม่พบรูปภาพในทีวีเครื่องนี้</string>
+    <string name="picture_failed">เปิดรูปภาพนั้นไม่ได้</string>
+    <string name="picture_n">รูปภาพ %d</string>
+    <string name="opt_custom_colour">สีที่กำหนดเอง</string>
+    <string name="opt_contrast">คอนทราสต์</string>
+    <string name="opt_animations">ภาพเคลื่อนไหว</string>
+    <string name="opt_wallpaper">วอลเปเปอร์</string>
+    <string name="opt_dim">หรี่วอลเปเปอร์</string>
+    <string name="opt_text_size">ขนาดข้อความ</string>
+    <string name="opt_digits">ตัวเลขเทวนาครี</string>
+    <string name="opt_language">ภาษา</string>
+    <string name="opt_calendar">ปฏิทิน</string>
+    <string name="opt_time">รูปแบบเวลา</string>
+    <string name="opt_temp">อุณหภูมิ</string>
+    <string name="opt_wind">ความเร็วลม</string>
+    <string name="opt_rain">ปริมาณฝน</string>
+    <string name="opt_location">ตำแหน่ง</string>
+    <string name="opt_show_home">แสดงบนหน้าหลัก</string>
+    <string name="opt_watch_tile">ไทล์ดูทีวี</string>
+    <string name="opt_continue">แถวดูต่อ</string>
+    <string name="opt_fav_order">ลำดับรายการโปรด</string>
+    <string name="opt_health">ข้อความสุขภาพ</string>
+    <string name="opt_live_type">ดูทีวีผ่าน</string>
+    <string name="opt_input">แหล่งอินพุต</string>
+    <string name="opt_live_app">แอป</string>
+    <string name="opt_boot">เปิดเมื่อเปิดทีวี</string>
+    <string name="opt_tile_size">ขนาดไทล์</string>
+    <string name="opt_tile_shape">รูปทรงไทล์</string>
+    <string name="opt_labels">ชื่อแอป</string>
+    <string name="opt_score_max">แสดงบนหน้าหลัก</string>
+    <string name="opt_live_first">แสดงแมตช์สดก่อน</string>
+    <string name="opt_stale">หากอัปเดตผลไม่ได้</string>
+    <string name="opt_amb_scores">แสดงผลสด</string>
+    <string name="opt_amb_shift">ขยับนาฬิกาเพื่อถนอมหน้าจอ</string>
+    <string name="opt_amb_dim">หรี่ตอนกลางคืน</string>
+
+    <string name="grp_cricket">คริกเก็ต</string>
+    <string name="grp_football">ฟุตบอล</string>
+    <string name="grp_basketball">บาสเกตบอล</string>
+    <string name="grp_us">กีฬาอเมริกัน</string>
+    <string name="grp_tennis">เทนนิส</string>
+    <string name="grp_motor">มอเตอร์สปอร์ต</string>
+    <string name="grp_golf">กอล์ฟ</string>
+
+    <!-- Ambient -->
+    <string name="press_any">กดปุ่มใดก็ได้</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">ตั้งค่า Launcher</string>
+    <string name="step_of">ขั้นตอนที่ %1$d จาก %2$d</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="next">ดำเนินการต่อ</string>
+    <string name="finish">เสร็จสิ้น</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ ย้าย · OK เลือก · กด ▶ จากตัวเลือกเพื่อไปที่ ดำเนินการต่อ · Back ขั้นตอนก่อนหน้า</string>
+    <string name="s1_title">เลือกภาษา</string>
+    <string name="s1_sub">Summit จะเปลี่ยนภาษาทันทีที่คุณเลือก</string>
+    <string name="s2_title">คุณดูทีวีผ่านช่องทางใด</string>
+    <string name="s2_sub">ดูทีวีบนหน้าหลักจะเปิดช่องทางนี้ด้วยการกด OK ครั้งเดียว</string>
+    <string name="signal_yes">ตรวจพบสัญญาณ</string>
+    <string name="signal_no">ไม่มีสัญญาณ</string>
+    <string name="recommended">แนะนำ</string>
+    <string name="antenna">เสาอากาศ (DTV)</string>
+    <string name="s3_title">หน้าหลักควรแสดงผลการแข่งขันใด</string>
+    <string name="s3_sub">เลือกได้มากเท่าที่ต้องการ แมตช์สดจะแสดงก่อน</string>
+    <string name="s_fav_title">เลือกแอปโปรดของคุณ</string>
+    <string name="s_fav_sub">แอปจะอยู่บนหน้าหลัก กดครั้งเดียวก็เปิดได้ เลือกได้มากเท่าที่ต้องการ</string>
+    <string name="s_wall_title">เลือกวอลเปเปอร์</string>
+    <string name="s_wall_sub">แสดงอยู่ด้านหลังหน้าหลักและภาพพักหน้าจอ</string>
+    <string name="setup_preview_note">นี่คือหน้าหลักของคุณ คุณเปลี่ยนทั้งหมดนี้ได้ภายหลังในการตั้งค่า</string>
+    <string name="s4_title">เลือกรูปลักษณ์</string>
+    <string name="s4_sub">อัตโนมัติจะเป็นโหมดมืดตั้งแต่ 18:00 ถึง 06:00 และโหมดสว่างในตอนกลางวัน</string>
+    <string name="tennis">เทนนิส</string>
+    <string name="formula1">ฟอร์มูลาวัน</string>
+    <string name="usage_title">แสดงแอปที่ใช้ล่าสุดบนหน้าหลักไหม</string>
+    <string name="usage_body">อนุญาตสิทธิ์เข้าถึงการใช้งาน เพื่อให้แถวดูต่อแสดงแอปที่คุณใช้ล่าสุด</string>
+    <string name="allow">อนุญาต</string>
+    <string name="skip">ข้าม</string>
+    <string name="run_setup">เรียกใช้การตั้งค่าครั้งแรก</string>
+    <string name="change_city">เปลี่ยนเมือง</string>
+    <string name="kick_off">เริ่มแข่ง %s</string>
+    <string name="mode_input">อินพุตทีวี</string>
+    <string name="mode_input_sub">HDMI, AV หรือเสาอากาศ</string>
+    <string name="mode_app">แอป</string>
+    <string name="mode_app_sub">แอปดูทีวีสด</string>
+    <string name="search_city">ค้นหาเมือง</string>
+    <string name="use_current">ใช้ตำแหน่งปัจจุบัน</string>
+    <string name="use_current_named">ใช้ตำแหน่งปัจจุบัน (%s)</string>
+    <string name="searching">กำลังค้นหา…</string>
+    <string name="no_results">ไม่พบเมือง</string>
+    <string name="search_failed">ค้นหาไม่ได้ในขณะนี้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="resume_now">ดูต่อ · เมื่อสักครู่</string>
+</resources>

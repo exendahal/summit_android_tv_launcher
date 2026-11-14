@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Motiv</item><item>Písmo</item><item>Jazyk</item><item>Počasí</item>
+        <item>Domovská obrazovka</item><item>Živé vysílání</item><item>Ikony a dlaždice</item><item>Výsledky</item><item>Spořič obrazovky</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automaticky podle času</item><item>Tmavý</item><item>Světlý</item></string-array>
+    <string-array name="e_theme_colour"><item>Z tapety</item><item>Korálová</item><item>Zelená</item><item>Vlastní</item></string-array>
+    <string-array name="e_custom_colour"><item>Červená</item><item>Oranžová</item><item>Žlutá</item><item>Zelená</item><item>Modrozelená</item><item>Modrá</item><item>Indigová</item><item>Fialová</item><item>Růžová</item></string-array>
+    <string-array name="e_contrast"><item>Standardní</item><item>Vysoký</item></string-array>
+    <string-array name="e_animations"><item>Plné</item><item>Omezené</item><item>Vypnuto</item></string-array>
+    <string-array name="e_wallpaper"><item>Horská krajina</item><item>Hřeben</item><item>Jednobarevná</item><item>Západ slunce nad Phewou</item><item>Himálajská noc</item><item>Pole Tarají</item><item>Modlitební praporky</item></string-array>
+    <string-array name="e_dim"><item>Vypnuto</item><item>30 %</item><item>60 %</item></string-array>
+    <string-array name="e_text_size"><item>Výchozí</item><item>Velký</item><item>Extra velký</item></string-array>
+    <string-array name="e_off_on"><item>Vypnuto</item><item>Zapnuto</item></string-array>
+    <string-array name="e_on_off"><item>Zapnuto</item><item>Vypnuto</item></string-array>
+    <string-array name="e_labels"><item>Vždy</item><item>Při výběru</item><item>Vypnuto</item></string-array>
+    <string-array name="e_show_hide"><item>Zobrazit</item><item>Skrýt</item></string-array>
+    <string-array name="e_calendar"><item>Oba</item><item>Bikram Sambat</item><item>Gregoriánský</item></string-array>
+    <string-array name="e_time"><item>12hodinový</item><item>24hodinový</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>palce</item></string-array>
+    <string-array name="e_watch_tile"><item>První v řadě</item><item>Skrytá</item></string-array>
+    <string-array name="e_fav_order"><item>Nejpoužívanější</item><item>Ručně</item></string-array>
+    <string-array name="e_health"><item>Jen na spořiči</item><item>Domů i na spořiči</item><item>Vypnuto</item></string-array>
+    <string-array name="e_live_type"><item>TV vstup</item><item>Aplikace</item></string-array>
+    <string-array name="e_tile_size"><item>Střední</item><item>Velké</item><item>Malé</item></string-array>
+    <string-array name="e_tile_shape"><item>Zaoblené</item><item>Čtvercové</item></string-array>
+    <string-array name="e_score_max"><item>Až 4</item><item>Až 6</item><item>Až 3</item><item>Až 2</item></string-array>
+    <string-array name="e_stale"><item>Napsat „nedostupné“</item><item>Skrýt výsledky</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Zdraví je skutečné bohatství. Trochu se hýbejte a hodně se usmívejte.</item>
+        <item>Dvacetiminutová procházka dnes je dárek pro vaše zítřejší já.</item>
+        <item>Před další epizodou vypijte sklenici vody.</item>
+        <item>Dopřejte očím odpočinek: každých 20 minut se na 20 sekund podívejte do dálky.</item>
+        <item>Dobrý spánek je nejlepší tréninkový plán. Dnes večer vypněte včas.</item>
+        <item>O každé přestávce se postavte a protáhněte. Záda vám poděkují.</item>
+        <item>Jezte, jako by se na vás dívaly hory: čerstvě, jednoduše a sezónně.</item>
+    </string-array>
+</resources>

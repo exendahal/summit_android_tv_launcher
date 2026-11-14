@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Design</item><item>Schrift</item><item>Sprache</item><item>Wetter</item>
+        <item>Startbildschirm</item><item>Live-TV</item><item>Symbole &amp; Kacheln</item><item>Ergebnisse</item><item>Bildschirmschoner</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automatisch nach Uhrzeit</item><item>Dunkel</item><item>Hell</item></string-array>
+    <string-array name="e_theme_colour"><item>Vom Hintergrund</item><item>Koralle</item><item>Grün</item><item>Eigene</item></string-array>
+    <string-array name="e_custom_colour"><item>Rot</item><item>Orange</item><item>Gelb</item><item>Grün</item><item>Petrol</item><item>Blau</item><item>Indigo</item><item>Lila</item><item>Pink</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Hoch</item></string-array>
+    <string-array name="e_animations"><item>Voll</item><item>Reduziert</item><item>Aus</item></string-array>
+    <string-array name="e_wallpaper"><item>Berglandschaft</item><item>Bergkamm</item><item>Schlicht</item><item>Sonnenuntergang am Phewa</item><item>Himalaya bei Nacht</item><item>Felder im Terai</item><item>Gebetsfahnen</item></string-array>
+    <string-array name="e_dim"><item>Aus</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Standard</item><item>Groß</item><item>Sehr groß</item></string-array>
+    <string-array name="e_off_on"><item>Aus</item><item>An</item></string-array>
+    <string-array name="e_on_off"><item>An</item><item>Aus</item></string-array>
+    <string-array name="e_labels"><item>Immer</item><item>Bei Auswahl</item><item>Aus</item></string-array>
+    <string-array name="e_show_hide"><item>Anzeigen</item><item>Ausblenden</item></string-array>
+    <string-array name="e_calendar"><item>Beide</item><item>Bikram Sambat</item><item>Gregorianisch</item></string-array>
+    <string-array name="e_time"><item>12 Stunden</item><item>24 Stunden</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>Zoll</item></string-array>
+    <string-array name="e_watch_tile"><item>Zuerst in der Reihe</item><item>Ausgeblendet</item></string-array>
+    <string-array name="e_fav_order"><item>Meistgenutzt</item><item>Manuell</item></string-array>
+    <string-array name="e_health"><item>Nur Ambient</item><item>Start und Ambient</item><item>Aus</item></string-array>
+    <string-array name="e_live_type"><item>TV-Eingang</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Mittel</item><item>Groß</item><item>Klein</item></string-array>
+    <string-array name="e_tile_shape"><item>Abgerundet</item><item>Eckig</item></string-array>
+    <string-array name="e_score_max"><item>Bis zu 4</item><item>Bis zu 6</item><item>Bis zu 3</item><item>Bis zu 2</item></string-array>
+    <string-array name="e_stale"><item>\"Nicht verfügbar\" anzeigen</item><item>Ergebnisse ausblenden</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Gesundheit ist der wahre Reichtum. Beweg dich ein bisschen, lächle viel.</item>
+        <item>Ein 20-minütiger Spaziergang heute ist ein Geschenk an dich von morgen.</item>
+        <item>Trink ein Glas Wasser vor der nächsten Folge.</item>
+        <item>Gönn deinen Augen Ruhe: Schau alle 20 Minuten 20 Sekunden lang in die Ferne.</item>
+        <item>Guter Schlaf ist der beste Trainingsplan. Schalte heute rechtzeitig ab.</item>
+        <item>Steh in jeder Pause auf und streck dich. Dein Rücken wird es dir danken.</item>
+        <item>Iss, als würden die Berge zusehen: frisch, einfach und saisonal.</item>
+    </string-array>
+</resources>

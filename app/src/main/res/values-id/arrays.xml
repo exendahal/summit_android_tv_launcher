@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Font</item><item>Bahasa</item><item>Cuaca</item>
+        <item>Layar Beranda</item><item>TV Langsung</item><item>Ikon &amp; ubin</item><item>Skor</item><item>Screensaver</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Otomatis menurut waktu</item><item>Gelap</item><item>Terang</item></string-array>
+    <string-array name="e_theme_colour"><item>Dari wallpaper</item><item>Koral</item><item>Hijau</item><item>Kustom</item></string-array>
+    <string-array name="e_custom_colour"><item>Merah</item><item>Oranye</item><item>Kuning</item><item>Hijau</item><item>Hijau toska</item><item>Biru</item><item>Nila</item><item>Ungu</item><item>Merah muda</item></string-array>
+    <string-array name="e_contrast"><item>Standar</item><item>Tinggi</item></string-array>
+    <string-array name="e_animations"><item>Penuh</item><item>Dikurangi</item><item>Nonaktif</item></string-array>
+    <string-array name="e_wallpaper"><item>Pemandangan gunung</item><item>Garis punggung bukit</item><item>Polos</item><item>Senja di Phewa</item><item>Malam Himalaya</item><item>Ladang Terai</item><item>Bendera doa</item></string-array>
+    <string-array name="e_dim"><item>Nonaktif</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Default</item><item>Besar</item><item>Sangat besar</item></string-array>
+    <string-array name="e_off_on"><item>Nonaktif</item><item>Aktif</item></string-array>
+    <string-array name="e_on_off"><item>Aktif</item><item>Nonaktif</item></string-array>
+    <string-array name="e_labels"><item>Selalu</item><item>Saat dipilih</item><item>Nonaktif</item></string-array>
+    <string-array name="e_show_hide"><item>Tampilkan</item><item>Sembunyikan</item></string-array>
+    <string-array name="e_calendar"><item>Keduanya</item><item>Bikram Sambat</item><item>Masehi</item></string-array>
+    <string-array name="e_time"><item>12 jam</item><item>24 jam</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inci</item></string-array>
+    <string-array name="e_watch_tile"><item>Pertama di baris</item><item>Disembunyikan</item></string-array>
+    <string-array name="e_fav_order"><item>Paling sering dipakai</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Hanya screensaver</item><item>Beranda dan screensaver</item><item>Nonaktif</item></string-array>
+    <string-array name="e_live_type"><item>Input TV</item><item>Aplikasi</item></string-array>
+    <string-array name="e_tile_size"><item>Sedang</item><item>Besar</item><item>Kecil</item></string-array>
+    <string-array name="e_tile_shape"><item>Membulat</item><item>Persegi</item></string-array>
+    <string-array name="e_score_max"><item>Hingga 4</item><item>Hingga 6</item><item>Hingga 3</item><item>Hingga 2</item></string-array>
+    <string-array name="e_stale"><item>Tulis \"tidak tersedia\"</item><item>Sembunyikan skor</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Kesehatan adalah kekayaan sejati. Bergeraklah sedikit, tersenyumlah banyak.</item>
+        <item>Jalan kaki 20 menit hari ini adalah hadiah untuk diri Anda esok hari.</item>
+        <item>Minum segelas air sebelum episode berikutnya.</item>
+        <item>Istirahatkan mata: setiap 20 menit, pandang jauh selama 20 detik.</item>
+        <item>Tidur nyenyak adalah program latihan terbaik. Matikan TV tepat waktu malam ini.</item>
+        <item>Berdiri dan lakukan peregangan di setiap jeda. Punggung Anda akan berterima kasih.</item>
+        <item>Makanlah seolah bukit sedang mengawasi: segar, sederhana, dan sesuai musim.</item>
+    </string-array>
+</resources>

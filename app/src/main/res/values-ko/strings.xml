@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit 앰비언트</string>
+
+    <!-- Header -->
+    <string name="nav_home">홈</string>
+    <string name="nav_apps">앱</string>
+    <string name="nav_settings">설정</string>
+    <string name="search">검색</string>
+    <string name="tv_settings">Android TV 설정</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">TV 보기</string>
+    <string name="continue_title">이어 보기</string>
+    <string name="favourites_title">즐겨찾기 · OK를 길게 눌러 고정 또는 이동</string>
+    <string name="all_apps">모든 앱</string>
+    <string name="show_recents">최근 사용한 앱 표시</string>
+    <string name="not_default_banner">Summit을 홈 화면으로 설정 · OK를 눌러 방법 보기</string>
+    <string name="not_default_title">Summit을 홈 화면으로 설정</string>
+    <string name="not_default_help">설정 › 앱 › 기본 앱 › 홈 앱을 열고 Summit을 선택하세요. 일부 Google TV 기기에서는 홈 앱을 변경할 수 없지만, 앱 목록에서 Summit을 계속 사용할 수 있습니다.</string>
+    <string name="open_settings">설정 열기</string>
+    <string name="dismiss">닫기</string>
+    <string name="usage_unavailable">설정 › 앱 › 특별한 앱 액세스 › 사용 기록 액세스를 열고 Summit을 허용하세요.</string>
+    <string name="move_hint">◀ ▶ 이동 · OK 놓기 · Back 취소</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">이어 보기 · %d분 전</string>
+    <string name="resume_h">이어 보기 · %d시간 전</string>
+    <string name="yesterday">어제</string>
+    <string name="days_ago">%d일 전</string>
+    <string name="last_week">지난주</string>
+    <string name="updated_now">방금 업데이트됨</string>
+    <plurals name="updated_ago">
+        <item quantity="other">%d분 전 업데이트됨</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LIVE</string>
+    <string name="ft">종료</string>
+    <string name="scores_unavailable">점수를 불러올 수 없음</string>
+    <string name="score_cd">%1$s. OK를 눌러 자세히 보기</string>
+    <string name="score_live_suffix">%1$s · LIVE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">날씨 정보를 불러올 수 없음</string>
+    <string name="hi_lo">최고 %1$s 최저 %2$s</string>
+    <string name="hi_lo_long">최고 %1$s · 최저 %2$s</string>
+    <string name="wind_rain">바람 %1$s · 오늘 강수 %2$s</string>
+    <string name="weather_title">%1$s · 오늘</string>
+    <string name="mountains_line">산악 지역 · 남체 바자르 %1$s, %2$s</string>
+    <string name="rain_pct">비 %d%%</string>
+    <string name="next_days">향후 3일</string>
+    <string name="change_units">단위는 설정에서 변경하세요</string>
+    <string name="part_morning">아침</string>
+    <string name="part_afternoon">오후</string>
+    <string name="part_evening">저녁</string>
+    <string name="part_night">밤</string>
+    <string name="cond_clear">맑음</string>
+    <string name="cond_sunny">화창함</string>
+    <string name="cond_partly">구름 조금</string>
+    <string name="cond_cloudy">흐림</string>
+    <string name="cond_fog">안개</string>
+    <string name="cond_rain">비</string>
+    <string name="cond_snow">소낙눈</string>
+    <string name="cond_thunder">뇌우</string>
+    <string name="sum_all_day">하루 종일 %1$s</string>
+    <string name="sum_morning">아침에 %1$s</string>
+    <string name="sum_afternoon">오후에 %1$s</string>
+    <string name="sum_rain_from">%1$s부터 비</string>
+    <string name="sum_tonight">오늘 밤 %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s인치</string>
+    <string name="loc_kathmandu">카트만두</string>
+    <string name="close">닫기</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ 이동 · OK 열기 · OK를 길게 눌러 즐겨찾기에 고정 · Back 홈으로</string>
+    <string name="selected_app">선택됨: %s</string>
+    <string name="pin">즐겨찾기에 고정</string>
+    <string name="unpin">즐겨찾기에서 고정 해제</string>
+    <string name="move">이동</string>
+    <string name="app_info">앱 정보</string>
+    <string name="uninstall">제거</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">이 TV에서는 앱에서 입력을 전환할 수 없습니다. 리모컨의 입력 버튼을 사용하세요.</string>
+    <string name="no_tv_input">TV 입력을 찾을 수 없음</string>
+    <string name="ask_every_time">매번 묻기</string>
+    <string name="choose_live_app">실시간 TV 앱 선택</string>
+    <string name="voice_unavailable">이 TV에서는 음성 검색을 사용할 수 없습니다.</string>
+    <string name="cannot_open">이 앱을 열 수 없습니다.</string>
+
+    <!-- Settings -->
+    <string name="reset">기본값으로 재설정</string>
+    <string name="reset_title">모든 런처 설정을 재설정할까요?</string>
+    <string name="reset_body">테마, 배경화면, 언어 및 기타 런처 설정이 기본값으로 돌아갑니다. 앱과 즐겨찾기는 그대로 유지됩니다.</string>
+    <string name="cancel">취소</string>
+    <string name="reset_confirm">재설정</string>
+    <string name="settings_hint">▲ ▼ 이동 · OK 열기 또는 선택 · Back 뒤로. 변경 사항은 즉시 적용됩니다.</string>
+    <string name="leagues_header">홈에 표시할 항목 선택 · %d개 선택됨</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">미리보기</string>
+
+    <string name="opt_mode">모드</string>
+    <string name="opt_colour">색상</string>
+    <string name="opt_use_screensaver">화면 보호기로 사용</string>
+    <string name="screensaver_setup_title">최초 1회 설정 필요</string>
+    <string name="screensaver_setup_body">이 TV에서는 앱이 직접 화면 보호기를 변경할 수 없습니다. 컴퓨터를 한 번 연결하고 다음을 실행하세요.\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\n그런 다음 이 옵션을 다시 켜세요.</string>
+    <string name="wallpaper_custom">내 사진</string>
+    <string name="wallpaper_download_failed">배경화면을 다운로드할 수 없습니다. 인터넷 연결을 확인하세요.</string>
+    <string name="picture_allow">사진 액세스 허용</string>
+    <string name="picture_denied">설정 › 앱 › Summit › 권한에서 사진 액세스를 허용하세요.</string>
+    <string name="picture_none">이 TV에서 사진을 찾을 수 없습니다.</string>
+    <string name="picture_failed">사진을 열 수 없습니다.</string>
+    <string name="picture_n">사진 %d</string>
+    <string name="opt_custom_colour">사용자 지정 색상</string>
+    <string name="opt_contrast">대비</string>
+    <string name="opt_animations">애니메이션</string>
+    <string name="opt_wallpaper">배경화면</string>
+    <string name="opt_dim">배경화면 어둡게</string>
+    <string name="opt_text_size">글자 크기</string>
+    <string name="opt_digits">데바나가리 숫자</string>
+    <string name="opt_language">언어</string>
+    <string name="opt_calendar">달력</string>
+    <string name="opt_time">시간 형식</string>
+    <string name="opt_temp">온도</string>
+    <string name="opt_wind">풍속</string>
+    <string name="opt_rain">강수량</string>
+    <string name="opt_location">위치</string>
+    <string name="opt_show_home">홈에 표시</string>
+    <string name="opt_watch_tile">TV 보기 타일</string>
+    <string name="opt_continue">이어 보기 줄</string>
+    <string name="opt_fav_order">즐겨찾기 순서</string>
+    <string name="opt_health">건강 한마디</string>
+    <string name="opt_live_type">TV 보기 방식</string>
+    <string name="opt_input">입력 소스</string>
+    <string name="opt_live_app">앱</string>
+    <string name="opt_boot">TV를 켤 때 열기</string>
+    <string name="opt_tile_size">타일 크기</string>
+    <string name="opt_tile_shape">타일 모양</string>
+    <string name="opt_labels">앱 이름</string>
+    <string name="opt_score_max">홈에 표시</string>
+    <string name="opt_live_first">진행 중인 경기 먼저</string>
+    <string name="opt_stale">점수를 업데이트할 수 없을 때</string>
+    <string name="opt_amb_scores">실시간 점수 표시</string>
+    <string name="opt_amb_shift">화면 보호를 위해 시계 이동</string>
+    <string name="opt_amb_dim">밤에 어둡게</string>
+
+    <string name="grp_cricket">크리켓</string>
+    <string name="grp_football">축구</string>
+    <string name="grp_basketball">농구</string>
+    <string name="grp_us">미국 스포츠</string>
+    <string name="grp_tennis">테니스</string>
+    <string name="grp_motor">모터스포츠</string>
+    <string name="grp_golf">골프</string>
+
+    <!-- Ambient -->
+    <string name="press_any">아무 버튼이나 누르세요</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">런처 설정</string>
+    <string name="step_of">%2$d단계 중 %1$d단계</string>
+    <string name="back">뒤로</string>
+    <string name="next">계속</string>
+    <string name="finish">완료</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ 이동 · OK 선택 · 선택 항목에서 ▶를 누르면 계속 · Back 이전 단계</string>
+    <string name="s1_title">언어 선택</string>
+    <string name="s1_sub">선택하는 즉시 Summit의 언어가 바뀝니다.</string>
+    <string name="s2_title">TV를 어떻게 보시나요?</string>
+    <string name="s2_sub">홈의 TV 보기에서 OK를 한 번 누르면 이것이 열립니다.</string>
+    <string name="signal_yes">신호 감지됨</string>
+    <string name="signal_no">신호 없음</string>
+    <string name="recommended">추천</string>
+    <string name="antenna">안테나 (DTV)</string>
+    <string name="s3_title">홈에 어떤 점수를 표시할까요?</string>
+    <string name="s3_sub">원하는 만큼 선택하세요. 진행 중인 경기가 먼저 표시됩니다.</string>
+    <string name="s_fav_title">자주 쓰는 앱 선택</string>
+    <string name="s_fav_sub">홈에 표시되어 한 번에 열 수 있습니다. 원하는 만큼 선택하세요.</string>
+    <string name="s_wall_title">배경화면 선택</string>
+    <string name="s_wall_sub">홈과 화면 보호기 뒤에 표시됩니다.</string>
+    <string name="setup_preview_note">내 홈 화면입니다. 이 모든 항목은 나중에 설정에서 변경할 수 있습니다.</string>
+    <string name="s4_title">화면 스타일 선택</string>
+    <string name="s4_sub">자동은 오후 6시부터 오전 6시까지 어둡게, 낮에는 밝게 표시됩니다.</string>
+    <string name="tennis">테니스</string>
+    <string name="formula1">포뮬러 1</string>
+    <string name="usage_title">최근 사용한 앱을 홈에 표시할까요?</string>
+    <string name="usage_body">사용 기록 액세스를 허용하면 이어 보기 줄에 최근 사용한 앱이 표시됩니다.</string>
+    <string name="allow">허용</string>
+    <string name="skip">건너뛰기</string>
+    <string name="run_setup">초기 설정 실행</string>
+    <string name="change_city">도시 변경</string>
+    <string name="kick_off">%s 킥오프</string>
+    <string name="mode_input">TV 입력</string>
+    <string name="mode_input_sub">HDMI, AV 또는 안테나</string>
+    <string name="mode_app">앱</string>
+    <string name="mode_app_sub">실시간 TV 앱</string>
+    <string name="search_city">도시 검색</string>
+    <string name="use_current">현재 위치 사용</string>
+    <string name="use_current_named">현재 위치 사용(%s)</string>
+    <string name="searching">검색 중…</string>
+    <string name="no_results">도시를 찾을 수 없음</string>
+    <string name="search_failed">지금은 검색할 수 없습니다. 인터넷 연결을 확인하세요.</string>
+    <string name="resume_now">이어 보기 · 방금</string>
+</resources>

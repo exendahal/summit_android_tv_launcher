@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Thème</item><item>Police</item><item>Langue</item><item>Météo</item>
+        <item>Écran d\'accueil</item><item>TV en direct</item><item>Icônes et vignettes</item><item>Scores</item><item>Économiseur d\'écran</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto selon l\'heure</item><item>Sombre</item><item>Clair</item></string-array>
+    <string-array name="e_theme_colour"><item>Selon le fond d\'écran</item><item>Corail</item><item>Vert</item><item>Personnalisée</item></string-array>
+    <string-array name="e_custom_colour"><item>Rouge</item><item>Orange</item><item>Jaune</item><item>Vert</item><item>Bleu canard</item><item>Bleu</item><item>Indigo</item><item>Violet</item><item>Rose</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Élevé</item></string-array>
+    <string-array name="e_animations"><item>Complètes</item><item>Réduites</item><item>Désactivées</item></string-array>
+    <string-array name="e_wallpaper"><item>Paysage de montagne</item><item>Ligne de crête</item><item>Uni</item><item>Coucher de soleil sur Phewa</item><item>Nuit himalayenne</item><item>Champs du Teraï</item><item>Drapeaux de prière</item></string-array>
+    <string-array name="e_dim"><item>Désactivé</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Par défaut</item><item>Grande</item><item>Très grande</item></string-array>
+    <string-array name="e_off_on"><item>Désactivé</item><item>Activé</item></string-array>
+    <string-array name="e_on_off"><item>Activé</item><item>Désactivé</item></string-array>
+    <string-array name="e_labels"><item>Toujours</item><item>Si sélectionnée</item><item>Jamais</item></string-array>
+    <string-array name="e_show_hide"><item>Afficher</item><item>Masquer</item></string-array>
+    <string-array name="e_calendar"><item>Les deux</item><item>Bikram Sambat</item><item>Grégorien</item></string-array>
+    <string-array name="e_time"><item>12 heures</item><item>24 heures</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>pouces</item></string-array>
+    <string-array name="e_watch_tile"><item>En tête de rangée</item><item>Masquée</item></string-array>
+    <string-array name="e_fav_order"><item>Les plus utilisées</item><item>Manuel</item></string-array>
+    <string-array name="e_health"><item>Ambiant seulement</item><item>Accueil et ambiant</item><item>Désactivé</item></string-array>
+    <string-array name="e_live_type"><item>Entrée TV</item><item>Appli</item></string-array>
+    <string-array name="e_tile_size"><item>Moyenne</item><item>Grande</item><item>Petite</item></string-array>
+    <string-array name="e_tile_shape"><item>Arrondie</item><item>Carrée</item></string-array>
+    <string-array name="e_score_max"><item>Jusqu\'à 4</item><item>Jusqu\'à 6</item><item>Jusqu\'à 3</item><item>Jusqu\'à 2</item></string-array>
+    <string-array name="e_stale"><item>Indiquer \"indisponible\"</item><item>Masquer les scores</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>La santé est votre vraie richesse. Bougez un peu, souriez beaucoup.</item>
+        <item>Une marche de 20 minutes aujourd\'hui, c\'est un cadeau pour demain.</item>
+        <item>Buvez un verre d\'eau avant le prochain épisode.</item>
+        <item>Reposez vos yeux : toutes les 20 minutes, regardez au loin pendant 20 secondes.</item>
+        <item>Bien dormir est le meilleur programme d\'entraînement. Éteignez à l\'heure ce soir.</item>
+        <item>Levez-vous et étirez-vous à chaque pause. Votre dos vous remerciera.</item>
+        <item>Mangez comme si les montagnes vous regardaient : frais, simple et de saison.</item>
+    </string-array>
+</resources>

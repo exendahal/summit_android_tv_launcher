@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>තේමාව</item><item>අකුරු</item><item>භාෂාව</item><item>කාලගුණය</item>
+        <item>මුල් තිරය</item><item>සජීවී රූපවාහිනිය</item><item>අයිකන &amp; ටයිල</item><item>ලකුණු</item><item>තිර සුරැකුම</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>වේලාව අනුව ස්වයංක්‍රීය</item><item>අඳුරු</item><item>දීප්තිමත්</item></string-array>
+    <string-array name="e_theme_colour"><item>බිතුපතෙන්</item><item>කොරල්</item><item>කොළ</item><item>අභිරුචි</item></string-array>
+    <string-array name="e_custom_colour"><item>රතු</item><item>තැඹිලි</item><item>කහ</item><item>කොළ</item><item>නිල්-කොළ</item><item>නිල්</item><item>ඉන්ඩිගෝ</item><item>දම්</item><item>රෝස</item></string-array>
+    <string-array name="e_contrast"><item>සම්මත</item><item>ඉහළ</item></string-array>
+    <string-array name="e_animations"><item>සම්පූර්ණ</item><item>අඩු කළ</item><item>අක්‍රිය</item></string-array>
+    <string-array name="e_wallpaper"><item>කඳු දර්ශනය</item><item>කඳු මුදුන් පෙළ</item><item>සරල</item><item>ෆේවා හිරු බැසීම</item><item>හිමාලය රාත්‍රිය</item><item>තෙරායි කෙත්</item><item>යාච්ඤා කොඩි</item></string-array>
+    <string-array name="e_dim"><item>අක්‍රිය</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>පෙරනිමි</item><item>විශාල</item><item>අති විශාල</item></string-array>
+    <string-array name="e_off_on"><item>අක්‍රිය</item><item>සක්‍රිය</item></string-array>
+    <string-array name="e_on_off"><item>සක්‍රිය</item><item>අක්‍රිය</item></string-array>
+    <string-array name="e_labels"><item>සැමවිටම</item><item>තෝරාගත් විට</item><item>අක්‍රිය</item></string-array>
+    <string-array name="e_show_hide"><item>පෙන්වන්න</item><item>සඟවන්න</item></string-array>
+    <string-array name="e_calendar"><item>දෙකම</item><item>බික්‍රම් සම්වත්</item><item>ග්‍රෙගෝරියානු</item></string-array>
+    <string-array name="e_time"><item>පැය 12</item><item>පැය 24</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>අඟල්</item></string-array>
+    <string-array name="e_watch_tile"><item>පේළියේ පළමුව</item><item>සඟවා ඇත</item></string-array>
+    <string-array name="e_fav_order"><item>වැඩිපුරම භාවිත</item><item>අතින්</item></string-array>
+    <string-array name="e_health"><item>Ambient පමණි</item><item>මුල් පිටුව සහ Ambient</item><item>අක්‍රිය</item></string-array>
+    <string-array name="e_live_type"><item>රූපවාහිනී ආදානය</item><item>යෙදුම</item></string-array>
+    <string-array name="e_tile_size"><item>මධ්‍යම</item><item>විශාල</item><item>කුඩා</item></string-array>
+    <string-array name="e_tile_shape"><item>වටකුරු</item><item>හතරැස්</item></string-array>
+    <string-array name="e_score_max"><item>4 දක්වා</item><item>6 දක්වා</item><item>3 දක්වා</item><item>2 දක්වා</item></string-array>
+    <string-array name="e_stale"><item>\"ලබාගත නොහැක\" පෙන්වන්න</item><item>ලකුණු සඟවන්න</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>සෞඛ්‍යය ඔබේ සැබෑ ධනයයි. ටිකක් චලනය වන්න, බොහෝ සිනාසෙන්න.</item>
+        <item>අද මිනිත්තු 20 ක ඇවිදීමක් හෙට ඔබට තෑග්ගකි.</item>
+        <item>ඊළඟ කථාංගයට පෙර වතුර වීදුරුවක් බොන්න.</item>
+        <item>ඇස්වලට විවේකය දෙන්න: සෑම මිනිත්තු 20 කට වරක් තත්පර 20 ක් ඈත බලන්න.</item>
+        <item>හොඳ නින්ද හොඳම පුහුණු සැලැස්මයි. අද රාත්‍රී නියමිත වේලාවට නිවා දමන්න.</item>
+        <item>සෑම විවේකයකදීම නැගිට ඇඟ දිගු කරන්න. ඔබේ කොන්ද ඔබට ස්තුති කරයි.</item>
+        <item>කඳු බලා සිටින්නාක් මෙන් කන්න: නැවුම්, සරල සහ සෘතුවට ගැළපෙන.</item>
+    </string-array>
+</resources>

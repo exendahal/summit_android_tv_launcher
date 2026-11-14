@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Screensaver ng Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">Home</string>
+    <string name="nav_apps">Mga App</string>
+    <string name="nav_settings">Mga Setting</string>
+    <string name="search">Maghanap</string>
+    <string name="tv_settings">Mga setting ng Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Manood ng TV</string>
+    <string name="continue_title">Ituloy</string>
+    <string name="favourites_title">Mga Paborito · pindutin nang matagal ang OK para i-pin o ilipat</string>
+    <string name="all_apps">Lahat ng app</string>
+    <string name="show_recents">Ipakita ang mga kamakailang app</string>
+    <string name="not_default_banner">Gawing home screen ang Summit · pindutin ang OK para malaman kung paano</string>
+    <string name="not_default_title">Gawing home screen ang Summit</string>
+    <string name="not_default_help">Buksan ang Mga Setting › Mga App › Mga default na app › Home app at piliin ang Summit. May ilang Google TV device na hindi pumapayag na palitan ang home app; gumagana pa rin ang Summit mula sa listahan ng app.</string>
+    <string name="open_settings">Buksan ang mga setting</string>
+    <string name="dismiss">I-dismiss</string>
+    <string name="usage_unavailable">Buksan ang Mga Setting › Mga App › Espesyal na access sa app › Access sa paggamit at payagan ang Summit.</string>
+    <string name="move_hint">◀ ▶ ilipat · OK ilapag · Back kanselahin</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Ituloy · %d min ang nakalipas</string>
+    <string name="resume_h">Ituloy · %d oras ang nakalipas</string>
+    <string name="yesterday">Kahapon</string>
+    <string name="days_ago">%d araw ang nakalipas</string>
+    <string name="last_week">Noong nakaraang linggo</string>
+    <string name="updated_now">Kaka-update lang</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Na-update %d minuto ang nakalipas</item>
+        <item quantity="other">Na-update %d minuto ang nakalipas</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LIVE</string>
+    <string name="ft">Tapos</string>
+    <string name="scores_unavailable">Hindi available ang mga score</string>
+    <string name="score_cd">%1$s. Pindutin ang OK para sa detalye</string>
+    <string name="score_live_suffix">%1$s · LIVE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Hindi available ang lagay ng panahon</string>
+    <string name="hi_lo">M %1$s B %2$s</string>
+    <string name="hi_lo_long">Pinakamataas %1$s · Pinakamababa %2$s</string>
+    <string name="wind_rain">Hangin %1$s · Ulan ngayon %2$s</string>
+    <string name="weather_title">%1$s · Ngayon</string>
+    <string name="mountains_line">Kabundukan · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Ulan %d%%</string>
+    <string name="next_days">Susunod na 3 araw</string>
+    <string name="change_units">Palitan ang mga unit sa Mga Setting</string>
+    <string name="part_morning">Umaga</string>
+    <string name="part_afternoon">Hapon</string>
+    <string name="part_evening">Gabi</string>
+    <string name="part_night">Hatinggabi</string>
+    <string name="cond_clear">Maaliwalas</string>
+    <string name="cond_sunny">Maaraw</string>
+    <string name="cond_partly">Bahagyang maulap</string>
+    <string name="cond_cloudy">Maulap</string>
+    <string name="cond_fog">Mahamog</string>
+    <string name="cond_rain">Ulan</string>
+    <string name="cond_snow">Pag-ulan ng niyebe</string>
+    <string name="cond_thunder">Mga bagyong may kidlat</string>
+    <string name="sum_all_day">%1$s buong araw</string>
+    <string name="sum_morning">%1$s sa umaga</string>
+    <string name="sum_afternoon">%1$s sa hapon</string>
+    <string name="sum_rain_from">ulan mula %1$s</string>
+    <string name="sum_tonight">%1$s ngayong gabi</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Isara</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ ilipat · OK buksan · pindutin nang matagal ang OK para i-pin sa Mga Paborito · Back pabalik sa Home</string>
+    <string name="selected_app">Napili: %s</string>
+    <string name="pin">I-pin sa Mga Paborito</string>
+    <string name="unpin">Alisin sa Mga Paborito</string>
+    <string name="move">Ilipat</string>
+    <string name="app_info">Impormasyon ng app</string>
+    <string name="uninstall">I-uninstall</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Hindi pinapayagan ng TV na ito ang mga app na magpalit ng input. Gamitin ang Input button sa remote.</string>
+    <string name="no_tv_input">Walang nakitang TV input</string>
+    <string name="ask_every_time">Magtanong palagi</string>
+    <string name="choose_live_app">Pumili ng live TV app</string>
+    <string name="voice_unavailable">Hindi available ang voice search sa TV na ito.</string>
+    <string name="cannot_open">Hindi mabuksan ang app na ito.</string>
+
+    <!-- Settings -->
+    <string name="reset">I-reset sa default</string>
+    <string name="reset_title">I-reset ang lahat ng setting ng launcher?</string>
+    <string name="reset_body">Babalik sa default ang tema, wallpaper, wika at iba pang setting ng launcher. Hindi magbabago ang iyong mga app at paborito.</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="reset_confirm">I-reset</string>
+    <string name="settings_hint">▲ ▼ ilipat · OK buksan o piliin · Back para bumalik. Agad na naa-apply ang mga pagbabago.</string>
+    <string name="leagues_header">Piliin ang ipapakita sa Home · %d ang napili</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Preview</string>
+
+    <string name="opt_mode">Mode</string>
+    <string name="opt_colour">Kulay</string>
+    <string name="opt_use_screensaver">Gamitin bilang screensaver</string>
+    <string name="screensaver_setup_title">Kailangan ng isang beses na setup</string>
+    <string name="screensaver_setup_body">Hindi pinapayagan ng TV na ito ang mga app na palitan mismo ang screensaver. Magkonekta ng computer nang isang beses at patakbuhin ang:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPagkatapos, i-on ulit ito.</string>
+    <string name="wallpaper_custom">Aking larawan</string>
+    <string name="wallpaper_download_failed">Hindi ma-download ang wallpaper na iyon. Tingnan ang koneksyon sa internet.</string>
+    <string name="picture_allow">Payagan ang access sa mga larawan</string>
+    <string name="picture_denied">Payagan ang access sa Photos sa Mga Setting › Mga App › Summit › Mga Pahintulot.</string>
+    <string name="picture_none">Walang nakitang larawan sa TV na ito.</string>
+    <string name="picture_failed">Hindi mabuksan ang larawang iyon.</string>
+    <string name="picture_n">Larawan %d</string>
+    <string name="opt_custom_colour">Custom na kulay</string>
+    <string name="opt_contrast">Contrast</string>
+    <string name="opt_animations">Mga animation</string>
+    <string name="opt_wallpaper">Wallpaper</string>
+    <string name="opt_dim">Padilimin ang wallpaper</string>
+    <string name="opt_text_size">Laki ng text</string>
+    <string name="opt_digits">Mga numerong Devanagari</string>
+    <string name="opt_language">Wika</string>
+    <string name="opt_calendar">Kalendaryo</string>
+    <string name="opt_time">Format ng oras</string>
+    <string name="opt_temp">Temperatura</string>
+    <string name="opt_wind">Bilis ng hangin</string>
+    <string name="opt_rain">Dami ng ulan</string>
+    <string name="opt_location">Lokasyon</string>
+    <string name="opt_show_home">Ipakita sa Home</string>
+    <string name="opt_watch_tile">Tile ng Manood ng TV</string>
+    <string name="opt_continue">Row ng Ituloy</string>
+    <string name="opt_fav_order">Ayos ng mga paborito</string>
+    <string name="opt_health">Paalala sa kalusugan</string>
+    <string name="opt_live_type">Ginagamit ng Manood ng TV</string>
+    <string name="opt_input">Pinagmulan ng input</string>
+    <string name="opt_live_app">App</string>
+    <string name="opt_boot">Buksan kapag nag-on ang TV</string>
+    <string name="opt_tile_size">Laki ng tile</string>
+    <string name="opt_tile_shape">Hugis ng tile</string>
+    <string name="opt_labels">Mga pangalan ng app</string>
+    <string name="opt_score_max">Ipakita sa Home</string>
+    <string name="opt_live_first">Mga live na laro muna</string>
+    <string name="opt_stale">Kung hindi ma-update ang mga score</string>
+    <string name="opt_amb_scores">Ipakita ang mga live na score</string>
+    <string name="opt_amb_shift">Ilipat ang orasan para protektahan ang screen</string>
+    <string name="opt_amb_dim">Padilimin sa gabi</string>
+
+    <string name="grp_cricket">Cricket</string>
+    <string name="grp_football">Football</string>
+    <string name="grp_basketball">Basketball</string>
+    <string name="grp_us">Sports sa US</string>
+    <string name="grp_tennis">Tennis</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Pumindot ng anumang button</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Setup ng launcher</string>
+    <string name="step_of">Hakbang %1$d sa %2$d</string>
+    <string name="back">Bumalik</string>
+    <string name="next">Ituloy</string>
+    <string name="finish">Tapusin</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ ilipat · OK piliin · ▶ mula sa mga pagpipilian papunta sa Ituloy · Back nakaraang hakbang</string>
+    <string name="s1_title">Piliin ang iyong wika</string>
+    <string name="s1_sub">Agad na magpapalit ng wika ang Summit pagkapili mo.</string>
+    <string name="s2_title">Saan ka nanonood ng TV?</string>
+    <string name="s2_sub">Binubuksan ito ng Manood ng TV sa Home sa isang pindot ng OK.</string>
+    <string name="signal_yes">May nakitang signal</string>
+    <string name="signal_no">Walang signal</string>
+    <string name="recommended">Inirerekomenda</string>
+    <string name="antenna">Antenna (DTV)</string>
+    <string name="s3_title">Aling mga score ang ipapakita sa Home?</string>
+    <string name="s3_sub">Pumili ng kahit ilan. Unang ipinapakita ang mga live na laro.</string>
+    <string name="s_fav_title">Piliin ang iyong mga paboritong app</string>
+    <string name="s_fav_sub">Nasa Home sila, isang pindot lang. Pumili ng kahit ilan.</string>
+    <string name="s_wall_title">Pumili ng wallpaper</string>
+    <string name="s_wall_sub">Ipinapakita sa likod ng Home at ng screensaver.</string>
+    <string name="setup_preview_note">Ang iyong Home screen. Mababago mo ang lahat ng ito mamaya sa Mga Setting.</string>
+    <string name="s4_title">Pumili ng hitsura</string>
+    <string name="s4_sub">Ang Auto ay madilim mula 6 PM hanggang 6 AM at maliwanag sa araw.</string>
+    <string name="tennis">Tennis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Ipakita sa Home ang mga app na kamakailan mong ginamit?</string>
+    <string name="usage_body">Payagan ang access sa paggamit para maipakita ng row ng Ituloy ang mga app na kamakailan mong ginamit.</string>
+    <string name="allow">Payagan</string>
+    <string name="skip">Laktawan</string>
+    <string name="run_setup">Patakbuhin ang unang setup</string>
+    <string name="change_city">Palitan ang lungsod</string>
+    <string name="kick_off">Simula %s</string>
+    <string name="mode_input">TV input</string>
+    <string name="mode_input_sub">HDMI, AV o antenna</string>
+    <string name="mode_app">App</string>
+    <string name="mode_app_sub">Isang live TV app</string>
+    <string name="search_city">Maghanap ng lungsod</string>
+    <string name="use_current">Gamitin ang kasalukuyang lokasyon</string>
+    <string name="use_current_named">Gamitin ang kasalukuyang lokasyon (%s)</string>
+    <string name="searching">Naghahanap…</string>
+    <string name="no_results">Walang nakitang lungsod</string>
+    <string name="search_failed">Hindi makapaghanap ngayon. Tingnan ang koneksyon sa internet.</string>
+    <string name="resume_now">Ituloy · ngayon lang</string>
+</resources>

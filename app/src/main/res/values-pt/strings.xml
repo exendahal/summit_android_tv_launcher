@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambiente</string>
+
+    <!-- Header -->
+    <string name="nav_home">Início</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="search">Pesquisar</string>
+    <string name="tv_settings">Configurações do Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Assistir TV</string>
+    <string name="continue_title">Continuar</string>
+    <string name="favourites_title">Favoritos · segure OK para fixar ou mover</string>
+    <string name="all_apps">Todos os apps</string>
+    <string name="show_recents">Mostrar apps recentes</string>
+    <string name="not_default_banner">Defina o Summit como tela inicial · pressione OK para saber como</string>
+    <string name="not_default_title">Defina o Summit como tela inicial</string>
+    <string name="not_default_help">Abra Configurações › Apps › Apps padrão › App de tela inicial e escolha Summit. Alguns dispositivos Google TV não permitem trocar o app de tela inicial; o Summit continua funcionando pela lista de apps.</string>
+    <string name="open_settings">Abrir configurações</string>
+    <string name="dismiss">Dispensar</string>
+    <string name="usage_unavailable">Abra Configurações › Apps › Acesso especial a apps › Acesso ao uso e permita o Summit.</string>
+    <string name="move_hint">◀ ▶ mover · OK soltar · Back cancelar</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Retomar · há %d min</string>
+    <string name="resume_h">Retomar · há %d h</string>
+    <string name="yesterday">Ontem</string>
+    <string name="days_ago">Há %d dias</string>
+    <string name="last_week">Semana passada</string>
+    <string name="updated_now">Atualizado agora mesmo</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Atualizado há %d minuto</item>
+        <item quantity="other">Atualizado há %d minutos</item>
+        <item quantity="many">Atualizado há %d minutos</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">AO VIVO</string>
+    <string name="ft">FIM</string>
+    <string name="scores_unavailable">Placares indisponíveis</string>
+    <string name="score_cd">%1$s. Pressione OK para ver detalhes</string>
+    <string name="score_live_suffix">%1$s · AO VIVO</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Previsão indisponível</string>
+    <string name="hi_lo">Máx %1$s Mín %2$s</string>
+    <string name="hi_lo_long">Máxima %1$s · Mínima %2$s</string>
+    <string name="wind_rain">Vento %1$s · Chuva hoje %2$s</string>
+    <string name="weather_title">%1$s · Hoje</string>
+    <string name="mountains_line">Montanhas · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Chuva %d%%</string>
+    <string name="next_days">Próximos 3 dias</string>
+    <string name="change_units">Altere as unidades em Configurações</string>
+    <string name="part_morning">Manhã</string>
+    <string name="part_afternoon">Tarde</string>
+    <string name="part_evening">Fim de tarde</string>
+    <string name="part_night">Noite</string>
+    <string name="cond_clear">Céu limpo</string>
+    <string name="cond_sunny">Ensolarado</string>
+    <string name="cond_partly">Parcialmente nublado</string>
+    <string name="cond_cloudy">Nublado</string>
+    <string name="cond_fog">Neblina</string>
+    <string name="cond_rain">Chuva</string>
+    <string name="cond_snow">Pancadas de neve</string>
+    <string name="cond_thunder">Trovoadas</string>
+    <string name="sum_all_day">%1$s o dia todo</string>
+    <string name="sum_morning">%1$s pela manhã</string>
+    <string name="sum_afternoon">%1$s à tarde</string>
+    <string name="sum_rain_from">chuva a partir das %1$s</string>
+    <string name="sum_tonight">%1$s esta noite</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s pol.</string>
+    <string name="loc_kathmandu">Katmandu</string>
+    <string name="close">Fechar</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ mover · OK abrir · segure OK para fixar nos Favoritos · Back para o Início</string>
+    <string name="selected_app">Selecionado: %s</string>
+    <string name="pin">Fixar nos Favoritos</string>
+    <string name="unpin">Remover dos Favoritos</string>
+    <string name="move">Mover</string>
+    <string name="app_info">Informações do app</string>
+    <string name="uninstall">Desinstalar</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Esta TV não permite que apps troquem a entrada. Use o botão Input do controle remoto.</string>
+    <string name="no_tv_input">Nenhuma entrada de TV encontrada</string>
+    <string name="ask_every_time">Perguntar sempre</string>
+    <string name="choose_live_app">Escolha um app de TV ao vivo</string>
+    <string name="voice_unavailable">A pesquisa por voz não está disponível nesta TV.</string>
+    <string name="cannot_open">Não é possível abrir este app.</string>
+
+    <!-- Settings -->
+    <string name="reset">Restaurar padrão</string>
+    <string name="reset_title">Redefinir todas as configurações do launcher?</string>
+    <string name="reset_body">Tema, plano de fundo, idioma e outras configurações do launcher voltam ao padrão. Seus apps e favoritos continuam como estão.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset_confirm">Redefinir</string>
+    <string name="settings_hint">▲ ▼ mover · OK abrir ou escolher · Back volta. As alterações são aplicadas na hora.</string>
+    <string name="leagues_header">Escolha o que aparece no Início · %d selecionados</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Prévia</string>
+
+    <string name="opt_mode">Modo</string>
+    <string name="opt_colour">Cor</string>
+    <string name="opt_use_screensaver">Usar como protetor de tela</string>
+    <string name="screensaver_setup_title">Configuração única necessária</string>
+    <string name="screensaver_setup_body">Esta TV não permite que apps mudem o protetor de tela sozinhos. Conecte um computador uma vez e execute:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nDepois ative esta opção de novo.</string>
+    <string name="wallpaper_custom">Minha imagem</string>
+    <string name="wallpaper_download_failed">Não foi possível baixar esse plano de fundo. Verifique a conexão com a internet.</string>
+    <string name="picture_allow">Permitir acesso às imagens</string>
+    <string name="picture_denied">Permita o acesso a Fotos em Configurações › Apps › Summit › Permissões.</string>
+    <string name="picture_none">Nenhuma imagem encontrada nesta TV.</string>
+    <string name="picture_failed">Não foi possível abrir essa imagem.</string>
+    <string name="picture_n">Imagem %d</string>
+    <string name="opt_custom_colour">Cor personalizada</string>
+    <string name="opt_contrast">Contraste</string>
+    <string name="opt_animations">Animações</string>
+    <string name="opt_wallpaper">Plano de fundo</string>
+    <string name="opt_dim">Escurecer plano de fundo</string>
+    <string name="opt_text_size">Tamanho do texto</string>
+    <string name="opt_digits">Algarismos devanágari</string>
+    <string name="opt_language">Idioma</string>
+    <string name="opt_calendar">Calendário</string>
+    <string name="opt_time">Formato de hora</string>
+    <string name="opt_temp">Temperatura</string>
+    <string name="opt_wind">Velocidade do vento</string>
+    <string name="opt_rain">Chuva</string>
+    <string name="opt_location">Local</string>
+    <string name="opt_show_home">Mostrar no Início</string>
+    <string name="opt_watch_tile">Bloco Assistir TV</string>
+    <string name="opt_continue">Fileira Continuar</string>
+    <string name="opt_fav_order">Ordem dos favoritos</string>
+    <string name="opt_health">Dica de saúde</string>
+    <string name="opt_live_type">Assistir TV usa</string>
+    <string name="opt_input">Fonte de entrada</string>
+    <string name="opt_live_app">App</string>
+    <string name="opt_boot">Abrir ao ligar a TV</string>
+    <string name="opt_tile_size">Tamanho dos blocos</string>
+    <string name="opt_tile_shape">Formato dos blocos</string>
+    <string name="opt_labels">Nomes dos apps</string>
+    <string name="opt_score_max">Mostrar no Início</string>
+    <string name="opt_live_first">Jogos ao vivo primeiro</string>
+    <string name="opt_stale">Se os placares não atualizarem</string>
+    <string name="opt_amb_scores">Mostrar placares ao vivo</string>
+    <string name="opt_amb_shift">Mover o relógio para proteger a tela</string>
+    <string name="opt_amb_dim">Escurecer à noite</string>
+
+    <string name="grp_cricket">Críquete</string>
+    <string name="grp_football">Futebol</string>
+    <string name="grp_basketball">Basquete</string>
+    <string name="grp_us">Esportes dos EUA</string>
+    <string name="grp_tennis">Tênis</string>
+    <string name="grp_motor">Automobilismo</string>
+    <string name="grp_golf">Golfe</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Pressione qualquer botão</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Configuração do launcher</string>
+    <string name="step_of">Etapa %1$d de %2$d</string>
+    <string name="back">Voltar</string>
+    <string name="next">Continuar</string>
+    <string name="finish">Concluir</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ mover · OK selecionar · ▶ a partir das opções chega em Continuar · Back etapa anterior</string>
+    <string name="s1_title">Escolha seu idioma</string>
+    <string name="s1_sub">O Summit muda de idioma assim que você escolhe.</string>
+    <string name="s2_title">Onde você assiste TV?</string>
+    <string name="s2_sub">Assistir TV no Início abre isto com um toque em OK.</string>
+    <string name="signal_yes">Sinal detectado</string>
+    <string name="signal_no">Sem sinal</string>
+    <string name="recommended">Recomendado</string>
+    <string name="antenna">Antena (TV digital)</string>
+    <string name="s3_title">Quais placares mostrar no Início?</string>
+    <string name="s3_sub">Escolha quantos quiser. Jogos ao vivo aparecem primeiro.</string>
+    <string name="s_fav_title">Escolha seus apps favoritos</string>
+    <string name="s_fav_sub">Eles ficam no Início, a um toque. Escolha quantos quiser.</string>
+    <string name="s_wall_title">Escolha um plano de fundo</string>
+    <string name="s_wall_sub">Exibido atrás do Início e do protetor de tela.</string>
+    <string name="setup_preview_note">Sua tela inicial. Você pode mudar tudo isso depois em Configurações.</string>
+    <string name="s4_title">Escolha um visual</string>
+    <string name="s4_sub">Automático fica escuro das 18h às 6h e claro durante o dia.</string>
+    <string name="tennis">Tênis</string>
+    <string name="formula1">Fórmula 1</string>
+    <string name="usage_title">Mostrar seus apps usados recentemente no Início?</string>
+    <string name="usage_body">Permita o acesso ao uso para que a fileira Continuar mostre os apps que você usou recentemente.</string>
+    <string name="allow">Permitir</string>
+    <string name="skip">Pular</string>
+    <string name="run_setup">Executar configuração inicial</string>
+    <string name="change_city">Mudar cidade</string>
+    <string name="kick_off">Início do jogo %s</string>
+    <string name="mode_input">Entrada de TV</string>
+    <string name="mode_input_sub">HDMI, AV ou antena</string>
+    <string name="mode_app">App</string>
+    <string name="mode_app_sub">Um app de TV ao vivo</string>
+    <string name="search_city">Pesquisar uma cidade</string>
+    <string name="use_current">Usar local atual</string>
+    <string name="use_current_named">Usar local atual (%s)</string>
+    <string name="searching">Pesquisando…</string>
+    <string name="no_results">Nenhuma cidade encontrada</string>
+    <string name="search_failed">Não é possível pesquisar agora. Verifique a conexão com a internet.</string>
+    <string name="resume_now">Retomar · agora mesmo</string>
+</resources>

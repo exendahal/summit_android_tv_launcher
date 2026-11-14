@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit 氛圍模式</string>
+
+    <!-- Header -->
+    <string name="nav_home">主畫面</string>
+    <string name="nav_apps">應用程式</string>
+    <string name="nav_settings">設定</string>
+    <string name="search">搜尋</string>
+    <string name="tv_settings">Android TV 設定</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">看電視</string>
+    <string name="continue_title">繼續觀看</string>
+    <string name="favourites_title">我的最愛 · 按住 OK 可釘選或移動</string>
+    <string name="all_apps">所有應用程式</string>
+    <string name="show_recents">顯示最近使用的應用程式</string>
+    <string name="not_default_banner">將 Summit 設為主畫面 · 按 OK 查看方法</string>
+    <string name="not_default_title">將 Summit 設為主畫面</string>
+    <string name="not_default_help">開啟 設定 › 應用程式 › 預設應用程式 › 主畫面應用程式，然後選擇 Summit。部分 Google TV 裝置無法變更主畫面應用程式；你仍可從應用程式清單使用 Summit。</string>
+    <string name="open_settings">開啟設定</string>
+    <string name="dismiss">略過</string>
+    <string name="usage_unavailable">開啟 設定 › 應用程式 › 特殊應用程式存取權 › 使用情形存取權，然後允許 Summit。</string>
+    <string name="move_hint">◀ ▶ 移動 · OK 放下 · Back 取消</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">繼續 · %d 分鐘前</string>
+    <string name="resume_h">繼續 · %d 小時前</string>
+    <string name="yesterday">昨天</string>
+    <string name="days_ago">%d 天前</string>
+    <string name="last_week">上週</string>
+    <string name="updated_now">剛剛更新</string>
+    <plurals name="updated_ago">
+        <item quantity="other">%d 分鐘前更新</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">直播</string>
+    <string name="ft">完賽</string>
+    <string name="scores_unavailable">暫無比分</string>
+    <string name="score_cd">%1$s。按 OK 查看詳細資訊</string>
+    <string name="score_live_suffix">%1$s · 直播</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">暫無天氣資訊</string>
+    <string name="hi_lo">高 %1$s 低 %2$s</string>
+    <string name="hi_lo_long">最高 %1$s · 最低 %2$s</string>
+    <string name="wind_rain">風 %1$s · 今日降雨 %2$s</string>
+    <string name="weather_title">%1$s · 今天</string>
+    <string name="mountains_line">山區 · 南崎市集 %1$s，%2$s</string>
+    <string name="rain_pct">降雨 %d%%</string>
+    <string name="next_days">未來 3 天</string>
+    <string name="change_units">可在設定中變更單位</string>
+    <string name="part_morning">上午</string>
+    <string name="part_afternoon">下午</string>
+    <string name="part_evening">傍晚</string>
+    <string name="part_night">夜間</string>
+    <string name="cond_clear">晴</string>
+    <string name="cond_sunny">晴朗</string>
+    <string name="cond_partly">局部多雲</string>
+    <string name="cond_cloudy">多雲</string>
+    <string name="cond_fog">有霧</string>
+    <string name="cond_rain">雨</string>
+    <string name="cond_snow">陣雪</string>
+    <string name="cond_thunder">雷雨</string>
+    <string name="sum_all_day">全天%1$s</string>
+    <string name="sum_morning">上午%1$s</string>
+    <string name="sum_afternoon">下午%1$s</string>
+    <string name="sum_rain_from">%1$s起有雨</string>
+    <string name="sum_tonight">今晚%1$s</string>
+    <string name="sum_sep">"，"</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s 英吋</string>
+    <string name="loc_kathmandu">加德滿都</string>
+    <string name="close">關閉</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ 移動 · OK 開啟 · 按住 OK 釘選到我的最愛 · Back 返回主畫面</string>
+    <string name="selected_app">已選取：%s</string>
+    <string name="pin">釘選到我的最愛</string>
+    <string name="unpin">從我的最愛取消釘選</string>
+    <string name="move">移動</string>
+    <string name="app_info">應用程式資訊</string>
+    <string name="uninstall">解除安裝</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">這台電視不允許應用程式切換輸入來源。請使用遙控器上的輸入按鈕。</string>
+    <string name="no_tv_input">找不到電視輸入來源</string>
+    <string name="ask_every_time">每次詢問</string>
+    <string name="choose_live_app">選擇直播電視應用程式</string>
+    <string name="voice_unavailable">這台電視不支援語音搜尋。</string>
+    <string name="cannot_open">無法開啟這個應用程式。</string>
+
+    <!-- Settings -->
+    <string name="reset">恢復預設值</string>
+    <string name="reset_title">要重設所有啟動器設定嗎？</string>
+    <string name="reset_body">主題、桌布、語言和其他啟動器設定都會恢復成預設值。你的應用程式和我的最愛會保持不變。</string>
+    <string name="cancel">取消</string>
+    <string name="reset_confirm">重設</string>
+    <string name="settings_hint">▲ ▼ 移動 · OK 開啟或選擇 · Back 返回。變更會立即套用。</string>
+    <string name="leagues_header">選擇主畫面顯示的內容 · 已選 %d 項</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">預覽</string>
+
+    <string name="opt_mode">模式</string>
+    <string name="opt_colour">顏色</string>
+    <string name="opt_use_screensaver">用作螢幕保護程式</string>
+    <string name="screensaver_setup_title">需要進行一次性設定</string>
+    <string name="screensaver_setup_body">這台電視不允許應用程式自行變更螢幕保護程式。請連接一次電腦並執行：\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\n然後再次開啟這個選項。</string>
+    <string name="wallpaper_custom">我的圖片</string>
+    <string name="wallpaper_download_failed">無法下載這張桌布。請檢查網路連線。</string>
+    <string name="picture_allow">允許存取圖片</string>
+    <string name="picture_denied">請在 設定 › 應用程式 › Summit › 權限 中允許存取相片。</string>
+    <string name="picture_none">這台電視上找不到圖片。</string>
+    <string name="picture_failed">無法開啟這張圖片。</string>
+    <string name="picture_n">圖片 %d</string>
+    <string name="opt_custom_colour">自訂顏色</string>
+    <string name="opt_contrast">對比</string>
+    <string name="opt_animations">動畫</string>
+    <string name="opt_wallpaper">桌布</string>
+    <string name="opt_dim">調暗桌布</string>
+    <string name="opt_text_size">文字大小</string>
+    <string name="opt_digits">天城文數字</string>
+    <string name="opt_language">語言</string>
+    <string name="opt_calendar">日曆</string>
+    <string name="opt_time">時間格式</string>
+    <string name="opt_temp">溫度</string>
+    <string name="opt_wind">風速</string>
+    <string name="opt_rain">降雨量</string>
+    <string name="opt_location">位置</string>
+    <string name="opt_show_home">在主畫面顯示</string>
+    <string name="opt_watch_tile">「看電視」方塊</string>
+    <string name="opt_continue">「繼續觀看」列</string>
+    <string name="opt_fav_order">我的最愛排序</string>
+    <string name="opt_health">健康小提醒</string>
+    <string name="opt_live_type">「看電視」使用</string>
+    <string name="opt_input">輸入來源</string>
+    <string name="opt_live_app">應用程式</string>
+    <string name="opt_boot">電視開機時開啟</string>
+    <string name="opt_tile_size">方塊大小</string>
+    <string name="opt_tile_shape">方塊形狀</string>
+    <string name="opt_labels">應用程式名稱</string>
+    <string name="opt_score_max">在主畫面顯示</string>
+    <string name="opt_live_first">直播賽事優先</string>
+    <string name="opt_stale">比分無法更新時</string>
+    <string name="opt_amb_scores">顯示即時比分</string>
+    <string name="opt_amb_shift">移動時鐘以保護螢幕</string>
+    <string name="opt_amb_dim">夜間調暗</string>
+
+    <string name="grp_cricket">板球</string>
+    <string name="grp_football">足球</string>
+    <string name="grp_basketball">籃球</string>
+    <string name="grp_us">美國運動</string>
+    <string name="grp_tennis">網球</string>
+    <string name="grp_motor">賽車</string>
+    <string name="grp_golf">高爾夫</string>
+
+    <!-- Ambient -->
+    <string name="press_any">按任意按鈕</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">啟動器設定</string>
+    <string name="step_of">第 %1$d 步，共 %2$d 步</string>
+    <string name="back">返回</string>
+    <string name="next">繼續</string>
+    <string name="finish">完成</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ 移動 · OK 選擇 · 在選項中按 ▶ 可前往「繼續」 · Back 上一步</string>
+    <string name="s1_title">選擇語言</string>
+    <string name="s1_sub">選擇後，Summit 會立即切換語言。</string>
+    <string name="s2_title">你透過什麼看電視？</string>
+    <string name="s2_sub">在主畫面按一下 OK，「看電視」就會開啟它。</string>
+    <string name="signal_yes">偵測到訊號</string>
+    <string name="signal_no">沒有訊號</string>
+    <string name="recommended">建議</string>
+    <string name="antenna">天線 (DTV)</string>
+    <string name="s3_title">主畫面要顯示哪些比分？</string>
+    <string name="s3_sub">可任意多選。直播賽事會優先顯示。</string>
+    <string name="s_fav_title">選擇常用的應用程式</string>
+    <string name="s_fav_sub">它們會顯示在主畫面上，按一下即可開啟。可任意多選。</string>
+    <string name="s_wall_title">選擇桌布</string>
+    <string name="s_wall_sub">顯示在主畫面和螢幕保護程式的背景。</string>
+    <string name="setup_preview_note">這是你的主畫面。之後可以在設定中變更這些選項。</string>
+    <string name="s4_title">選擇外觀</string>
+    <string name="s4_sub">「自動」會在晚上 6 點到早上 6 點使用深色，白天使用淺色。</string>
+    <string name="tennis">網球</string>
+    <string name="formula1">一級方程式</string>
+    <string name="usage_title">要在主畫面顯示最近使用的應用程式嗎？</string>
+    <string name="usage_body">允許使用情形存取權，「繼續觀看」列就能顯示你最近使用的應用程式。</string>
+    <string name="allow">允許</string>
+    <string name="skip">略過</string>
+    <string name="run_setup">執行初始設定</string>
+    <string name="change_city">變更城市</string>
+    <string name="kick_off">%s 開賽</string>
+    <string name="mode_input">電視輸入來源</string>
+    <string name="mode_input_sub">HDMI、AV 或天線</string>
+    <string name="mode_app">應用程式</string>
+    <string name="mode_app_sub">直播電視應用程式</string>
+    <string name="search_city">搜尋城市</string>
+    <string name="use_current">使用目前位置</string>
+    <string name="use_current_named">使用目前位置（%s）</string>
+    <string name="searching">搜尋中…</string>
+    <string name="no_results">找不到城市</string>
+    <string name="search_failed">目前無法搜尋。請檢查網路連線。</string>
+    <string name="resume_now">繼續 · 剛剛</string>
+</resources>

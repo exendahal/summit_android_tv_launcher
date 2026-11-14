@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Thema</item><item>Lettertype</item><item>Taal</item><item>Weer</item>
+        <item>Startscherm</item><item>Live tv</item><item>Pictogrammen &amp; tegels</item><item>Uitslagen</item><item>Screensaver</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automatisch op tijd</item><item>Donker</item><item>Licht</item></string-array>
+    <string-array name="e_theme_colour"><item>Van achtergrond</item><item>Koraal</item><item>Groen</item><item>Eigen</item></string-array>
+    <string-array name="e_custom_colour"><item>Rood</item><item>Oranje</item><item>Geel</item><item>Groen</item><item>Blauwgroen</item><item>Blauw</item><item>Indigo</item><item>Paars</item><item>Roze</item></string-array>
+    <string-array name="e_contrast"><item>Standaard</item><item>Hoog</item></string-array>
+    <string-array name="e_animations"><item>Volledig</item><item>Beperkt</item><item>Uit</item></string-array>
+    <string-array name="e_wallpaper"><item>Berglandschap</item><item>Bergkam</item><item>Effen</item><item>Zonsondergang bij Phewa</item><item>Himalaya bij nacht</item><item>Velden van Terai</item><item>Gebedsvlaggen</item></string-array>
+    <string-array name="e_dim"><item>Uit</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Standaard</item><item>Groot</item><item>Extra groot</item></string-array>
+    <string-array name="e_off_on"><item>Uit</item><item>Aan</item></string-array>
+    <string-array name="e_on_off"><item>Aan</item><item>Uit</item></string-array>
+    <string-array name="e_labels"><item>Altijd</item><item>Bij selectie</item><item>Uit</item></string-array>
+    <string-array name="e_show_hide"><item>Tonen</item><item>Verbergen</item></string-array>
+    <string-array name="e_calendar"><item>Beide</item><item>Bikram Sambat</item><item>Gregoriaans</item></string-array>
+    <string-array name="e_time"><item>12-uursklok</item><item>24-uursklok</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inch</item></string-array>
+    <string-array name="e_watch_tile"><item>Eerste in de rij</item><item>Verborgen</item></string-array>
+    <string-array name="e_fav_order"><item>Meest gebruikt</item><item>Handmatig</item></string-array>
+    <string-array name="e_health"><item>Alleen ambient</item><item>Start en ambient</item><item>Uit</item></string-array>
+    <string-array name="e_live_type"><item>Tv-ingang</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Middel</item><item>Groot</item><item>Klein</item></string-array>
+    <string-array name="e_tile_shape"><item>Afgerond</item><item>Vierkant</item></string-array>
+    <string-array name="e_score_max"><item>Tot 4</item><item>Tot 6</item><item>Tot 3</item><item>Tot 2</item></string-array>
+    <string-array name="e_stale"><item>\"Niet beschikbaar\" tonen</item><item>Uitslagen verbergen</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Gezondheid is je echte rijkdom. Beweeg een beetje, lach veel.</item>
+        <item>Een wandeling van 20 minuten vandaag is een cadeau voor jezelf van morgen.</item>
+        <item>Drink een glas water voor de volgende aflevering.</item>
+        <item>Geef je ogen rust: kijk elke 20 minuten 20 seconden in de verte.</item>
+        <item>Goed slapen is het beste trainingsschema. Zet vanavond op tijd uit.</item>
+        <item>Sta op en rek je uit bij elke pauze. Je rug zal je dankbaar zijn.</item>
+        <item>Eet alsof de bergen meekijken: vers, eenvoudig en van het seizoen.</item>
+    </string-array>
+</resources>

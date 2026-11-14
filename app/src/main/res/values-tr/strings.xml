@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ekran koruyucu</string>
+
+    <!-- Header -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_apps">Uygulamalar</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="search">Ara</string>
+    <string name="tv_settings">Android TV ayarları</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">TV İzle</string>
+    <string name="continue_title">Devam Et</string>
+    <string name="favourites_title">Favoriler · sabitlemek veya taşımak için OK tuşunu basılı tutun</string>
+    <string name="all_apps">Tüm uygulamalar</string>
+    <string name="show_recents">Son uygulamaları göster</string>
+    <string name="not_default_banner">Summit\'i ana ekranınız yapın · nasıl yapılacağı için OK tuşuna basın</string>
+    <string name="not_default_title">Summit\'i ana ekranınız yapın</string>
+    <string name="not_default_help">Ayarlar › Uygulamalar › Varsayılan uygulamalar › Ana ekran uygulaması bölümünü açıp Summit\'i seçin. Bazı Google TV cihazları ana ekran uygulamasını değiştirmenize izin vermez; Summit yine de uygulama listesinden çalışır.</string>
+    <string name="open_settings">Ayarları aç</string>
+    <string name="dismiss">Kapat</string>
+    <string name="usage_unavailable">Ayarlar › Uygulamalar › Özel uygulama erişimi › Kullanım erişimi bölümünü açıp Summit\'e izin verin.</string>
+    <string name="move_hint">◀ ▶ taşı · OK bırak · Back iptal</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Devam et · %d dk önce</string>
+    <string name="resume_h">Devam et · %d sa önce</string>
+    <string name="yesterday">Dün</string>
+    <string name="days_ago">%d gün önce</string>
+    <string name="last_week">Geçen hafta</string>
+    <string name="updated_now">Az önce güncellendi</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d dakika önce güncellendi</item>
+        <item quantity="other">%d dakika önce güncellendi</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">CANLI</string>
+    <string name="ft">MS</string>
+    <string name="scores_unavailable">Skorlar kullanılamıyor</string>
+    <string name="score_cd">%1$s. Ayrıntılar için OK tuşuna basın</string>
+    <string name="score_live_suffix">%1$s · CANLI</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Hava durumu kullanılamıyor</string>
+    <string name="hi_lo">Y %1$s D %2$s</string>
+    <string name="hi_lo_long">En yüksek %1$s · En düşük %2$s</string>
+    <string name="wind_rain">Rüzgâr %1$s · Bugün yağış %2$s</string>
+    <string name="weather_title">%1$s · Bugün</string>
+    <string name="mountains_line">Dağlar · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Yağmur %%%d</string>
+    <string name="next_days">Sonraki 3 gün</string>
+    <string name="change_units">Birimleri Ayarlar\'dan değiştirin</string>
+    <string name="part_morning">Sabah</string>
+    <string name="part_afternoon">Öğleden sonra</string>
+    <string name="part_evening">Akşam</string>
+    <string name="part_night">Gece</string>
+    <string name="cond_clear">Açık</string>
+    <string name="cond_sunny">Güneşli</string>
+    <string name="cond_partly">Parçalı bulutlu</string>
+    <string name="cond_cloudy">Bulutlu</string>
+    <string name="cond_fog">Sisli</string>
+    <string name="cond_rain">Yağmur</string>
+    <string name="cond_snow">Kar sağanağı</string>
+    <string name="cond_thunder">Gök gürültülü fırtına</string>
+    <string name="sum_all_day">Gün boyu %1$s</string>
+    <string name="sum_morning">Sabah %1$s</string>
+    <string name="sum_afternoon">öğleden sonra %1$s</string>
+    <string name="sum_rain_from">%1$s itibarıyla yağmur</string>
+    <string name="sum_tonight">bu gece %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/sa</string>
+    <string name="unit_ms">%s m/sn</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s inç</string>
+    <string name="loc_kathmandu">Katmandu</string>
+    <string name="close">Kapat</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ taşı · OK aç · Favorilere sabitlemek için OK\'u basılı tut · Back ile Ana Sayfa</string>
+    <string name="selected_app">Seçili: %s</string>
+    <string name="pin">Favorilere sabitle</string>
+    <string name="unpin">Favorilerden kaldır</string>
+    <string name="move">Taşı</string>
+    <string name="app_info">Uygulama bilgisi</string>
+    <string name="uninstall">Kaldır</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Bu TV, uygulamaların giriş kaynağını değiştirmesine izin vermiyor. Kumandanızdaki Input tuşunu kullanın.</string>
+    <string name="no_tv_input">TV girişi bulunamadı</string>
+    <string name="ask_every_time">Her seferinde sor</string>
+    <string name="choose_live_app">Canlı TV uygulaması seçin</string>
+    <string name="voice_unavailable">Bu TV\'de sesli arama kullanılamıyor.</string>
+    <string name="cannot_open">Bu uygulama açılamıyor.</string>
+
+    <!-- Settings -->
+    <string name="reset">Varsayılana sıfırla</string>
+    <string name="reset_title">Tüm başlatıcı ayarları sıfırlansın mı?</string>
+    <string name="reset_body">Tema, duvar kâğıdı, dil ve diğer başlatıcı ayarları varsayılana döner. Uygulamalarınız ve favorileriniz olduğu gibi kalır.</string>
+    <string name="cancel">İptal</string>
+    <string name="reset_confirm">Sıfırla</string>
+    <string name="settings_hint">▲ ▼ taşı · OK aç veya seç · Back geri. Değişiklikler hemen uygulanır.</string>
+    <string name="leagues_header">Ana Sayfa\'da görünecekleri seçin · %d seçili</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Önizleme</string>
+
+    <string name="opt_mode">Mod</string>
+    <string name="opt_colour">Renk</string>
+    <string name="opt_use_screensaver">Ekran koruyucu olarak kullan</string>
+    <string name="screensaver_setup_title">Tek seferlik kurulum gerekli</string>
+    <string name="screensaver_setup_body">Bu TV, uygulamaların ekran koruyucuyu kendi başına değiştirmesine izin vermiyor. Bir kez bilgisayar bağlayıp şunu çalıştırın:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nArdından bunu yeniden açın.</string>
+    <string name="wallpaper_custom">Resmim</string>
+    <string name="wallpaper_download_failed">Duvar kâğıdı indirilemedi. İnternet bağlantısını kontrol edin.</string>
+    <string name="picture_allow">Resimlere erişime izin ver</string>
+    <string name="picture_denied">Ayarlar › Uygulamalar › Summit › İzinler bölümünden Fotoğraflar erişimine izin verin.</string>
+    <string name="picture_none">Bu TV\'de resim bulunamadı.</string>
+    <string name="picture_failed">Resim açılamadı.</string>
+    <string name="picture_n">Resim %d</string>
+    <string name="opt_custom_colour">Özel renk</string>
+    <string name="opt_contrast">Kontrast</string>
+    <string name="opt_animations">Animasyonlar</string>
+    <string name="opt_wallpaper">Duvar kâğıdı</string>
+    <string name="opt_dim">Duvar kâğıdını karart</string>
+    <string name="opt_text_size">Metin boyutu</string>
+    <string name="opt_digits">Devanagari rakamları</string>
+    <string name="opt_language">Dil</string>
+    <string name="opt_calendar">Takvim</string>
+    <string name="opt_time">Saat biçimi</string>
+    <string name="opt_temp">Sıcaklık</string>
+    <string name="opt_wind">Rüzgâr hızı</string>
+    <string name="opt_rain">Yağış</string>
+    <string name="opt_location">Konum</string>
+    <string name="opt_show_home">Ana Sayfa\'da göster</string>
+    <string name="opt_watch_tile">TV İzle kutucuğu</string>
+    <string name="opt_continue">Devam Et satırı</string>
+    <string name="opt_fav_order">Favori sırası</string>
+    <string name="opt_health">Sağlık önerisi</string>
+    <string name="opt_live_type">TV İzle şunu kullanır</string>
+    <string name="opt_input">Giriş kaynağı</string>
+    <string name="opt_live_app">Uygulama</string>
+    <string name="opt_boot">TV açılınca başlat</string>
+    <string name="opt_tile_size">Kutucuk boyutu</string>
+    <string name="opt_tile_shape">Kutucuk şekli</string>
+    <string name="opt_labels">Uygulama adları</string>
+    <string name="opt_score_max">Ana Sayfa\'da göster</string>
+    <string name="opt_live_first">Önce canlı maçlar</string>
+    <string name="opt_stale">Skorlar güncellenemezse</string>
+    <string name="opt_amb_scores">Canlı skorları göster</string>
+    <string name="opt_amb_shift">Ekranı korumak için saati kaydır</string>
+    <string name="opt_amb_dim">Gece karart</string>
+
+    <string name="grp_cricket">Kriket</string>
+    <string name="grp_football">Futbol</string>
+    <string name="grp_basketball">Basketbol</string>
+    <string name="grp_us">ABD sporları</string>
+    <string name="grp_tennis">Tenis</string>
+    <string name="grp_motor">Motor sporları</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Herhangi bir tuşa basın</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Başlatıcı kurulumu</string>
+    <string name="step_of">Adım %1$d / %2$d</string>
+    <string name="back">Geri</string>
+    <string name="next">Devam</string>
+    <string name="finish">Bitir</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ taşı · OK seç · seçeneklerden ▶ ile Devam\'a geç · Back önceki adım</string>
+    <string name="s1_title">Dilinizi seçin</string>
+    <string name="s1_sub">Summit, seçtiğiniz anda dili değiştirir.</string>
+    <string name="s2_title">TV\'yi nereden izliyorsunuz?</string>
+    <string name="s2_sub">Ana Sayfa\'daki TV İzle, tek OK basışıyla bunu açar.</string>
+    <string name="signal_yes">Sinyal algılandı</string>
+    <string name="signal_no">Sinyal yok</string>
+    <string name="recommended">Önerilen</string>
+    <string name="antenna">Anten (DTV)</string>
+    <string name="s3_title">Ana Sayfa hangi skorları göstersin?</string>
+    <string name="s3_sub">İstediğiniz kadar seçin. Canlı maçlar önce gösterilir.</string>
+    <string name="s_fav_title">Favori uygulamalarınızı seçin</string>
+    <string name="s_fav_sub">Ana Sayfa\'da, tek tuş uzağınızda dururlar. İstediğiniz kadar seçin.</string>
+    <string name="s_wall_title">Duvar kâğıdı seçin</string>
+    <string name="s_wall_sub">Ana Sayfa\'nın ve ekran koruyucunun arkasında gösterilir.</string>
+    <string name="setup_preview_note">Ana ekranınız. Bunların hepsini daha sonra Ayarlar\'dan değiştirebilirsiniz.</string>
+    <string name="s4_title">Bir görünüm seçin</string>
+    <string name="s4_sub">Otomatik, 18.00 ile 06.00 arasında koyu, gündüz açık renklidir.</string>
+    <string name="tennis">Tenis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Son kullanılan uygulamalar Ana Sayfa\'da gösterilsin mi?</string>
+    <string name="usage_body">Devam Et satırının son kullandığınız uygulamaları gösterebilmesi için kullanım erişimine izin verin.</string>
+    <string name="allow">İzin ver</string>
+    <string name="skip">Atla</string>
+    <string name="run_setup">İlk kurulumu çalıştır</string>
+    <string name="change_city">Şehri değiştir</string>
+    <string name="kick_off">Başlama %s</string>
+    <string name="mode_input">TV girişi</string>
+    <string name="mode_input_sub">HDMI, AV veya anten</string>
+    <string name="mode_app">Uygulama</string>
+    <string name="mode_app_sub">Canlı TV uygulaması</string>
+    <string name="search_city">Şehir ara</string>
+    <string name="use_current">Mevcut konumu kullan</string>
+    <string name="use_current_named">Mevcut konumu kullan (%s)</string>
+    <string name="searching">Aranıyor…</string>
+    <string name="no_results">Şehir bulunamadı</string>
+    <string name="search_failed">Şu anda arama yapılamıyor. İnternet bağlantısını kontrol edin.</string>
+    <string name="resume_now">Devam et · az önce</string>
+</resources>

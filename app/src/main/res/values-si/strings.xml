@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">මුල් පිටුව</string>
+    <string name="nav_apps">යෙදුම්</string>
+    <string name="nav_settings">සැකසීම්</string>
+    <string name="search">සොයන්න</string>
+    <string name="tv_settings">Android TV සැකසීම්</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">රූපවාහිනිය නරඹන්න</string>
+    <string name="continue_title">දිගටම</string>
+    <string name="favourites_title">ප්‍රියතම · අමුණන්න හෝ ගෙන යන්න OK අල්ලාගෙන සිටින්න</string>
+    <string name="all_apps">සියලු යෙදුම්</string>
+    <string name="show_recents">මෑත යෙදුම් පෙන්වන්න</string>
+    <string name="not_default_banner">Summit ඔබේ මුල් තිරය ලෙස සකසන්න · ක්‍රමය බැලීමට OK ඔබන්න</string>
+    <string name="not_default_title">Summit ඔබේ මුල් තිරය ලෙස සකසන්න</string>
+    <string name="not_default_help">සැකසීම් › යෙදුම් › පෙරනිමි යෙදුම් › මුල් පිටු යෙදුම විවෘත කර Summit තෝරන්න. සමහර Google TV උපාංගවල මුල් පිටු යෙදුම වෙනස් කළ නොහැක; එවිට ද Summit යෙදුම් ලැයිස්තුවෙන් ක්‍රියා කරයි.</string>
+    <string name="open_settings">සැකසීම් විවෘත කරන්න</string>
+    <string name="dismiss">ඉවත ලන්න</string>
+    <string name="usage_unavailable">සැකසීම් › යෙදුම් › විශේෂ යෙදුම් ප්‍රවේශය › භාවිත ප්‍රවේශය විවෘත කර Summit හට ඉඩ දෙන්න.</string>
+    <string name="move_hint">◀ ▶ ගෙන යන්න · OK තබන්න · Back අවලංගු</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">නැවත අරඹන්න · මිනි. %d කට පෙර</string>
+    <string name="resume_h">නැවත අරඹන්න · පැය %d කට පෙර</string>
+    <string name="yesterday">ඊයේ</string>
+    <string name="days_ago">දින %d කට පෙර</string>
+    <string name="last_week">පසුගිය සතියේ</string>
+    <string name="updated_now">දැන් යාවත්කාලීන කළා</string>
+    <plurals name="updated_ago">
+        <item quantity="one">මිනිත්තු %d කට පෙර යාවත්කාලීන කළා</item>
+        <item quantity="other">මිනිත්තු %d කට පෙර යාවත්කාලීන කළා</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">සජීවී</string>
+    <string name="ft">අවසන්</string>
+    <string name="scores_unavailable">ලකුණු ලබාගත නොහැක</string>
+    <string name="score_cd">%1$s. විස්තර සඳහා OK ඔබන්න</string>
+    <string name="score_live_suffix">%1$s · සජීවී</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">කාලගුණය ලබාගත නොහැක</string>
+    <string name="hi_lo">උ %1$s අ %2$s</string>
+    <string name="hi_lo_long">උපරිම %1$s · අවම %2$s</string>
+    <string name="wind_rain">සුළඟ %1$s · අද වැසි %2$s</string>
+    <string name="weather_title">%1$s · අද</string>
+    <string name="mountains_line">කඳුකරය · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">වැසි %d%%</string>
+    <string name="next_days">ඉදිරි දින 3</string>
+    <string name="change_units">ඒකක සැකසීම් තුළ වෙනස් කරන්න</string>
+    <string name="part_morning">උදෑසන</string>
+    <string name="part_afternoon">දහවල</string>
+    <string name="part_evening">සවස</string>
+    <string name="part_night">රාත්‍රිය</string>
+    <string name="cond_clear">පැහැදිලි</string>
+    <string name="cond_sunny">අව්ව</string>
+    <string name="cond_partly">අර්ධ වලාකුළු</string>
+    <string name="cond_cloudy">වලාකුළු සහිත</string>
+    <string name="cond_fog">මීදුම</string>
+    <string name="cond_rain">වැසි</string>
+    <string name="cond_snow">හිම වැසි</string>
+    <string name="cond_thunder">ගිගුරුම් සහිත වැසි</string>
+    <string name="sum_all_day">දවස පුරා %1$s</string>
+    <string name="sum_morning">උදෑසන %1$s</string>
+    <string name="sum_afternoon">දහවල %1$s</string>
+    <string name="sum_rain_from">%1$s සිට වැසි</string>
+    <string name="sum_tonight">අද රාත්‍රී %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">අඟල් %s</string>
+    <string name="loc_kathmandu">කත්මණ්ඩු</string>
+    <string name="close">වසන්න</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ ගෙන යන්න · OK විවෘත කරන්න · ප්‍රියතමයට අමුණන්න OK අල්ලාගෙන සිටින්න · Back මුල් පිටුවට</string>
+    <string name="selected_app">තෝරාගත්: %s</string>
+    <string name="pin">ප්‍රියතමයට අමුණන්න</string>
+    <string name="unpin">ප්‍රියතමයෙන් ඉවත් කරන්න</string>
+    <string name="move">ගෙන යන්න</string>
+    <string name="app_info">යෙදුම් තොරතුරු</string>
+    <string name="uninstall">අස්ථාපනය</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">මෙම රූපවාහිනිය යෙදුම්වලින් ආදාන මාරු කිරීමට ඉඩ නොදේ. දුරස්ථ පාලකයේ Input බොත්තම භාවිත කරන්න.</string>
+    <string name="no_tv_input">රූපවාහිනී ආදානයක් හමු නොවීය</string>
+    <string name="ask_every_time">සෑම විටම අසන්න</string>
+    <string name="choose_live_app">සජීවී රූපවාහිනී යෙදුමක් තෝරන්න</string>
+    <string name="voice_unavailable">මෙම රූපවාහිනියේ හඬ සෙවීම නොමැත.</string>
+    <string name="cannot_open">මෙම යෙදුම විවෘත කළ නොහැක.</string>
+
+    <!-- Settings -->
+    <string name="reset">පෙරනිමියට යළි සකසන්න</string>
+    <string name="reset_title">දියත්කරණ සියලු සැකසීම් යළි සකසන්නද?</string>
+    <string name="reset_body">තේමාව, බිතුපත, භාෂාව සහ අනෙකුත් සැකසීම් පෙරනිමියට යයි. ඔබේ යෙදුම් සහ ප්‍රියතම එලෙසම පවතී.</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+    <string name="reset_confirm">යළි සකසන්න</string>
+    <string name="settings_hint">▲ ▼ ගෙන යන්න · OK විවෘත කරන්න හෝ තෝරන්න · Back ආපසු. වෙනස්කම් වහාම ක්‍රියාත්මක වේ.</string>
+    <string name="leagues_header">මුල් පිටුවේ පෙන්වන දේ තෝරන්න · %d ක් තෝරා ඇත</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">පෙරදසුන</string>
+
+    <string name="opt_mode">ප්‍රකාරය</string>
+    <string name="opt_colour">වර්ණය</string>
+    <string name="opt_use_screensaver">තිර සුරැකුම ලෙස භාවිත කරන්න</string>
+    <string name="screensaver_setup_title">එක් වරක් පිහිටුවීමක් අවශ්‍යයි</string>
+    <string name="screensaver_setup_body">මෙම රූපවාහිනිය යෙදුම්වලට තනිවම තිර සුරැකුම වෙනස් කිරීමට ඉඩ නොදේ. එක් වරක් පරිගණකයක් සම්බන්ධ කර මෙය ධාවනය කරන්න:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nඉන්පසු මෙය නැවත සක්‍රිය කරන්න.</string>
+    <string name="wallpaper_custom">මගේ පින්තූරය</string>
+    <string name="wallpaper_download_failed">එම බිතුපත බාගත කළ නොහැකි විය. අන්තර්ජාල සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
+    <string name="picture_allow">පින්තූරවලට ප්‍රවේශය දෙන්න</string>
+    <string name="picture_denied">සැකසීම් › යෙදුම් › Summit › අවසර තුළ ඡායාරූප ප්‍රවේශයට ඉඩ දෙන්න.</string>
+    <string name="picture_none">මෙම රූපවාහිනියේ පින්තූර හමු නොවීය.</string>
+    <string name="picture_failed">එම පින්තූරය විවෘත කළ නොහැකි විය.</string>
+    <string name="picture_n">පින්තූරය %d</string>
+    <string name="opt_custom_colour">අභිරුචි වර්ණය</string>
+    <string name="opt_contrast">වෙනස</string>
+    <string name="opt_animations">සජීවිකරණ</string>
+    <string name="opt_wallpaper">බිතුපත</string>
+    <string name="opt_dim">බිතුපත අඳුරු කරන්න</string>
+    <string name="opt_text_size">පෙළ ප්‍රමාණය</string>
+    <string name="opt_digits">දේවනාගරී ඉලක්කම්</string>
+    <string name="opt_language">භාෂාව</string>
+    <string name="opt_calendar">දින දර්ශනය</string>
+    <string name="opt_time">වේලා ආකෘතිය</string>
+    <string name="opt_temp">උෂ්ණත්වය</string>
+    <string name="opt_wind">සුළං වේගය</string>
+    <string name="opt_rain">වර්ෂාපතනය</string>
+    <string name="opt_location">ස්ථානය</string>
+    <string name="opt_show_home">මුල් පිටුවේ පෙන්වන්න</string>
+    <string name="opt_watch_tile">රූපවාහිනිය නරඹන්න ටයිලය</string>
+    <string name="opt_continue">දිගටම පේළිය</string>
+    <string name="opt_fav_order">ප්‍රියතම අනුපිළිවෙළ</string>
+    <string name="opt_health">සෞඛ්‍ය ඉඟිය</string>
+    <string name="opt_live_type">රූපවාහිනිය නරඹන්න භාවිත කරන්නේ</string>
+    <string name="opt_input">ආදාන මූලාශ්‍රය</string>
+    <string name="opt_live_app">යෙදුම</string>
+    <string name="opt_boot">රූපවාහිනිය ආරම්භ වන විට විවෘත කරන්න</string>
+    <string name="opt_tile_size">ටයිල ප්‍රමාණය</string>
+    <string name="opt_tile_shape">ටයිල හැඩය</string>
+    <string name="opt_labels">යෙදුම් නම්</string>
+    <string name="opt_score_max">මුල් පිටුවේ පෙන්වන්න</string>
+    <string name="opt_live_first">සජීවී තරග පළමුව</string>
+    <string name="opt_stale">ලකුණු යාවත්කාලීන කළ නොහැකි නම්</string>
+    <string name="opt_amb_scores">සජීවී ලකුණු පෙන්වන්න</string>
+    <string name="opt_amb_shift">තිරය ආරක්ෂා කිරීමට ඔරලෝසුව ගෙන යන්න</string>
+    <string name="opt_amb_dim">රාත්‍රියේ අඳුරු කරන්න</string>
+
+    <string name="grp_cricket">ක්‍රිකට්</string>
+    <string name="grp_football">පාපන්දු</string>
+    <string name="grp_basketball">බාස්කට්බෝල්</string>
+    <string name="grp_us">ඇමරිකානු ක්‍රීඩා</string>
+    <string name="grp_tennis">ටෙනිස්</string>
+    <string name="grp_motor">මෝටර් ක්‍රීඩා</string>
+    <string name="grp_golf">ගොල්ෆ්</string>
+
+    <!-- Ambient -->
+    <string name="press_any">ඕනෑම බොත්තමක් ඔබන්න</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">දියත්කරණ පිහිටුවීම</string>
+    <string name="step_of">පියවර %1$d / %2$d</string>
+    <string name="back">ආපසු</string>
+    <string name="next">ඉදිරියට</string>
+    <string name="finish">අවසන් කරන්න</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ ගෙන යන්න · OK තෝරන්න · තේරීම්වලින් ▶ ඉදිරියට වෙත යයි · Back පෙර පියවර</string>
+    <string name="s1_title">ඔබේ භාෂාව තෝරන්න</string>
+    <string name="s1_sub">ඔබ තේරූ සැණින් Summit භාෂාව වෙනස් කරයි.</string>
+    <string name="s2_title">ඔබ රූපවාහිනිය නරඹන්නේ කොහෙන්ද?</string>
+    <string name="s2_sub">මුල් පිටුවේ රූපවාහිනිය නරඹන්න OK එක් වරක් එබීමෙන් මෙය විවෘත කරයි.</string>
+    <string name="signal_yes">සංඥාව හමු විය</string>
+    <string name="signal_no">සංඥාවක් නැත</string>
+    <string name="recommended">නිර්දේශිත</string>
+    <string name="antenna">ඇන්ටනාව (DTV)</string>
+    <string name="s3_title">මුල් පිටුවේ පෙන්විය යුතු ලකුණු මොනවාද?</string>
+    <string name="s3_sub">ඔබට කැමති තරම් තෝරන්න. සජීවී තරග පළමුව පෙන්වයි.</string>
+    <string name="s_fav_title">ඔබේ ප්‍රියතම යෙදුම් තෝරන්න</string>
+    <string name="s_fav_sub">ඒවා මුල් පිටුවේ, එක් එබීමකින් ළඟා විය හැක. කැමති තරම් තෝරන්න.</string>
+    <string name="s_wall_title">බිතුපතක් තෝරන්න</string>
+    <string name="s_wall_sub">මුල් පිටුව සහ තිර සුරැකුම පිටුපස පෙන්වයි.</string>
+    <string name="setup_preview_note">ඔබේ මුල් තිරය. මේ සියල්ල පසුව සැකසීම් තුළ වෙනස් කළ හැක.</string>
+    <string name="s4_title">පෙනුමක් තෝරන්න</string>
+    <string name="s4_sub">ස්වයංක්‍රීය ප.ව. 6 සිට පෙ.ව. 6 දක්වා අඳුරු ද දිවා කාලයේ දීප්තිමත් ද වේ.</string>
+    <string name="tennis">ටෙනිස්</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">මෑතදී භාවිත කළ යෙදුම් මුල් පිටුවේ පෙන්වන්නද?</string>
+    <string name="usage_body">දිගටම පේළියට ඔබ මෑතදී භාවිත කළ යෙදුම් පෙන්වීමට භාවිත ප්‍රවේශයට ඉඩ දෙන්න.</string>
+    <string name="allow">ඉඩ දෙන්න</string>
+    <string name="skip">මඟ හරින්න</string>
+    <string name="run_setup">පළමු පිහිටුවීම ධාවනය කරන්න</string>
+    <string name="change_city">නගරය වෙනස් කරන්න</string>
+    <string name="kick_off">ආරම්භය %s</string>
+    <string name="mode_input">රූපවාහිනී ආදානය</string>
+    <string name="mode_input_sub">HDMI, AV හෝ ඇන්ටනාව</string>
+    <string name="mode_app">යෙදුම</string>
+    <string name="mode_app_sub">සජීවී රූපවාහිනී යෙදුමක්</string>
+    <string name="search_city">නගරයක් සොයන්න</string>
+    <string name="use_current">වත්මන් ස්ථානය භාවිත කරන්න</string>
+    <string name="use_current_named">වත්මන් ස්ථානය භාවිත කරන්න (%s)</string>
+    <string name="searching">සොයමින්…</string>
+    <string name="no_results">නගර හමු නොවීය</string>
+    <string name="search_failed">දැන් සෙවිය නොහැක. අන්තර්ජාල සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
+    <string name="resume_now">නැවත අරඹන්න · දැන්</string>
+</resources>

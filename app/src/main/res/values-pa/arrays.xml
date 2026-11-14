@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>ਥੀਮ</item><item>ਫ਼ੌਂਟ</item><item>ਭਾਸ਼ਾ</item><item>ਮੌਸਮ</item>
+        <item>ਹੋਮ ਸਕ੍ਰੀਨ</item><item>ਲਾਈਵ ਟੀਵੀ</item><item>ਆਈਕਨ ਅਤੇ ਟਾਈਲਾਂ</item><item>ਸਕੋਰ</item><item>ਸਕ੍ਰੀਨਸੇਵਰ</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>ਸਮੇਂ ਅਨੁਸਾਰ ਆਟੋ</item><item>ਗੂੜ੍ਹਾ</item><item>ਹਲਕਾ</item></string-array>
+    <string-array name="e_theme_colour"><item>ਵਾਲਪੇਪਰ ਤੋਂ</item><item>ਕੋਰਲ</item><item>ਹਰਾ</item><item>ਆਪਣਾ</item></string-array>
+    <string-array name="e_custom_colour"><item>ਲਾਲ</item><item>ਸੰਤਰੀ</item><item>ਪੀਲਾ</item><item>ਹਰਾ</item><item>ਟੀਲ</item><item>ਨੀਲਾ</item><item>ਗੂੜ੍ਹਾ ਨੀਲਾ</item><item>ਜਾਮਨੀ</item><item>ਗੁਲਾਬੀ</item></string-array>
+    <string-array name="e_contrast"><item>ਮਿਆਰੀ</item><item>ਉੱਚ</item></string-array>
+    <string-array name="e_animations"><item>ਪੂਰੀਆਂ</item><item>ਘੱਟ</item><item>ਬੰਦ</item></string-array>
+    <string-array name="e_wallpaper"><item>ਪਹਾੜੀ ਦ੍ਰਿਸ਼</item><item>ਪਰਬਤ ਰੇਖਾ</item><item>ਸਾਦਾ</item><item>ਫੇਵਾ ਦਾ ਸੂਰਜ ਡੁੱਬਣਾ</item><item>ਹਿਮਾਲਿਆ ਦੀ ਰਾਤ</item><item>ਤਰਾਈ ਦੇ ਖੇਤ</item><item>ਪ੍ਰਾਰਥਨਾ ਝੰਡੇ</item></string-array>
+    <string-array name="e_dim"><item>ਬੰਦ</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ਡਿਫ਼ੌਲਟ</item><item>ਵੱਡਾ</item><item>ਬਹੁਤ ਵੱਡਾ</item></string-array>
+    <string-array name="e_off_on"><item>ਬੰਦ</item><item>ਚਾਲੂ</item></string-array>
+    <string-array name="e_on_off"><item>ਚਾਲੂ</item><item>ਬੰਦ</item></string-array>
+    <string-array name="e_labels"><item>ਹਮੇਸ਼ਾ</item><item>ਚੁਣੇ ਜਾਣ ਉੱਤੇ</item><item>ਬੰਦ</item></string-array>
+    <string-array name="e_show_hide"><item>ਦਿਖਾਓ</item><item>ਲੁਕਾਓ</item></string-array>
+    <string-array name="e_calendar"><item>ਦੋਵੇਂ</item><item>ਬਿਕਰਮੀ ਸੰਮਤ</item><item>ਗ੍ਰੈਗੋਰੀਅਨ</item></string-array>
+    <string-array name="e_time"><item>12-ਘੰਟੇ</item><item>24-ਘੰਟੇ</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>ਇੰਚ</item></string-array>
+    <string-array name="e_watch_tile"><item>ਕਤਾਰ ਵਿੱਚ ਪਹਿਲਾਂ</item><item>ਲੁਕਿਆ ਹੋਇਆ</item></string-array>
+    <string-array name="e_fav_order"><item>ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੀਆਂ</item><item>ਹੱਥੀਂ</item></string-array>
+    <string-array name="e_health"><item>ਸਿਰਫ਼ ਐਂਬੀਐਂਟ</item><item>ਹੋਮ ਅਤੇ ਐਂਬੀਐਂਟ</item><item>ਬੰਦ</item></string-array>
+    <string-array name="e_live_type"><item>ਟੀਵੀ ਇਨਪੁੱਟ</item><item>ਐਪ</item></string-array>
+    <string-array name="e_tile_size"><item>ਦਰਮਿਆਨਾ</item><item>ਵੱਡਾ</item><item>ਛੋਟਾ</item></string-array>
+    <string-array name="e_tile_shape"><item>ਗੋਲ ਕੋਨੇ</item><item>ਚੌਰਸ</item></string-array>
+    <string-array name="e_score_max"><item>4 ਤੱਕ</item><item>6 ਤੱਕ</item><item>3 ਤੱਕ</item><item>2 ਤੱਕ</item></string-array>
+    <string-array name="e_stale"><item>\"ਉਪਲਬਧ ਨਹੀਂ\" ਦਿਖਾਓ</item><item>ਸਕੋਰ ਲੁਕਾਓ</item></string-array>
+
+    <string-array name="health">
+        <item>ਸਿਹਤ ਹੀ ਅਸਲੀ ਦੌਲਤ ਹੈ। ਥੋੜ੍ਹਾ ਤੁਰੋ, ਖੁੱਲ੍ਹ ਕੇ ਮੁਸਕਰਾਓ।</item>
+        <item>ਅੱਜ 20 ਮਿੰਟ ਦੀ ਸੈਰ ਆਉਣ ਵਾਲੇ ਕੱਲ੍ਹ ਲਈ ਤੋਹਫ਼ਾ ਹੈ।</item>
+        <item>ਅਗਲੇ ਐਪੀਸੋਡ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਗਲਾਸ ਪਾਣੀ ਪੀ ਲਓ।</item>
+        <item>ਅੱਖਾਂ ਨੂੰ ਆਰਾਮ ਦਿਓ: ਹਰ 20 ਮਿੰਟ ਬਾਅਦ 20 ਸਕਿੰਟ ਦੂਰ ਦੇਖੋ।</item>
+        <item>ਚੰਗੀ ਨੀਂਦ ਸਭ ਤੋਂ ਵਧੀਆ ਸਿਖਲਾਈ ਹੈ। ਅੱਜ ਰਾਤ ਸਮੇਂ ਸਿਰ ਟੀਵੀ ਬੰਦ ਕਰੋ।</item>
+        <item>ਹਰ ਬ੍ਰੇਕ ਵਿੱਚ ਖੜ੍ਹੇ ਹੋ ਕੇ ਸਰੀਰ ਖਿੱਚੋ। ਤੁਹਾਡੀ ਪਿੱਠ ਸ਼ੁਕਰੀਆ ਕਹੇਗੀ।</item>
+        <item>ਇੰਝ ਖਾਓ ਜਿਵੇਂ ਪਹਾੜ ਦੇਖ ਰਹੇ ਹੋਣ: ਤਾਜ਼ਾ, ਸਾਦਾ ਅਤੇ ਮੌਸਮੀ।</item>
+    </string-array>
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit アンビエント</string>
+
+    <!-- Header -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_apps">アプリ</string>
+    <string name="nav_settings">設定</string>
+    <string name="search">検索</string>
+    <string name="tv_settings">Android TV の設定</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">テレビを見る</string>
+    <string name="continue_title">続きを見る</string>
+    <string name="favourites_title">お気に入り · OK 長押しで固定・移動</string>
+    <string name="all_apps">すべてのアプリ</string>
+    <string name="show_recents">最近使ったアプリを表示</string>
+    <string name="not_default_banner">Summit をホーム画面に設定 · OK で手順を表示</string>
+    <string name="not_default_title">Summit をホーム画面に設定</string>
+    <string name="not_default_help">設定 › アプリ › デフォルトのアプリ › ホームアプリ を開き、Summit を選択してください。一部の Google TV 端末ではホームアプリを変更できませんが、Summit はアプリ一覧から引き続き使えます。</string>
+    <string name="open_settings">設定を開く</string>
+    <string name="dismiss">閉じる</string>
+    <string name="usage_unavailable">設定 › アプリ › 特別なアプリアクセス › 使用状況へのアクセス を開き、Summit を許可してください。</string>
+    <string name="move_hint">◀ ▶ 移動 · OK 決定 · Back キャンセル</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">再開 · %d 分前</string>
+    <string name="resume_h">再開 · %d 時間前</string>
+    <string name="yesterday">昨日</string>
+    <string name="days_ago">%d 日前</string>
+    <string name="last_week">先週</string>
+    <string name="updated_now">たった今更新</string>
+    <plurals name="updated_ago">
+        <item quantity="other">%d 分前に更新</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">ライブ</string>
+    <string name="ft">試合終了</string>
+    <string name="scores_unavailable">スコアを取得できません</string>
+    <string name="score_cd">%1$s。OK で詳細を表示</string>
+    <string name="score_live_suffix">%1$s · ライブ</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">天気を取得できません</string>
+    <string name="hi_lo">最高 %1$s 最低 %2$s</string>
+    <string name="hi_lo_long">最高 %1$s · 最低 %2$s</string>
+    <string name="wind_rain">風 %1$s · 今日の雨 %2$s</string>
+    <string name="weather_title">%1$s · 今日</string>
+    <string name="mountains_line">山岳 · ナムチェバザール %1$s、%2$s</string>
+    <string name="rain_pct">降水 %d%%</string>
+    <string name="next_days">今後 3 日間</string>
+    <string name="change_units">単位は設定で変更できます</string>
+    <string name="part_morning">朝</string>
+    <string name="part_afternoon">午後</string>
+    <string name="part_evening">夕方</string>
+    <string name="part_night">夜</string>
+    <string name="cond_clear">晴れ</string>
+    <string name="cond_sunny">快晴</string>
+    <string name="cond_partly">晴れ時々曇り</string>
+    <string name="cond_cloudy">曇り</string>
+    <string name="cond_fog">霧</string>
+    <string name="cond_rain">雨</string>
+    <string name="cond_snow">にわか雪</string>
+    <string name="cond_thunder">雷雨</string>
+    <string name="sum_all_day">一日中%1$s</string>
+    <string name="sum_morning">朝は%1$s</string>
+    <string name="sum_afternoon">午後は%1$s</string>
+    <string name="sum_rain_from">%1$sから雨</string>
+    <string name="sum_tonight">今夜は%1$s</string>
+    <string name="sum_sep">"、"</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s インチ</string>
+    <string name="loc_kathmandu">カトマンズ</string>
+    <string name="close">閉じる</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ 移動 · OK 開く · OK 長押しでお気に入りに固定 · Back でホームへ</string>
+    <string name="selected_app">選択中: %s</string>
+    <string name="pin">お気に入りに固定</string>
+    <string name="unpin">お気に入りから外す</string>
+    <string name="move">移動</string>
+    <string name="app_info">アプリ情報</string>
+    <string name="uninstall">アンインストール</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">このテレビではアプリから入力を切り替えられません。リモコンの入力切替ボタンを使ってください。</string>
+    <string name="no_tv_input">テレビ入力が見つかりません</string>
+    <string name="ask_every_time">毎回確認する</string>
+    <string name="choose_live_app">テレビ視聴アプリを選択</string>
+    <string name="voice_unavailable">このテレビでは音声検索を利用できません。</string>
+    <string name="cannot_open">このアプリを開けません。</string>
+
+    <!-- Settings -->
+    <string name="reset">デフォルトに戻す</string>
+    <string name="reset_title">ランチャーの設定をすべてリセットしますか？</string>
+    <string name="reset_body">テーマ、壁紙、言語などのランチャー設定が初期状態に戻ります。アプリとお気に入りはそのまま残ります。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="reset_confirm">リセット</string>
+    <string name="settings_hint">▲ ▼ 移動 · OK 開く/選択 · Back 戻る。変更はすぐに反映されます。</string>
+    <string name="leagues_header">ホームに表示する項目を選択 · %d 件選択中</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">プレビュー</string>
+
+    <string name="opt_mode">モード</string>
+    <string name="opt_colour">色</string>
+    <string name="opt_use_screensaver">スクリーンセーバーとして使用</string>
+    <string name="screensaver_setup_title">初回のみ設定が必要です</string>
+    <string name="screensaver_setup_body">このテレビでは、アプリが自分でスクリーンセーバーを変更できません。一度パソコンを接続して、次のコマンドを実行してください:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nその後、もう一度オンにしてください。</string>
+    <string name="wallpaper_custom">自分の写真</string>
+    <string name="wallpaper_download_failed">壁紙をダウンロードできませんでした。インターネット接続を確認してください。</string>
+    <string name="picture_allow">写真へのアクセスを許可</string>
+    <string name="picture_denied">設定 › アプリ › Summit › 権限 で写真へのアクセスを許可してください。</string>
+    <string name="picture_none">このテレビに写真が見つかりません。</string>
+    <string name="picture_failed">その写真を開けませんでした。</string>
+    <string name="picture_n">写真 %d</string>
+    <string name="opt_custom_colour">カスタムカラー</string>
+    <string name="opt_contrast">コントラスト</string>
+    <string name="opt_animations">アニメーション</string>
+    <string name="opt_wallpaper">壁紙</string>
+    <string name="opt_dim">壁紙を暗くする</string>
+    <string name="opt_text_size">文字サイズ</string>
+    <string name="opt_digits">デーヴァナーガリー数字</string>
+    <string name="opt_language">言語</string>
+    <string name="opt_calendar">カレンダー</string>
+    <string name="opt_time">時刻の形式</string>
+    <string name="opt_temp">気温</string>
+    <string name="opt_wind">風速</string>
+    <string name="opt_rain">降水量</string>
+    <string name="opt_location">地域</string>
+    <string name="opt_show_home">ホームに表示</string>
+    <string name="opt_watch_tile">「テレビを見る」タイル</string>
+    <string name="opt_continue">「続きを見る」の行</string>
+    <string name="opt_fav_order">お気に入りの並び順</string>
+    <string name="opt_health">健康のひとこと</string>
+    <string name="opt_live_type">「テレビを見る」で使うもの</string>
+    <string name="opt_input">入力ソース</string>
+    <string name="opt_live_app">アプリ</string>
+    <string name="opt_boot">テレビ起動時に開く</string>
+    <string name="opt_tile_size">タイルのサイズ</string>
+    <string name="opt_tile_shape">タイルの形</string>
+    <string name="opt_labels">アプリ名</string>
+    <string name="opt_score_max">ホームに表示</string>
+    <string name="opt_live_first">試合中を先に表示</string>
+    <string name="opt_stale">スコアを更新できないとき</string>
+    <string name="opt_amb_scores">ライブスコアを表示</string>
+    <string name="opt_amb_shift">画面保護のため時計を移動</string>
+    <string name="opt_amb_dim">夜間は暗くする</string>
+
+    <string name="grp_cricket">クリケット</string>
+    <string name="grp_football">サッカー</string>
+    <string name="grp_basketball">バスケットボール</string>
+    <string name="grp_us">アメリカのスポーツ</string>
+    <string name="grp_tennis">テニス</string>
+    <string name="grp_motor">モータースポーツ</string>
+    <string name="grp_golf">ゴルフ</string>
+
+    <!-- Ambient -->
+    <string name="press_any">いずれかのボタンを押してください</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">ランチャーのセットアップ</string>
+    <string name="step_of">ステップ %1$d / %2$d</string>
+    <string name="back">戻る</string>
+    <string name="next">続ける</string>
+    <string name="finish">完了</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ 移動 · OK 選択 · 選択肢から ▶ で「続ける」へ · Back 前のステップ</string>
+    <string name="s1_title">言語を選択</string>
+    <string name="s1_sub">選ぶとすぐに Summit の言語が切り替わります。</string>
+    <string name="s2_title">テレビは何で見ますか？</string>
+    <string name="s2_sub">ホームの「テレビを見る」で OK を押すだけでこれが開きます。</string>
+    <string name="signal_yes">信号を検出</string>
+    <string name="signal_no">信号なし</string>
+    <string name="recommended">おすすめ</string>
+    <string name="antenna">アンテナ (DTV)</string>
+    <string name="s3_title">ホームに表示するスコアは？</string>
+    <string name="s3_sub">いくつでも選べます。試合中のものが先に表示されます。</string>
+    <string name="s_fav_title">お気に入りのアプリを選択</string>
+    <string name="s_fav_sub">ホームに並び、ワンプッシュで開けます。いくつでも選べます。</string>
+    <string name="s_wall_title">壁紙を選択</string>
+    <string name="s_wall_sub">ホームとスクリーンセーバーの背景に表示されます。</string>
+    <string name="setup_preview_note">これがあなたのホーム画面です。すべて後から設定で変更できます。</string>
+    <string name="s4_title">外観を選択</string>
+    <string name="s4_sub">「自動」では午後 6 時から午前 6 時まではダーク、日中はライトになります。</string>
+    <string name="tennis">テニス</string>
+    <string name="formula1">F1</string>
+    <string name="usage_title">最近使ったアプリをホームに表示しますか？</string>
+    <string name="usage_body">使用状況へのアクセスを許可すると、「続きを見る」の行に最近使ったアプリが表示されます。</string>
+    <string name="allow">許可</string>
+    <string name="skip">スキップ</string>
+    <string name="run_setup">初回セットアップを実行</string>
+    <string name="change_city">都市を変更</string>
+    <string name="kick_off">%s キックオフ</string>
+    <string name="mode_input">テレビ入力</string>
+    <string name="mode_input_sub">HDMI、AV、アンテナ</string>
+    <string name="mode_app">アプリ</string>
+    <string name="mode_app_sub">テレビ視聴アプリ</string>
+    <string name="search_city">都市を検索</string>
+    <string name="use_current">現在地を使用</string>
+    <string name="use_current_named">現在地を使用 (%s)</string>
+    <string name="searching">検索中…</string>
+    <string name="no_results">都市が見つかりません</string>
+    <string name="search_failed">現在検索できません。インターネット接続を確認してください。</string>
+    <string name="resume_now">再開 · たった今</string>
+</resources>

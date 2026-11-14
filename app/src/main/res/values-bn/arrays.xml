@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>থিম</item><item>ফন্ট</item><item>ভাষা</item><item>আবহাওয়া</item>
+        <item>হোম স্ক্রিন</item><item>লাইভ টিভি</item><item>আইকন ও টাইল</item><item>স্কোর</item><item>স্ক্রিনসেভার</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>সময় অনুযায়ী অটো</item><item>ডার্ক</item><item>লাইট</item></string-array>
+    <string-array name="e_theme_colour"><item>ওয়ালপেপার থেকে</item><item>কোরাল</item><item>সবুজ</item><item>নিজের</item></string-array>
+    <string-array name="e_custom_colour"><item>লাল</item><item>কমলা</item><item>হলুদ</item><item>সবুজ</item><item>টিল</item><item>নীল</item><item>গাঢ় নীল</item><item>বেগুনি</item><item>গোলাপি</item></string-array>
+    <string-array name="e_contrast"><item>সাধারণ</item><item>উচ্চ</item></string-array>
+    <string-array name="e_animations"><item>পূর্ণ</item><item>কম</item><item>বন্ধ</item></string-array>
+    <string-array name="e_wallpaper"><item>পাহাড়ের দৃশ্য</item><item>শৈলরেখা</item><item>সাদামাটা</item><item>ফেওয়ার সূর্যাস্ত</item><item>হিমালয়ের রাত</item><item>তরাইয়ের খেত</item><item>প্রার্থনা পতাকা</item></string-array>
+    <string-array name="e_dim"><item>বন্ধ</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ডিফল্ট</item><item>বড়</item><item>অনেক বড়</item></string-array>
+    <string-array name="e_off_on"><item>বন্ধ</item><item>চালু</item></string-array>
+    <string-array name="e_on_off"><item>চালু</item><item>বন্ধ</item></string-array>
+    <string-array name="e_labels"><item>সবসময়</item><item>বেছে নিলে</item><item>বন্ধ</item></string-array>
+    <string-array name="e_show_hide"><item>দেখান</item><item>লুকান</item></string-array>
+    <string-array name="e_calendar"><item>দুটোই</item><item>বিক্রম সংবৎ</item><item>গ্রেগরীয়</item></string-array>
+    <string-array name="e_time"><item>12 ঘণ্টা</item><item>24 ঘণ্টা</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>ইঞ্চি</item></string-array>
+    <string-array name="e_watch_tile"><item>সারিতে প্রথম</item><item>লুকানো</item></string-array>
+    <string-array name="e_fav_order"><item>সবচেয়ে বেশি ব্যবহৃত</item><item>নিজে সাজানো</item></string-array>
+    <string-array name="e_health"><item>শুধু অ্যাম্বিয়েন্ট</item><item>হোম ও অ্যাম্বিয়েন্ট</item><item>বন্ধ</item></string-array>
+    <string-array name="e_live_type"><item>টিভি ইনপুট</item><item>অ্যাপ</item></string-array>
+    <string-array name="e_tile_size"><item>মাঝারি</item><item>বড়</item><item>ছোট</item></string-array>
+    <string-array name="e_tile_shape"><item>গোল কোণ</item><item>বর্গাকার</item></string-array>
+    <string-array name="e_score_max"><item>4টি পর্যন্ত</item><item>6টি পর্যন্ত</item><item>3টি পর্যন্ত</item><item>2টি পর্যন্ত</item></string-array>
+    <string-array name="e_stale"><item>\"পাওয়া যাচ্ছে না\" দেখান</item><item>স্কোর লুকান</item></string-array>
+
+    <string-array name="health">
+        <item>স্বাস্থ্যই আসল সম্পদ। একটু হাঁটুন, অনেক হাসুন।</item>
+        <item>আজ 20 মিনিট হাঁটা আগামী দিনের আপনার জন্য উপহার।</item>
+        <item>পরের এপিসোডের আগে এক গ্লাস জল খেয়ে নিন।</item>
+        <item>চোখকে বিশ্রাম দিন: প্রতি 20 মিনিটে 20 সেকেন্ড দূরে তাকান।</item>
+        <item>ভালো ঘুমই সেরা প্রশিক্ষণ। আজ রাতে সময়মতো টিভি বন্ধ করুন।</item>
+        <item>প্রতিটি বিরতিতে উঠে দাঁড়িয়ে শরীর টানটান করুন। আপনার পিঠ ধন্যবাদ দেবে।</item>
+        <item>এমনভাবে খান যেন পাহাড় দেখছে: টাটকা, সাদামাটা আর মৌসুমি।</item>
+    </string-array>
+</resources>

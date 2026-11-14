@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Tema</item><item>Font</item><item>Wika</item><item>Panahon</item>
+        <item>Home screen</item><item>Live TV</item><item>Mga icon &amp; tile</item><item>Mga score</item><item>Screensaver</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto ayon sa oras</item><item>Madilim</item><item>Maliwanag</item></string-array>
+    <string-array name="e_theme_colour"><item>Mula sa wallpaper</item><item>Coral</item><item>Berde</item><item>Custom</item></string-array>
+    <string-array name="e_custom_colour"><item>Pula</item><item>Kahel</item><item>Dilaw</item><item>Berde</item><item>Teal</item><item>Asul</item><item>Indigo</item><item>Lila</item><item>Rosas</item></string-array>
+    <string-array name="e_contrast"><item>Karaniwan</item><item>Mataas</item></string-array>
+    <string-array name="e_animations"><item>Buo</item><item>Binawasan</item><item>Naka-off</item></string-array>
+    <string-array name="e_wallpaper"><item>Tanawin ng bundok</item><item>Linya ng tagaytay</item><item>Payak</item><item>Paglubog ng araw sa Phewa</item><item>Gabi sa Himalaya</item><item>Mga bukid ng Terai</item><item>Mga prayer flag</item></string-array>
+    <string-array name="e_dim"><item>Naka-off</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Default</item><item>Malaki</item><item>Napakalaki</item></string-array>
+    <string-array name="e_off_on"><item>Naka-off</item><item>Naka-on</item></string-array>
+    <string-array name="e_on_off"><item>Naka-on</item><item>Naka-off</item></string-array>
+    <string-array name="e_labels"><item>Palagi</item><item>Kapag napili</item><item>Naka-off</item></string-array>
+    <string-array name="e_show_hide"><item>Ipakita</item><item>Itago</item></string-array>
+    <string-array name="e_calendar"><item>Pareho</item><item>Bikram Sambat</item><item>Gregorian</item></string-array>
+    <string-array name="e_time"><item>12-oras</item><item>24-oras</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>pulgada</item></string-array>
+    <string-array name="e_watch_tile"><item>Una sa row</item><item>Nakatago</item></string-array>
+    <string-array name="e_fav_order"><item>Pinakamadalas gamitin</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Screensaver lang</item><item>Home at screensaver</item><item>Naka-off</item></string-array>
+    <string-array name="e_live_type"><item>TV input</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Katamtaman</item><item>Malaki</item><item>Maliit</item></string-array>
+    <string-array name="e_tile_shape"><item>Bilugan</item><item>Parisukat</item></string-array>
+    <string-array name="e_score_max"><item>Hanggang 4</item><item>Hanggang 6</item><item>Hanggang 3</item><item>Hanggang 2</item></string-array>
+    <string-array name="e_stale"><item>Sabihing \"hindi available\"</item><item>Itago ang mga score</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Ang kalusugan ang tunay mong kayamanan. Kumilos nang kaunti, ngumiti nang madalas.</item>
+        <item>Ang 20 minutong lakad ngayon ay regalo sa iyong sarili bukas.</item>
+        <item>Uminom ng isang basong tubig bago ang susunod na episode.</item>
+        <item>Ipahinga ang mata: bawat 20 minuto, tumingin sa malayo nang 20 segundo.</item>
+        <item>Ang mahimbing na tulog ang pinakamahusay na training plan. Mag-off sa tamang oras ngayong gabi.</item>
+        <item>Tumayo at mag-stretch sa bawat break. Magpapasalamat ang likod mo.</item>
+        <item>Kumain na parang nanonood ang mga bundok: sariwa, simple, at napapanahon.</item>
+    </string-array>
+</resources>

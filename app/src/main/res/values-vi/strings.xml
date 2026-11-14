@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit Ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_apps">Ứng dụng</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="tv_settings">Cài đặt Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Xem TV</string>
+    <string name="continue_title">Xem tiếp</string>
+    <string name="favourites_title">Yêu thích · giữ OK để ghim hoặc di chuyển</string>
+    <string name="all_apps">Tất cả ứng dụng</string>
+    <string name="show_recents">Hiện ứng dụng gần đây</string>
+    <string name="not_default_banner">Đặt Summit làm màn hình chính · nhấn OK để xem cách làm</string>
+    <string name="not_default_title">Đặt Summit làm màn hình chính</string>
+    <string name="not_default_help">Mở Cài đặt › Ứng dụng › Ứng dụng mặc định › Ứng dụng màn hình chính và chọn Summit. Một số thiết bị Google TV không cho đổi ứng dụng màn hình chính; bạn vẫn có thể mở Summit từ danh sách ứng dụng.</string>
+    <string name="open_settings">Mở cài đặt</string>
+    <string name="dismiss">Đóng</string>
+    <string name="usage_unavailable">Mở Cài đặt › Ứng dụng › Quyền truy cập đặc biệt › Quyền truy cập dữ liệu sử dụng và cho phép Summit.</string>
+    <string name="move_hint">◀ ▶ di chuyển · OK thả · Back hủy</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Xem tiếp · %d phút trước</string>
+    <string name="resume_h">Xem tiếp · %d giờ trước</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="days_ago">%d ngày trước</string>
+    <string name="last_week">Tuần trước</string>
+    <string name="updated_now">Vừa cập nhật</string>
+    <plurals name="updated_ago">
+        <item quantity="other">Cập nhật %d phút trước</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">TRỰC TIẾP</string>
+    <string name="ft">KT</string>
+    <string name="scores_unavailable">Không có tỷ số</string>
+    <string name="score_cd">%1$s. Nhấn OK để xem chi tiết</string>
+    <string name="score_live_suffix">%1$s · TRỰC TIẾP</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Không có dữ liệu thời tiết</string>
+    <string name="hi_lo">C %1$s T %2$s</string>
+    <string name="hi_lo_long">Cao %1$s · Thấp %2$s</string>
+    <string name="wind_rain">Gió %1$s · Mưa hôm nay %2$s</string>
+    <string name="weather_title">%1$s · Hôm nay</string>
+    <string name="mountains_line">Vùng núi · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Mưa %d%%</string>
+    <string name="next_days">3 ngày tới</string>
+    <string name="change_units">Đổi đơn vị trong Cài đặt</string>
+    <string name="part_morning">Sáng</string>
+    <string name="part_afternoon">Chiều</string>
+    <string name="part_evening">Tối</string>
+    <string name="part_night">Đêm</string>
+    <string name="cond_clear">Quang đãng</string>
+    <string name="cond_sunny">Nắng</string>
+    <string name="cond_partly">Có mây rải rác</string>
+    <string name="cond_cloudy">Nhiều mây</string>
+    <string name="cond_fog">Sương mù</string>
+    <string name="cond_rain">Mưa</string>
+    <string name="cond_snow">Mưa tuyết</string>
+    <string name="cond_thunder">Dông</string>
+    <string name="sum_all_day">%1$s cả ngày</string>
+    <string name="sum_morning">%1$s buổi sáng</string>
+    <string name="sum_afternoon">%1$s buổi chiều</string>
+    <string name="sum_rain_from">mưa từ %1$s</string>
+    <string name="sum_tonight">%1$s tối nay</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s inch</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Đóng</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ di chuyển · OK mở · giữ OK để ghim vào Yêu thích · Back về Trang chủ</string>
+    <string name="selected_app">Đã chọn: %s</string>
+    <string name="pin">Ghim vào Yêu thích</string>
+    <string name="unpin">Bỏ ghim khỏi Yêu thích</string>
+    <string name="move">Di chuyển</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="uninstall">Gỡ cài đặt</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">TV này không cho ứng dụng chuyển nguồn vào. Hãy dùng nút chọn nguồn trên điều khiển.</string>
+    <string name="no_tv_input">Không tìm thấy nguồn TV</string>
+    <string name="ask_every_time">Luôn hỏi</string>
+    <string name="choose_live_app">Chọn ứng dụng xem TV trực tiếp</string>
+    <string name="voice_unavailable">TV này không hỗ trợ tìm kiếm bằng giọng nói.</string>
+    <string name="cannot_open">Không thể mở ứng dụng này.</string>
+
+    <!-- Settings -->
+    <string name="reset">Khôi phục mặc định</string>
+    <string name="reset_title">Đặt lại mọi cài đặt launcher?</string>
+    <string name="reset_body">Chủ đề, hình nền, ngôn ngữ và các cài đặt launcher khác sẽ trở về mặc định. Ứng dụng và mục yêu thích của bạn vẫn giữ nguyên.</string>
+    <string name="cancel">Hủy</string>
+    <string name="reset_confirm">Đặt lại</string>
+    <string name="settings_hint">▲ ▼ di chuyển · OK mở hoặc chọn · Back quay lại. Thay đổi được áp dụng ngay.</string>
+    <string name="leagues_header">Chọn nội dung hiện trên Trang chủ · đã chọn %d</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Xem trước</string>
+
+    <string name="opt_mode">Chế độ</string>
+    <string name="opt_colour">Màu</string>
+    <string name="opt_use_screensaver">Dùng làm trình bảo vệ màn hình</string>
+    <string name="screensaver_setup_title">Cần thiết lập một lần</string>
+    <string name="screensaver_setup_body">TV này không cho ứng dụng tự đổi trình bảo vệ màn hình. Hãy kết nối máy tính một lần và chạy:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSau đó bật lại tùy chọn này.</string>
+    <string name="wallpaper_custom">Ảnh của tôi</string>
+    <string name="wallpaper_download_failed">Không tải được hình nền đó. Hãy kiểm tra kết nối Internet.</string>
+    <string name="picture_allow">Cho phép truy cập ảnh</string>
+    <string name="picture_denied">Cho phép truy cập Ảnh trong Cài đặt › Ứng dụng › Summit › Quyền.</string>
+    <string name="picture_none">Không tìm thấy ảnh nào trên TV này.</string>
+    <string name="picture_failed">Không mở được ảnh đó.</string>
+    <string name="picture_n">Ảnh %d</string>
+    <string name="opt_custom_colour">Màu tùy chỉnh</string>
+    <string name="opt_contrast">Độ tương phản</string>
+    <string name="opt_animations">Hiệu ứng động</string>
+    <string name="opt_wallpaper">Hình nền</string>
+    <string name="opt_dim">Làm tối hình nền</string>
+    <string name="opt_text_size">Cỡ chữ</string>
+    <string name="opt_digits">Chữ số Devanagari</string>
+    <string name="opt_language">Ngôn ngữ</string>
+    <string name="opt_calendar">Lịch</string>
+    <string name="opt_time">Định dạng giờ</string>
+    <string name="opt_temp">Nhiệt độ</string>
+    <string name="opt_wind">Tốc độ gió</string>
+    <string name="opt_rain">Lượng mưa</string>
+    <string name="opt_location">Vị trí</string>
+    <string name="opt_show_home">Hiện trên Trang chủ</string>
+    <string name="opt_watch_tile">Ô Xem TV</string>
+    <string name="opt_continue">Hàng Xem tiếp</string>
+    <string name="opt_fav_order">Thứ tự Yêu thích</string>
+    <string name="opt_health">Lời nhắc sức khỏe</string>
+    <string name="opt_live_type">Xem TV qua</string>
+    <string name="opt_input">Nguồn vào</string>
+    <string name="opt_live_app">Ứng dụng</string>
+    <string name="opt_boot">Mở khi bật TV</string>
+    <string name="opt_tile_size">Kích thước ô</string>
+    <string name="opt_tile_shape">Hình dạng ô</string>
+    <string name="opt_labels">Tên ứng dụng</string>
+    <string name="opt_score_max">Hiện trên Trang chủ</string>
+    <string name="opt_live_first">Trận trực tiếp lên đầu</string>
+    <string name="opt_stale">Khi không cập nhật được tỷ số</string>
+    <string name="opt_amb_scores">Hiện tỷ số trực tiếp</string>
+    <string name="opt_amb_shift">Dịch đồng hồ để bảo vệ màn hình</string>
+    <string name="opt_amb_dim">Giảm sáng ban đêm</string>
+
+    <string name="grp_cricket">Cricket</string>
+    <string name="grp_football">Bóng đá</string>
+    <string name="grp_basketball">Bóng rổ</string>
+    <string name="grp_us">Thể thao Mỹ</string>
+    <string name="grp_tennis">Quần vợt</string>
+    <string name="grp_motor">Đua xe</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Nhấn nút bất kỳ</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Thiết lập launcher</string>
+    <string name="step_of">Bước %1$d/%2$d</string>
+    <string name="back">Quay lại</string>
+    <string name="next">Tiếp tục</string>
+    <string name="finish">Hoàn tất</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ di chuyển · OK chọn · ▶ từ các lựa chọn để đến Tiếp tục · Back bước trước</string>
+    <string name="s1_title">Chọn ngôn ngữ</string>
+    <string name="s1_sub">Summit đổi ngôn ngữ ngay khi bạn chọn.</string>
+    <string name="s2_title">Bạn xem TV bằng gì?</string>
+    <string name="s2_sub">Xem TV trên Trang chủ sẽ mở mục này chỉ với một lần nhấn OK.</string>
+    <string name="signal_yes">Có tín hiệu</string>
+    <string name="signal_no">Không có tín hiệu</string>
+    <string name="recommended">Đề xuất</string>
+    <string name="antenna">Ăng-ten (DTV)</string>
+    <string name="s3_title">Trang chủ nên hiện tỷ số nào?</string>
+    <string name="s3_sub">Chọn bao nhiêu tùy thích. Trận trực tiếp hiện trước.</string>
+    <string name="s_fav_title">Chọn ứng dụng yêu thích</string>
+    <string name="s_fav_sub">Chúng nằm trên Trang chủ, chỉ cần một lần nhấn. Chọn bao nhiêu tùy thích.</string>
+    <string name="s_wall_title">Chọn hình nền</string>
+    <string name="s_wall_sub">Hiển thị phía sau Trang chủ và trình bảo vệ màn hình.</string>
+    <string name="setup_preview_note">Đây là Trang chủ của bạn. Bạn có thể đổi mọi thứ sau trong Cài đặt.</string>
+    <string name="s4_title">Chọn giao diện</string>
+    <string name="s4_sub">Tự động sẽ tối từ 6 giờ tối đến 6 giờ sáng và sáng vào ban ngày.</string>
+    <string name="tennis">Quần vợt</string>
+    <string name="formula1">Công thức 1</string>
+    <string name="usage_title">Hiện ứng dụng dùng gần đây trên Trang chủ?</string>
+    <string name="usage_body">Cho phép truy cập dữ liệu sử dụng để hàng Xem tiếp hiện các ứng dụng bạn dùng gần đây.</string>
+    <string name="allow">Cho phép</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="run_setup">Chạy thiết lập ban đầu</string>
+    <string name="change_city">Đổi thành phố</string>
+    <string name="kick_off">Bắt đầu lúc %s</string>
+    <string name="mode_input">Nguồn TV</string>
+    <string name="mode_input_sub">HDMI, AV hoặc ăng-ten</string>
+    <string name="mode_app">Ứng dụng</string>
+    <string name="mode_app_sub">Ứng dụng xem TV trực tiếp</string>
+    <string name="search_city">Tìm thành phố</string>
+    <string name="use_current">Dùng vị trí hiện tại</string>
+    <string name="use_current_named">Dùng vị trí hiện tại (%s)</string>
+    <string name="searching">Đang tìm…</string>
+    <string name="no_results">Không tìm thấy thành phố</string>
+    <string name="search_failed">Hiện không thể tìm kiếm. Hãy kiểm tra kết nối Internet.</string>
+    <string name="resume_now">Xem tiếp · vừa xong</string>
+</resources>

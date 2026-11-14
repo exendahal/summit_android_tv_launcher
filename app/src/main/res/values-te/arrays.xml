@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>థీమ్</item><item>ఫాంట్</item><item>భాష</item><item>వాతావరణం</item>
+        <item>హోమ్ స్క్రీన్</item><item>లైవ్ టీవీ</item><item>ఐకాన్‌లు &amp; టైల్స్</item><item>స్కోర్‌లు</item><item>స్క్రీన్‌సేవర్</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>సమయం ప్రకారం ఆటో</item><item>డార్క్</item><item>లైట్</item></string-array>
+    <string-array name="e_theme_colour"><item>వాల్‌పేపర్ నుండి</item><item>పగడం</item><item>ఆకుపచ్చ</item><item>అనుకూలం</item></string-array>
+    <string-array name="e_custom_colour"><item>ఎరుపు</item><item>నారింజ</item><item>పసుపు</item><item>ఆకుపచ్చ</item><item>నీలి ఆకుపచ్చ</item><item>నీలం</item><item>ఇండిగో</item><item>ఊదా</item><item>గులాబీ</item></string-array>
+    <string-array name="e_contrast"><item>ప్రామాణికం</item><item>ఎక్కువ</item></string-array>
+    <string-array name="e_animations"><item>పూర్తి</item><item>తగ్గించినవి</item><item>ఆఫ్</item></string-array>
+    <string-array name="e_wallpaper"><item>పర్వత దృశ్యం</item><item>శిఖర రేఖ</item><item>సాదా</item><item>ఫేవా సూర్యాస్తమయం</item><item>హిమాలయ రాత్రి</item><item>తరాయ్ పొలాలు</item><item>ప్రార్థన జెండాలు</item></string-array>
+    <string-array name="e_dim"><item>ఆఫ్</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>డిఫాల్ట్</item><item>పెద్దది</item><item>చాలా పెద్దది</item></string-array>
+    <string-array name="e_off_on"><item>ఆఫ్</item><item>ఆన్</item></string-array>
+    <string-array name="e_on_off"><item>ఆన్</item><item>ఆఫ్</item></string-array>
+    <string-array name="e_labels"><item>ఎల్లప్పుడూ</item><item>ఎంచుకున్నప్పుడు</item><item>ఆఫ్</item></string-array>
+    <string-array name="e_show_hide"><item>చూపు</item><item>దాచు</item></string-array>
+    <string-array name="e_calendar"><item>రెండూ</item><item>విక్రమ సంవత్</item><item>గ్రెగోరియన్</item></string-array>
+    <string-array name="e_time"><item>12-గంటలు</item><item>24-గంటలు</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>అంగుళాలు</item></string-array>
+    <string-array name="e_watch_tile"><item>వరుసలో మొదట</item><item>దాచబడింది</item></string-array>
+    <string-array name="e_fav_order"><item>ఎక్కువగా ఉపయోగించినవి</item><item>మాన్యువల్</item></string-array>
+    <string-array name="e_health"><item>యాంబియంట్‌లో మాత్రమే</item><item>హోమ్, యాంబియంట్</item><item>ఆఫ్</item></string-array>
+    <string-array name="e_live_type"><item>టీవీ ఇన్‌పుట్</item><item>యాప్</item></string-array>
+    <string-array name="e_tile_size"><item>మధ్యస్థం</item><item>పెద్దది</item><item>చిన్నది</item></string-array>
+    <string-array name="e_tile_shape"><item>గుండ్రని మూలలు</item><item>చతురస్రం</item></string-array>
+    <string-array name="e_score_max"><item>4 వరకు</item><item>6 వరకు</item><item>3 వరకు</item><item>2 వరకు</item></string-array>
+    <string-array name="e_stale"><item>\"అందుబాటులో లేదు\" అని చూపు</item><item>స్కోర్‌లు దాచు</item></string-array>
+
+    <string-array name="health">
+        <item>ఆరోగ్యమే అసలైన సంపద. కొంచెం నడవండి, ఎక్కువగా నవ్వండి.</item>
+        <item>ఈరోజు 20 నిమిషాల నడక రేపటి మీకు ఒక బహుమతి.</item>
+        <item>తదుపరి ఎపిసోడ్‌కు ముందు ఒక గ్లాసు నీళ్లు తాగండి.</item>
+        <item>కళ్లకు విశ్రాంతి ఇవ్వండి: ప్రతి 20 నిమిషాలకు 20 సెకన్లు దూరంగా చూడండి.</item>
+        <item>మంచి నిద్రే ఉత్తమ శిక్షణ. ఈ రాత్రి సమయానికి టీవీ ఆపేయండి.</item>
+        <item>ప్రతి విరామంలో లేచి ఒళ్లు విరుచుకోండి. మీ వీపు కృతజ్ఞత చెబుతుంది.</item>
+        <item>కొండలు చూస్తున్నట్టు తినండి: తాజాగా, సాదాగా, కాలానుగుణంగా.</item>
+    </string-array>
+</resources>

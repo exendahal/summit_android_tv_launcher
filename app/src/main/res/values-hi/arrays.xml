@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>थीम</item><item>फ़ॉन्ट</item><item>भाषा</item><item>मौसम</item>
+        <item>होम स्क्रीन</item><item>लाइव टीवी</item><item>आइकन और टाइल</item><item>स्कोर</item><item>स्क्रीनसेवर</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>समय के अनुसार ऑटो</item><item>डार्क</item><item>लाइट</item></string-array>
+    <string-array name="e_theme_colour"><item>वॉलपेपर से</item><item>कोरल</item><item>हरा</item><item>कस्टम</item></string-array>
+    <string-array name="e_custom_colour"><item>लाल</item><item>नारंगी</item><item>पीला</item><item>हरा</item><item>टील</item><item>नीला</item><item>इंडिगो</item><item>बैंगनी</item><item>गुलाबी</item></string-array>
+    <string-array name="e_contrast"><item>सामान्य</item><item>उच्च</item></string-array>
+    <string-array name="e_animations"><item>पूरे</item><item>कम</item><item>बंद</item></string-array>
+    <string-array name="e_wallpaper"><item>पहाड़ी नज़ारा</item><item>पर्वत-रेखा</item><item>सादा</item><item>फेवा का सूर्यास्त</item><item>हिमालय की रात</item><item>तराई के खेत</item><item>प्रार्थना ध्वज</item></string-array>
+    <string-array name="e_dim"><item>बंद</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>डिफ़ॉल्ट</item><item>बड़ा</item><item>बहुत बड़ा</item></string-array>
+    <string-array name="e_off_on"><item>बंद</item><item>चालू</item></string-array>
+    <string-array name="e_on_off"><item>चालू</item><item>बंद</item></string-array>
+    <string-array name="e_labels"><item>हमेशा</item><item>चुनने पर</item><item>बंद</item></string-array>
+    <string-array name="e_show_hide"><item>दिखाएं</item><item>छिपाएं</item></string-array>
+    <string-array name="e_calendar"><item>दोनों</item><item>विक्रम संवत</item><item>ग्रेगोरियन</item></string-array>
+    <string-array name="e_time"><item>12-घंटे</item><item>24-घंटे</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>इंच</item></string-array>
+    <string-array name="e_watch_tile"><item>पंक्ति में सबसे पहले</item><item>छिपा हुआ</item></string-array>
+    <string-array name="e_fav_order"><item>सबसे ज़्यादा इस्तेमाल</item><item>मैन्युअल</item></string-array>
+    <string-array name="e_health"><item>केवल एम्बिएंट</item><item>होम और एम्बिएंट</item><item>बंद</item></string-array>
+    <string-array name="e_live_type"><item>टीवी इनपुट</item><item>ऐप</item></string-array>
+    <string-array name="e_tile_size"><item>मध्यम</item><item>बड़ा</item><item>छोटा</item></string-array>
+    <string-array name="e_tile_shape"><item>गोल कोने</item><item>चौकोर</item></string-array>
+    <string-array name="e_score_max"><item>4 तक</item><item>6 तक</item><item>3 तक</item><item>2 तक</item></string-array>
+    <string-array name="e_stale"><item>\"उपलब्ध नहीं\" दिखाएं</item><item>स्कोर छिपाएं</item></string-array>
+
+    <string-array name="health">
+        <item>सेहत ही असली दौलत है। थोड़ा चलिए, खूब मुस्कुराइए।</item>
+        <item>आज 20 मिनट की सैर, आने वाले कल के लिए तोहफ़ा है।</item>
+        <item>अगले एपिसोड से पहले एक गिलास पानी पी लें।</item>
+        <item>आंखों को आराम दें: हर 20 मिनट में 20 सेकंड दूर देखें।</item>
+        <item>अच्छी नींद सबसे अच्छा ट्रेनिंग प्लान है। आज रात समय पर टीवी बंद करें।</item>
+        <item>हर ब्रेक में खड़े होकर स्ट्रेच करें। आपकी पीठ शुक्रिया कहेगी।</item>
+        <item>ऐसे खाएं जैसे पहाड़ देख रहे हों: ताज़ा, सादा और मौसमी।</item>
+    </string-array>
+</resources>

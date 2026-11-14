@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">Hjem</string>
+    <string name="nav_apps">Apper</string>
+    <string name="nav_settings">Innstillinger</string>
+    <string name="search">Søk</string>
+    <string name="tv_settings">Android TV-innstillinger</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Se TV</string>
+    <string name="continue_title">Fortsett</string>
+    <string name="favourites_title">Favoritter · hold inne OK for å feste eller flytte</string>
+    <string name="all_apps">Alle apper</string>
+    <string name="show_recents">Vis nylige apper</string>
+    <string name="not_default_banner">Gjør Summit til startskjermen · trykk OK for å se hvordan</string>
+    <string name="not_default_title">Gjør Summit til startskjermen</string>
+    <string name="not_default_help">Åpne Innstillinger › Apper › Standardapper › Startapp og velg Summit. Noen Google TV-enheter lar deg ikke endre startappen; Summit fungerer likevel fra applisten.</string>
+    <string name="open_settings">Åpne innstillinger</string>
+    <string name="dismiss">Lukk</string>
+    <string name="usage_unavailable">Åpne Innstillinger › Apper › Spesialtilgang for apper › Brukstilgang og tillat Summit.</string>
+    <string name="move_hint">◀ ▶ flytt · OK slipp · Back avbryt</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Fortsett · for %d min siden</string>
+    <string name="resume_h">Fortsett · for %d t siden</string>
+    <string name="yesterday">I går</string>
+    <string name="days_ago">For %d dager siden</string>
+    <string name="last_week">Forrige uke</string>
+    <string name="updated_now">Oppdatert nå nettopp</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Oppdatert for %d minutt siden</item>
+        <item quantity="other">Oppdatert for %d minutter siden</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">DIREKTE</string>
+    <string name="ft">SLUTT</string>
+    <string name="scores_unavailable">Resultater er ikke tilgjengelige</string>
+    <string name="score_cd">%1$s. Trykk OK for detaljer</string>
+    <string name="score_live_suffix">%1$s · DIREKTE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Været er ikke tilgjengelig</string>
+    <string name="hi_lo">Maks %1$s Min %2$s</string>
+    <string name="hi_lo_long">Høyest %1$s · Lavest %2$s</string>
+    <string name="wind_rain">Vind %1$s · Regn i dag %2$s</string>
+    <string name="weather_title">%1$s · I dag</string>
+    <string name="mountains_line">Fjellet · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Regn %d%%</string>
+    <string name="next_days">Neste 3 dager</string>
+    <string name="change_units">Endre enheter i Innstillinger</string>
+    <string name="part_morning">Morgen</string>
+    <string name="part_afternoon">Ettermiddag</string>
+    <string name="part_evening">Kveld</string>
+    <string name="part_night">Natt</string>
+    <string name="cond_clear">Klart</string>
+    <string name="cond_sunny">Sol</string>
+    <string name="cond_partly">Delvis skyet</string>
+    <string name="cond_cloudy">Skyet</string>
+    <string name="cond_fog">Tåke</string>
+    <string name="cond_rain">Regn</string>
+    <string name="cond_snow">Snøbyger</string>
+    <string name="cond_thunder">Tordenvær</string>
+    <string name="sum_all_day">%1$s hele dagen</string>
+    <string name="sum_morning">%1$s om morgenen</string>
+    <string name="sum_afternoon">%1$s om ettermiddagen</string>
+    <string name="sum_rain_from">regn fra %1$s</string>
+    <string name="sum_tonight">%1$s i kveld</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s tommer</string>
+    <string name="loc_kathmandu">Katmandu</string>
+    <string name="close">Lukk</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ flytt · OK åpne · hold inne OK for å feste til Favoritter · Back til Hjem</string>
+    <string name="selected_app">Valgt: %s</string>
+    <string name="pin">Fest til Favoritter</string>
+    <string name="unpin">Fjern fra Favoritter</string>
+    <string name="move">Flytt</string>
+    <string name="app_info">Appinfo</string>
+    <string name="uninstall">Avinstaller</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Denne TV-en lar ikke apper bytte inngang. Bruk Input-knappen på fjernkontrollen.</string>
+    <string name="no_tv_input">Fant ingen TV-inngang</string>
+    <string name="ask_every_time">Spør hver gang</string>
+    <string name="choose_live_app">Velg en app for direkte-TV</string>
+    <string name="voice_unavailable">Talesøk er ikke tilgjengelig på denne TV-en.</string>
+    <string name="cannot_open">Kan ikke åpne denne appen.</string>
+
+    <!-- Settings -->
+    <string name="reset">Tilbakestill til standard</string>
+    <string name="reset_title">Vil du tilbakestille alle innstillingene for startskjermen?</string>
+    <string name="reset_body">Tema, bakgrunn, språk og andre innstillinger går tilbake til standard. Appene og favorittene dine forblir som de er.</string>
+    <string name="cancel">Avbryt</string>
+    <string name="reset_confirm">Tilbakestill</string>
+    <string name="settings_hint">▲ ▼ flytt · OK åpne eller velg · Back går tilbake. Endringer gjelder med en gang.</string>
+    <string name="leagues_header">Velg hva som vises på Hjem · %d valgt</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Forhåndsvisning</string>
+
+    <string name="opt_mode">Modus</string>
+    <string name="opt_colour">Farge</string>
+    <string name="opt_use_screensaver">Bruk som skjermsparer</string>
+    <string name="screensaver_setup_title">Engangsoppsett kreves</string>
+    <string name="screensaver_setup_body">Denne TV-en lar ikke apper bytte skjermsparer selv. Koble til en datamaskin én gang og kjør:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSlå deretter på dette igjen.</string>
+    <string name="wallpaper_custom">Mitt bilde</string>
+    <string name="wallpaper_download_failed">Kunne ikke laste ned bakgrunnen. Sjekk internettilkoblingen.</string>
+    <string name="picture_allow">Gi tilgang til bilder</string>
+    <string name="picture_denied">Gi tilgang til bilder i Innstillinger › Apper › Summit › Tillatelser.</string>
+    <string name="picture_none">Fant ingen bilder på denne TV-en.</string>
+    <string name="picture_failed">Kunne ikke åpne bildet.</string>
+    <string name="picture_n">Bilde %d</string>
+    <string name="opt_custom_colour">Egendefinert farge</string>
+    <string name="opt_contrast">Kontrast</string>
+    <string name="opt_animations">Animasjoner</string>
+    <string name="opt_wallpaper">Bakgrunn</string>
+    <string name="opt_dim">Demp bakgrunn</string>
+    <string name="opt_text_size">Tekststørrelse</string>
+    <string name="opt_digits">Devanagari-sifre</string>
+    <string name="opt_language">Språk</string>
+    <string name="opt_calendar">Kalender</string>
+    <string name="opt_time">Tidsformat</string>
+    <string name="opt_temp">Temperatur</string>
+    <string name="opt_wind">Vindhastighet</string>
+    <string name="opt_rain">Nedbør</string>
+    <string name="opt_location">Sted</string>
+    <string name="opt_show_home">Vis på Hjem</string>
+    <string name="opt_watch_tile">Flisen Se TV</string>
+    <string name="opt_continue">Raden Fortsett</string>
+    <string name="opt_fav_order">Rekkefølge for favoritter</string>
+    <string name="opt_health">Helsetips</string>
+    <string name="opt_live_type">Se TV bruker</string>
+    <string name="opt_input">Inngangskilde</string>
+    <string name="opt_live_app">App</string>
+    <string name="opt_boot">Åpne når TV-en starter</string>
+    <string name="opt_tile_size">Flisstørrelse</string>
+    <string name="opt_tile_shape">Flisform</string>
+    <string name="opt_labels">Appnavn</string>
+    <string name="opt_score_max">Vis på Hjem</string>
+    <string name="opt_live_first">Direktekamper først</string>
+    <string name="opt_stale">Hvis resultater ikke kan oppdateres</string>
+    <string name="opt_amb_scores">Vis direkteresultater</string>
+    <string name="opt_amb_shift">Flytt klokken for å beskytte skjermen</string>
+    <string name="opt_amb_dim">Demp om natten</string>
+
+    <string name="grp_cricket">Cricket</string>
+    <string name="grp_football">Fotball</string>
+    <string name="grp_basketball">Basketball</string>
+    <string name="grp_us">Amerikansk idrett</string>
+    <string name="grp_tennis">Tennis</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Trykk på en hvilken som helst knapp</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Oppsett av startskjerm</string>
+    <string name="step_of">Trinn %1$d av %2$d</string>
+    <string name="back">Tilbake</string>
+    <string name="next">Fortsett</string>
+    <string name="finish">Fullfør</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ flytt · OK velg · ▶ fra valgene går til Fortsett · Back forrige trinn</string>
+    <string name="s1_title">Velg språk</string>
+    <string name="s1_sub">Summit bytter språk med en gang du velger.</string>
+    <string name="s2_title">Hvor ser du på TV?</string>
+    <string name="s2_sub">Se TV på Hjem åpner dette med ett trykk på OK.</string>
+    <string name="signal_yes">Signal funnet</string>
+    <string name="signal_no">Ingen signal</string>
+    <string name="recommended">Anbefalt</string>
+    <string name="antenna">Antenne (DTV)</string>
+    <string name="s3_title">Hvilke resultater skal Hjem vise?</string>
+    <string name="s3_sub">Velg så mange du vil. Direktekamper vises først.</string>
+    <string name="s_fav_title">Velg favorittappene dine</string>
+    <string name="s_fav_sub">De ligger på Hjem, ett trykk unna. Velg så mange du vil.</string>
+    <string name="s_wall_title">Velg en bakgrunn</string>
+    <string name="s_wall_sub">Vises bak Hjem og skjermspareren.</string>
+    <string name="setup_preview_note">Startskjermen din. Du kan endre alt dette senere i Innstillinger.</string>
+    <string name="s4_title">Velg et utseende</string>
+    <string name="s4_sub">Auto er mørkt fra kl. 18 til 6 og lyst om dagen.</string>
+    <string name="tennis">Tennis</string>
+    <string name="formula1">Formel 1</string>
+    <string name="usage_title">Vil du vise nylig brukte apper på Hjem?</string>
+    <string name="usage_body">Gi brukstilgang så raden Fortsett kan vise appene du har brukt nylig.</string>
+    <string name="allow">Tillat</string>
+    <string name="skip">Hopp over</string>
+    <string name="run_setup">Kjør førstegangsoppsett</string>
+    <string name="change_city">Bytt by</string>
+    <string name="kick_off">Avspark %s</string>
+    <string name="mode_input">TV-inngang</string>
+    <string name="mode_input_sub">HDMI, AV eller antenne</string>
+    <string name="mode_app">App</string>
+    <string name="mode_app_sub">En app for direkte-TV</string>
+    <string name="search_city">Søk etter en by</string>
+    <string name="use_current">Bruk nåværende posisjon</string>
+    <string name="use_current_named">Bruk nåværende posisjon (%s)</string>
+    <string name="searching">Søker …</string>
+    <string name="no_results">Fant ingen byer</string>
+    <string name="search_failed">Kan ikke søke akkurat nå. Sjekk internettilkoblingen.</string>
+    <string name="resume_now">Fortsett · nå nettopp</string>
+</resources>

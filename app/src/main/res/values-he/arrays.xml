@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>ערכת נושא</item><item>גופן</item><item>שפה</item><item>מזג אוויר</item>
+        <item>מסך הבית</item><item>טלוויזיה בשידור חי</item><item>סמלים ואריחים</item><item>תוצאות</item><item>שומר מסך</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>אוטומטי לפי השעה</item><item>כהה</item><item>בהיר</item></string-array>
+    <string-array name="e_theme_colour"><item>מהטפט</item><item>אלמוג</item><item>ירוק</item><item>מותאם אישית</item></string-array>
+    <string-array name="e_custom_colour"><item>אדום</item><item>כתום</item><item>צהוב</item><item>ירוק</item><item>טורקיז</item><item>כחול</item><item>אינדיגו</item><item>סגול</item><item>ורוד</item></string-array>
+    <string-array name="e_contrast"><item>רגילה</item><item>גבוהה</item></string-array>
+    <string-array name="e_animations"><item>מלאות</item><item>מופחתות</item><item>כבויות</item></string-array>
+    <string-array name="e_wallpaper"><item>נוף הררי</item><item>קו רכס</item><item>חלק</item><item>שקיעה בפאווה</item><item>לילה בהימלאיה</item><item>שדות הטראי</item><item>דגלי תפילה</item></string-array>
+    <string-array name="e_dim"><item>כבוי</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ברירת מחדל</item><item>גדול</item><item>גדול מאוד</item></string-array>
+    <string-array name="e_off_on"><item>כבוי</item><item>פועל</item></string-array>
+    <string-array name="e_on_off"><item>פועל</item><item>כבוי</item></string-array>
+    <string-array name="e_labels"><item>תמיד</item><item>כשנבחר</item><item>כבוי</item></string-array>
+    <string-array name="e_show_hide"><item>הצגה</item><item>הסתרה</item></string-array>
+    <string-array name="e_calendar"><item>שניהם</item><item>ביקרם סמבט</item><item>גרגוריאני</item></string-array>
+    <string-array name="e_time"><item>12 שעות</item><item>24 שעות</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>אינץ׳</item></string-array>
+    <string-array name="e_watch_tile"><item>ראשון בשורה</item><item>מוסתר</item></string-array>
+    <string-array name="e_fav_order"><item>הכי בשימוש</item><item>ידני</item></string-array>
+    <string-array name="e_health"><item>שומר מסך בלבד</item><item>בית ושומר מסך</item><item>כבוי</item></string-array>
+    <string-array name="e_live_type"><item>קלט טלוויזיה</item><item>אפליקציה</item></string-array>
+    <string-array name="e_tile_size"><item>בינוני</item><item>גדול</item><item>קטן</item></string-array>
+    <string-array name="e_tile_shape"><item>מעוגל</item><item>ריבועי</item></string-array>
+    <string-array name="e_score_max"><item>עד 4</item><item>עד 6</item><item>עד 3</item><item>עד 2</item></string-array>
+    <string-array name="e_stale"><item>להציג \"לא זמין\"</item><item>הסתרת התוצאות</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>הבריאות היא העושר האמיתי. לזוז קצת, לחייך הרבה.</item>
+        <item>הליכה של 20 דקות היום היא מתנה לעצמכם של מחר.</item>
+        <item>שתו כוס מים לפני הפרק הבא.</item>
+        <item>תנו לעיניים לנוח: כל 20 דקות, הביטו למרחק במשך 20 שניות.</item>
+        <item>שינה טובה היא תוכנית האימונים הטובה ביותר. כבו בזמן הלילה.</item>
+        <item>קומו והתמתחו בכל הפסקה. הגב שלכם יודה לכם.</item>
+        <item>אכלו כאילו ההרים מסתכלים: טרי, פשוט ועונתי.</item>
+    </string-array>
+</resources>

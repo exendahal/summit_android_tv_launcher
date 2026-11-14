@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Screensaver Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_apps">Aplikasi</string>
+    <string name="nav_settings">Setelan</string>
+    <string name="search">Telusuri</string>
+    <string name="tv_settings">Setelan Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Tonton TV</string>
+    <string name="continue_title">Lanjutkan</string>
+    <string name="favourites_title">Favorit · tahan OK untuk menyematkan atau memindahkan</string>
+    <string name="all_apps">Semua aplikasi</string>
+    <string name="show_recents">Tampilkan aplikasi terbaru</string>
+    <string name="not_default_banner">Jadikan Summit layar utama · tekan OK untuk caranya</string>
+    <string name="not_default_title">Jadikan Summit layar utama</string>
+    <string name="not_default_help">Buka Setelan › Aplikasi › Aplikasi default › Aplikasi layar utama, lalu pilih Summit. Beberapa perangkat Google TV tidak mengizinkan penggantian aplikasi layar utama; Summit tetap bisa dibuka dari daftar aplikasi.</string>
+    <string name="open_settings">Buka setelan</string>
+    <string name="dismiss">Tutup</string>
+    <string name="usage_unavailable">Buka Setelan › Aplikasi › Akses aplikasi khusus › Akses penggunaan, lalu izinkan Summit.</string>
+    <string name="move_hint">◀ ▶ pindah · OK letakkan · Back batal</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Lanjutkan · %d mnt lalu</string>
+    <string name="resume_h">Lanjutkan · %d jam lalu</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="days_ago">%d hari lalu</string>
+    <string name="last_week">Minggu lalu</string>
+    <string name="updated_now">Baru saja diperbarui</string>
+    <plurals name="updated_ago">
+        <item quantity="other">Diperbarui %d menit lalu</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LANGSUNG</string>
+    <string name="ft">Selesai</string>
+    <string name="scores_unavailable">Skor tidak tersedia</string>
+    <string name="score_cd">%1$s. Tekan OK untuk detail</string>
+    <string name="score_live_suffix">%1$s · LANGSUNG</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Cuaca tidak tersedia</string>
+    <string name="hi_lo">T %1$s R %2$s</string>
+    <string name="hi_lo_long">Tertinggi %1$s · Terendah %2$s</string>
+    <string name="wind_rain">Angin %1$s · Hujan hari ini %2$s</string>
+    <string name="weather_title">%1$s · Hari ini</string>
+    <string name="mountains_line">Pegunungan · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Hujan %d%%</string>
+    <string name="next_days">3 hari ke depan</string>
+    <string name="change_units">Ubah satuan di Setelan</string>
+    <string name="part_morning">Pagi</string>
+    <string name="part_afternoon">Siang</string>
+    <string name="part_evening">Sore</string>
+    <string name="part_night">Malam</string>
+    <string name="cond_clear">Langit cerah</string>
+    <string name="cond_sunny">Cerah</string>
+    <string name="cond_partly">Berawan sebagian</string>
+    <string name="cond_cloudy">Berawan</string>
+    <string name="cond_fog">Berkabut</string>
+    <string name="cond_rain">Hujan</string>
+    <string name="cond_snow">Hujan salju</string>
+    <string name="cond_thunder">Badai petir</string>
+    <string name="sum_all_day">%1$s sepanjang hari</string>
+    <string name="sum_morning">%1$s pagi hari</string>
+    <string name="sum_afternoon">%1$s siang hari</string>
+    <string name="sum_rain_from">hujan mulai %1$s</string>
+    <string name="sum_tonight">%1$s malam ini</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Tutup</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ pindah · OK buka · tahan OK untuk sematkan ke Favorit · Back ke Beranda</string>
+    <string name="selected_app">Dipilih: %s</string>
+    <string name="pin">Sematkan ke Favorit</string>
+    <string name="unpin">Lepas dari Favorit</string>
+    <string name="move">Pindahkan</string>
+    <string name="app_info">Info aplikasi</string>
+    <string name="uninstall">Copot pemasangan</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">TV ini tidak mengizinkan aplikasi mengganti input. Gunakan tombol Input di remote.</string>
+    <string name="no_tv_input">Input TV tidak ditemukan</string>
+    <string name="ask_every_time">Selalu tanya</string>
+    <string name="choose_live_app">Pilih aplikasi TV langsung</string>
+    <string name="voice_unavailable">Penelusuran suara tidak tersedia di TV ini.</string>
+    <string name="cannot_open">Aplikasi ini tidak dapat dibuka.</string>
+
+    <!-- Settings -->
+    <string name="reset">Kembalikan ke default</string>
+    <string name="reset_title">Reset semua setelan launcher?</string>
+    <string name="reset_body">Tema, wallpaper, bahasa, dan setelan launcher lainnya kembali ke default. Aplikasi dan favorit Anda tetap seperti semula.</string>
+    <string name="cancel">Batal</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="settings_hint">▲ ▼ pindah · OK buka atau pilih · Back untuk kembali. Perubahan langsung diterapkan.</string>
+    <string name="leagues_header">Pilih yang tampil di Beranda · %d dipilih</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Pratinjau</string>
+
+    <string name="opt_mode">Mode</string>
+    <string name="opt_colour">Warna</string>
+    <string name="opt_use_screensaver">Gunakan sebagai screensaver</string>
+    <string name="screensaver_setup_title">Perlu penyiapan satu kali</string>
+    <string name="screensaver_setup_body">TV ini tidak mengizinkan aplikasi mengganti screensaver sendiri. Hubungkan komputer sekali, lalu jalankan:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSetelah itu, aktifkan lagi opsi ini.</string>
+    <string name="wallpaper_custom">Gambar saya</string>
+    <string name="wallpaper_download_failed">Tidak dapat mengunduh wallpaper itu. Periksa koneksi internet.</string>
+    <string name="picture_allow">Izinkan akses ke gambar</string>
+    <string name="picture_denied">Izinkan akses Foto di Setelan › Aplikasi › Summit › Izin.</string>
+    <string name="picture_none">Tidak ada gambar di TV ini.</string>
+    <string name="picture_failed">Tidak dapat membuka gambar itu.</string>
+    <string name="picture_n">Gambar %d</string>
+    <string name="opt_custom_colour">Warna kustom</string>
+    <string name="opt_contrast">Kontras</string>
+    <string name="opt_animations">Animasi</string>
+    <string name="opt_wallpaper">Wallpaper</string>
+    <string name="opt_dim">Redupkan wallpaper</string>
+    <string name="opt_text_size">Ukuran teks</string>
+    <string name="opt_digits">Angka Dewanagari</string>
+    <string name="opt_language">Bahasa</string>
+    <string name="opt_calendar">Kalender</string>
+    <string name="opt_time">Format waktu</string>
+    <string name="opt_temp">Suhu</string>
+    <string name="opt_wind">Kecepatan angin</string>
+    <string name="opt_rain">Curah hujan</string>
+    <string name="opt_location">Lokasi</string>
+    <string name="opt_show_home">Tampilkan di Beranda</string>
+    <string name="opt_watch_tile">Ubin Tonton TV</string>
+    <string name="opt_continue">Baris Lanjutkan</string>
+    <string name="opt_fav_order">Urutan favorit</string>
+    <string name="opt_health">Pesan kesehatan</string>
+    <string name="opt_live_type">Tonton TV menggunakan</string>
+    <string name="opt_input">Sumber input</string>
+    <string name="opt_live_app">Aplikasi</string>
+    <string name="opt_boot">Buka saat TV menyala</string>
+    <string name="opt_tile_size">Ukuran ubin</string>
+    <string name="opt_tile_shape">Bentuk ubin</string>
+    <string name="opt_labels">Nama aplikasi</string>
+    <string name="opt_score_max">Tampilkan di Beranda</string>
+    <string name="opt_live_first">Pertandingan langsung dulu</string>
+    <string name="opt_stale">Jika skor gagal diperbarui</string>
+    <string name="opt_amb_scores">Tampilkan skor langsung</string>
+    <string name="opt_amb_shift">Geser jam untuk melindungi layar</string>
+    <string name="opt_amb_dim">Redupkan di malam hari</string>
+
+    <string name="grp_cricket">Kriket</string>
+    <string name="grp_football">Sepak bola</string>
+    <string name="grp_basketball">Bola basket</string>
+    <string name="grp_us">Olahraga AS</string>
+    <string name="grp_tennis">Tenis</string>
+    <string name="grp_motor">Olahraga motor</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Tekan tombol apa saja</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Penyiapan launcher</string>
+    <string name="step_of">Langkah %1$d dari %2$d</string>
+    <string name="back">Kembali</string>
+    <string name="next">Lanjutkan</string>
+    <string name="finish">Selesai</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ pindah · OK pilih · ▶ dari pilihan menuju Lanjutkan · Back langkah sebelumnya</string>
+    <string name="s1_title">Pilih bahasa</string>
+    <string name="s1_sub">Summit langsung berganti bahasa begitu Anda memilih.</string>
+    <string name="s2_title">Di mana Anda menonton TV?</string>
+    <string name="s2_sub">Tonton TV di Beranda membuka ini dengan sekali tekan OK.</string>
+    <string name="signal_yes">Sinyal terdeteksi</string>
+    <string name="signal_no">Tidak ada sinyal</string>
+    <string name="recommended">Disarankan</string>
+    <string name="antenna">Antena (DTV)</string>
+    <string name="s3_title">Skor mana yang tampil di Beranda?</string>
+    <string name="s3_sub">Pilih sebanyak yang Anda mau. Pertandingan langsung tampil lebih dulu.</string>
+    <string name="s_fav_title">Pilih aplikasi favorit</string>
+    <string name="s_fav_sub">Aplikasi ini ada di Beranda, cukup sekali tekan. Pilih sebanyak yang Anda mau.</string>
+    <string name="s_wall_title">Pilih wallpaper</string>
+    <string name="s_wall_sub">Ditampilkan di belakang Beranda dan screensaver.</string>
+    <string name="setup_preview_note">Layar Beranda Anda. Semua ini bisa diubah nanti di Setelan.</string>
+    <string name="s4_title">Pilih tampilan</string>
+    <string name="s4_sub">Otomatis: gelap dari pukul 18.00 hingga 06.00 dan terang di siang hari.</string>
+    <string name="tennis">Tenis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Tampilkan aplikasi yang baru digunakan di Beranda?</string>
+    <string name="usage_body">Izinkan akses penggunaan agar baris Lanjutkan dapat menampilkan aplikasi yang baru Anda gunakan.</string>
+    <string name="allow">Izinkan</string>
+    <string name="skip">Lewati</string>
+    <string name="run_setup">Jalankan penyiapan awal</string>
+    <string name="change_city">Ganti kota</string>
+    <string name="kick_off">Mulai %s</string>
+    <string name="mode_input">Input TV</string>
+    <string name="mode_input_sub">HDMI, AV, atau antena</string>
+    <string name="mode_app">Aplikasi</string>
+    <string name="mode_app_sub">Aplikasi TV langsung</string>
+    <string name="search_city">Cari kota</string>
+    <string name="use_current">Gunakan lokasi saat ini</string>
+    <string name="use_current_named">Gunakan lokasi saat ini (%s)</string>
+    <string name="searching">Mencari…</string>
+    <string name="no_results">Kota tidak ditemukan</string>
+    <string name="search_failed">Tidak dapat mencari sekarang. Periksa koneksi internet.</string>
+    <string name="resume_now">Lanjutkan · baru saja</string>
+</resources>

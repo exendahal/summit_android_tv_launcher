@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit యాంబియంట్</string>
+
+    <!-- Header -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_apps">యాప్‌లు</string>
+    <string name="nav_settings">సెట్టింగ్‌లు</string>
+    <string name="search">వెతుకు</string>
+    <string name="tv_settings">Android TV సెట్టింగ్‌లు</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">టీవీ చూడండి</string>
+    <string name="continue_title">కొనసాగించండి</string>
+    <string name="favourites_title">ఇష్టమైనవి · పిన్ చేయడానికి లేదా జరపడానికి OK నొక్కి ఉంచండి</string>
+    <string name="all_apps">అన్ని యాప్‌లు</string>
+    <string name="show_recents">ఇటీవలి యాప్‌లను చూపు</string>
+    <string name="not_default_banner">Summitను మీ హోమ్ స్క్రీన్‌గా సెట్ చేయండి · ఎలాగో తెలుసుకోవడానికి OK నొక్కండి</string>
+    <string name="not_default_title">Summitను మీ హోమ్ స్క్రీన్‌గా సెట్ చేయండి</string>
+    <string name="not_default_help">సెట్టింగ్‌లు › యాప్‌లు › డిఫాల్ట్ యాప్‌లు › హోమ్ యాప్ తెరిచి Summitను ఎంచుకోండి. కొన్ని Google TV పరికరాలు హోమ్ యాప్ మార్చనివ్వవు; అయినా యాప్ జాబితా నుండి Summit పనిచేస్తుంది.</string>
+    <string name="open_settings">సెట్టింగ్‌లు తెరువు</string>
+    <string name="dismiss">విస్మరించు</string>
+    <string name="usage_unavailable">సెట్టింగ్‌లు › యాప్‌లు › ప్రత్యేక యాప్ యాక్సెస్ › వినియోగ యాక్సెస్ తెరిచి Summitను అనుమతించండి.</string>
+    <string name="move_hint">◀ ▶ జరుపు · OK ఉంచు · Back రద్దు</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">కొనసాగించు · %d నిమి. క్రితం</string>
+    <string name="resume_h">కొనసాగించు · %d గం. క్రితం</string>
+    <string name="yesterday">నిన్న</string>
+    <string name="days_ago">%d రోజుల క్రితం</string>
+    <string name="last_week">గత వారం</string>
+    <string name="updated_now">ఇప్పుడే అప్‌డేట్ అయింది</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d నిమిషం క్రితం అప్‌డేట్ అయింది</item>
+        <item quantity="other">%d నిమిషాల క్రితం అప్‌డేట్ అయింది</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">లైవ్</string>
+    <string name="ft">ముగిసింది</string>
+    <string name="scores_unavailable">స్కోర్‌లు అందుబాటులో లేవు</string>
+    <string name="score_cd">%1$s. వివరాల కోసం OK నొక్కండి</string>
+    <string name="score_live_suffix">%1$s · లైవ్</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">వాతావరణం అందుబాటులో లేదు</string>
+    <string name="hi_lo">గరి %1$s కని %2$s</string>
+    <string name="hi_lo_long">గరిష్ఠం %1$s · కనిష్ఠం %2$s</string>
+    <string name="wind_rain">గాలి %1$s · ఈరోజు వర్షం %2$s</string>
+    <string name="weather_title">%1$s · ఈరోజు</string>
+    <string name="mountains_line">పర్వతాలు · నామ్చే బజార్ %1$s, %2$s</string>
+    <string name="rain_pct">వర్షం %d%%</string>
+    <string name="next_days">తదుపరి 3 రోజులు</string>
+    <string name="change_units">సెట్టింగ్‌లలో యూనిట్‌లు మార్చండి</string>
+    <string name="part_morning">ఉదయం</string>
+    <string name="part_afternoon">మధ్యాహ్నం</string>
+    <string name="part_evening">సాయంత్రం</string>
+    <string name="part_night">రాత్రి</string>
+    <string name="cond_clear">నిర్మలం</string>
+    <string name="cond_sunny">ఎండ</string>
+    <string name="cond_partly">పాక్షికంగా మేఘావృతం</string>
+    <string name="cond_cloudy">మేఘావృతం</string>
+    <string name="cond_fog">పొగమంచు</string>
+    <string name="cond_rain">వర్షం</string>
+    <string name="cond_snow">మంచు జల్లులు</string>
+    <string name="cond_thunder">ఉరుములతో వర్షం</string>
+    <string name="sum_all_day">రోజంతా %1$s</string>
+    <string name="sum_morning">ఉదయం %1$s</string>
+    <string name="sum_afternoon">మధ్యాహ్నం %1$s</string>
+    <string name="sum_rain_from">%1$s నుండి వర్షం</string>
+    <string name="sum_tonight">ఈ రాత్రి %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">ఖాట్మండు</string>
+    <string name="close">మూసివేయి</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ జరుపు · OK తెరువు · ఇష్టమైనవాటికి పిన్ చేయడానికి OK నొక్కి ఉంచు · Back హోమ్‌కు</string>
+    <string name="selected_app">ఎంచుకున్నది: %s</string>
+    <string name="pin">ఇష్టమైనవాటికి పిన్ చేయి</string>
+    <string name="unpin">ఇష్టమైనవాటి నుండి అన్‌పిన్ చేయి</string>
+    <string name="move">జరుపు</string>
+    <string name="app_info">యాప్ సమాచారం</string>
+    <string name="uninstall">అన్‌ఇన్‌స్టాల్ చేయి</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">ఈ టీవీ యాప్‌ల నుండి ఇన్‌పుట్ మార్చనివ్వదు. మీ రిమోట్‌లోని Input బటన్ ఉపయోగించండి.</string>
+    <string name="no_tv_input">టీవీ ఇన్‌పుట్ ఏదీ కనుగొనబడలేదు</string>
+    <string name="ask_every_time">ప్రతిసారీ అడుగు</string>
+    <string name="choose_live_app">లైవ్ టీవీ యాప్‌ను ఎంచుకోండి</string>
+    <string name="voice_unavailable">ఈ టీవీలో వాయిస్ సెర్చ్ అందుబాటులో లేదు.</string>
+    <string name="cannot_open">ఈ యాప్‌ను తెరవడం సాధ్యం కాదు.</string>
+
+    <!-- Settings -->
+    <string name="reset">డిఫాల్ట్‌కు రీసెట్ చేయి</string>
+    <string name="reset_title">అన్ని లాంచర్ సెట్టింగ్‌లను రీసెట్ చేయాలా?</string>
+    <string name="reset_body">థీమ్, వాల్‌పేపర్, భాష, ఇతర లాంచర్ సెట్టింగ్‌లు డిఫాల్ట్‌కు మారతాయి. మీ యాప్‌లు, ఇష్టమైనవి అలాగే ఉంటాయి.</string>
+    <string name="cancel">రద్దు చేయి</string>
+    <string name="reset_confirm">రీసెట్ చేయి</string>
+    <string name="settings_hint">▲ ▼ జరుపు · OK తెరువు లేదా ఎంచుకో · Back వెనక్కి వెళ్తుంది. మార్పులు వెంటనే వర్తిస్తాయి.</string>
+    <string name="leagues_header">హోమ్‌లో ఏమి కనిపించాలో ఎంచుకోండి · %d ఎంచుకున్నారు</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">ప్రివ్యూ</string>
+
+    <string name="opt_mode">మోడ్</string>
+    <string name="opt_colour">రంగు</string>
+    <string name="opt_use_screensaver">స్క్రీన్‌సేవర్‌గా ఉపయోగించు</string>
+    <string name="screensaver_setup_title">ఒకసారి సెటప్ అవసరం</string>
+    <string name="screensaver_setup_body">ఈ టీవీ యాప్‌లను సొంతంగా స్క్రీన్‌సేవర్ మార్చనివ్వదు. ఒకసారి కంప్యూటర్‌ను కనెక్ట్ చేసి ఇది రన్ చేయండి:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nతర్వాత దీన్ని మళ్లీ ఆన్ చేయండి.</string>
+    <string name="wallpaper_custom">నా చిత్రం</string>
+    <string name="wallpaper_download_failed">ఆ వాల్‌పేపర్‌ను డౌన్‌లోడ్ చేయలేకపోయాం. ఇంటర్నెట్ కనెక్షన్ తనిఖీ చేయండి.</string>
+    <string name="picture_allow">చిత్రాల యాక్సెస్‌ను అనుమతించు</string>
+    <string name="picture_denied">సెట్టింగ్‌లు › యాప్‌లు › Summit › అనుమతులు లో ఫోటోల యాక్సెస్‌ను అనుమతించండి.</string>
+    <string name="picture_none">ఈ టీవీలో చిత్రాలు ఏవీ లేవు.</string>
+    <string name="picture_failed">ఆ చిత్రాన్ని తెరవలేకపోయాం.</string>
+    <string name="picture_n">చిత్రం %d</string>
+    <string name="opt_custom_colour">అనుకూల రంగు</string>
+    <string name="opt_contrast">కాంట్రాస్ట్</string>
+    <string name="opt_animations">యానిమేషన్‌లు</string>
+    <string name="opt_wallpaper">వాల్‌పేపర్</string>
+    <string name="opt_dim">వాల్‌పేపర్‌ను మసకబార్చు</string>
+    <string name="opt_text_size">టెక్స్ట్ పరిమాణం</string>
+    <string name="opt_digits">దేవనాగరి అంకెలు</string>
+    <string name="opt_language">భాష</string>
+    <string name="opt_calendar">క్యాలెండర్</string>
+    <string name="opt_time">సమయ ఫార్మాట్</string>
+    <string name="opt_temp">ఉష్ణోగ్రత</string>
+    <string name="opt_wind">గాలి వేగం</string>
+    <string name="opt_rain">వర్షపాతం</string>
+    <string name="opt_location">స్థానం</string>
+    <string name="opt_show_home">హోమ్‌లో చూపు</string>
+    <string name="opt_watch_tile">టీవీ చూడండి టైల్</string>
+    <string name="opt_continue">కొనసాగించండి వరుస</string>
+    <string name="opt_fav_order">ఇష్టమైనవాటి క్రమం</string>
+    <string name="opt_health">ఆరోగ్య సూచన</string>
+    <string name="opt_live_type">టీవీ చూడండి దేనితో</string>
+    <string name="opt_input">ఇన్‌పుట్ సోర్స్</string>
+    <string name="opt_live_app">యాప్</string>
+    <string name="opt_boot">టీవీ ఆన్ అయినప్పుడు తెరువు</string>
+    <string name="opt_tile_size">టైల్ పరిమాణం</string>
+    <string name="opt_tile_shape">టైల్ ఆకారం</string>
+    <string name="opt_labels">యాప్ పేర్లు</string>
+    <string name="opt_score_max">హోమ్‌లో చూపు</string>
+    <string name="opt_live_first">లైవ్ మ్యాచ్‌లు ముందు</string>
+    <string name="opt_stale">స్కోర్‌లు అప్‌డేట్ కాకపోతే</string>
+    <string name="opt_amb_scores">లైవ్ స్కోర్‌లు చూపు</string>
+    <string name="opt_amb_shift">స్క్రీన్ రక్షణకు గడియారాన్ని జరుపు</string>
+    <string name="opt_amb_dim">రాత్రి మసకబార్చు</string>
+
+    <string name="grp_cricket">క్రికెట్</string>
+    <string name="grp_football">ఫుట్‌బాల్</string>
+    <string name="grp_basketball">బాస్కెట్‌బాల్</string>
+    <string name="grp_us">అమెరికన్ క్రీడలు</string>
+    <string name="grp_tennis">టెన్నిస్</string>
+    <string name="grp_motor">మోటార్‌స్పోర్ట్</string>
+    <string name="grp_golf">గోల్ఫ్</string>
+
+    <!-- Ambient -->
+    <string name="press_any">ఏదైనా బటన్ నొక్కండి</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup -->
+    <string name="setup_title">లాంచర్ సెటప్</string>
+    <string name="step_of">%2$dలో దశ %1$d</string>
+    <string name="back">వెనక్కి</string>
+    <string name="next">కొనసాగించు</string>
+    <string name="finish">ముగించు</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ జరుపు · OK ఎంచుకో · ఎంపికల నుండి ▶ నొక్కితే కొనసాగించు చేరుతుంది · Back మునుపటి దశ</string>
+    <string name="s1_title">మీ భాషను ఎంచుకోండి</string>
+    <string name="s1_sub">ఎంచుకున్న వెంటనే Summit భాష మారుతుంది.</string>
+    <string name="s2_title">మీరు టీవీ ఎక్కడ చూస్తారు?</string>
+    <string name="s2_sub">హోమ్‌లోని టీవీ చూడండి ఒక్క OK నొక్కుతో దీన్ని తెరుస్తుంది.</string>
+    <string name="signal_yes">సిగ్నల్ కనుగొనబడింది</string>
+    <string name="signal_no">సిగ్నల్ లేదు</string>
+    <string name="recommended">సిఫార్సు చేయబడింది</string>
+    <string name="antenna">యాంటెనా (DTV)</string>
+    <string name="s3_title">హోమ్‌లో ఏ స్కోర్‌లు కనిపించాలి?</string>
+    <string name="s3_sub">ఎన్నైనా ఎంచుకోండి. లైవ్ మ్యాచ్‌లు ముందు కనిపిస్తాయి.</string>
+    <string name="s_fav_title">మీకు ఇష్టమైన యాప్‌లను ఎంచుకోండి</string>
+    <string name="s_fav_sub">ఇవి హోమ్‌లో ఉంటాయి, ఒక్క నొక్కుతో తెరవొచ్చు. ఎన్నైనా ఎంచుకోండి.</string>
+    <string name="s_wall_title">వాల్‌పేపర్ ఎంచుకోండి</string>
+    <string name="s_wall_sub">హోమ్, స్క్రీన్‌సేవర్ వెనుక కనిపిస్తుంది.</string>
+    <string name="setup_preview_note">మీ హోమ్ స్క్రీన్. ఇవన్నీ తర్వాత సెట్టింగ్‌లలో మార్చవచ్చు.</string>
+    <string name="s4_title">రూపాన్ని ఎంచుకోండి</string>
+    <string name="s4_sub">ఆటో సాయంత్రం 6 నుండి ఉదయం 6 వరకు డార్క్‌గా, పగలు లైట్‌గా ఉంటుంది.</string>
+    <string name="tennis">టెన్నిస్</string>
+    <string name="formula1">ఫార్ములా 1</string>
+    <string name="usage_title">ఇటీవల ఉపయోగించిన యాప్‌లను హోమ్‌లో చూపాలా?</string>
+    <string name="usage_body">కొనసాగించండి వరుసలో ఇటీవలి యాప్‌లు కనిపించేలా వినియోగ యాక్సెస్‌ను అనుమతించండి.</string>
+    <string name="allow">అనుమతించు</string>
+    <string name="skip">దాటవేయి</string>
+    <string name="run_setup">మొదటిసారి సెటప్ రన్ చేయి</string>
+    <string name="change_city">నగరాన్ని మార్చు</string>
+    <string name="kick_off">కిక్-ఆఫ్ %s</string>
+    <string name="mode_input">టీవీ ఇన్‌పుట్</string>
+    <string name="mode_input_sub">HDMI, AV లేదా యాంటెనా</string>
+    <string name="mode_app">యాప్</string>
+    <string name="mode_app_sub">లైవ్ టీవీ యాప్</string>
+    <string name="search_city">నగరం కోసం వెతకండి</string>
+    <string name="use_current">ప్రస్తుత స్థానాన్ని ఉపయోగించు</string>
+    <string name="use_current_named">ప్రస్తుత స్థానాన్ని ఉపయోగించు (%s)</string>
+    <string name="searching">వెతుకుతోంది…</string>
+    <string name="no_results">నగరాలు ఏవీ కనుగొనబడలేదు</string>
+    <string name="search_failed">ఇప్పుడు వెతకడం కుదరదు. ఇంటర్నెట్ కనెక్షన్ తనిఖీ చేయండి.</string>
+    <string name="resume_now">కొనసాగించు · ఇప్పుడే</string>
+</resources>

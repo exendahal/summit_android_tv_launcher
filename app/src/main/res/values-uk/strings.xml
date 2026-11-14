@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit: заставка</string>
+
+    <!-- Header -->
+    <string name="nav_home">Головна</string>
+    <string name="nav_apps">Додатки</string>
+    <string name="nav_settings">Налаштування</string>
+    <string name="search">Пошук</string>
+    <string name="tv_settings">Налаштування Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Дивитися ТБ</string>
+    <string name="continue_title">Продовжити</string>
+    <string name="favourites_title">Обране · утримуйте OK, щоб закріпити або перемістити</string>
+    <string name="all_apps">Усі додатки</string>
+    <string name="show_recents">Показати нещодавні додатки</string>
+    <string name="not_default_banner">Зробіть Summit головним екраном · натисніть OK, щоб дізнатися як</string>
+    <string name="not_default_title">Зробіть Summit головним екраном</string>
+    <string name="not_default_help">Відкрийте Налаштування › Додатки › Додатки за замовчуванням › Головний екран і виберіть Summit. На деяких пристроях Google TV головний екран змінити не можна; Summit однаково можна відкрити зі списку додатків.</string>
+    <string name="open_settings">Відкрити налаштування</string>
+    <string name="dismiss">Сховати</string>
+    <string name="usage_unavailable">Відкрийте Налаштування › Додатки › Спеціальний доступ › Доступ до даних про використання й дозвольте його для Summit.</string>
+    <string name="move_hint">◀ ▶ перемістити · OK поставити · Back скасувати</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Продовжити · %d хв тому</string>
+    <string name="resume_h">Продовжити · %d год тому</string>
+    <string name="yesterday">Учора</string>
+    <string name="days_ago">Днів тому: %d</string>
+    <string name="last_week">Минулого тижня</string>
+    <string name="updated_now">Щойно оновлено</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Оновлено %d хвилину тому</item>
+        <item quantity="few">Оновлено %d хвилини тому</item>
+        <item quantity="many">Оновлено %d хвилин тому</item>
+        <item quantity="other">Оновлено %d хвилини тому</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">НАЖИВО</string>
+    <string name="ft">Кінець</string>
+    <string name="scores_unavailable">Рахунок недоступний</string>
+    <string name="score_cd">%1$s. Натисніть OK, щоб побачити деталі</string>
+    <string name="score_live_suffix">%1$s · НАЖИВО</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Погода недоступна</string>
+    <string name="hi_lo">Макс %1$s Мін %2$s</string>
+    <string name="hi_lo_long">Макс. %1$s · Мін. %2$s</string>
+    <string name="wind_rain">Вітер %1$s · Опади сьогодні %2$s</string>
+    <string name="weather_title">%1$s · Сьогодні</string>
+    <string name="mountains_line">Гори · Намче-Базар %1$s, %2$s</string>
+    <string name="rain_pct">Дощ %d%%</string>
+    <string name="next_days">Найближчі 3 дні</string>
+    <string name="change_units">Одиниці виміру можна змінити в налаштуваннях</string>
+    <string name="part_morning">Ранок</string>
+    <string name="part_afternoon">День</string>
+    <string name="part_evening">Вечір</string>
+    <string name="part_night">Ніч</string>
+    <string name="cond_clear">Ясно</string>
+    <string name="cond_sunny">Сонячно</string>
+    <string name="cond_partly">Мінлива хмарність</string>
+    <string name="cond_cloudy">Хмарно</string>
+    <string name="cond_fog">Туман</string>
+    <string name="cond_rain">Дощ</string>
+    <string name="cond_snow">Снігопад</string>
+    <string name="cond_thunder">Гроза</string>
+    <string name="sum_all_day">%1$s увесь день</string>
+    <string name="sum_morning">%1$s вранці</string>
+    <string name="sum_afternoon">удень %1$s</string>
+    <string name="sum_rain_from">дощ з %1$s</string>
+    <string name="sum_tonight">уночі %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s км/год</string>
+    <string name="unit_ms">%s м/с</string>
+    <string name="unit_mph">%s миль/год</string>
+    <string name="unit_mm">%s мм</string>
+    <string name="unit_in">%s дюйм.</string>
+    <string name="loc_kathmandu">Катманду</string>
+    <string name="close">Закрити</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ перемістити · OK відкрити · утримуйте OK, щоб додати в Обране · Back на головну</string>
+    <string name="selected_app">Вибрано: %s</string>
+    <string name="pin">Додати в Обране</string>
+    <string name="unpin">Прибрати з Обраного</string>
+    <string name="move">Перемістити</string>
+    <string name="app_info">Про додаток</string>
+    <string name="uninstall">Видалити</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Цей телевізор не дозволяє додаткам перемикати входи. Скористайтеся кнопкою Input на пульті.</string>
+    <string name="no_tv_input">ТВ-вхід не знайдено</string>
+    <string name="ask_every_time">Запитувати щоразу</string>
+    <string name="choose_live_app">Виберіть додаток для ТБ-ефіру</string>
+    <string name="voice_unavailable">Голосовий пошук недоступний на цьому телевізорі.</string>
+    <string name="cannot_open">Не вдається відкрити цей додаток.</string>
+
+    <!-- Settings -->
+    <string name="reset">Скинути налаштування</string>
+    <string name="reset_title">Скинути всі налаштування лаунчера?</string>
+    <string name="reset_body">Тема, шпалери, мова та інші налаштування лаунчера повернуться до стандартних. Додатки й обране залишаться без змін.</string>
+    <string name="cancel">Скасувати</string>
+    <string name="reset_confirm">Скинути</string>
+    <string name="settings_hint">▲ ▼ перемістити · OK відкрити або вибрати · Back назад. Зміни застосовуються одразу.</string>
+    <string name="leagues_header">Що показувати на головному екрані · вибрано: %d</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Попередній перегляд</string>
+
+    <string name="opt_mode">Режим</string>
+    <string name="opt_colour">Колір</string>
+    <string name="opt_use_screensaver">Використовувати як заставку</string>
+    <string name="screensaver_setup_title">Потрібне одноразове налаштування</string>
+    <string name="screensaver_setup_body">Цей телевізор не дозволяє додаткам самостійно змінювати заставку. Один раз під\'єднайте комп\'ютер і виконайте:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nПотім знову ввімкніть цей параметр.</string>
+    <string name="wallpaper_custom">Моє зображення</string>
+    <string name="wallpaper_download_failed">Не вдалося завантажити шпалери. Перевірте підключення до інтернету.</string>
+    <string name="picture_allow">Дозволити доступ до зображень</string>
+    <string name="picture_denied">Дозвольте доступ до фото в розділі Налаштування › Додатки › Summit › Дозволи.</string>
+    <string name="picture_none">На цьому телевізорі немає зображень.</string>
+    <string name="picture_failed">Не вдалося відкрити зображення.</string>
+    <string name="picture_n">Зображення %d</string>
+    <string name="opt_custom_colour">Власний колір</string>
+    <string name="opt_contrast">Контрастність</string>
+    <string name="opt_animations">Анімація</string>
+    <string name="opt_wallpaper">Шпалери</string>
+    <string name="opt_dim">Затемнення шпалер</string>
+    <string name="opt_text_size">Розмір тексту</string>
+    <string name="opt_digits">Цифри деванагарі</string>
+    <string name="opt_language">Мова</string>
+    <string name="opt_calendar">Календар</string>
+    <string name="opt_time">Формат часу</string>
+    <string name="opt_temp">Температура</string>
+    <string name="opt_wind">Швидкість вітру</string>
+    <string name="opt_rain">Опади</string>
+    <string name="opt_location">Місцезнаходження</string>
+    <string name="opt_show_home">На головному екрані</string>
+    <string name="opt_watch_tile">Плитка «Дивитися ТБ»</string>
+    <string name="opt_continue">Ряд «Продовжити»</string>
+    <string name="opt_fav_order">Порядок обраного</string>
+    <string name="opt_health">Порада про здоров\'я</string>
+    <string name="opt_live_type">«Дивитися ТБ» відкриває</string>
+    <string name="opt_input">Джерело сигналу</string>
+    <string name="opt_live_app">Додаток</string>
+    <string name="opt_boot">Відкривати під час увімкнення ТБ</string>
+    <string name="opt_tile_size">Розмір плиток</string>
+    <string name="opt_tile_shape">Форма плиток</string>
+    <string name="opt_labels">Назви додатків</string>
+    <string name="opt_score_max">На головному екрані</string>
+    <string name="opt_live_first">Спершу поточні матчі</string>
+    <string name="opt_stale">Якщо рахунок не оновлюється</string>
+    <string name="opt_amb_scores">Показувати рахунок матчів</string>
+    <string name="opt_amb_shift">Зсувати годинник для захисту екрана</string>
+    <string name="opt_amb_dim">Затемнювати вночі</string>
+
+    <string name="grp_cricket">Крикет</string>
+    <string name="grp_football">Футбол</string>
+    <string name="grp_basketball">Баскетбол</string>
+    <string name="grp_us">Спорт США</string>
+    <string name="grp_tennis">Теніс</string>
+    <string name="grp_motor">Автоспорт</string>
+    <string name="grp_golf">Гольф</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Натисніть будь-яку кнопку</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Налаштування лаунчера</string>
+    <string name="step_of">Крок %1$d з %2$d</string>
+    <string name="back">Назад</string>
+    <string name="next">Продовжити</string>
+    <string name="finish">Готово</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ перемістити · OK вибрати · ▶ від варіантів веде до «Продовжити» · Back попередній крок</string>
+    <string name="s1_title">Виберіть мову</string>
+    <string name="s1_sub">Summit змінить мову одразу після вибору.</string>
+    <string name="s2_title">Як ви дивитеся ТБ?</string>
+    <string name="s2_sub">Плитка «Дивитися ТБ» на головному екрані відкриє це одним натисканням OK.</string>
+    <string name="signal_yes">Є сигнал</string>
+    <string name="signal_no">Немає сигналу</string>
+    <string name="recommended">Рекомендовано</string>
+    <string name="antenna">Антена (DTV)</string>
+    <string name="s3_title">Чий рахунок показувати на головному екрані?</string>
+    <string name="s3_sub">Виберіть скільки завгодно. Поточні матчі показуються першими.</string>
+    <string name="s_fav_title">Виберіть улюблені додатки</string>
+    <string name="s_fav_sub">Вони будуть на головному екрані, за одне натискання. Виберіть скільки завгодно.</string>
+    <string name="s_wall_title">Виберіть шпалери</string>
+    <string name="s_wall_sub">Показуються на головному екрані й у заставці.</string>
+    <string name="setup_preview_note">Ваш головний екран. Усе це можна змінити пізніше в налаштуваннях.</string>
+    <string name="s4_title">Виберіть оформлення</string>
+    <string name="s4_sub">У режимі «Авто» темна тема з 18:00 до 6:00, а вдень світла.</string>
+    <string name="tennis">Теніс</string>
+    <string name="formula1">Формула-1</string>
+    <string name="usage_title">Показувати нещодавні додатки на головному екрані?</string>
+    <string name="usage_body">Дозвольте доступ до даних про використання, щоб у ряду «Продовжити» відображалися нещодавні додатки.</string>
+    <string name="allow">Дозволити</string>
+    <string name="skip">Пропустити</string>
+    <string name="run_setup">Запустити початкове налаштування</string>
+    <string name="change_city">Змінити місто</string>
+    <string name="kick_off">Початок о %s</string>
+    <string name="mode_input">ТВ-вхід</string>
+    <string name="mode_input_sub">HDMI, AV або антена</string>
+    <string name="mode_app">Додаток</string>
+    <string name="mode_app_sub">Додаток для ТБ-ефіру</string>
+    <string name="search_city">Знайти місто</string>
+    <string name="use_current">Використати поточне місцезнаходження</string>
+    <string name="use_current_named">Використати поточне місцезнаходження (%s)</string>
+    <string name="searching">Пошук…</string>
+    <string name="no_results">Міст не знайдено</string>
+    <string name="search_failed">Зараз пошук недоступний. Перевірте підключення до інтернету.</string>
+    <string name="resume_now">Продовжити · щойно</string>
+</resources>

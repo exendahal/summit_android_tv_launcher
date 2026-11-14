@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>تھیم</item><item>فونٹ</item><item>زبان</item><item>موسم</item>
+        <item>ہوم اسکرین</item><item>لائیو ٹی وی</item><item>آئیکنز اور ٹائلز</item><item>اسکور</item><item>اسکرین سیور</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>وقت کے مطابق آٹو</item><item>ڈارک</item><item>لائٹ</item></string-array>
+    <string-array name="e_theme_colour"><item>وال پیپر سے</item><item>مرجانی</item><item>سبز</item><item>حسب منشا</item></string-array>
+    <string-array name="e_custom_colour"><item>سرخ</item><item>نارنجی</item><item>پیلا</item><item>سبز</item><item>فیروزی</item><item>نیلا</item><item>گہرا نیلا</item><item>جامنی</item><item>گلابی</item></string-array>
+    <string-array name="e_contrast"><item>معیاری</item><item>زیادہ</item></string-array>
+    <string-array name="e_animations"><item>مکمل</item><item>کم</item><item>بند</item></string-array>
+    <string-array name="e_wallpaper"><item>پہاڑی منظر</item><item>پہاڑی سلسلہ</item><item>سادہ</item><item>پھیوا کا غروب آفتاب</item><item>ہمالیہ کی رات</item><item>ترائی کے کھیت</item><item>دعائیہ جھنڈے</item></string-array>
+    <string-array name="e_dim"><item>بند</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ڈیفالٹ</item><item>بڑا</item><item>بہت بڑا</item></string-array>
+    <string-array name="e_off_on"><item>بند</item><item>آن</item></string-array>
+    <string-array name="e_on_off"><item>آن</item><item>بند</item></string-array>
+    <string-array name="e_labels"><item>ہمیشہ</item><item>منتخب ہونے پر</item><item>بند</item></string-array>
+    <string-array name="e_show_hide"><item>دکھائیں</item><item>چھپائیں</item></string-array>
+    <string-array name="e_calendar"><item>دونوں</item><item>بکرم سموت</item><item>گریگورین</item></string-array>
+    <string-array name="e_time"><item>12 گھنٹے</item><item>24 گھنٹے</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>انچ</item></string-array>
+    <string-array name="e_watch_tile"><item>قطار میں پہلا</item><item>پوشیدہ</item></string-array>
+    <string-array name="e_fav_order"><item>سب سے زیادہ استعمال شدہ</item><item>دستی</item></string-array>
+    <string-array name="e_health"><item>صرف ایمبیئنٹ</item><item>ہوم اور ایمبیئنٹ</item><item>بند</item></string-array>
+    <string-array name="e_live_type"><item>ٹی وی ان پٹ</item><item>ایپ</item></string-array>
+    <string-array name="e_tile_size"><item>درمیانہ</item><item>بڑا</item><item>چھوٹا</item></string-array>
+    <string-array name="e_tile_shape"><item>گول کونے</item><item>مربع</item></string-array>
+    <string-array name="e_score_max"><item>4 تک</item><item>6 تک</item><item>3 تک</item><item>2 تک</item></string-array>
+    <string-array name="e_stale"><item>\"دستیاب نہیں\" دکھائیں</item><item>اسکور چھپائیں</item></string-array>
+
+    <string-array name="health">
+        <item>صحت ہی اصل دولت ہے۔ تھوڑا چلیں، خوب مسکرائیں۔</item>
+        <item>آج 20 منٹ کی سیر آنے والے کل کے لیے تحفہ ہے۔</item>
+        <item>اگلی قسط سے پہلے ایک گلاس پانی پی لیں۔</item>
+        <item>آنکھوں کو آرام دیں: ہر 20 منٹ بعد 20 سیکنڈ دور دیکھیں۔</item>
+        <item>اچھی نیند بہترین تربیت ہے۔ آج رات وقت پر ٹی وی بند کریں۔</item>
+        <item>ہر وقفے میں کھڑے ہو کر جسم کو کھینچیں۔ آپ کی کمر شکریہ ادا کرے گی۔</item>
+        <item>ایسے کھائیں جیسے پہاڑ دیکھ رہے ہوں: تازہ، سادہ اور موسمی۔</item>
+    </string-array>
+</resources>

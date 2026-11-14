@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit képernyőkímélő</string>
+
+    <!-- Header -->
+    <string name="nav_home">Kezdőlap</string>
+    <string name="nav_apps">Alkalmazások</string>
+    <string name="nav_settings">Beállítások</string>
+    <string name="search">Keresés</string>
+    <string name="tv_settings">Android TV-beállítások</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">TV-nézés</string>
+    <string name="continue_title">Folytatás</string>
+    <string name="favourites_title">Kedvencek · tartsa lenyomva az OK gombot a rögzítéshez vagy áthelyezéshez</string>
+    <string name="all_apps">Összes alkalmazás</string>
+    <string name="show_recents">Legutóbbi alkalmazások</string>
+    <string name="not_default_banner">Legyen a Summit a kezdőképernyő · nyomja meg az OK gombot a részletekért</string>
+    <string name="not_default_title">Legyen a Summit a kezdőképernyő</string>
+    <string name="not_default_help">Nyissa meg a Beállítások › Alkalmazások › Alapértelmezett alkalmazások › Kezdőképernyő-alkalmazás menüt, és válassza a Summitot. Egyes Google TV-eszközökön nem lehet módosítani a kezdőképernyőt; a Summit ilyenkor is elindítható az alkalmazáslistából.</string>
+    <string name="open_settings">Beállítások megnyitása</string>
+    <string name="dismiss">Elvetés</string>
+    <string name="usage_unavailable">Nyissa meg a Beállítások › Alkalmazások › Különleges alkalmazás-hozzáférés › Használati adatokhoz való hozzáférés menüt, és engedélyezze a Summitnak.</string>
+    <string name="move_hint">◀ ▶ mozgatás · OK lerakás · Back mégse</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Folytatás · %d perce</string>
+    <string name="resume_h">Folytatás · %d órája</string>
+    <string name="yesterday">Tegnap</string>
+    <string name="days_ago">%d napja</string>
+    <string name="last_week">Múlt héten</string>
+    <string name="updated_now">Épp most frissítve</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d perce frissítve</item>
+        <item quantity="other">%d perce frissítve</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">ÉLŐ</string>
+    <string name="ft">Vége</string>
+    <string name="scores_unavailable">Az eredmények nem érhetők el</string>
+    <string name="score_cd">%1$s. A részletekért nyomja meg az OK gombot</string>
+    <string name="score_live_suffix">%1$s · ÉLŐ</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Az időjárás nem érhető el</string>
+    <string name="hi_lo">Max %1$s Min %2$s</string>
+    <string name="hi_lo_long">Max. %1$s · Min. %2$s</string>
+    <string name="wind_rain">Szél %1$s · Mai csapadék %2$s</string>
+    <string name="weather_title">%1$s · Ma</string>
+    <string name="mountains_line">Hegyek · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Eső %d%%</string>
+    <string name="next_days">Következő 3 nap</string>
+    <string name="change_units">A mértékegységek a Beállításokban módosíthatók</string>
+    <string name="part_morning">Reggel</string>
+    <string name="part_afternoon">Délután</string>
+    <string name="part_evening">Este</string>
+    <string name="part_night">Éjszaka</string>
+    <string name="cond_clear">Derült</string>
+    <string name="cond_sunny">Napos</string>
+    <string name="cond_partly">Részben felhős</string>
+    <string name="cond_cloudy">Felhős</string>
+    <string name="cond_fog">Ködös</string>
+    <string name="cond_rain">Eső</string>
+    <string name="cond_snow">Hózápor</string>
+    <string name="cond_thunder">Zivatar</string>
+    <string name="sum_all_day">%1$s egész nap</string>
+    <string name="sum_morning">%1$s reggel</string>
+    <string name="sum_afternoon">délután %1$s</string>
+    <string name="sum_rain_from">eső %1$s órától</string>
+    <string name="sum_tonight">éjjel %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s hüvelyk</string>
+    <string name="loc_kathmandu">Katmandu</string>
+    <string name="close">Bezárás</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ mozgatás · OK megnyitás · OK lenyomva tartása: rögzítés a Kedvencekhez · Back: Kezdőlap</string>
+    <string name="selected_app">Kijelölve: %s</string>
+    <string name="pin">Rögzítés a Kedvencekhez</string>
+    <string name="unpin">Eltávolítás a Kedvencekből</string>
+    <string name="move">Áthelyezés</string>
+    <string name="app_info">Alkalmazásinformáció</string>
+    <string name="uninstall">Eltávolítás</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Ez a TV nem engedi, hogy alkalmazások bemenetet váltsanak. Használja a távirányító Input gombját.</string>
+    <string name="no_tv_input">Nem található TV-bemenet</string>
+    <string name="ask_every_time">Rákérdezés minden alkalommal</string>
+    <string name="choose_live_app">Válasszon élő TV-alkalmazást</string>
+    <string name="voice_unavailable">A hangalapú keresés nem érhető el ezen a TV-n.</string>
+    <string name="cannot_open">Ez az alkalmazás nem nyitható meg.</string>
+
+    <!-- Settings -->
+    <string name="reset">Alapértékek visszaállítása</string>
+    <string name="reset_title">Visszaállítja az összes indítóbeállítást?</string>
+    <string name="reset_body">A téma, a háttérkép, a nyelv és a többi indítóbeállítás visszaáll az alapértékre. Az alkalmazások és a kedvencek nem változnak.</string>
+    <string name="cancel">Mégse</string>
+    <string name="reset_confirm">Visszaállítás</string>
+    <string name="settings_hint">▲ ▼ mozgatás · OK megnyitás vagy kiválasztás · Back vissza. A módosítások azonnal érvénybe lépnek.</string>
+    <string name="leagues_header">Mi jelenjen meg a Kezdőlapon · %d kiválasztva</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Előnézet</string>
+
+    <string name="opt_mode">Mód</string>
+    <string name="opt_colour">Szín</string>
+    <string name="opt_use_screensaver">Használat képernyőkímélőként</string>
+    <string name="screensaver_setup_title">Egyszeri beállítás szükséges</string>
+    <string name="screensaver_setup_body">Ez a TV nem engedi, hogy az alkalmazások maguk módosítsák a képernyőkímélőt. Csatlakoztasson egyszer egy számítógépet, és futtassa:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nEzután kapcsolja be újra ezt a beállítást.</string>
+    <string name="wallpaper_custom">Saját kép</string>
+    <string name="wallpaper_download_failed">Nem sikerült letölteni a háttérképet. Ellenőrizze az internetkapcsolatot.</string>
+    <string name="picture_allow">Hozzáférés engedélyezése a képekhez</string>
+    <string name="picture_denied">Engedélyezze a fotókhoz való hozzáférést: Beállítások › Alkalmazások › Summit › Engedélyek.</string>
+    <string name="picture_none">Nem található kép ezen a TV-n.</string>
+    <string name="picture_failed">Nem sikerült megnyitni a képet.</string>
+    <string name="picture_n">%d. kép</string>
+    <string name="opt_custom_colour">Egyéni szín</string>
+    <string name="opt_contrast">Kontraszt</string>
+    <string name="opt_animations">Animációk</string>
+    <string name="opt_wallpaper">Háttérkép</string>
+    <string name="opt_dim">Háttérkép sötétítése</string>
+    <string name="opt_text_size">Szövegméret</string>
+    <string name="opt_digits">Dévanágari számjegyek</string>
+    <string name="opt_language">Nyelv</string>
+    <string name="opt_calendar">Naptár</string>
+    <string name="opt_time">Időformátum</string>
+    <string name="opt_temp">Hőmérséklet</string>
+    <string name="opt_wind">Szélsebesség</string>
+    <string name="opt_rain">Csapadék</string>
+    <string name="opt_location">Helyszín</string>
+    <string name="opt_show_home">Megjelenítés a Kezdőlapon</string>
+    <string name="opt_watch_tile">TV-nézés csempe</string>
+    <string name="opt_continue">Folytatás sor</string>
+    <string name="opt_fav_order">Kedvencek sorrendje</string>
+    <string name="opt_health">Egészségtipp</string>
+    <string name="opt_live_type">A TV-nézés ezt használja</string>
+    <string name="opt_input">Bemeneti forrás</string>
+    <string name="opt_live_app">Alkalmazás</string>
+    <string name="opt_boot">Megnyitás a TV bekapcsolásakor</string>
+    <string name="opt_tile_size">Csempeméret</string>
+    <string name="opt_tile_shape">Csempe alakja</string>
+    <string name="opt_labels">Alkalmazásnevek</string>
+    <string name="opt_score_max">Megjelenítés a Kezdőlapon</string>
+    <string name="opt_live_first">Élő meccsek elöl</string>
+    <string name="opt_stale">Ha az eredmények nem frissülnek</string>
+    <string name="opt_amb_scores">Élő eredmények megjelenítése</string>
+    <string name="opt_amb_shift">Óra mozgatása a képernyő védelmére</string>
+    <string name="opt_amb_dim">Éjszakai sötétítés</string>
+
+    <string name="grp_cricket">Krikett</string>
+    <string name="grp_football">Labdarúgás</string>
+    <string name="grp_basketball">Kosárlabda</string>
+    <string name="grp_us">Amerikai sportok</string>
+    <string name="grp_tennis">Tenisz</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Nyomjon meg egy gombot</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Az indító beállítása</string>
+    <string name="step_of">%1$d. lépés / %2$d</string>
+    <string name="back">Vissza</string>
+    <string name="next">Tovább</string>
+    <string name="finish">Kész</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ mozgatás · OK kiválasztás · ▶ a lehetőségekről a Tovább gombra lép · Back előző lépés</string>
+    <string name="s1_title">Válasszon nyelvet</string>
+    <string name="s1_sub">A Summit a választás után azonnal nyelvet vált.</string>
+    <string name="s2_title">Hol néz TV-t?</string>
+    <string name="s2_sub">A Kezdőlap TV-nézés csempéje egyetlen OK gombnyomással ezt nyitja meg.</string>
+    <string name="signal_yes">Van jel</string>
+    <string name="signal_no">Nincs jel</string>
+    <string name="recommended">Ajánlott</string>
+    <string name="antenna">Antenna (DTV)</string>
+    <string name="s3_title">Mely eredmények jelenjenek meg a Kezdőlapon?</string>
+    <string name="s3_sub">Annyit választhat, amennyit szeretne. Az élő meccsek elöl jelennek meg.</string>
+    <string name="s_fav_title">Válassza ki kedvenc alkalmazásait</string>
+    <string name="s_fav_sub">A Kezdőlapon lesznek, egy gombnyomásnyira. Annyit választhat, amennyit szeretne.</string>
+    <string name="s_wall_title">Válasszon háttérképet</string>
+    <string name="s_wall_sub">A Kezdőlap és a képernyőkímélő mögött jelenik meg.</string>
+    <string name="setup_preview_note">Az Ön Kezdőlapja. Később mindez módosítható a Beállításokban.</string>
+    <string name="s4_title">Válasszon megjelenést</string>
+    <string name="s4_sub">Az Automatikus mód 18:00 és 6:00 között sötét, napközben világos.</string>
+    <string name="tennis">Tenisz</string>
+    <string name="formula1">Forma–1</string>
+    <string name="usage_title">Megjelenjenek a legutóbb használt alkalmazások a Kezdőlapon?</string>
+    <string name="usage_body">Engedélyezze a használati adatokhoz való hozzáférést, hogy a Folytatás sor mutathassa a legutóbb használt alkalmazásokat.</string>
+    <string name="allow">Engedélyezés</string>
+    <string name="skip">Kihagyás</string>
+    <string name="run_setup">Első beállítás indítása</string>
+    <string name="change_city">Város módosítása</string>
+    <string name="kick_off">Kezdés: %s</string>
+    <string name="mode_input">TV-bemenet</string>
+    <string name="mode_input_sub">HDMI, AV vagy antenna</string>
+    <string name="mode_app">Alkalmazás</string>
+    <string name="mode_app_sub">Élő TV-alkalmazás</string>
+    <string name="search_city">Város keresése</string>
+    <string name="use_current">Jelenlegi tartózkodási hely használata</string>
+    <string name="use_current_named">Jelenlegi tartózkodási hely használata (%s)</string>
+    <string name="searching">Keresés…</string>
+    <string name="no_results">Nem található város</string>
+    <string name="search_failed">A keresés most nem lehetséges. Ellenőrizze az internetkapcsolatot.</string>
+    <string name="resume_now">Folytatás · épp most</string>
+</resources>

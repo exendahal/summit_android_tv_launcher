@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>主題</item><item>字型</item><item>語言</item><item>天氣</item>
+        <item>主畫面</item><item>直播電視</item><item>圖示和方塊</item><item>比分</item><item>螢幕保護程式</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>依時間自動</item><item>深色</item><item>淺色</item></string-array>
+    <string-array name="e_theme_colour"><item>取自桌布</item><item>珊瑚色</item><item>綠色</item><item>自訂</item></string-array>
+    <string-array name="e_custom_colour"><item>紅色</item><item>橘色</item><item>黃色</item><item>綠色</item><item>藍綠色</item><item>藍色</item><item>靛藍色</item><item>紫色</item><item>粉紅色</item></string-array>
+    <string-array name="e_contrast"><item>標準</item><item>高</item></string-array>
+    <string-array name="e_animations"><item>完整</item><item>減少</item><item>關閉</item></string-array>
+    <string-array name="e_wallpaper"><item>雪山風光</item><item>山脊線</item><item>純色</item><item>費瓦湖日落</item><item>喜馬拉雅之夜</item><item>特萊田野</item><item>經幡</item></string-array>
+    <string-array name="e_dim"><item>關閉</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>預設</item><item>大</item><item>特大</item></string-array>
+    <string-array name="e_off_on"><item>關閉</item><item>開啟</item></string-array>
+    <string-array name="e_on_off"><item>開啟</item><item>關閉</item></string-array>
+    <string-array name="e_labels"><item>一律顯示</item><item>選取時</item><item>關閉</item></string-array>
+    <string-array name="e_show_hide"><item>顯示</item><item>隱藏</item></string-array>
+    <string-array name="e_calendar"><item>兩者</item><item>尼泊爾曆</item><item>西曆</item></string-array>
+    <string-array name="e_time"><item>12 小時制</item><item>24 小時制</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>英吋</item></string-array>
+    <string-array name="e_watch_tile"><item>列首</item><item>隱藏</item></string-array>
+    <string-array name="e_fav_order"><item>最常使用</item><item>手動</item></string-array>
+    <string-array name="e_health"><item>僅氛圍模式</item><item>主畫面和氛圍模式</item><item>關閉</item></string-array>
+    <string-array name="e_live_type"><item>電視輸入來源</item><item>應用程式</item></string-array>
+    <string-array name="e_tile_size"><item>中</item><item>大</item><item>小</item></string-array>
+    <string-array name="e_tile_shape"><item>圓角</item><item>方形</item></string-array>
+    <string-array name="e_score_max"><item>最多 4 個</item><item>最多 6 個</item><item>最多 3 個</item><item>最多 2 個</item></string-array>
+    <string-array name="e_stale"><item>顯示「無法取得」</item><item>隱藏比分</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>健康才是真正的財富。多動一動，多笑一笑。</item>
+        <item>今天散步 20 分鐘，是送給明天的自己的禮物。</item>
+        <item>看下一集之前，先喝一杯水吧。</item>
+        <item>讓眼睛休息一下：每隔 20 分鐘，遠眺 20 秒。</item>
+        <item>好睡眠是最好的訓練計畫。今晚準時關機吧。</item>
+        <item>每次休息都站起來伸展一下，你的背會感謝你。</item>
+        <item>像群山在看著你一樣吃飯：新鮮、簡單、當季。</item>
+    </string-array>
+</resources>

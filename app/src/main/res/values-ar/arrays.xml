@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>المظهر</item><item>الخط</item><item>اللغة</item><item>الطقس</item>
+        <item>الشاشة الرئيسية</item><item>التلفزيون المباشر</item><item>الأيقونات والمربعات</item><item>النتائج</item><item>شاشة التوقف</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>تلقائي حسب الوقت</item><item>داكن</item><item>فاتح</item></string-array>
+    <string-array name="e_theme_colour"><item>من الخلفية</item><item>مرجاني</item><item>أخضر</item><item>مخصص</item></string-array>
+    <string-array name="e_custom_colour"><item>أحمر</item><item>برتقالي</item><item>أصفر</item><item>أخضر</item><item>أزرق مخضر</item><item>أزرق</item><item>نيلي</item><item>بنفسجي</item><item>وردي</item></string-array>
+    <string-array name="e_contrast"><item>عادي</item><item>عالٍ</item></string-array>
+    <string-array name="e_animations"><item>كاملة</item><item>مخفّضة</item><item>إيقاف</item></string-array>
+    <string-array name="e_wallpaper"><item>مشهد جبلي</item><item>خط التلال</item><item>سادة</item><item>غروب فيوا</item><item>ليل الهيمالايا</item><item>حقول تيراي</item><item>أعلام الصلاة</item></string-array>
+    <string-array name="e_dim"><item>إيقاف</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>افتراضي</item><item>كبير</item><item>كبير جدًا</item></string-array>
+    <string-array name="e_off_on"><item>إيقاف</item><item>تشغيل</item></string-array>
+    <string-array name="e_on_off"><item>تشغيل</item><item>إيقاف</item></string-array>
+    <string-array name="e_labels"><item>دائمًا</item><item>عند التحديد</item><item>إيقاف</item></string-array>
+    <string-array name="e_show_hide"><item>إظهار</item><item>إخفاء</item></string-array>
+    <string-array name="e_calendar"><item>كلاهما</item><item>بكرم سامبات</item><item>ميلادي</item></string-array>
+    <string-array name="e_time"><item>12 ساعة</item><item>24 ساعة</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>بوصة</item></string-array>
+    <string-array name="e_watch_tile"><item>الأول في الصف</item><item>مخفي</item></string-array>
+    <string-array name="e_fav_order"><item>الأكثر استخدامًا</item><item>يدوي</item></string-array>
+    <string-array name="e_health"><item>شاشة التوقف فقط</item><item>الرئيسية وشاشة التوقف</item><item>إيقاف</item></string-array>
+    <string-array name="e_live_type"><item>مصدر إدخال التلفزيون</item><item>تطبيق</item></string-array>
+    <string-array name="e_tile_size"><item>متوسط</item><item>كبير</item><item>صغير</item></string-array>
+    <string-array name="e_tile_shape"><item>مستدير</item><item>مربع</item></string-array>
+    <string-array name="e_score_max"><item>حتى 4</item><item>حتى 6</item><item>حتى 3</item><item>حتى 2</item></string-array>
+    <string-array name="e_stale"><item>عرض \"غير متاح\"</item><item>إخفاء النتائج</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>الصحة هي ثروتك الحقيقية. تحرّك قليلاً وابتسم كثيرًا.</item>
+        <item>مشي 20 دقيقة اليوم هدية لنفسك في الغد.</item>
+        <item>اشرب كوبًا من الماء قبل الحلقة التالية.</item>
+        <item>أرح عينيك: كل 20 دقيقة، انظر بعيدًا لمدة 20 ثانية.</item>
+        <item>النوم الجيد أفضل خطة تدريب. أطفئ الشاشة في الوقت المناسب الليلة.</item>
+        <item>قف وتمدّد في كل استراحة. سيشكرك ظهرك.</item>
+        <item>كُل كأن الجبال تراقبك: طعام طازج وبسيط وموسمي.</item>
+    </string-array>
+</resources>

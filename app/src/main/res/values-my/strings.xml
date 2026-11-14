@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit အမ်ဘီယန့်</string>
+
+    <!-- Header -->
+    <string name="nav_home">ပင်မ</string>
+    <string name="nav_apps">အက်ပ်များ</string>
+    <string name="nav_settings">ဆက်တင်များ</string>
+    <string name="search">ရှာဖွေရန်</string>
+    <string name="tv_settings">Android TV ဆက်တင်များ</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">TV ကြည့်ရန်</string>
+    <string name="continue_title">ဆက်ကြည့်ရန်</string>
+    <string name="favourites_title">အကြိုက်ဆုံးများ · ပင်ထိုးရန် သို့မဟုတ် ရွှေ့ရန် OK ကို ဖိထားပါ</string>
+    <string name="all_apps">အက်ပ်အားလုံး</string>
+    <string name="show_recents">မကြာသေးမီက အက်ပ်များ ပြရန်</string>
+    <string name="not_default_banner">Summit ကို ပင်မစခရင်အဖြစ် သတ်မှတ်ပါ · နည်းလမ်းကြည့်ရန် OK နှိပ်ပါ</string>
+    <string name="not_default_title">Summit ကို ပင်မစခရင်အဖြစ် သတ်မှတ်ပါ</string>
+    <string name="not_default_help">ဆက်တင်များ › အက်ပ်များ › မူရင်းအက်ပ်များ › ပင်မအက်ပ် ကိုဖွင့်ပြီး Summit ကို ရွေးပါ။ Google TV စက်အချို့တွင် ပင်မအက်ပ်ကို ပြောင်း၍မရပါ။ Summit ကို အက်ပ်စာရင်းမှ ဆက်သုံးနိုင်ပါသည်။</string>
+    <string name="open_settings">ဆက်တင်များ ဖွင့်ရန်</string>
+    <string name="dismiss">ပယ်ရန်</string>
+    <string name="usage_unavailable">ဆက်တင်များ › အက်ပ်များ › အထူးအက်ပ်ဝင်ခွင့် › အသုံးပြုမှု ဝင်ခွင့် ကိုဖွင့်ပြီး Summit ကို ခွင့်ပြုပါ။</string>
+    <string name="move_hint">◀ ▶ ရွှေ့ · OK ချ · Back မလုပ်တော့</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">ဆက်ကြည့် · %d မိနစ်က</string>
+    <string name="resume_h">ဆက်ကြည့် · %d နာရီက</string>
+    <string name="yesterday">မနေ့က</string>
+    <string name="days_ago">%d ရက်က</string>
+    <string name="last_week">ပြီးခဲ့သည့်အပတ်</string>
+    <string name="updated_now">ယခုလေးတင် အပ်ဒိတ်လုပ်ထားသည်</string>
+    <plurals name="updated_ago">
+        <item quantity="other">%d မိနစ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">တိုက်ရိုက်</string>
+    <string name="ft">ပွဲပြီး</string>
+    <string name="scores_unavailable">ရမှတ်များ မရနိုင်ပါ</string>
+    <string name="score_cd">%1$s။ အသေးစိတ်အတွက် OK နှိပ်ပါ</string>
+    <string name="score_live_suffix">%1$s · တိုက်ရိုက်</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">ရာသီဥတု မရနိုင်ပါ</string>
+    <string name="hi_lo">အမြင့် %1$s အနိမ့် %2$s</string>
+    <string name="hi_lo_long">အမြင့်ဆုံး %1$s · အနိမ့်ဆုံး %2$s</string>
+    <string name="wind_rain">လေ %1$s · ယနေ့မိုး %2$s</string>
+    <string name="weather_title">%1$s · ယနေ့</string>
+    <string name="mountains_line">တောင်တန်းများ · နမ်ချေဘဇား %1$s, %2$s</string>
+    <string name="rain_pct">မိုး %d%%</string>
+    <string name="next_days">နောက် 3 ရက်</string>
+    <string name="change_units">ယူနစ်များကို ဆက်တင်များတွင် ပြောင်းပါ</string>
+    <string name="part_morning">မနက်</string>
+    <string name="part_afternoon">နေ့လယ်</string>
+    <string name="part_evening">ညနေ</string>
+    <string name="part_night">ည</string>
+    <string name="cond_clear">ကြည်လင်</string>
+    <string name="cond_sunny">နေသာ</string>
+    <string name="cond_partly">တိမ်အနည်းငယ်</string>
+    <string name="cond_cloudy">တိမ်ထူ</string>
+    <string name="cond_fog">မြူဆိုင်း</string>
+    <string name="cond_rain">မိုးရွာ</string>
+    <string name="cond_snow">နှင်းကျ</string>
+    <string name="cond_thunder">မိုးကြိုးမုန်တိုင်း</string>
+    <string name="sum_all_day">တစ်နေ့လုံး %1$s</string>
+    <string name="sum_morning">မနက် %1$s</string>
+    <string name="sum_afternoon">နေ့လယ် %1$s</string>
+    <string name="sum_rain_from">%1$s မှစ၍ မိုးရွာ</string>
+    <string name="sum_tonight">ယနေ့ည %1$s</string>
+    <string name="sum_sep">"၊ "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s လက်မ</string>
+    <string name="loc_kathmandu">ကတ္တမန္တူ</string>
+    <string name="close">ပိတ်ရန်</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ ရွှေ့ · OK ဖွင့် · အကြိုက်ဆုံးတွင် ပင်ထိုးရန် OK ဖိထား · Back ပင်မသို့</string>
+    <string name="selected_app">ရွေးထားသည်- %s</string>
+    <string name="pin">အကြိုက်ဆုံးတွင် ပင်ထိုးရန်</string>
+    <string name="unpin">အကြိုက်ဆုံးမှ ပင်ဖြုတ်ရန်</string>
+    <string name="move">ရွှေ့ရန်</string>
+    <string name="app_info">အက်ပ်အချက်အလက်</string>
+    <string name="uninstall">ဖယ်ရှားရန်</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">ဤ TV သည် အက်ပ်များမှ အဝင်ပြောင်းခြင်းကို ခွင့်မပြုပါ။ အဝေးထိန်းရှိ Input ခလုတ်ကို သုံးပါ။</string>
+    <string name="no_tv_input">TV အဝင် မတွေ့ပါ</string>
+    <string name="ask_every_time">အမြဲမေးရန်</string>
+    <string name="choose_live_app">တိုက်ရိုက် TV အက်ပ် ရွေးပါ</string>
+    <string name="voice_unavailable">ဤ TV တွင် အသံဖြင့်ရှာဖွေခြင်း မရနိုင်ပါ။</string>
+    <string name="cannot_open">ဤအက်ပ်ကို ဖွင့်၍မရပါ။</string>
+
+    <!-- Settings -->
+    <string name="reset">မူရင်းသို့ ပြန်ထားရန်</string>
+    <string name="reset_title">Launcher ဆက်တင်အားလုံးကို ပြန်ထားမလား။</string>
+    <string name="reset_body">အပြင်အဆင်၊ နောက်ခံပုံ၊ ဘာသာစကားနှင့် အခြား Launcher ဆက်တင်များ မူရင်းအတိုင်း ပြန်ဖြစ်သွားပါမည်။ သင့်အက်ပ်များနှင့် အကြိုက်ဆုံးများ မပြောင်းလဲပါ။</string>
+    <string name="cancel">မလုပ်တော့ပါ</string>
+    <string name="reset_confirm">ပြန်ထားရန်</string>
+    <string name="settings_hint">▲ ▼ ရွှေ့ · OK ဖွင့် သို့မဟုတ် ရွေး · Back နောက်သို့။ ပြောင်းလဲမှုများ ချက်ချင်း သက်ရောက်ပါသည်။</string>
+    <string name="leagues_header">ပင်မတွင် ပြမည့်အရာကို ရွေးပါ · %d ခု ရွေးထားသည်</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">အစမ်းကြည့်ရန်</string>
+
+    <string name="opt_mode">မုဒ်</string>
+    <string name="opt_colour">အရောင်</string>
+    <string name="opt_use_screensaver">စခရင်ချွေတာစနစ်အဖြစ် သုံးရန်</string>
+    <string name="screensaver_setup_title">တစ်ကြိမ်သာ စနစ်ထည့်ရန် လိုအပ်သည်</string>
+    <string name="screensaver_setup_body">ဤ TV သည် အက်ပ်များကို စခရင်ချွေတာစနစ် ကိုယ်တိုင်ပြောင်းခွင့် မပြုပါ။ ကွန်ပျူတာကို တစ်ကြိမ်ချိတ်ဆက်ပြီး ဤအမိန့်ကို လုပ်ဆောင်ပါ-\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nထို့နောက် ဤရွေးချယ်မှုကို ပြန်ဖွင့်ပါ။</string>
+    <string name="wallpaper_custom">ကျွန်ုပ်၏ပုံ</string>
+    <string name="wallpaper_download_failed">ထိုနောက်ခံပုံကို ဒေါင်းလုဒ်လုပ်၍မရပါ။ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပါ။</string>
+    <string name="picture_allow">ဓာတ်ပုံများ ဝင်ခွင့်ပြုရန်</string>
+    <string name="picture_denied">ဆက်တင်များ › အက်ပ်များ › Summit › ခွင့်ပြုချက်များ တွင် ဓာတ်ပုံဝင်ခွင့် ပေးပါ။</string>
+    <string name="picture_none">ဤ TV တွင် ဓာတ်ပုံ မတွေ့ပါ။</string>
+    <string name="picture_failed">ထိုဓာတ်ပုံကို ဖွင့်၍မရပါ။</string>
+    <string name="picture_n">ဓာတ်ပုံ %d</string>
+    <string name="opt_custom_colour">စိတ်ကြိုက်အရောင်</string>
+    <string name="opt_contrast">အလင်းအမှောင်ခြားနားမှု</string>
+    <string name="opt_animations">လှုပ်ရှားပုံများ</string>
+    <string name="opt_wallpaper">နောက်ခံပုံ</string>
+    <string name="opt_dim">နောက်ခံပုံ မှိန်ရန်</string>
+    <string name="opt_text_size">စာလုံးအရွယ်</string>
+    <string name="opt_digits">ဒေဝနာဂရီ ဂဏန်းများ</string>
+    <string name="opt_language">ဘာသာစကား</string>
+    <string name="opt_calendar">ပြက္ခဒိန်</string>
+    <string name="opt_time">အချိန်ပုံစံ</string>
+    <string name="opt_temp">အပူချိန်</string>
+    <string name="opt_wind">လေတိုက်နှုန်း</string>
+    <string name="opt_rain">မိုးရေချိန်</string>
+    <string name="opt_location">တည်နေရာ</string>
+    <string name="opt_show_home">ပင်မတွင် ပြရန်</string>
+    <string name="opt_watch_tile">TV ကြည့်ရန် အကွက်</string>
+    <string name="opt_continue">ဆက်ကြည့်ရန် အတန်း</string>
+    <string name="opt_fav_order">အကြိုက်ဆုံးများ အစီအစဉ်</string>
+    <string name="opt_health">ကျန်းမာရေး အကြံပြုချက်</string>
+    <string name="opt_live_type">TV ကြည့်ရန် သုံးမည့်အရာ</string>
+    <string name="opt_input">အဝင်ရင်းမြစ်</string>
+    <string name="opt_live_app">အက်ပ်</string>
+    <string name="opt_boot">TV ဖွင့်သည့်အခါ ဖွင့်ရန်</string>
+    <string name="opt_tile_size">အကွက်အရွယ်</string>
+    <string name="opt_tile_shape">အကွက်ပုံသဏ္ဌာန်</string>
+    <string name="opt_labels">အက်ပ်အမည်များ</string>
+    <string name="opt_score_max">ပင်မတွင် ပြရန်</string>
+    <string name="opt_live_first">တိုက်ရိုက်ပွဲများ အရင်ပြရန်</string>
+    <string name="opt_stale">ရမှတ်များ အပ်ဒိတ်မလုပ်နိုင်လျှင်</string>
+    <string name="opt_amb_scores">တိုက်ရိုက်ရမှတ်များ ပြရန်</string>
+    <string name="opt_amb_shift">စခရင်ကာကွယ်ရန် နာရီကို ရွှေ့ရန်</string>
+    <string name="opt_amb_dim">ညတွင် မှိန်ရန်</string>
+
+    <string name="grp_cricket">ခရစ်ကက်</string>
+    <string name="grp_football">ဘောလုံး</string>
+    <string name="grp_basketball">ဘတ်စကက်ဘော</string>
+    <string name="grp_us">အမေရိကန် အားကစား</string>
+    <string name="grp_tennis">တင်းနစ်</string>
+    <string name="grp_motor">မော်တော်ပြိုင်ပွဲ</string>
+    <string name="grp_golf">ဂေါက်သီး</string>
+
+    <!-- Ambient -->
+    <string name="press_any">မည်သည့်ခလုတ်ကိုမဆို နှိပ်ပါ</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Launcher စနစ်ထည့်သွင်းခြင်း</string>
+    <string name="step_of">အဆင့် %2$d ဆင့်အနက် %1$d</string>
+    <string name="back">နောက်သို့</string>
+    <string name="next">ဆက်လုပ်ရန်</string>
+    <string name="finish">ပြီးပါပြီ</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ ရွှေ့ · OK ရွေး · ရွေးချယ်စရာများမှ ▶ ဖြင့် ဆက်လုပ်ရန် သို့ရောက် · Back ယခင်အဆင့်</string>
+    <string name="s1_title">ဘာသာစကား ရွေးပါ</string>
+    <string name="s1_sub">ရွေးလိုက်သည်နှင့် Summit ၏ ဘာသာစကား ချက်ချင်းပြောင်းပါမည်။</string>
+    <string name="s2_title">TV ကို ဘာဖြင့် ကြည့်ပါသလဲ။</string>
+    <string name="s2_sub">ပင်မရှိ TV ကြည့်ရန် သည် OK တစ်ချက်နှိပ်ရုံဖြင့် ၎င်းကို ဖွင့်ပေးပါမည်။</string>
+    <string name="signal_yes">အချက်ပြ တွေ့ရှိသည်</string>
+    <string name="signal_no">အချက်ပြ မရှိပါ</string>
+    <string name="recommended">အကြံပြုထားသည်</string>
+    <string name="antenna">အင်တာနာ (DTV)</string>
+    <string name="s3_title">ပင်မတွင် မည်သည့်ရမှတ်များ ပြမလဲ။</string>
+    <string name="s3_sub">ကြိုက်သလောက် ရွေးနိုင်ပါသည်။ တိုက်ရိုက်ပွဲများ အရင်ပြပါမည်။</string>
+    <string name="s_fav_title">အကြိုက်ဆုံး အက်ပ်များ ရွေးပါ</string>
+    <string name="s_fav_sub">၎င်းတို့သည် ပင်မတွင်ရှိပြီး တစ်ချက်နှိပ်ရုံဖြင့် ဖွင့်နိုင်ပါသည်။ ကြိုက်သလောက် ရွေးနိုင်ပါသည်။</string>
+    <string name="s_wall_title">နောက်ခံပုံ ရွေးပါ</string>
+    <string name="s_wall_sub">ပင်မနှင့် စခရင်ချွေတာစနစ်၏ နောက်တွင် ပြပါမည်။</string>
+    <string name="setup_preview_note">ဤသည်မှာ သင့်ပင်မစခရင် ဖြစ်ပါသည်။ ဤအရာအားလုံးကို နောက်မှ ဆက်တင်များတွင် ပြောင်းနိုင်ပါသည်။</string>
+    <string name="s4_title">အသွင်အပြင် ရွေးပါ</string>
+    <string name="s4_sub">အလိုအလျောက်သည် ညနေ 6 နာရီမှ မနက် 6 နာရီအထိ အမှောင်၊ နေ့ခင်းတွင် အလင်း ဖြစ်ပါသည်။</string>
+    <string name="tennis">တင်းနစ်</string>
+    <string name="formula1">ဖော်မြူလာ 1</string>
+    <string name="usage_title">မကြာသေးမီက သုံးခဲ့သော အက်ပ်များကို ပင်မတွင် ပြမလား။</string>
+    <string name="usage_body">ဆက်ကြည့်ရန် အတန်းတွင် သင်မကြာသေးမီက သုံးခဲ့သော အက်ပ်များ ပြနိုင်ရန် အသုံးပြုမှု ဝင်ခွင့်ကို ခွင့်ပြုပါ။</string>
+    <string name="allow">ခွင့်ပြုရန်</string>
+    <string name="skip">ကျော်ရန်</string>
+    <string name="run_setup">ပထမအကြိမ် စနစ်ထည့်သွင်းခြင်း လုပ်ရန်</string>
+    <string name="change_city">မြို့ ပြောင်းရန်</string>
+    <string name="kick_off">%s တွင် ပွဲစမည်</string>
+    <string name="mode_input">TV အဝင်</string>
+    <string name="mode_input_sub">HDMI၊ AV သို့မဟုတ် အင်တာနာ</string>
+    <string name="mode_app">အက်ပ်</string>
+    <string name="mode_app_sub">တိုက်ရိုက် TV အက်ပ်</string>
+    <string name="search_city">မြို့ ရှာရန်</string>
+    <string name="use_current">လက်ရှိတည်နေရာ သုံးရန်</string>
+    <string name="use_current_named">လက်ရှိတည်နေရာ သုံးရန် (%s)</string>
+    <string name="searching">ရှာနေသည်…</string>
+    <string name="no_results">မြို့ မတွေ့ပါ</string>
+    <string name="search_failed">ယခု ရှာဖွေ၍မရပါ။ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပါ။</string>
+    <string name="resume_now">ဆက်ကြည့် · ယခုလေးတင်</string>
+</resources>

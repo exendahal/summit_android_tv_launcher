@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>テーマ</item><item>フォント</item><item>言語</item><item>天気</item>
+        <item>ホーム画面</item><item>テレビ視聴</item><item>アイコンとタイル</item><item>スコア</item><item>スクリーンセーバー</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>時間で自動</item><item>ダーク</item><item>ライト</item></string-array>
+    <string-array name="e_theme_colour"><item>壁紙から</item><item>コーラル</item><item>グリーン</item><item>カスタム</item></string-array>
+    <string-array name="e_custom_colour"><item>赤</item><item>オレンジ</item><item>黄</item><item>緑</item><item>ティール</item><item>青</item><item>藍</item><item>紫</item><item>ピンク</item></string-array>
+    <string-array name="e_contrast"><item>標準</item><item>高</item></string-array>
+    <string-array name="e_animations"><item>フル</item><item>控えめ</item><item>オフ</item></string-array>
+    <string-array name="e_wallpaper"><item>山の風景</item><item>稜線</item><item>無地</item><item>フェワ湖の夕日</item><item>ヒマラヤの夜</item><item>タライの畑</item><item>祈りの旗</item></string-array>
+    <string-array name="e_dim"><item>オフ</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>標準</item><item>大</item><item>特大</item></string-array>
+    <string-array name="e_off_on"><item>オフ</item><item>オン</item></string-array>
+    <string-array name="e_on_off"><item>オン</item><item>オフ</item></string-array>
+    <string-array name="e_labels"><item>常に表示</item><item>選択時</item><item>オフ</item></string-array>
+    <string-array name="e_show_hide"><item>表示</item><item>非表示</item></string-array>
+    <string-array name="e_calendar"><item>両方</item><item>ビクラム暦</item><item>西暦</item></string-array>
+    <string-array name="e_time"><item>12 時間</item><item>24 時間</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>インチ</item></string-array>
+    <string-array name="e_watch_tile"><item>行の先頭</item><item>非表示</item></string-array>
+    <string-array name="e_fav_order"><item>よく使う順</item><item>手動</item></string-array>
+    <string-array name="e_health"><item>アンビエントのみ</item><item>ホームとアンビエント</item><item>オフ</item></string-array>
+    <string-array name="e_live_type"><item>テレビ入力</item><item>アプリ</item></string-array>
+    <string-array name="e_tile_size"><item>中</item><item>大</item><item>小</item></string-array>
+    <string-array name="e_tile_shape"><item>角丸</item><item>四角</item></string-array>
+    <string-array name="e_score_max"><item>最大 4 件</item><item>最大 6 件</item><item>最大 3 件</item><item>最大 2 件</item></string-array>
+    <string-array name="e_stale"><item>「取得できません」と表示</item><item>スコアを非表示</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>健康こそ本当の財産。少し体を動かして、たくさん笑おう。</item>
+        <item>今日の 20 分の散歩は、明日の自分へのプレゼント。</item>
+        <item>次のエピソードの前に、コップ一杯の水を。</item>
+        <item>目を休めよう。20 分ごとに 20 秒、遠くを見て。</item>
+        <item>良い睡眠こそ最高のトレーニング。今夜は時間どおりにオフに。</item>
+        <item>休憩のたびに立ってストレッチ。背中が喜びます。</item>
+        <item>山に見守られているつもりで食べよう。新鮮で、シンプルで、旬のものを。</item>
+    </string-array>
+</resources>

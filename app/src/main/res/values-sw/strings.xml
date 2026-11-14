@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Kiokoa skrini cha Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">Nyumbani</string>
+    <string name="nav_apps">Programu</string>
+    <string name="nav_settings">Mipangilio</string>
+    <string name="search">Tafuta</string>
+    <string name="tv_settings">Mipangilio ya Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Tazama TV</string>
+    <string name="continue_title">Endelea</string>
+    <string name="favourites_title">Vipendwa · shikilia OK ili kubandika au kuhamisha</string>
+    <string name="all_apps">Programu zote</string>
+    <string name="show_recents">Onyesha programu za hivi karibuni</string>
+    <string name="not_default_banner">Fanya Summit kuwa skrini yako ya mwanzo · bonyeza OK kujua jinsi</string>
+    <string name="not_default_title">Fanya Summit kuwa skrini yako ya mwanzo</string>
+    <string name="not_default_help">Fungua Mipangilio › Programu › Programu chaguomsingi › Programu ya skrini ya mwanzo kisha uchague Summit. Baadhi ya vifaa vya Google TV haviruhusu kubadilisha programu ya skrini ya mwanzo; Summit bado inafanya kazi kutoka kwenye orodha ya programu.</string>
+    <string name="open_settings">Fungua mipangilio</string>
+    <string name="dismiss">Ondoa</string>
+    <string name="usage_unavailable">Fungua Mipangilio › Programu › Ufikiaji maalum wa programu › Ufikiaji wa matumizi kisha uruhusu Summit.</string>
+    <string name="move_hint">◀ ▶ hamisha · OK weka · Back ghairi</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Endelea · dak %d zilizopita</string>
+    <string name="resume_h">Endelea · saa %d zilizopita</string>
+    <string name="yesterday">Jana</string>
+    <string name="days_ago">Siku %d zilizopita</string>
+    <string name="last_week">Wiki iliyopita</string>
+    <string name="updated_now">Imesasishwa sasa hivi</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Imesasishwa dakika %d iliyopita</item>
+        <item quantity="other">Imesasishwa dakika %d zilizopita</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">MUBASHARA</string>
+    <string name="ft">Mwisho</string>
+    <string name="scores_unavailable">Matokeo hayapatikani</string>
+    <string name="score_cd">%1$s. Bonyeza OK kwa maelezo</string>
+    <string name="score_live_suffix">%1$s · MUBASHARA</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Hali ya hewa haipatikani</string>
+    <string name="hi_lo">J %1$s Ch %2$s</string>
+    <string name="hi_lo_long">Juu %1$s · Chini %2$s</string>
+    <string name="wind_rain">Upepo %1$s · Mvua leo %2$s</string>
+    <string name="weather_title">%1$s · Leo</string>
+    <string name="mountains_line">Milimani · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Mvua %d%%</string>
+    <string name="next_days">Siku 3 zijazo</string>
+    <string name="change_units">Badilisha vipimo kwenye Mipangilio</string>
+    <string name="part_morning">Asubuhi</string>
+    <string name="part_afternoon">Mchana</string>
+    <string name="part_evening">Jioni</string>
+    <string name="part_night">Usiku</string>
+    <string name="cond_clear">Anga safi</string>
+    <string name="cond_sunny">Jua</string>
+    <string name="cond_partly">Mawingu kiasi</string>
+    <string name="cond_cloudy">Mawingu</string>
+    <string name="cond_fog">Ukungu</string>
+    <string name="cond_rain">Mvua</string>
+    <string name="cond_snow">Theluji</string>
+    <string name="cond_thunder">Radi na dhoruba</string>
+    <string name="sum_all_day">%1$s siku nzima</string>
+    <string name="sum_morning">%1$s asubuhi</string>
+    <string name="sum_afternoon">%1$s mchana</string>
+    <string name="sum_rain_from">mvua kuanzia %1$s</string>
+    <string name="sum_tonight">%1$s usiku huu</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Funga</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ hamisha · OK fungua · shikilia OK kubandika kwenye Vipendwa · Back kurudi Nyumbani</string>
+    <string name="selected_app">Imechaguliwa: %s</string>
+    <string name="pin">Bandika kwenye Vipendwa</string>
+    <string name="unpin">Ondoa kwenye Vipendwa</string>
+    <string name="move">Hamisha</string>
+    <string name="app_info">Maelezo ya programu</string>
+    <string name="uninstall">Ondoa programu</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">TV hii hairuhusu programu kubadilisha chanzo cha kuingiza. Tumia kitufe cha Input kwenye rimoti.</string>
+    <string name="no_tv_input">Hakuna chanzo cha TV kilichopatikana</string>
+    <string name="ask_every_time">Uliza kila mara</string>
+    <string name="choose_live_app">Chagua programu ya TV mubashara</string>
+    <string name="voice_unavailable">Utafutaji kwa sauti haupatikani kwenye TV hii.</string>
+    <string name="cannot_open">Programu hii haiwezi kufunguliwa.</string>
+
+    <!-- Settings -->
+    <string name="reset">Rejesha chaguomsingi</string>
+    <string name="reset_title">Ungependa kurejesha mipangilio yote ya launcher?</string>
+    <string name="reset_body">Mandhari, picha ya mandharinyuma, lugha na mipangilio mingine ya launcher itarudi kwenye chaguomsingi. Programu na vipendwa vyako havitabadilika.</string>
+    <string name="cancel">Ghairi</string>
+    <string name="reset_confirm">Rejesha</string>
+    <string name="settings_hint">▲ ▼ hamisha · OK fungua au chagua · Back rudi nyuma. Mabadiliko yanatumika papo hapo.</string>
+    <string name="leagues_header">Chagua kinachoonekana Nyumbani · %d vimechaguliwa</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Onyesho la kukagua</string>
+
+    <string name="opt_mode">Hali</string>
+    <string name="opt_colour">Rangi</string>
+    <string name="opt_use_screensaver">Tumia kama kiokoa skrini</string>
+    <string name="screensaver_setup_title">Inahitaji kuwekwa mara moja</string>
+    <string name="screensaver_setup_body">TV hii hairuhusu programu kubadilisha kiokoa skrini zenyewe. Unganisha kompyuta mara moja kisha uendeshe:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nKisha uwashe chaguo hili tena.</string>
+    <string name="wallpaper_custom">Picha yangu</string>
+    <string name="wallpaper_download_failed">Imeshindwa kupakua picha hiyo ya mandharinyuma. Angalia muunganisho wa intaneti.</string>
+    <string name="picture_allow">Ruhusu ufikiaji wa picha</string>
+    <string name="picture_denied">Ruhusu ufikiaji wa Picha kwenye Mipangilio › Programu › Summit › Ruhusa.</string>
+    <string name="picture_none">Hakuna picha kwenye TV hii.</string>
+    <string name="picture_failed">Imeshindwa kufungua picha hiyo.</string>
+    <string name="picture_n">Picha %d</string>
+    <string name="opt_custom_colour">Rangi maalum</string>
+    <string name="opt_contrast">Utofautishaji</string>
+    <string name="opt_animations">Uhuishaji</string>
+    <string name="opt_wallpaper">Picha ya mandharinyuma</string>
+    <string name="opt_dim">Fifisha picha ya mandharinyuma</string>
+    <string name="opt_text_size">Ukubwa wa maandishi</string>
+    <string name="opt_digits">Tarakimu za Devanagari</string>
+    <string name="opt_language">Lugha</string>
+    <string name="opt_calendar">Kalenda</string>
+    <string name="opt_time">Muundo wa saa</string>
+    <string name="opt_temp">Halijoto</string>
+    <string name="opt_wind">Kasi ya upepo</string>
+    <string name="opt_rain">Kiasi cha mvua</string>
+    <string name="opt_location">Mahali</string>
+    <string name="opt_show_home">Onyesha Nyumbani</string>
+    <string name="opt_watch_tile">Kigae cha Tazama TV</string>
+    <string name="opt_continue">Safu ya Endelea</string>
+    <string name="opt_fav_order">Mpangilio wa vipendwa</string>
+    <string name="opt_health">Ujumbe wa afya</string>
+    <string name="opt_live_type">Tazama TV kupitia</string>
+    <string name="opt_input">Chanzo cha kuingiza</string>
+    <string name="opt_live_app">Programu</string>
+    <string name="opt_boot">Fungua TV inapowashwa</string>
+    <string name="opt_tile_size">Ukubwa wa vigae</string>
+    <string name="opt_tile_shape">Umbo la vigae</string>
+    <string name="opt_labels">Majina ya programu</string>
+    <string name="opt_score_max">Onyesha Nyumbani</string>
+    <string name="opt_live_first">Mechi mubashara kwanza</string>
+    <string name="opt_stale">Matokeo yakishindwa kusasishwa</string>
+    <string name="opt_amb_scores">Onyesha matokeo mubashara</string>
+    <string name="opt_amb_shift">Sogeza saa ili kulinda skrini</string>
+    <string name="opt_amb_dim">Fifisha usiku</string>
+
+    <string name="grp_cricket">Kriketi</string>
+    <string name="grp_football">Kandanda</string>
+    <string name="grp_basketball">Mpira wa kikapu</string>
+    <string name="grp_us">Michezo ya Marekani</string>
+    <string name="grp_tennis">Tenisi</string>
+    <string name="grp_motor">Mbio za magari</string>
+    <string name="grp_golf">Gofu</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Bonyeza kitufe chochote</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Kuweka launcher</string>
+    <string name="step_of">Hatua %1$d kati ya %2$d</string>
+    <string name="back">Rudi</string>
+    <string name="next">Endelea</string>
+    <string name="finish">Maliza</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ hamisha · OK chagua · ▶ kutoka kwenye chaguo hufika Endelea · Back hatua iliyotangulia</string>
+    <string name="s1_title">Chagua lugha yako</string>
+    <string name="s1_sub">Summit hubadilisha lugha mara tu unapochagua.</string>
+    <string name="s2_title">Unatazama TV kupitia wapi?</string>
+    <string name="s2_sub">Tazama TV kwenye Nyumbani hufungua hiki kwa kubonyeza OK mara moja.</string>
+    <string name="signal_yes">Mawimbi yamegunduliwa</string>
+    <string name="signal_no">Hakuna mawimbi</string>
+    <string name="recommended">Inapendekezwa</string>
+    <string name="antenna">Antena (DTV)</string>
+    <string name="s3_title">Nyumbani ionyeshe matokeo gani?</string>
+    <string name="s3_sub">Chagua kadiri unavyopenda. Mechi mubashara huonyeshwa kwanza.</string>
+    <string name="s_fav_title">Chagua programu unazopenda</string>
+    <string name="s_fav_sub">Zitakaa Nyumbani, kwa kubonyeza mara moja tu. Chagua kadiri unavyopenda.</string>
+    <string name="s_wall_title">Chagua picha ya mandharinyuma</string>
+    <string name="s_wall_sub">Huonyeshwa nyuma ya Nyumbani na kiokoa skrini.</string>
+    <string name="setup_preview_note">Skrini yako ya Nyumbani. Unaweza kubadilisha yote haya baadaye kwenye Mipangilio.</string>
+    <string name="s4_title">Chagua mwonekano</string>
+    <string name="s4_sub">Otomatiki ni giza kuanzia saa 12 jioni hadi saa 12 asubuhi na angavu mchana.</string>
+    <string name="tennis">Tenisi</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Ungependa kuonyesha Nyumbani programu ulizotumia hivi karibuni?</string>
+    <string name="usage_body">Ruhusu ufikiaji wa matumizi ili safu ya Endelea ionyeshe programu ulizotumia hivi karibuni.</string>
+    <string name="allow">Ruhusu</string>
+    <string name="skip">Ruka</string>
+    <string name="run_setup">Anzisha mipangilio ya mwanzo</string>
+    <string name="change_city">Badilisha jiji</string>
+    <string name="kick_off">Mechi inaanza %s</string>
+    <string name="mode_input">Chanzo cha TV</string>
+    <string name="mode_input_sub">HDMI, AV au antena</string>
+    <string name="mode_app">Programu</string>
+    <string name="mode_app_sub">Programu ya TV mubashara</string>
+    <string name="search_city">Tafuta jiji</string>
+    <string name="use_current">Tumia mahali ulipo sasa</string>
+    <string name="use_current_named">Tumia mahali ulipo sasa (%s)</string>
+    <string name="searching">Inatafuta…</string>
+    <string name="no_results">Hakuna jiji lililopatikana</string>
+    <string name="search_failed">Haiwezi kutafuta sasa. Angalia muunganisho wa intaneti.</string>
+    <string name="resume_now">Endelea · sasa hivi</string>
+</resources>

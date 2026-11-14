@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Motyw</item><item>Czcionka</item><item>Język</item><item>Pogoda</item>
+        <item>Ekran główny</item><item>TV na żywo</item><item>Ikony i kafelki</item><item>Wyniki</item><item>Wygaszacz</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto wg pory dnia</item><item>Ciemny</item><item>Jasny</item></string-array>
+    <string-array name="e_theme_colour"><item>Z tapety</item><item>Koralowy</item><item>Zielony</item><item>Własny</item></string-array>
+    <string-array name="e_custom_colour"><item>Czerwony</item><item>Pomarańczowy</item><item>Żółty</item><item>Zielony</item><item>Morski</item><item>Niebieski</item><item>Indygo</item><item>Fioletowy</item><item>Różowy</item></string-array>
+    <string-array name="e_contrast"><item>Standardowy</item><item>Wysoki</item></string-array>
+    <string-array name="e_animations"><item>Pełne</item><item>Ograniczone</item><item>Wył.</item></string-array>
+    <string-array name="e_wallpaper"><item>Górski pejzaż</item><item>Grań</item><item>Jednolita</item><item>Zachód słońca nad Phewą</item><item>Noc w Himalajach</item><item>Pola Terai</item><item>Flagi modlitewne</item></string-array>
+    <string-array name="e_dim"><item>Wył.</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Domyślny</item><item>Duży</item><item>Bardzo duży</item></string-array>
+    <string-array name="e_off_on"><item>Wył.</item><item>Wł.</item></string-array>
+    <string-array name="e_on_off"><item>Wł.</item><item>Wył.</item></string-array>
+    <string-array name="e_labels"><item>Zawsze</item><item>Po zaznaczeniu</item><item>Wył.</item></string-array>
+    <string-array name="e_show_hide"><item>Pokaż</item><item>Ukryj</item></string-array>
+    <string-array name="e_calendar"><item>Oba</item><item>Bikram Sambat</item><item>Gregoriański</item></string-array>
+    <string-array name="e_time"><item>12-godzinny</item><item>24-godzinny</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>cale</item></string-array>
+    <string-array name="e_watch_tile"><item>Pierwszy w rzędzie</item><item>Ukryty</item></string-array>
+    <string-array name="e_fav_order"><item>Najczęściej używane</item><item>Ręcznie</item></string-array>
+    <string-array name="e_health"><item>Tylko wygaszacz</item><item>Ekran główny i wygaszacz</item><item>Wył.</item></string-array>
+    <string-array name="e_live_type"><item>Wejście TV</item><item>Aplikacja</item></string-array>
+    <string-array name="e_tile_size"><item>Średnie</item><item>Duże</item><item>Małe</item></string-array>
+    <string-array name="e_tile_shape"><item>Zaokrąglone</item><item>Kwadratowe</item></string-array>
+    <string-array name="e_score_max"><item>Do 4</item><item>Do 6</item><item>Do 3</item><item>Do 2</item></string-array>
+    <string-array name="e_stale"><item>Pokaż „niedostępne”</item><item>Ukryj wyniki</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Zdrowie to prawdziwe bogactwo. Ruszaj się trochę, uśmiechaj się często.</item>
+        <item>20-minutowy spacer dziś to prezent dla jutrzejszego ciebie.</item>
+        <item>Wypij szklankę wody przed kolejnym odcinkiem.</item>
+        <item>Daj odpocząć oczom: co 20 minut patrz w dal przez 20 sekund.</item>
+        <item>Dobry sen to najlepszy plan treningowy. Wyłącz dziś telewizor o czasie.</item>
+        <item>W każdej przerwie wstań i się rozciągnij. Plecy ci podziękują.</item>
+        <item>Jedz tak, jakby patrzyły na ciebie góry: świeżo, prosto i sezonowo.</item>
+    </string-array>
+</resources>

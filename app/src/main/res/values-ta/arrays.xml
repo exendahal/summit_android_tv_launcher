@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>தீம்</item><item>எழுத்துரு</item><item>மொழி</item><item>வானிலை</item>
+        <item>முகப்புத் திரை</item><item>நேரலை டிவி</item><item>ஐகான்கள் &amp; டைல்கள்</item><item>ஸ்கோர்கள்</item><item>ஸ்கிரீன்சேவர்</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>நேரத்தைப் பொறுத்து தானியங்கு</item><item>இருண்டது</item><item>வெளிர்</item></string-array>
+    <string-array name="e_theme_colour"><item>வால்பேப்பரிலிருந்து</item><item>பவளம்</item><item>பச்சை</item><item>தனிப்பயன்</item></string-array>
+    <string-array name="e_custom_colour"><item>சிவப்பு</item><item>ஆரஞ்சு</item><item>மஞ்சள்</item><item>பச்சை</item><item>டீல்</item><item>நீலம்</item><item>கருநீலம்</item><item>ஊதா</item><item>இளஞ்சிவப்பு</item></string-array>
+    <string-array name="e_contrast"><item>நிலையானது</item><item>அதிகம்</item></string-array>
+    <string-array name="e_animations"><item>முழுமை</item><item>குறைவு</item><item>முடக்கம்</item></string-array>
+    <string-array name="e_wallpaper"><item>மலைக் காட்சி</item><item>மலைத்தொடர்</item><item>வெற்று</item><item>ஃபேவா சூரிய அஸ்தமனம்</item><item>இமயமலை இரவு</item><item>தராய் வயல்கள்</item><item>பிரார்த்தனைக் கொடிகள்</item></string-array>
+    <string-array name="e_dim"><item>முடக்கம்</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>இயல்பு</item><item>பெரியது</item><item>மிகப் பெரியது</item></string-array>
+    <string-array name="e_off_on"><item>முடக்கம்</item><item>இயக்கம்</item></string-array>
+    <string-array name="e_on_off"><item>இயக்கம்</item><item>முடக்கம்</item></string-array>
+    <string-array name="e_labels"><item>எப்போதும்</item><item>தேர்ந்தெடுக்கும்போது</item><item>முடக்கம்</item></string-array>
+    <string-array name="e_show_hide"><item>காட்டு</item><item>மறை</item></string-array>
+    <string-array name="e_calendar"><item>இரண்டும்</item><item>விக்ரம் சம்வத்</item><item>கிரிகோரியன்</item></string-array>
+    <string-array name="e_time"><item>12 மணிநேரம்</item><item>24 மணிநேரம்</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>அங்குலம்</item></string-array>
+    <string-array name="e_watch_tile"><item>வரிசையில் முதலில்</item><item>மறைக்கப்பட்டது</item></string-array>
+    <string-array name="e_fav_order"><item>அதிகம் பயன்படுத்தியவை</item><item>கைமுறை</item></string-array>
+    <string-array name="e_health"><item>ஆம்பியன்ட்டில் மட்டும்</item><item>முகப்பு மற்றும் ஆம்பியன்ட்</item><item>முடக்கம்</item></string-array>
+    <string-array name="e_live_type"><item>டிவி உள்ளீடு</item><item>ஆப்</item></string-array>
+    <string-array name="e_tile_size"><item>நடுத்தரம்</item><item>பெரியது</item><item>சிறியது</item></string-array>
+    <string-array name="e_tile_shape"><item>வட்டமான மூலைகள்</item><item>சதுரம்</item></string-array>
+    <string-array name="e_score_max"><item>4 வரை</item><item>6 வரை</item><item>3 வரை</item><item>2 வரை</item></string-array>
+    <string-array name="e_stale"><item>\"கிடைக்கவில்லை\" எனக் காட்டு</item><item>ஸ்கோர்களை மறை</item></string-array>
+
+    <string-array name="health">
+        <item>ஆரோக்கியமே உண்மையான செல்வம். கொஞ்சம் நடங்கள், நிறைய சிரியுங்கள்.</item>
+        <item>இன்று 20 நிமிட நடை, நாளைய உங்களுக்கு ஒரு பரிசு.</item>
+        <item>அடுத்த எபிசோடுக்கு முன் ஒரு டம்ளர் தண்ணீர் குடியுங்கள்.</item>
+        <item>கண்களுக்கு ஓய்வு கொடுங்கள்: ஒவ்வொரு 20 நிமிடத்துக்கும் 20 வினாடி தொலைவில் பாருங்கள்.</item>
+        <item>நல்ல தூக்கமே சிறந்த பயிற்சித் திட்டம். இன்றிரவு நேரத்துக்கு டிவியை அணையுங்கள்.</item>
+        <item>ஒவ்வொரு இடைவேளையிலும் எழுந்து உடலை நீட்டுங்கள். உங்கள் முதுகு நன்றி சொல்லும்.</item>
+        <item>மலைகள் பார்ப்பது போல் உண்ணுங்கள்: புதியது, எளியது, பருவத்துக்கேற்றது.</item>
+    </string-array>
+</resources>

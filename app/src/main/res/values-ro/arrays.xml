@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Temă</item><item>Font</item><item>Limbă</item><item>Vreme</item>
+        <item>Ecran de pornire</item><item>TV live</item><item>Pictograme și plăci</item><item>Scoruri</item><item>Screensaver</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automat după oră</item><item>Întunecat</item><item>Luminos</item></string-array>
+    <string-array name="e_theme_colour"><item>Din imaginea de fundal</item><item>Coral</item><item>Verde</item><item>Personalizată</item></string-array>
+    <string-array name="e_custom_colour"><item>Roșu</item><item>Portocaliu</item><item>Galben</item><item>Verde</item><item>Turcoaz</item><item>Albastru</item><item>Indigo</item><item>Mov</item><item>Roz</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>Ridicat</item></string-array>
+    <string-array name="e_animations"><item>Complete</item><item>Reduse</item><item>Dezactivate</item></string-array>
+    <string-array name="e_wallpaper"><item>Peisaj montan</item><item>Linie de creastă</item><item>Simplu</item><item>Apus la Phewa</item><item>Noapte în Himalaya</item><item>Câmpiile Terai</item><item>Steaguri de rugăciune</item></string-array>
+    <string-array name="e_dim"><item>Dezactivat</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Implicit</item><item>Mare</item><item>Foarte mare</item></string-array>
+    <string-array name="e_off_on"><item>Dezactivat</item><item>Activat</item></string-array>
+    <string-array name="e_on_off"><item>Activat</item><item>Dezactivat</item></string-array>
+    <string-array name="e_labels"><item>Întotdeauna</item><item>La selectare</item><item>Niciodată</item></string-array>
+    <string-array name="e_show_hide"><item>Afișează</item><item>Ascunde</item></string-array>
+    <string-array name="e_calendar"><item>Ambele</item><item>Bikram Sambat</item><item>Gregorian</item></string-array>
+    <string-array name="e_time"><item>12 ore</item><item>24 de ore</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inchi</item></string-array>
+    <string-array name="e_watch_tile"><item>Primul pe rând</item><item>Ascuns</item></string-array>
+    <string-array name="e_fav_order"><item>Cele mai folosite</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Doar ambient</item><item>Acasă și ambient</item><item>Dezactivat</item></string-array>
+    <string-array name="e_live_type"><item>Sursă TV</item><item>Aplicație</item></string-array>
+    <string-array name="e_tile_size"><item>Mediu</item><item>Mare</item><item>Mic</item></string-array>
+    <string-array name="e_tile_shape"><item>Rotunjit</item><item>Pătrat</item></string-array>
+    <string-array name="e_score_max"><item>Până la 4</item><item>Până la 6</item><item>Până la 3</item><item>Până la 2</item></string-array>
+    <string-array name="e_stale"><item>Afișează „indisponibil”</item><item>Ascunde scorurile</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Sănătatea este adevărata ta avere. Mișcă-te puțin, zâmbește mult.</item>
+        <item>O plimbare de 20 de minute azi este un cadou pentru tine cel de mâine.</item>
+        <item>Bea un pahar cu apă înainte de episodul următor.</item>
+        <item>Odihnește-ți ochii: la fiecare 20 de minute, privește în depărtare timp de 20 de secunde.</item>
+        <item>Somnul bun este cel mai bun plan de antrenament. Închide la timp în seara asta.</item>
+        <item>Ridică-te și întinde-te la fiecare pauză. Spatele îți va mulțumi.</item>
+        <item>Mănâncă de parcă te-ar privi munții: proaspăt, simplu și de sezon.</item>
+    </string-array>
+</resources>

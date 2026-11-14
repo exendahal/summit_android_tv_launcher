@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">Koti</string>
+    <string name="nav_apps">Sovellukset</string>
+    <string name="nav_settings">Asetukset</string>
+    <string name="search">Haku</string>
+    <string name="tv_settings">Android TV:n asetukset</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Katso TV:tä</string>
+    <string name="continue_title">Jatka</string>
+    <string name="favourites_title">Suosikit · kiinnitä tai siirrä pitämällä OK painettuna</string>
+    <string name="all_apps">Kaikki sovellukset</string>
+    <string name="show_recents">Näytä viimeisimmät sovellukset</string>
+    <string name="not_default_banner">Aseta Summit aloitusnäytöksi · katso ohjeet painamalla OK</string>
+    <string name="not_default_title">Aseta Summit aloitusnäytöksi</string>
+    <string name="not_default_help">Avaa Asetukset › Sovellukset › Oletussovellukset › Aloitusnäyttösovellus ja valitse Summit. Joissakin Google TV -laitteissa aloitusnäyttösovellusta ei voi vaihtaa; Summit toimii silti sovellusluettelosta.</string>
+    <string name="open_settings">Avaa asetukset</string>
+    <string name="dismiss">Ohita</string>
+    <string name="usage_unavailable">Avaa Asetukset › Sovellukset › Sovellusten erikoiskäyttöoikeudet › Käyttötietojen käyttöoikeus ja salli Summit.</string>
+    <string name="move_hint">◀ ▶ siirrä · OK pudota · Back peru</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Jatka · %d min sitten</string>
+    <string name="resume_h">Jatka · %d t sitten</string>
+    <string name="yesterday">Eilen</string>
+    <string name="days_ago">%d päivää sitten</string>
+    <string name="last_week">Viime viikolla</string>
+    <string name="updated_now">Päivitetty juuri</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Päivitetty %d minuutti sitten</item>
+        <item quantity="other">Päivitetty %d minuuttia sitten</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LIVE</string>
+    <string name="ft">LOPPU</string>
+    <string name="scores_unavailable">Tuloksia ei saatavilla</string>
+    <string name="score_cd">%1$s. Näytä tiedot painamalla OK</string>
+    <string name="score_live_suffix">%1$s · LIVE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Säätietoja ei saatavilla</string>
+    <string name="hi_lo">Ylin %1$s Alin %2$s</string>
+    <string name="hi_lo_long">Ylin %1$s · Alin %2$s</string>
+    <string name="wind_rain">Tuuli %1$s · Sade tänään %2$s</string>
+    <string name="weather_title">%1$s · Tänään</string>
+    <string name="mountains_line">Vuoret · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Sade %d%%</string>
+    <string name="next_days">Seuraavat 3 päivää</string>
+    <string name="change_units">Vaihda yksiköt asetuksista</string>
+    <string name="part_morning">Aamu</string>
+    <string name="part_afternoon">Iltapäivä</string>
+    <string name="part_evening">Ilta</string>
+    <string name="part_night">Yö</string>
+    <string name="cond_clear">Selkeää</string>
+    <string name="cond_sunny">Aurinkoista</string>
+    <string name="cond_partly">Puolipilvistä</string>
+    <string name="cond_cloudy">Pilvistä</string>
+    <string name="cond_fog">Sumuista</string>
+    <string name="cond_rain">Sadetta</string>
+    <string name="cond_snow">Lumikuuroja</string>
+    <string name="cond_thunder">Ukkosta</string>
+    <string name="sum_all_day">%1$s koko päivän</string>
+    <string name="sum_morning">%1$s aamulla</string>
+    <string name="sum_afternoon">%1$s iltapäivällä</string>
+    <string name="sum_rain_from">sadetta alkaen %1$s</string>
+    <string name="sum_tonight">%1$s tänä iltana</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s tuumaa</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Sulje</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ siirry · OK avaa · kiinnitä suosikkeihin pitämällä OK painettuna · Back Kotiin</string>
+    <string name="selected_app">Valittu: %s</string>
+    <string name="pin">Kiinnitä suosikkeihin</string>
+    <string name="unpin">Poista suosikeista</string>
+    <string name="move">Siirrä</string>
+    <string name="app_info">Sovelluksen tiedot</string>
+    <string name="uninstall">Poista asennus</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Tämä TV ei salli sovellusten vaihtaa tuloa. Käytä kaukosäätimen Input-painiketta.</string>
+    <string name="no_tv_input">TV-tuloa ei löytynyt</string>
+    <string name="ask_every_time">Kysy joka kerta</string>
+    <string name="choose_live_app">Valitse suoran TV:n sovellus</string>
+    <string name="voice_unavailable">Puhehaku ei ole käytettävissä tässä TV:ssä.</string>
+    <string name="cannot_open">Sovellusta ei voi avata.</string>
+
+    <!-- Settings -->
+    <string name="reset">Palauta oletukset</string>
+    <string name="reset_title">Palautetaanko kaikki aloitusnäytön asetukset?</string>
+    <string name="reset_body">Teema, taustakuva, kieli ja muut asetukset palautetaan oletuksiin. Sovelluksesi ja suosikkisi säilyvät ennallaan.</string>
+    <string name="cancel">Peruuta</string>
+    <string name="reset_confirm">Palauta</string>
+    <string name="settings_hint">▲ ▼ siirry · OK avaa tai valitse · Back palaa. Muutokset tulevat voimaan heti.</string>
+    <string name="leagues_header">Valitse, mitä Kodissa näytetään · %d valittu</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Esikatselu</string>
+
+    <string name="opt_mode">Tila</string>
+    <string name="opt_colour">Väri</string>
+    <string name="opt_use_screensaver">Käytä näytönsäästäjänä</string>
+    <string name="screensaver_setup_title">Kertaluonteinen määritys tarvitaan</string>
+    <string name="screensaver_setup_body">Tämä TV ei anna sovellusten vaihtaa näytönsäästäjää itse. Yhdistä tietokone kerran ja suorita:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nOta tämä sitten uudelleen käyttöön.</string>
+    <string name="wallpaper_custom">Oma kuva</string>
+    <string name="wallpaper_download_failed">Taustakuvan lataus epäonnistui. Tarkista internetyhteys.</string>
+    <string name="picture_allow">Salli kuvien käyttö</string>
+    <string name="picture_denied">Salli kuvien käyttö kohdassa Asetukset › Sovellukset › Summit › Käyttöoikeudet.</string>
+    <string name="picture_none">Tästä TV:stä ei löytynyt kuvia.</string>
+    <string name="picture_failed">Kuvaa ei voitu avata.</string>
+    <string name="picture_n">Kuva %d</string>
+    <string name="opt_custom_colour">Oma väri</string>
+    <string name="opt_contrast">Kontrasti</string>
+    <string name="opt_animations">Animaatiot</string>
+    <string name="opt_wallpaper">Taustakuva</string>
+    <string name="opt_dim">Himmennä taustakuva</string>
+    <string name="opt_text_size">Tekstin koko</string>
+    <string name="opt_digits">Devanagari-numerot</string>
+    <string name="opt_language">Kieli</string>
+    <string name="opt_calendar">Kalenteri</string>
+    <string name="opt_time">Ajan muoto</string>
+    <string name="opt_temp">Lämpötila</string>
+    <string name="opt_wind">Tuulen nopeus</string>
+    <string name="opt_rain">Sademäärä</string>
+    <string name="opt_location">Sijainti</string>
+    <string name="opt_show_home">Näytä Kodissa</string>
+    <string name="opt_watch_tile">Katso TV:tä -ruutu</string>
+    <string name="opt_continue">Jatka-rivi</string>
+    <string name="opt_fav_order">Suosikkien järjestys</string>
+    <string name="opt_health">Terveysvinkki</string>
+    <string name="opt_live_type">Katso TV:tä käyttää</string>
+    <string name="opt_input">Tulolähde</string>
+    <string name="opt_live_app">Sovellus</string>
+    <string name="opt_boot">Avaa, kun TV käynnistyy</string>
+    <string name="opt_tile_size">Ruudun koko</string>
+    <string name="opt_tile_shape">Ruudun muoto</string>
+    <string name="opt_labels">Sovellusten nimet</string>
+    <string name="opt_score_max">Näytä Kodissa</string>
+    <string name="opt_live_first">Käynnissä olevat ottelut ensin</string>
+    <string name="opt_stale">Jos tuloksia ei voi päivittää</string>
+    <string name="opt_amb_scores">Näytä live-tulokset</string>
+    <string name="opt_amb_shift">Siirrä kelloa näytön suojaamiseksi</string>
+    <string name="opt_amb_dim">Himmennä yöllä</string>
+
+    <string name="grp_cricket">Kriketti</string>
+    <string name="grp_football">Jalkapallo</string>
+    <string name="grp_basketball">Koripallo</string>
+    <string name="grp_us">Amerikkalaiset lajit</string>
+    <string name="grp_tennis">Tennis</string>
+    <string name="grp_motor">Moottoriurheilu</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Paina mitä tahansa painiketta</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Aloitusnäytön käyttöönotto</string>
+    <string name="step_of">Vaihe %1$d/%2$d</string>
+    <string name="back">Takaisin</string>
+    <string name="next">Jatka</string>
+    <string name="finish">Valmis</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ siirry · OK valitse · ▶ vaihtoehdoista vie Jatka-painikkeeseen · Back edellinen vaihe</string>
+    <string name="s1_title">Valitse kieli</string>
+    <string name="s1_sub">Summit vaihtaa kielen heti, kun valitset.</string>
+    <string name="s2_title">Mistä katsot TV:tä?</string>
+    <string name="s2_sub">Kodin Katso TV:tä avaa tämän yhdellä OK-painalluksella.</string>
+    <string name="signal_yes">Signaali löytyi</string>
+    <string name="signal_no">Ei signaalia</string>
+    <string name="recommended">Suositeltu</string>
+    <string name="antenna">Antenni (DTV)</string>
+    <string name="s3_title">Mitä tuloksia Kodissa näytetään?</string>
+    <string name="s3_sub">Valitse niin monta kuin haluat. Käynnissä olevat ottelut näytetään ensin.</string>
+    <string name="s_fav_title">Valitse suosikkisovelluksesi</string>
+    <string name="s_fav_sub">Ne ovat Kodissa yhden painalluksen päässä. Valitse niin monta kuin haluat.</string>
+    <string name="s_wall_title">Valitse taustakuva</string>
+    <string name="s_wall_sub">Näkyy Kodin ja näytönsäästäjän taustalla.</string>
+    <string name="setup_preview_note">Aloitusnäyttösi. Voit muuttaa tätä kaikkea myöhemmin asetuksista.</string>
+    <string name="s4_title">Valitse ulkoasu</string>
+    <string name="s4_sub">Automaattinen on tumma klo 18–6 ja vaalea päivällä.</string>
+    <string name="tennis">Tennis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Näytetäänkö viimeksi käytetyt sovellukset Kodissa?</string>
+    <string name="usage_body">Salli käyttötietojen käyttö, jotta Jatka-rivi voi näyttää äskettäin käyttämäsi sovellukset.</string>
+    <string name="allow">Salli</string>
+    <string name="skip">Ohita</string>
+    <string name="run_setup">Suorita ensimmäinen käyttöönotto</string>
+    <string name="change_city">Vaihda kaupunki</string>
+    <string name="kick_off">Aloitus %s</string>
+    <string name="mode_input">TV-tulo</string>
+    <string name="mode_input_sub">HDMI, AV tai antenni</string>
+    <string name="mode_app">Sovellus</string>
+    <string name="mode_app_sub">Suoran TV:n sovellus</string>
+    <string name="search_city">Hae kaupunkia</string>
+    <string name="use_current">Käytä nykyistä sijaintia</string>
+    <string name="use_current_named">Käytä nykyistä sijaintia (%s)</string>
+    <string name="searching">Haetaan…</string>
+    <string name="no_results">Kaupunkeja ei löytynyt</string>
+    <string name="search_failed">Haku ei onnistu juuri nyt. Tarkista internetyhteys.</string>
+    <string name="resume_now">Jatka · juuri nyt</string>
+</resources>

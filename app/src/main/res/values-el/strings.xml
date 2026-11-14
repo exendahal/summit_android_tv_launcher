@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit προφύλαξη οθόνης</string>
+
+    <!-- Header -->
+    <string name="nav_home">Αρχική</string>
+    <string name="nav_apps">Εφαρμογές</string>
+    <string name="nav_settings">Ρυθμίσεις</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="tv_settings">Ρυθμίσεις Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Τηλεόραση</string>
+    <string name="continue_title">Συνέχεια</string>
+    <string name="favourites_title">Αγαπημένα · κρατήστε πατημένο το OK για καρφίτσωμα ή μετακίνηση</string>
+    <string name="all_apps">Όλες οι εφαρμογές</string>
+    <string name="show_recents">Πρόσφατες εφαρμογές</string>
+    <string name="not_default_banner">Ορίστε το Summit ως αρχική οθόνη · πατήστε OK για οδηγίες</string>
+    <string name="not_default_title">Ορίστε το Summit ως αρχική οθόνη</string>
+    <string name="not_default_help">Ανοίξτε Ρυθμίσεις › Εφαρμογές › Προεπιλεγμένες εφαρμογές › Εφαρμογή αρχικής οθόνης και επιλέξτε Summit. Ορισμένες συσκευές Google TV δεν επιτρέπουν αλλαγή της αρχικής οθόνης· το Summit λειτουργεί πάντα από τη λίστα εφαρμογών.</string>
+    <string name="open_settings">Άνοιγμα ρυθμίσεων</string>
+    <string name="dismiss">Παράβλεψη</string>
+    <string name="usage_unavailable">Ανοίξτε Ρυθμίσεις › Εφαρμογές › Ειδική πρόσβαση εφαρμογών › Πρόσβαση χρήσης και επιτρέψτε την για το Summit.</string>
+    <string name="move_hint">◀ ▶ μετακίνηση · OK απόθεση · Back ακύρωση</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Συνέχεια · πριν από %d λεπ.</string>
+    <string name="resume_h">Συνέχεια · πριν από %d ώρ.</string>
+    <string name="yesterday">Χθες</string>
+    <string name="days_ago">Πριν από %d ημέρες</string>
+    <string name="last_week">Την προηγούμενη εβδομάδα</string>
+    <string name="updated_now">Μόλις ενημερώθηκε</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Ενημερώθηκε πριν από %d λεπτό</item>
+        <item quantity="other">Ενημερώθηκε πριν από %d λεπτά</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">ΖΩΝΤΑΝΑ</string>
+    <string name="ft">Τελικό</string>
+    <string name="scores_unavailable">Τα σκορ δεν είναι διαθέσιμα</string>
+    <string name="score_cd">%1$s. Πατήστε OK για λεπτομέρειες</string>
+    <string name="score_live_suffix">%1$s · ΖΩΝΤΑΝΑ</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Ο καιρός δεν είναι διαθέσιμος</string>
+    <string name="hi_lo">Μέγ %1$s Ελάχ %2$s</string>
+    <string name="hi_lo_long">Μέγιστη %1$s · Ελάχιστη %2$s</string>
+    <string name="wind_rain">Άνεμος %1$s · Βροχή σήμερα %2$s</string>
+    <string name="weather_title">%1$s · Σήμερα</string>
+    <string name="mountains_line">Βουνά · Νάμτσε Μπαζάρ %1$s, %2$s</string>
+    <string name="rain_pct">Βροχή %d%%</string>
+    <string name="next_days">Επόμενες 3 ημέρες</string>
+    <string name="change_units">Αλλάξτε τις μονάδες στις Ρυθμίσεις</string>
+    <string name="part_morning">Πρωί</string>
+    <string name="part_afternoon">Απόγευμα</string>
+    <string name="part_evening">Βράδυ</string>
+    <string name="part_night">Νύχτα</string>
+    <string name="cond_clear">Αίθριος</string>
+    <string name="cond_sunny">Ηλιοφάνεια</string>
+    <string name="cond_partly">Αραιή συννεφιά</string>
+    <string name="cond_cloudy">Συννεφιά</string>
+    <string name="cond_fog">Ομίχλη</string>
+    <string name="cond_rain">Βροχή</string>
+    <string name="cond_snow">Χιονόπτωση</string>
+    <string name="cond_thunder">Καταιγίδες</string>
+    <string name="sum_all_day">%1$s όλη μέρα</string>
+    <string name="sum_morning">%1$s το πρωί</string>
+    <string name="sum_afternoon">το απόγευμα %1$s</string>
+    <string name="sum_rain_from">βροχή από τις %1$s</string>
+    <string name="sum_tonight">απόψε %1$s</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Κατμαντού</string>
+    <string name="close">Κλείσιμο</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ μετακίνηση · OK άνοιγμα · κρατήστε το OK για καρφίτσωμα στα Αγαπημένα · Back στην Αρχική</string>
+    <string name="selected_app">Επιλεγμένη: %s</string>
+    <string name="pin">Καρφίτσωμα στα Αγαπημένα</string>
+    <string name="unpin">Ξεκαρφίτσωμα από τα Αγαπημένα</string>
+    <string name="move">Μετακίνηση</string>
+    <string name="app_info">Πληροφορίες εφαρμογής</string>
+    <string name="uninstall">Απεγκατάσταση</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">Αυτή η τηλεόραση δεν επιτρέπει σε εφαρμογές να αλλάζουν είσοδο. Χρησιμοποιήστε το κουμπί Input στο τηλεχειριστήριο.</string>
+    <string name="no_tv_input">Δεν βρέθηκε είσοδος TV</string>
+    <string name="ask_every_time">Ερώτηση κάθε φορά</string>
+    <string name="choose_live_app">Επιλέξτε εφαρμογή ζωντανής TV</string>
+    <string name="voice_unavailable">Η φωνητική αναζήτηση δεν είναι διαθέσιμη σε αυτήν την τηλεόραση.</string>
+    <string name="cannot_open">Δεν είναι δυνατό το άνοιγμα αυτής της εφαρμογής.</string>
+
+    <!-- Settings -->
+    <string name="reset">Επαναφορά προεπιλογών</string>
+    <string name="reset_title">Επαναφορά όλων των ρυθμίσεων εκκινητή;</string>
+    <string name="reset_body">Το θέμα, η ταπετσαρία, η γλώσσα και οι άλλες ρυθμίσεις του εκκινητή επιστρέφουν στις προεπιλογές. Οι εφαρμογές και τα αγαπημένα σας μένουν ως έχουν.</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="reset_confirm">Επαναφορά</string>
+    <string name="settings_hint">▲ ▼ μετακίνηση · OK άνοιγμα ή επιλογή · Back επιστροφή. Οι αλλαγές ισχύουν αμέσως.</string>
+    <string name="leagues_header">Επιλέξτε τι εμφανίζεται στην Αρχική · %d επιλεγμένα</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Προεπισκόπηση</string>
+
+    <string name="opt_mode">Λειτουργία</string>
+    <string name="opt_colour">Χρώμα</string>
+    <string name="opt_use_screensaver">Χρήση ως προφύλαξη οθόνης</string>
+    <string name="screensaver_setup_title">Απαιτείται εφάπαξ ρύθμιση</string>
+    <string name="screensaver_setup_body">Αυτή η τηλεόραση δεν επιτρέπει σε εφαρμογές να αλλάζουν μόνες τους την προφύλαξη οθόνης. Συνδέστε μία φορά έναν υπολογιστή και εκτελέστε:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nΣτη συνέχεια ενεργοποιήστε ξανά αυτή τη ρύθμιση.</string>
+    <string name="wallpaper_custom">Η εικόνα μου</string>
+    <string name="wallpaper_download_failed">Δεν ήταν δυνατή η λήψη της ταπετσαρίας. Ελέγξτε τη σύνδεση στο διαδίκτυο.</string>
+    <string name="picture_allow">Να επιτρέπεται η πρόσβαση στις εικόνες</string>
+    <string name="picture_denied">Επιτρέψτε την πρόσβαση στις φωτογραφίες από Ρυθμίσεις › Εφαρμογές › Summit › Άδειες.</string>
+    <string name="picture_none">Δεν βρέθηκαν εικόνες σε αυτήν την τηλεόραση.</string>
+    <string name="picture_failed">Δεν ήταν δυνατό το άνοιγμα της εικόνας.</string>
+    <string name="picture_n">Εικόνα %d</string>
+    <string name="opt_custom_colour">Προσαρμοσμένο χρώμα</string>
+    <string name="opt_contrast">Αντίθεση</string>
+    <string name="opt_animations">Κινούμενα εφέ</string>
+    <string name="opt_wallpaper">Ταπετσαρία</string>
+    <string name="opt_dim">Σκίαση ταπετσαρίας</string>
+    <string name="opt_text_size">Μέγεθος κειμένου</string>
+    <string name="opt_digits">Ψηφία Ντεβαναγκάρι</string>
+    <string name="opt_language">Γλώσσα</string>
+    <string name="opt_calendar">Ημερολόγιο</string>
+    <string name="opt_time">Μορφή ώρας</string>
+    <string name="opt_temp">Θερμοκρασία</string>
+    <string name="opt_wind">Ταχύτητα ανέμου</string>
+    <string name="opt_rain">Βροχόπτωση</string>
+    <string name="opt_location">Τοποθεσία</string>
+    <string name="opt_show_home">Εμφάνιση στην Αρχική</string>
+    <string name="opt_watch_tile">Πλακίδιο Τηλεόρασης</string>
+    <string name="opt_continue">Σειρά Συνέχειας</string>
+    <string name="opt_fav_order">Σειρά αγαπημένων</string>
+    <string name="opt_health">Συμβουλή υγείας</string>
+    <string name="opt_live_type">Η Τηλεόραση χρησιμοποιεί</string>
+    <string name="opt_input">Πηγή εισόδου</string>
+    <string name="opt_live_app">Εφαρμογή</string>
+    <string name="opt_boot">Άνοιγμα κατά την εκκίνηση της TV</string>
+    <string name="opt_tile_size">Μέγεθος πλακιδίων</string>
+    <string name="opt_tile_shape">Σχήμα πλακιδίων</string>
+    <string name="opt_labels">Ονόματα εφαρμογών</string>
+    <string name="opt_score_max">Εμφάνιση στην Αρχική</string>
+    <string name="opt_live_first">Πρώτα οι ζωντανοί αγώνες</string>
+    <string name="opt_stale">Αν τα σκορ δεν ενημερώνονται</string>
+    <string name="opt_amb_scores">Εμφάνιση ζωντανών σκορ</string>
+    <string name="opt_amb_shift">Μετακίνηση ρολογιού για προστασία οθόνης</string>
+    <string name="opt_amb_dim">Χαμήλωμα τη νύχτα</string>
+
+    <string name="grp_cricket">Κρίκετ</string>
+    <string name="grp_football">Ποδόσφαιρο</string>
+    <string name="grp_basketball">Μπάσκετ</string>
+    <string name="grp_us">Αμερικανικά σπορ</string>
+    <string name="grp_tennis">Τένις</string>
+    <string name="grp_motor">Μηχανοκίνητα σπορ</string>
+    <string name="grp_golf">Γκολφ</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Πατήστε οποιοδήποτε κουμπί</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Ρύθμιση εκκινητή</string>
+    <string name="step_of">Βήμα %1$d από %2$d</string>
+    <string name="back">Πίσω</string>
+    <string name="next">Συνέχεια</string>
+    <string name="finish">Τέλος</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ μετακίνηση · OK επιλογή · ▶ από τις επιλογές πάει στη Συνέχεια · Back προηγούμενο βήμα</string>
+    <string name="s1_title">Επιλέξτε γλώσσα</string>
+    <string name="s1_sub">Το Summit αλλάζει γλώσσα μόλις την επιλέξετε.</string>
+    <string name="s2_title">Πού βλέπετε τηλεόραση;</string>
+    <string name="s2_sub">Η Τηλεόραση στην Αρχική ανοίγει αυτό με ένα πάτημα του OK.</string>
+    <string name="signal_yes">Εντοπίστηκε σήμα</string>
+    <string name="signal_no">Χωρίς σήμα</string>
+    <string name="recommended">Προτείνεται</string>
+    <string name="antenna">Κεραία (DTV)</string>
+    <string name="s3_title">Ποια σκορ να εμφανίζει η Αρχική;</string>
+    <string name="s3_sub">Επιλέξτε όσα θέλετε. Οι ζωντανοί αγώνες εμφανίζονται πρώτοι.</string>
+    <string name="s_fav_title">Επιλέξτε τις αγαπημένες σας εφαρμογές</string>
+    <string name="s_fav_sub">Θα βρίσκονται στην Αρχική, με ένα πάτημα. Επιλέξτε όσες θέλετε.</string>
+    <string name="s_wall_title">Επιλέξτε ταπετσαρία</string>
+    <string name="s_wall_sub">Εμφανίζεται πίσω από την Αρχική και την προφύλαξη οθόνης.</string>
+    <string name="setup_preview_note">Η Αρχική σας οθόνη. Μπορείτε να τα αλλάξετε όλα αργότερα στις Ρυθμίσεις.</string>
+    <string name="s4_title">Επιλέξτε εμφάνιση</string>
+    <string name="s4_sub">Η Αυτόματη είναι σκούρα από τις 18:00 έως τις 6:00 και φωτεινή την ημέρα.</string>
+    <string name="tennis">Τένις</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Εμφάνιση πρόσφατων εφαρμογών στην Αρχική;</string>
+    <string name="usage_body">Επιτρέψτε την πρόσβαση χρήσης, ώστε η σειρά Συνέχεια να δείχνει τις εφαρμογές που χρησιμοποιήσατε πρόσφατα.</string>
+    <string name="allow">Αποδοχή</string>
+    <string name="skip">Παράλειψη</string>
+    <string name="run_setup">Εκτέλεση αρχικής ρύθμισης</string>
+    <string name="change_city">Αλλαγή πόλης</string>
+    <string name="kick_off">Έναρξη %s</string>
+    <string name="mode_input">Είσοδος TV</string>
+    <string name="mode_input_sub">HDMI, AV ή κεραία</string>
+    <string name="mode_app">Εφαρμογή</string>
+    <string name="mode_app_sub">Εφαρμογή ζωντανής TV</string>
+    <string name="search_city">Αναζήτηση πόλης</string>
+    <string name="use_current">Χρήση τρέχουσας τοποθεσίας</string>
+    <string name="use_current_named">Χρήση τρέχουσας τοποθεσίας (%s)</string>
+    <string name="searching">Αναζήτηση…</string>
+    <string name="no_results">Δεν βρέθηκαν πόλεις</string>
+    <string name="search_failed">Η αναζήτηση δεν είναι δυνατή τώρα. Ελέγξτε τη σύνδεση στο διαδίκτυο.</string>
+    <string name="resume_now">Συνέχεια · μόλις τώρα</string>
+</resources>

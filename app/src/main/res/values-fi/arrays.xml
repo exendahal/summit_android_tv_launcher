@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Teema</item><item>Fontti</item><item>Kieli</item><item>Sää</item>
+        <item>Aloitusnäyttö</item><item>Suora TV</item><item>Kuvakkeet &amp; ruudut</item><item>Tulokset</item><item>Näytönsäästäjä</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Automaattinen ajan mukaan</item><item>Tumma</item><item>Vaalea</item></string-array>
+    <string-array name="e_theme_colour"><item>Taustakuvasta</item><item>Koralli</item><item>Vihreä</item><item>Oma</item></string-array>
+    <string-array name="e_custom_colour"><item>Punainen</item><item>Oranssi</item><item>Keltainen</item><item>Vihreä</item><item>Sinivihreä</item><item>Sininen</item><item>Indigo</item><item>Violetti</item><item>Pinkki</item></string-array>
+    <string-array name="e_contrast"><item>Normaali</item><item>Korkea</item></string-array>
+    <string-array name="e_animations"><item>Täydet</item><item>Vähennetyt</item><item>Pois</item></string-array>
+    <string-array name="e_wallpaper"><item>Vuorimaisema</item><item>Harjanne</item><item>Yksivärinen</item><item>Phewan auringonlasku</item><item>Himalajan yö</item><item>Terain pellot</item><item>Rukousliput</item></string-array>
+    <string-array name="e_dim"><item>Pois</item><item>30 %</item><item>60 %</item></string-array>
+    <string-array name="e_text_size"><item>Oletus</item><item>Suuri</item><item>Erittäin suuri</item></string-array>
+    <string-array name="e_off_on"><item>Pois</item><item>Päällä</item></string-array>
+    <string-array name="e_on_off"><item>Päällä</item><item>Pois</item></string-array>
+    <string-array name="e_labels"><item>Aina</item><item>Kun valittu</item><item>Pois</item></string-array>
+    <string-array name="e_show_hide"><item>Näytä</item><item>Piilota</item></string-array>
+    <string-array name="e_calendar"><item>Molemmat</item><item>Bikram Sambat</item><item>Gregoriaaninen</item></string-array>
+    <string-array name="e_time"><item>12 tuntia</item><item>24 tuntia</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>tuumaa</item></string-array>
+    <string-array name="e_watch_tile"><item>Rivin ensimmäinen</item><item>Piilotettu</item></string-array>
+    <string-array name="e_fav_order"><item>Eniten käytetyt</item><item>Manuaalinen</item></string-array>
+    <string-array name="e_health"><item>Vain ambient</item><item>Koti ja ambient</item><item>Pois</item></string-array>
+    <string-array name="e_live_type"><item>TV-tulo</item><item>Sovellus</item></string-array>
+    <string-array name="e_tile_size"><item>Keskikoko</item><item>Suuri</item><item>Pieni</item></string-array>
+    <string-array name="e_tile_shape"><item>Pyöristetty</item><item>Neliö</item></string-array>
+    <string-array name="e_score_max"><item>Enintään 4</item><item>Enintään 6</item><item>Enintään 3</item><item>Enintään 2</item></string-array>
+    <string-array name="e_stale"><item>Näytä \"ei saatavilla\"</item><item>Piilota tulokset</item></string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Terveys on todellinen rikkautesi. Liiku vähän, hymyile paljon.</item>
+        <item>20 minuutin kävely tänään on lahja huomisen itsellesi.</item>
+        <item>Juo lasi vettä ennen seuraavaa jaksoa.</item>
+        <item>Lepuuta silmiäsi: katso 20 minuutin välein kauas 20 sekunnin ajan.</item>
+        <item>Hyvä uni on paras harjoitusohjelma. Sammuta ajoissa tänä iltana.</item>
+        <item>Nouse ylös ja venyttele joka tauolla. Selkäsi kiittää.</item>
+        <item>Syö kuin vuoret katsoisivat: tuoretta, yksinkertaista ja sesongin mukaan.</item>
+    </string-array>
+</resources>

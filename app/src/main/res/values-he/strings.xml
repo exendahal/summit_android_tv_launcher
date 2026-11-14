@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">שומר המסך של Summit</string>
+
+    <!-- Header -->
+    <string name="nav_home">בית</string>
+    <string name="nav_apps">אפליקציות</string>
+    <string name="nav_settings">הגדרות</string>
+    <string name="search">חיפוש</string>
+    <string name="tv_settings">הגדרות Android TV</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">צפייה בטלוויזיה</string>
+    <string name="continue_title">המשך צפייה</string>
+    <string name="favourites_title">מועדפים · לחיצה ארוכה על OK להצמדה או להזזה</string>
+    <string name="all_apps">כל האפליקציות</string>
+    <string name="show_recents">הצגת אפליקציות אחרונות</string>
+    <string name="not_default_banner">הגדירו את Summit כמסך הבית · לחצו OK לפרטים</string>
+    <string name="not_default_title">הגדירו את Summit כמסך הבית</string>
+    <string name="not_default_help">פתחו הגדרות › אפליקציות › אפליקציות ברירת מחדל › אפליקציית מסך הבית ובחרו ב-Summit. חלק ממכשירי Google TV לא מאפשרים לשנות את אפליקציית מסך הבית; Summit עדיין זמינה מרשימת האפליקציות.</string>
+    <string name="open_settings">פתיחת ההגדרות</string>
+    <string name="dismiss">סגירה</string>
+    <string name="usage_unavailable">פתחו הגדרות › אפליקציות › גישה מיוחדת לאפליקציות › גישה לנתוני שימוש ואשרו את Summit.</string>
+    <string name="move_hint">◀ ▶ הזזה · OK שחרור · Back ביטול</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">המשך · לפני %d דק׳</string>
+    <string name="resume_h">המשך · לפני %d שע׳</string>
+    <string name="yesterday">אתמול</string>
+    <string name="days_ago">לפני %d ימים</string>
+    <string name="last_week">בשבוע שעבר</string>
+    <string name="updated_now">עודכן הרגע</string>
+    <plurals name="updated_ago">
+        <item quantity="one">עודכן לפני %d דקה</item>
+        <item quantity="two">עודכן לפני %d דקות</item>
+        <item quantity="other">עודכן לפני %d דקות</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">חי</string>
+    <string name="ft">הסתיים</string>
+    <string name="scores_unavailable">התוצאות לא זמינות</string>
+    <string name="score_cd">%1$s. לחצו OK לפרטים</string>
+    <string name="score_live_suffix">%1$s · חי</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">מזג האוויר לא זמין</string>
+    <string name="hi_lo">מקס׳ %1$s מינ׳ %2$s</string>
+    <string name="hi_lo_long">מקסימום %1$s · מינימום %2$s</string>
+    <string name="wind_rain">רוח %1$s · גשם היום %2$s</string>
+    <string name="weather_title">%1$s · היום</string>
+    <string name="mountains_line">הרים · נאמצ׳ה בזאר %1$s, %2$s</string>
+    <string name="rain_pct">גשם %d%%</string>
+    <string name="next_days">3 הימים הבאים</string>
+    <string name="change_units">אפשר לשנות יחידות בהגדרות</string>
+    <string name="part_morning">בוקר</string>
+    <string name="part_afternoon">צהריים</string>
+    <string name="part_evening">ערב</string>
+    <string name="part_night">לילה</string>
+    <string name="cond_clear">בהיר</string>
+    <string name="cond_sunny">שמשי</string>
+    <string name="cond_partly">מעונן חלקית</string>
+    <string name="cond_cloudy">מעונן</string>
+    <string name="cond_fog">ערפילי</string>
+    <string name="cond_rain">גשם</string>
+    <string name="cond_snow">ממטרי שלג</string>
+    <string name="cond_thunder">סופות רעמים</string>
+    <string name="sum_all_day">%1$s כל היום</string>
+    <string name="sum_morning">%1$s בבוקר</string>
+    <string name="sum_afternoon">%1$s בצהריים</string>
+    <string name="sum_rain_from">גשם החל מ-%1$s</string>
+    <string name="sum_tonight">%1$s הלילה</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">קטמנדו</string>
+    <string name="close">סגירה</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ הזזה · OK פתיחה · לחיצה ארוכה על OK להצמדה למועדפים · Back חזרה לבית</string>
+    <string name="selected_app">נבחרה: %s</string>
+    <string name="pin">הצמדה למועדפים</string>
+    <string name="unpin">ביטול הצמדה מהמועדפים</string>
+    <string name="move">הזזה</string>
+    <string name="app_info">פרטי האפליקציה</string>
+    <string name="uninstall">הסרת התקנה</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">הטלוויזיה הזו לא מאפשרת לאפליקציות להחליף מקור קלט. השתמשו בלחצן Input בשלט.</string>
+    <string name="no_tv_input">לא נמצא מקור קלט לטלוויזיה</string>
+    <string name="ask_every_time">לשאול בכל פעם</string>
+    <string name="choose_live_app">בחירת אפליקציה לטלוויזיה בשידור חי</string>
+    <string name="voice_unavailable">חיפוש קולי לא זמין בטלוויזיה הזו.</string>
+    <string name="cannot_open">לא ניתן לפתוח את האפליקציה הזו.</string>
+
+    <!-- Settings -->
+    <string name="reset">איפוס לברירת המחדל</string>
+    <string name="reset_title">לאפס את כל הגדרות מסך הבית?</string>
+    <string name="reset_body">ערכת הנושא, הטפט, השפה ושאר ההגדרות יחזרו לברירת המחדל. האפליקציות והמועדפים שלכם יישארו כפי שהם.</string>
+    <string name="cancel">ביטול</string>
+    <string name="reset_confirm">איפוס</string>
+    <string name="settings_hint">▲ ▼ הזזה · OK פתיחה או בחירה · Back חזרה. השינויים חלים מיד.</string>
+    <string name="leagues_header">בחרו מה יוצג בבית · %d נבחרו</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">תצוגה מקדימה</string>
+
+    <string name="opt_mode">מצב</string>
+    <string name="opt_colour">צבע</string>
+    <string name="opt_use_screensaver">שימוש כשומר מסך</string>
+    <string name="screensaver_setup_title">נדרשת הגדרה חד-פעמית</string>
+    <string name="screensaver_setup_body">הטלוויזיה הזו לא מאפשרת לאפליקציות לשנות את שומר המסך בעצמן. חברו מחשב פעם אחת והריצו:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nואז הפעילו את האפשרות שוב.</string>
+    <string name="wallpaper_custom">התמונה שלי</string>
+    <string name="wallpaper_download_failed">לא ניתן להוריד את הטפט. בדקו את החיבור לאינטרנט.</string>
+    <string name="picture_allow">מתן גישה לתמונות</string>
+    <string name="picture_denied">אשרו גישה לתמונות בהגדרות › אפליקציות › Summit › הרשאות.</string>
+    <string name="picture_none">לא נמצאו תמונות בטלוויזיה הזו.</string>
+    <string name="picture_failed">לא ניתן לפתוח את התמונה.</string>
+    <string name="picture_n">תמונה %d</string>
+    <string name="opt_custom_colour">צבע מותאם אישית</string>
+    <string name="opt_contrast">ניגודיות</string>
+    <string name="opt_animations">אנימציות</string>
+    <string name="opt_wallpaper">טפט</string>
+    <string name="opt_dim">עמעום הטפט</string>
+    <string name="opt_text_size">גודל טקסט</string>
+    <string name="opt_digits">ספרות דוונאגרי</string>
+    <string name="opt_language">שפה</string>
+    <string name="opt_calendar">לוח שנה</string>
+    <string name="opt_time">תבנית שעה</string>
+    <string name="opt_temp">טמפרטורה</string>
+    <string name="opt_wind">מהירות רוח</string>
+    <string name="opt_rain">כמות משקעים</string>
+    <string name="opt_location">מיקום</string>
+    <string name="opt_show_home">הצגה בבית</string>
+    <string name="opt_watch_tile">אריח צפייה בטלוויזיה</string>
+    <string name="opt_continue">שורת המשך צפייה</string>
+    <string name="opt_fav_order">סדר המועדפים</string>
+    <string name="opt_health">טיפ בריאות</string>
+    <string name="opt_live_type">צפייה בטלוויזיה דרך</string>
+    <string name="opt_input">מקור קלט</string>
+    <string name="opt_live_app">אפליקציה</string>
+    <string name="opt_boot">פתיחה בהדלקת הטלוויזיה</string>
+    <string name="opt_tile_size">גודל אריחים</string>
+    <string name="opt_tile_shape">צורת אריחים</string>
+    <string name="opt_labels">שמות אפליקציות</string>
+    <string name="opt_score_max">הצגה בבית</string>
+    <string name="opt_live_first">משחקים חיים קודם</string>
+    <string name="opt_stale">אם התוצאות לא מתעדכנות</string>
+    <string name="opt_amb_scores">הצגת תוצאות חיות</string>
+    <string name="opt_amb_shift">הזזת השעון להגנה על המסך</string>
+    <string name="opt_amb_dim">עמעום בלילה</string>
+
+    <string name="grp_cricket">קריקט</string>
+    <string name="grp_football">כדורגל</string>
+    <string name="grp_basketball">כדורסל</string>
+    <string name="grp_us">ספורט אמריקאי</string>
+    <string name="grp_tennis">טניס</string>
+    <string name="grp_motor">ספורט מוטורי</string>
+    <string name="grp_golf">גולף</string>
+
+    <!-- Ambient -->
+    <string name="press_any">לחצו על לחצן כלשהו</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">הגדרת מסך הבית</string>
+    <string name="step_of">שלב %1$d מתוך %2$d</string>
+    <string name="back">חזרה</string>
+    <string name="next">המשך</string>
+    <string name="finish">סיום</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ הזזה · OK בחירה · ▶ מהאפשרויות מגיע אל המשך · Back לשלב הקודם</string>
+    <string name="s1_title">בחרו שפה</string>
+    <string name="s1_sub">Summit מחליפה שפה מיד עם הבחירה.</string>
+    <string name="s2_title">איפה אתם צופים בטלוויזיה?</string>
+    <string name="s2_sub">צפייה בטלוויזיה במסך הבית פותחת את זה בלחיצה אחת על OK.</string>
+    <string name="signal_yes">זוהה אות</string>
+    <string name="signal_no">אין אות</string>
+    <string name="recommended">מומלץ</string>
+    <string name="antenna">אנטנה (DTV)</string>
+    <string name="s3_title">אילו תוצאות יוצגו בבית?</string>
+    <string name="s3_sub">בחרו כמה שתרצו. משחקים חיים מוצגים ראשונים.</string>
+    <string name="s_fav_title">בחרו את האפליקציות המועדפות</string>
+    <string name="s_fav_sub">הן יופיעו בבית, במרחק לחיצה אחת. בחרו כמה שתרצו.</string>
+    <string name="s_wall_title">בחרו טפט</string>
+    <string name="s_wall_sub">מוצג מאחורי מסך הבית ושומר המסך.</string>
+    <string name="setup_preview_note">זה מסך הבית שלכם. אפשר לשנות הכול מאוחר יותר בהגדרות.</string>
+    <string name="s4_title">בחרו מראה</string>
+    <string name="s4_sub">במצב אוטומטי המסך כהה מ-18:00 עד 06:00 ובהיר במשך היום.</string>
+    <string name="tennis">טניס</string>
+    <string name="formula1">פורמולה 1</string>
+    <string name="usage_title">להציג בבית את האפליקציות שהשתמשתם בהן לאחרונה?</string>
+    <string name="usage_body">אשרו גישה לנתוני שימוש כדי ששורת המשך הצפייה תציג את האפליקציות שהשתמשתם בהן לאחרונה.</string>
+    <string name="allow">אישור</string>
+    <string name="skip">דילוג</string>
+    <string name="run_setup">הפעלת ההגדרה הראשונית</string>
+    <string name="change_city">שינוי עיר</string>
+    <string name="kick_off">פתיחה %s</string>
+    <string name="mode_input">קלט טלוויזיה</string>
+    <string name="mode_input_sub">HDMI, AV או אנטנה</string>
+    <string name="mode_app">אפליקציה</string>
+    <string name="mode_app_sub">אפליקציה לטלוויזיה בשידור חי</string>
+    <string name="search_city">חיפוש עיר</string>
+    <string name="use_current">שימוש במיקום הנוכחי</string>
+    <string name="use_current_named">שימוש במיקום הנוכחי (%s)</string>
+    <string name="searching">מחפש…</string>
+    <string name="no_results">לא נמצאו ערים</string>
+    <string name="search_failed">אי אפשר לחפש כרגע. בדקו את החיבור לאינטרנט.</string>
+    <string name="resume_now">המשך · ממש עכשיו</string>
+</resources>

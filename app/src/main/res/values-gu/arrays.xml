@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>થીમ</item><item>ફૉન્ટ</item><item>ભાષા</item><item>હવામાન</item>
+        <item>હોમ સ્ક્રીન</item><item>લાઇવ ટીવી</item><item>આઇકન અને ટાઇલ્સ</item><item>સ્કોર</item><item>સ્ક્રીનસેવર</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>સમય મુજબ ઑટો</item><item>ડાર્ક</item><item>લાઇટ</item></string-array>
+    <string-array name="e_theme_colour"><item>વૉલપેપરમાંથી</item><item>કોરલ</item><item>લીલો</item><item>કસ્ટમ</item></string-array>
+    <string-array name="e_custom_colour"><item>લાલ</item><item>નારંગી</item><item>પીળો</item><item>લીલો</item><item>ટીલ</item><item>વાદળી</item><item>ઘેરો વાદળી</item><item>જાંબલી</item><item>ગુલાબી</item></string-array>
+    <string-array name="e_contrast"><item>સામાન્ય</item><item>ઊંચો</item></string-array>
+    <string-array name="e_animations"><item>પૂર્ણ</item><item>ઓછાં</item><item>બંધ</item></string-array>
+    <string-array name="e_wallpaper"><item>પર્વતીય દૃશ્ય</item><item>પર્વતમાળા</item><item>સાદું</item><item>ફેવાનો સૂર્યાસ્ત</item><item>હિમાલયની રાત</item><item>તરાઈનાં ખેતરો</item><item>પ્રાર્થના ધ્વજ</item></string-array>
+    <string-array name="e_dim"><item>બંધ</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>ડિફૉલ્ટ</item><item>મોટું</item><item>ખૂબ મોટું</item></string-array>
+    <string-array name="e_off_on"><item>બંધ</item><item>ચાલુ</item></string-array>
+    <string-array name="e_on_off"><item>ચાલુ</item><item>બંધ</item></string-array>
+    <string-array name="e_labels"><item>હંમેશાં</item><item>પસંદ થાય ત્યારે</item><item>બંધ</item></string-array>
+    <string-array name="e_show_hide"><item>બતાવો</item><item>છુપાવો</item></string-array>
+    <string-array name="e_calendar"><item>બંને</item><item>વિક્રમ સંવત</item><item>ગ્રેગોરિયન</item></string-array>
+    <string-array name="e_time"><item>12-કલાક</item><item>24-કલાક</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>ઇંચ</item></string-array>
+    <string-array name="e_watch_tile"><item>પંક્તિમાં પહેલું</item><item>છુપાયેલું</item></string-array>
+    <string-array name="e_fav_order"><item>સૌથી વધુ વપરાયેલી</item><item>જાતે</item></string-array>
+    <string-array name="e_health"><item>ફક્ત એમ્બિયન્ટ</item><item>હોમ અને એમ્બિયન્ટ</item><item>બંધ</item></string-array>
+    <string-array name="e_live_type"><item>ટીવી ઇનપુટ</item><item>ઍપ</item></string-array>
+    <string-array name="e_tile_size"><item>મધ્યમ</item><item>મોટું</item><item>નાનું</item></string-array>
+    <string-array name="e_tile_shape"><item>ગોળ ખૂણા</item><item>ચોરસ</item></string-array>
+    <string-array name="e_score_max"><item>4 સુધી</item><item>6 સુધી</item><item>3 સુધી</item><item>2 સુધી</item></string-array>
+    <string-array name="e_stale"><item>\"ઉપલબ્ધ નથી\" બતાવો</item><item>સ્કોર છુપાવો</item></string-array>
+
+    <string-array name="health">
+        <item>આરોગ્ય જ સાચું ધન છે. થોડું ચાલો, ખૂબ હસો.</item>
+        <item>આજે 20 મિનિટ ચાલવું એ આવતીકાલના તમારા માટે ભેટ છે.</item>
+        <item>આગલા એપિસોડ પહેલાં એક ગ્લાસ પાણી પી લો.</item>
+        <item>આંખોને આરામ આપો: દર 20 મિનિટે 20 સેકન્ડ દૂર જુઓ.</item>
+        <item>સારી ઊંઘ જ શ્રેષ્ઠ તાલીમ છે. આજે રાત્રે સમયસર ટીવી બંધ કરો.</item>
+        <item>દરેક વિરામમાં ઊભા થઈને શરીર ખેંચો. તમારી પીઠ આભાર માનશે.</item>
+        <item>એવું ખાઓ જાણે પહાડો જોઈ રહ્યા હોય: તાજું, સાદું અને મોસમી.</item>
+    </string-array>
+</resources>

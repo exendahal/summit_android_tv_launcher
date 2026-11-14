@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="ambient_name">Summit ایمبیئنٹ</string>
+
+    <!-- Header -->
+    <string name="nav_home">ہوم</string>
+    <string name="nav_apps">ایپس</string>
+    <string name="nav_settings">ترتیبات</string>
+    <string name="search">تلاش</string>
+    <string name="tv_settings">Android TV ترتیبات</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">ٹی وی دیکھیں</string>
+    <string name="continue_title">جاری رکھیں</string>
+    <string name="favourites_title">پسندیدہ · پن کرنے یا منتقل کرنے کے لیے OK دبائے رکھیں</string>
+    <string name="all_apps">تمام ایپس</string>
+    <string name="show_recents">حالیہ ایپس دکھائیں</string>
+    <string name="not_default_banner">Summit کو اپنی ہوم اسکرین بنائیں · طریقہ جاننے کے لیے OK دبائیں</string>
+    <string name="not_default_title">Summit کو اپنی ہوم اسکرین بنائیں</string>
+    <string name="not_default_help">ترتیبات › ایپس › ڈیفالٹ ایپس › ہوم ایپ کھولیں اور Summit منتخب کریں۔ کچھ Google TV آلات ہوم ایپ بدلنے نہیں دیتے؛ پھر بھی Summit ایپس کی فہرست سے چلتا ہے۔</string>
+    <string name="open_settings">ترتیبات کھولیں</string>
+    <string name="dismiss">ہٹائیں</string>
+    <string name="usage_unavailable">ترتیبات › ایپس › خصوصی ایپ رسائی › استعمال تک رسائی کھولیں اور Summit کو اجازت دیں۔</string>
+    <string name="move_hint">◀ ▶ منتقل کریں · OK رکھیں · Back منسوخ</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">دوبارہ شروع کریں · %d منٹ پہلے</string>
+    <string name="resume_h">دوبارہ شروع کریں · %d گھنٹے پہلے</string>
+    <string name="yesterday">کل</string>
+    <string name="days_ago">%d دن پہلے</string>
+    <string name="last_week">پچھلے ہفتے</string>
+    <string name="updated_now">ابھی اپ ڈیٹ ہوا</string>
+    <plurals name="updated_ago">
+        <item quantity="one">%d منٹ پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="other">%d منٹ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">لائیو</string>
+    <string name="ft">ختم</string>
+    <string name="scores_unavailable">اسکور دستیاب نہیں</string>
+    <string name="score_cd">%1$s۔ تفصیلات کے لیے OK دبائیں</string>
+    <string name="score_live_suffix">%1$s · لائیو</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">موسم دستیاب نہیں</string>
+    <string name="hi_lo">زیادہ %1$s کم %2$s</string>
+    <string name="hi_lo_long">زیادہ سے زیادہ %1$s · کم سے کم %2$s</string>
+    <string name="wind_rain">ہوا %1$s · آج بارش %2$s</string>
+    <string name="weather_title">%1$s · آج</string>
+    <string name="mountains_line">پہاڑ · نامچے بازار %1$s، %2$s</string>
+    <string name="rain_pct">بارش %d%%</string>
+    <string name="next_days">اگلے 3 دن</string>
+    <string name="change_units">ترتیبات میں اکائیاں بدلیں</string>
+    <string name="part_morning">صبح</string>
+    <string name="part_afternoon">دوپہر</string>
+    <string name="part_evening">شام</string>
+    <string name="part_night">رات</string>
+    <string name="cond_clear">صاف</string>
+    <string name="cond_sunny">دھوپ</string>
+    <string name="cond_partly">جزوی ابر آلود</string>
+    <string name="cond_cloudy">ابر آلود</string>
+    <string name="cond_fog">دھند</string>
+    <string name="cond_rain">بارش</string>
+    <string name="cond_snow">برف باری</string>
+    <string name="cond_thunder">گرج چمک کے ساتھ طوفان</string>
+    <string name="sum_all_day">سارا دن %1$s</string>
+    <string name="sum_morning">صبح %1$s</string>
+    <string name="sum_afternoon">دوپہر میں %1$s</string>
+    <string name="sum_rain_from">%1$s سے بارش</string>
+    <string name="sum_tonight">آج رات %1$s</string>
+    <string name="sum_sep">"، "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">کٹھمنڈو</string>
+    <string name="close">بند کریں</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ منتقل کریں · OK کھولیں · پسندیدہ میں پن کرنے کے لیے OK دبائے رکھیں · Back سے ہوم</string>
+    <string name="selected_app">منتخب: %s</string>
+    <string name="pin">پسندیدہ میں پن کریں</string>
+    <string name="unpin">پسندیدہ سے ہٹائیں</string>
+    <string name="move">منتقل کریں</string>
+    <string name="app_info">ایپ کی معلومات</string>
+    <string name="uninstall">ان انسٹال کریں</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">یہ ٹی وی ایپس سے ان پٹ بدلنے نہیں دیتا۔ اپنے ریموٹ کا Input بٹن استعمال کریں۔</string>
+    <string name="no_tv_input">کوئی ٹی وی ان پٹ نہیں ملا</string>
+    <string name="ask_every_time">ہر بار پوچھیں</string>
+    <string name="choose_live_app">لائیو ٹی وی ایپ منتخب کریں</string>
+    <string name="voice_unavailable">اس ٹی وی پر صوتی تلاش دستیاب نہیں ہے۔</string>
+    <string name="cannot_open">یہ ایپ نہیں کھل سکتی۔</string>
+
+    <!-- Settings -->
+    <string name="reset">ڈیفالٹ پر ری سیٹ کریں</string>
+    <string name="reset_title">لانچر کی تمام ترتیبات ری سیٹ کریں؟</string>
+    <string name="reset_body">تھیم، وال پیپر، زبان اور لانچر کی دیگر ترتیبات ڈیفالٹ پر واپس آ جائیں گی۔ آپ کی ایپس اور پسندیدہ جیسے ہیں ویسے ہی رہیں گے۔</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="reset_confirm">ری سیٹ کریں</string>
+    <string name="settings_hint">▲ ▼ منتقل کریں · OK کھولیں یا منتخب کریں · Back واپس جاتا ہے۔ تبدیلیاں فوراً لاگو ہوتی ہیں۔</string>
+    <string name="leagues_header">ہوم پر کیا دکھے، منتخب کریں · %d منتخب</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">پیش نظارہ</string>
+
+    <string name="opt_mode">موڈ</string>
+    <string name="opt_colour">رنگ</string>
+    <string name="opt_use_screensaver">اسکرین سیور کے طور پر استعمال کریں</string>
+    <string name="screensaver_setup_title">ایک بار سیٹ اپ ضروری ہے</string>
+    <string name="screensaver_setup_body">یہ ٹی وی ایپس کو خود اسکرین سیور بدلنے نہیں دیتا۔ ایک بار کمپیوٹر جوڑیں اور یہ چلائیں:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nپھر اسے دوبارہ آن کریں۔</string>
+    <string name="wallpaper_custom">میری تصویر</string>
+    <string name="wallpaper_download_failed">وہ وال پیپر ڈاؤن لوڈ نہیں ہو سکا۔ انٹرنیٹ کنکشن چیک کریں۔</string>
+    <string name="picture_allow">تصاویر تک رسائی کی اجازت دیں</string>
+    <string name="picture_denied">ترتیبات › ایپس › Summit › اجازتیں میں تصاویر کی اجازت دیں۔</string>
+    <string name="picture_none">اس ٹی وی پر کوئی تصویر نہیں ملی۔</string>
+    <string name="picture_failed">وہ تصویر نہیں کھل سکی۔</string>
+    <string name="picture_n">تصویر %d</string>
+    <string name="opt_custom_colour">حسب منشا رنگ</string>
+    <string name="opt_contrast">کنٹراسٹ</string>
+    <string name="opt_animations">اینیمیشنز</string>
+    <string name="opt_wallpaper">وال پیپر</string>
+    <string name="opt_dim">وال پیپر مدھم کریں</string>
+    <string name="opt_text_size">متن کا سائز</string>
+    <string name="opt_digits">دیوناگری ہندسے</string>
+    <string name="opt_language">زبان</string>
+    <string name="opt_calendar">کیلنڈر</string>
+    <string name="opt_time">وقت کا فارمیٹ</string>
+    <string name="opt_temp">درجہ حرارت</string>
+    <string name="opt_wind">ہوا کی رفتار</string>
+    <string name="opt_rain">بارش</string>
+    <string name="opt_location">مقام</string>
+    <string name="opt_show_home">ہوم پر دکھائیں</string>
+    <string name="opt_watch_tile">ٹی وی دیکھیں ٹائل</string>
+    <string name="opt_continue">جاری رکھیں قطار</string>
+    <string name="opt_fav_order">پسندیدہ کی ترتیب</string>
+    <string name="opt_health">صحت کا پیغام</string>
+    <string name="opt_live_type">ٹی وی دیکھیں کس سے</string>
+    <string name="opt_input">ان پٹ ماخذ</string>
+    <string name="opt_live_app">ایپ</string>
+    <string name="opt_boot">ٹی وی آن ہونے پر کھولیں</string>
+    <string name="opt_tile_size">ٹائل کا سائز</string>
+    <string name="opt_tile_shape">ٹائل کی شکل</string>
+    <string name="opt_labels">ایپس کے نام</string>
+    <string name="opt_score_max">ہوم پر دکھائیں</string>
+    <string name="opt_live_first">لائیو میچ پہلے</string>
+    <string name="opt_stale">اگر اسکور اپ ڈیٹ نہ ہو سکیں</string>
+    <string name="opt_amb_scores">لائیو اسکور دکھائیں</string>
+    <string name="opt_amb_shift">اسکرین کی حفاظت کے لیے گھڑی ہٹاتے رہیں</string>
+    <string name="opt_amb_dim">رات کو مدھم کریں</string>
+
+    <string name="grp_cricket">کرکٹ</string>
+    <string name="grp_football">فٹ بال</string>
+    <string name="grp_basketball">باسکٹ بال</string>
+    <string name="grp_us">امریکی کھیل</string>
+    <string name="grp_tennis">ٹینس</string>
+    <string name="grp_motor">موٹر اسپورٹ</string>
+    <string name="grp_golf">گالف</string>
+
+    <!-- Ambient -->
+    <string name="press_any">کوئی بھی بٹن دبائیں</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup -->
+    <string name="setup_title">لانچر سیٹ اپ</string>
+    <string name="step_of">مرحلہ %1$d از %2$d</string>
+    <string name="back">واپس</string>
+    <string name="next">آگے بڑھیں</string>
+    <string name="finish">مکمل کریں</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ منتقل کریں · OK منتخب کریں · انتخابات سے ▶ دبا کر آگے بڑھیں تک جائیں · Back پچھلا مرحلہ</string>
+    <string name="s1_title">اپنی زبان منتخب کریں</string>
+    <string name="s1_sub">منتخب کرتے ہی Summit کی زبان بدل جاتی ہے۔</string>
+    <string name="s2_title">آپ ٹی وی کہاں دیکھتے ہیں؟</string>
+    <string name="s2_sub">ہوم پر ٹی وی دیکھیں اسے ایک بار OK دبانے سے کھولتا ہے۔</string>
+    <string name="signal_yes">سگنل ملا</string>
+    <string name="signal_no">کوئی سگنل نہیں</string>
+    <string name="recommended">تجویز کردہ</string>
+    <string name="antenna">اینٹینا (DTV)</string>
+    <string name="s3_title">ہوم پر کون سے اسکور دکھائیں؟</string>
+    <string name="s3_sub">جتنے چاہیں منتخب کریں۔ لائیو میچ پہلے دکھتے ہیں۔</string>
+    <string name="s_fav_title">اپنی پسندیدہ ایپس منتخب کریں</string>
+    <string name="s_fav_sub">یہ ہوم پر رہتی ہیں، بس ایک بٹن کی دوری پر۔ جتنی چاہیں منتخب کریں۔</string>
+    <string name="s_wall_title">وال پیپر منتخب کریں</string>
+    <string name="s_wall_sub">ہوم اور اسکرین سیور کے پیچھے دکھتا ہے۔</string>
+    <string name="setup_preview_note">آپ کی ہوم اسکرین۔ یہ سب بعد میں ترتیبات میں بدل سکتے ہیں۔</string>
+    <string name="s4_title">انداز منتخب کریں</string>
+    <string name="s4_sub">آٹو شام 6 بجے سے صبح 6 بجے تک ڈارک اور دن میں لائٹ رہتا ہے۔</string>
+    <string name="tennis">ٹینس</string>
+    <string name="formula1">فارمولا 1</string>
+    <string name="usage_title">حال ہی میں استعمال کی گئی ایپس ہوم پر دکھائیں؟</string>
+    <string name="usage_body">استعمال تک رسائی کی اجازت دیں تاکہ جاری رکھیں قطار آپ کی حالیہ ایپس دکھا سکے۔</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="skip">چھوڑیں</string>
+    <string name="run_setup">ابتدائی سیٹ اپ چلائیں</string>
+    <string name="change_city">شہر بدلیں</string>
+    <string name="kick_off">کک آف %s</string>
+    <string name="mode_input">ٹی وی ان پٹ</string>
+    <string name="mode_input_sub">HDMI، AV یا اینٹینا</string>
+    <string name="mode_app">ایپ</string>
+    <string name="mode_app_sub">کوئی لائیو ٹی وی ایپ</string>
+    <string name="search_city">شہر تلاش کریں</string>
+    <string name="use_current">موجودہ مقام استعمال کریں</string>
+    <string name="use_current_named">موجودہ مقام استعمال کریں (%s)</string>
+    <string name="searching">تلاش جاری ہے…</string>
+    <string name="no_results">کوئی شہر نہیں ملا</string>
+    <string name="search_failed">ابھی تلاش نہیں ہو سکتی۔ انٹرنیٹ کنکشن چیک کریں۔</string>
+    <string name="resume_now">دوبارہ شروع کریں · ابھی</string>
+</resources>
