@@ -22,7 +22,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Wallpapers published in the repository's {@code wallpapers/} folder, so new ones reach TVs without growing the
@@ -51,9 +50,13 @@ final class OnlineWallpapers {
             names = o.optJSONObject("names");
         }
 
-        /** @return the name in {@code locale}'s language when the entry has one, else the English name. */
-        String name(Locale locale) {
-            String local = names == null ? null : names.optString(locale.getLanguage(), null);
+        /**
+         * @param language the app's language code (Prefs.LANGUAGE, e.g. "zh-Hant"); Locale codes are not used
+         *                 because Android reports some as legacy codes ("iw" for Hebrew)
+         * @return the name in that language when the entry has one, else the English name
+         */
+        String name(String language) {
+            String local = names == null ? null : names.optString(language, null);
             return local == null || local.isEmpty() ? name : local;
         }
     }

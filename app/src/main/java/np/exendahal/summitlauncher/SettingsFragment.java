@@ -205,7 +205,7 @@ public class SettingsFragment extends Screen {
                 List<String> wn = new ArrayList<>(Arrays.asList(arr(R.array.e_wallpaper)));
                 for (OnlineWallpapers.Item w : OnlineWallpapers.list(requireContext())) {
                     wv.add(OnlineWallpapers.PREFIX + w.id);
-                    wn.add(w.name(Ui.locale(p)));
+                    wn.add(w.name(p.str(Prefs.LANGUAGE)));
                 }
                 wv.add("custom");
                 wn.add(getString(R.string.wallpaper_custom));
