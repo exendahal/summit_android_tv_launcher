@@ -17,7 +17,6 @@ Mountains are the theme: every wallpaper should have mountains as its main subje
    {
      "id": "glacier",
      "name": "Glacier",
-     "names": { "ne": "हिमनदी" },
      "author": "Your name",
      "image": "images/glacier.png",
      "thumb": "thumbs/glacier.png"

@@ -12,7 +12,7 @@ optional regional calendar. It is built to stay light on 1 GB TV boxes.
 - **Watch TV** first: one press of OK opens your TV input (HDMI, AV, antenna) or live-TV app.
 - **Continue**: the apps you used last, with how long ago (needs usage access, which Summit asks for at the end of setup).
 - **Favourites**: your pinned apps; hold OK to pin, unpin or move them.
-- Large clock with the date (and an optional regional calendar date), a daily health tip, and live match scores.
+- Large clock with the date (and an optional regional calendar date) and a daily health tip.
 - Header with Home, Apps and Settings, a weather chip that opens a full forecast, voice search and the TV's own settings.
 
 ### Apps
@@ -40,8 +40,7 @@ Inside **Screensaver**, the preview shows the screensaver instead.
 | Home screen | Watch TV tile, Continue row, favourites order, health tip |
 | Live TV | TV input or app, open Watch TV when the TV starts |
 | Icons & tiles | Tile size, tile shape (rounded or square), app names (always, when selected, off) |
-| Scores | Leagues, how many, live first, stale scores |
-| Screensaver | Use as screensaver, live scores, move clock to protect the screen, dim at night |
+| Screensaver | Use as screensaver, move clock to protect the screen, dim at night |
 
 With **Colour › From wallpaper**, a picture wallpaper sets the theme colour to the closest of the 9 colours.
 
@@ -53,13 +52,13 @@ pull request; see [wallpapers/README.md](wallpapers/README.md).
 
 ### First-run setup
 A short guided setup in the same style, with a live preview of Home: where you watch TV, favourite apps, wallpaper,
-look (mode and colour), language, and scores. Every choice applies immediately and can be changed later in
+look (mode and colour) and language. Every choice applies immediately and can be changed later in
 Settings; **Settings › Run first-time setup** opens it again.
 
 ![Setup](docs/screenshots/setup.png)
 
 ### Ambient screensaver
-A quiet clock with the dates, weather, health tip and live scores over a faded wallpaper. It shifts every minute to
+A quiet clock with the dates, weather and health tip over a faded wallpaper. It shifts every minute to
 protect the screen from burn-in and dims at night. See [Set Summit as the screensaver](#set-summit-as-the-screensaver).
 
 ![Screensaver](docs/screenshots/screensaver.png)
@@ -115,14 +114,6 @@ falling back to ipwho.is). The detection is city-level and stops once you choose
 Home (or **Settings › Weather › Location**) to use the current location or search any city through Open-Meteo
 geocoding.
 
-### Scores
-Home only shows matches that are live, start within the next hour, or finished within the last hour; otherwise the
-scores row is hidden. `prodData` reads ESPN's public scoreboard (`site.api.espn.com`, unofficial, no key) for
-Premier League, LaLiga, Champions League, Serie A, Bundesliga, Ligue 1, NBA, NFL, NHL and MLB, refreshing every
-60 s while a match is live and every 15 min otherwise. Cricket (IPL, Big Bash, internationals), EuroLeague,
-tennis, F1, MotoGP and golf have no source yet. Google is not used: it has no scores API, and scraping its result
-pages is against its terms.
-
 ## Contributing
 Bug reports, ideas and pull requests are welcome.
 
@@ -135,8 +126,6 @@ Bug reports, ideas and pull requests are welcome.
 - **Open a pull request** using the template: say what changed and how you tested it, make sure
   `./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease` passes, and add screenshots for
   UI changes.
-
-The forms and template live in [`.github/`](.github).
 
 ## License
 Summit is released under the [MIT License](LICENSE).
