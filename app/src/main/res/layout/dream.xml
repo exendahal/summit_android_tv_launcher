@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dream_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="?attr/hAmbientBg">
+    <ImageView android:id="@+id/wallpaper" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:alpha="0.5" android:importantForAccessibility="no" />
+    <LinearLayout android:id="@+id/block" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center_vertical"
+        android:paddingStart="96dp" android:paddingEnd="@dimen/pad_h" android:paddingTop="@dimen/pad_v" android:paddingBottom="@dimen/pad_v">
+        <TextView android:id="@+id/clock" style="@style/Himal.Clock" android:textSize="120sp" android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/bs" style="@style/Himal.Title" android:textSize="20sp" android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" />
+        <TextView android:id="@+id/ad" style="@style/Himal.BodyLarge" android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/health" style="@style/Himal.BodyLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <TextView android:id="@+id/scores" style="@style/Himal.Body"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" />
+        <TextView style="@style/Himal.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/press_any" />
+    </LinearLayout>
+</FrameLayout>
