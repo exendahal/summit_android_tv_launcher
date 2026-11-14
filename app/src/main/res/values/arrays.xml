@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
+    <string-array name="categories">
+        <item>Theme</item><item>Font</item><item>Language</item><item>Weather</item>
+        <item>Home screen</item><item>Live TV</item><item>Icons &amp; tiles</item><item>Scores</item><item>Screensaver</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>Auto by time</item><item>Dark</item><item>Light</item></string-array>
+    <string-array name="e_theme_colour"><item>From wallpaper</item><item>Coral</item><item>Green</item><item>Custom</item></string-array>
+    <string-array name="e_custom_colour"><item>Red</item><item>Orange</item><item>Yellow</item><item>Green</item><item>Teal</item><item>Blue</item><item>Indigo</item><item>Purple</item><item>Pink</item></string-array>
+    <string-array name="e_contrast"><item>Standard</item><item>High</item></string-array>
+    <string-array name="e_animations"><item>Full</item><item>Reduced</item><item>Off</item></string-array>
+    <string-array name="e_wallpaper"><item>Mountain scene</item><item>Ridge line</item><item>Plain</item><item>Phewa sunset</item><item>Himalaya night</item><item>Terai fields</item><item>Prayer flags</item></string-array>
+    <string-array name="e_dim"><item>Off</item><item>30%</item><item>60%</item></string-array>
+    <string-array name="e_text_size"><item>Default</item><item>Large</item><item>Extra large</item></string-array>
+    <string-array name="e_off_on"><item>Off</item><item>On</item></string-array>
+    <string-array name="e_on_off"><item>On</item><item>Off</item></string-array>
+    <string-array name="e_labels"><item>Always</item><item>When selected</item><item>Off</item></string-array>
+    <string-array name="e_show_hide"><item>Show</item><item>Hide</item></string-array>
+    <string-array name="e_calendar"><item>Both</item><item>Bikram Sambat</item><item>Gregorian</item></string-array>
+    <string-array name="e_time"><item>12-hour</item><item>24-hour</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>km/h</item><item>m/s</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>mm</item><item>inches</item></string-array>
+    <string-array name="e_watch_tile"><item>First in row</item><item>Hidden</item></string-array>
+    <string-array name="e_fav_order"><item>Most used</item><item>Manual</item></string-array>
+    <string-array name="e_health"><item>Ambient only</item><item>Home and Ambient</item><item>Off</item></string-array>
+    <string-array name="e_live_type"><item>TV input</item><item>App</item></string-array>
+    <string-array name="e_tile_size"><item>Medium</item><item>Large</item><item>Small</item></string-array>
+    <string-array name="e_tile_shape"><item>Rounded</item><item>Square</item></string-array>
+    <string-array name="e_score_max"><item>Up to 4</item><item>Up to 6</item><item>Up to 3</item><item>Up to 2</item></string-array>
+    <string-array name="e_stale"><item>Say \"unavailable\"</item><item>Hide scores</item></string-array>
+
+    <!-- Native name / English name, same order as SettingsFragment.LANG_CODES -->
+    <string-array name="languages" translatable="false">
+        <item>English</item>
+        <item>नेपाली / Nepali</item>
+        <item>हिन्दी / Hindi</item>
+        <item>中文（简体）/ Chinese (Simplified)</item>
+        <item>Español / Spanish</item>
+        <item>Français / French</item>
+        <item>العربية / Arabic</item>
+        <item>Português / Portuguese</item>
+        <item>Русский / Russian</item>
+        <item>日本語 / Japanese</item>
+        <item>Deutsch / German</item>
+        <item>한국어 / Korean</item>
+        <item>中文（繁體）/ Chinese (Traditional)</item>
+        <item>বাংলা / Bengali</item>
+        <item>اردو / Urdu</item>
+        <item>Italiano / Italian</item>
+        <item>Türkçe / Turkish</item>
+        <item>Bahasa Indonesia / Indonesian</item>
+        <item>Bahasa Melayu / Malay</item>
+        <item>Tiếng Việt / Vietnamese</item>
+        <item>ไทย / Thai</item>
+        <item>Filipino</item>
+        <item>فارسی / Persian</item>
+        <item>עברית / Hebrew</item>
+        <item>Polski / Polish</item>
+        <item>Українська / Ukrainian</item>
+        <item>Nederlands / Dutch</item>
+        <item>Svenska / Swedish</item>
+        <item>Dansk / Danish</item>
+        <item>Norsk / Norwegian</item>
+        <item>Suomi / Finnish</item>
+        <item>Čeština / Czech</item>
+        <item>Magyar / Hungarian</item>
+        <item>Română / Romanian</item>
+        <item>Ελληνικά / Greek</item>
+        <item>Kiswahili / Swahili</item>
+        <item>தமிழ் / Tamil</item>
+        <item>తెలుగు / Telugu</item>
+        <item>ਪੰਜਾਬੀ / Punjabi</item>
+        <item>ગુજરાતી / Gujarati</item>
+        <item>සිංහල / Sinhala</item>
+        <item>မြန်မာ / Burmese</item>
+        <item>བོད་ཡིག / Tibetan</item>
+    </string-array>
+
+    <!-- Appendix D: selected by day of month % 7 -->
+    <string-array name="health">
+        <item>Health is your real wealth. Move a little, smile a lot.</item>
+        <item>A 20-minute walk today is a gift to tomorrow\'s you.</item>
+        <item>Drink a glass of water before the next episode.</item>
+        <item>Rest your eyes: every 20 minutes, look far away for 20 seconds.</item>
+        <item>Good sleep is the best training plan. Switch off on time tonight.</item>
+        <item>Stand up and stretch at every break. Your back will thank you.</item>
+        <item>Eat like the hills are watching: fresh, simple, and seasonal.</item>
+    </string-array>
+</resources>

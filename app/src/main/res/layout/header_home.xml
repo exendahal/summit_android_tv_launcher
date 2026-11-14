@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="@dimen/header_h"
+    android:orientation="horizontal" android:gravity="center_vertical" android:clipChildren="false">
+    <!-- Nav pills; the current screen's pill is selected -->
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:background="@drawable/bg_glass" android:padding="3dp" android:orientation="horizontal"
+        android:clipChildren="false" android:clipToPadding="false">
+        <TextView android:id="@+id/nav_home" style="@style/Himal.Pill" android:text="@string/nav_home" />
+        <TextView android:id="@+id/nav_apps" style="@style/Himal.Pill" android:text="@string/nav_apps" />
+        <TextView android:id="@+id/nav_settings" style="@style/Himal.Pill" android:text="@string/nav_settings" />
+    </LinearLayout>
+    <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+    <LinearLayout android:id="@+id/weather_chip" android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:background="@drawable/bg_glass_focus" android:focusable="true" android:clickable="true"
+        android:paddingStart="12dp" android:paddingEnd="14dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <ImageView android:id="@+id/weather_icon" android:layout_width="18dp" android:layout_height="18dp"
+            android:importantForAccessibility="no" app:tint="?attr/colorPrimary" />
+        <TextView android:id="@+id/weather_temp" style="@style/Himal.BodyLarge" android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" />
+        <TextView android:id="@+id/weather_text" style="@style/Himal.Body"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" />
+        <TextView android:id="@+id/weather_hl" style="@style/Himal.Caption"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/search" android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_marginStart="8dp" android:background="@drawable/bg_glass_focus" android:focusable="true" android:clickable="true"
+        android:paddingStart="4dp" android:paddingEnd="14dp" android:gravity="center_vertical" android:orientation="horizontal"
+        android:contentDescription="@string/search">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:padding="5dp"
+            android:background="@drawable/bg_circle_primary" android:src="@drawable/ic_mic"
+            app:tint="?attr/colorOnPrimary" android:importantForAccessibility="no" />
+        <TextView style="@style/Himal.BodyLarge" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" android:text="@string/search" />
+    </LinearLayout>
+    <ImageView android:id="@+id/gear" android:layout_width="@dimen/header_h" android:layout_height="@dimen/header_h"
+        android:layout_marginStart="8dp" android:padding="8dp" android:background="@drawable/bg_glass_focus"
+        android:focusable="true" android:clickable="true" android:src="@drawable/ic_settings"
+        app:tint="?attr/colorOnSurface" android:contentDescription="@string/tv_settings" />
+    <TextView android:id="@+id/header_clock" style="@style/Himal.Title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="16dp" android:visibility="gone" />
+</LinearLayout>

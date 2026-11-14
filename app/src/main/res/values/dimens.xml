@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overscan-safe padding (PRD 2, 5.1) -->
+    <dimen name="pad_h">48dp</dimen>
+    <dimen name="pad_v">27dp</dimen>
+    <dimen name="header_h">36dp</dimen>
+    <dimen name="focus_ring">2dp</dimen>
+    <!-- Row keyline: focused item stays ~150dp from the left once a row scrolls (PRD 7.3) -->
+    <dimen name="row_keyline">150dp</dimen>
+    <dimen name="tile_gap">12dp</dimen>
+
+    <dimen name="watch_w">220dp</dimen>
+    <dimen name="watch_h">120dp</dimen>
+    <dimen name="continue_w">150dp</dimen>
+    <dimen name="fav_w">112dp</dimen>
+    <dimen name="fav_h">66dp</dimen>
+    <dimen name="grid_tile_h">74dp</dimen>
+
+    <dimen name="r_watch">18dp</dimen>
+    <dimen name="r_continue">16dp</dimen>
+    <dimen name="r_tile">14dp</dimen>
+    <dimen name="r_focused">22dp</dimen>
+    <!-- Settings list (Android TV preference style) -->
+    <dimen name="r_pref_row">12dp</dimen>
+    <dimen name="pref_row_min_h">46dp</dimen>
+    <dimen name="pref_row_pad_h">16dp</dimen>
+    <dimen name="pref_icon">22dp</dimen>
+    <dimen name="pref_slide">24dp</dimen>
+    <dimen name="wallpaper_thumb_h">64dp</dimen>
+    <dimen name="r_square">4dp</dimen>
+    <dimen name="cookie">40dp</dimen>
+
+    <item name="scale_focus" format="float" type="dimen">1.06</item>
+    <item name="scale_focus_pill" format="float" type="dimen">1.08</item>
+    <!-- Text size setting multipliers (PRD 5.3) -->
+    <item name="dim_30" format="float" type="dimen">0.14</item>
+    <item name="dim_60" format="float" type="dimen">0.26</item>
+    <item name="night_dim_alpha" format="float" type="dimen">0.55</item>
+
+    <dimen name="dialog_score_w">300dp</dimen>
+    <dimen name="dialog_weather_w">380dp</dimen>
+    <dimen name="dialog_app_w">340dp</dimen>
+    <dimen name="burn_in_x1">14dp</dimen><dimen name="burn_in_y1">-9dp</dimen>
+    <dimen name="burn_in_x2">-10dp</dimen><dimen name="burn_in_y2">7dp</dimen>
+    <dimen name="burn_in_x3">7dp</dimen><dimen name="burn_in_y3">11dp</dimen>
+</resources>

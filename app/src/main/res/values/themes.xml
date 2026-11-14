@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base themes hold the neutral roles; a seed overlay (below) is layered on top by ThemeController. -->
+    <style name="Theme.Himal.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:colorBackground">@color/dark_bg</item>
+        <item name="colorSurface">@color/dark_bg</item>
+        <item name="colorSurfaceContainer">@color/dark_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/dark_surface_high</item>
+        <item name="colorSecondaryContainer">@color/dark_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/dark_text</item>
+        <item name="colorOutline">@color/dark_outline</item>
+        <item name="colorOutlineVariant">@color/dark_outline_variant</item>
+        <item name="colorOnSurface">@color/dark_text</item>
+        <item name="colorOnSurfaceVariant">@color/dark_text2</item>
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_text2</item>
+        <item name="hGlass">@color/dark_glass</item>
+        <item name="hMuted">@color/dark_muted</item>
+        <item name="hScrim">@color/dark_scrim</item>
+        <item name="hTint">@color/dark_tint</item>
+        <item name="hAmbientBg">@color/dark_ambient</item>
+        <item name="hRidge1">@color/dark_ridge1</item>
+        <item name="hRidge2">@color/dark_ridge2</item>
+        <item name="hRidge3">@color/dark_ridge3</item>
+        <item name="hSnow">@color/dark_snow</item>
+    </style>
+
+    <style name="Theme.Himal.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/light_bg</item>
+        <item name="android:colorBackground">@color/light_bg</item>
+        <item name="colorSurface">@color/light_bg</item>
+        <item name="colorSurfaceContainer">@color/light_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/light_surface_high</item>
+        <item name="colorSecondaryContainer">@color/light_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/light_text</item>
+        <item name="colorOutline">@color/light_outline</item>
+        <item name="colorOutlineVariant">@color/light_outline</item>
+        <item name="colorOnSurface">@color/light_text</item>
+        <item name="colorOnSurfaceVariant">@color/light_text2</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_text2</item>
+        <item name="hGlass">@color/light_glass</item>
+        <item name="hMuted">@color/light_muted</item>
+        <item name="hScrim">@color/light_scrim</item>
+        <item name="hTint">@color/light_tint</item>
+        <item name="hAmbientBg">@color/light_ambient</item>
+        <item name="hRidge1">@color/light_ridge1</item>
+        <item name="hRidge2">@color/light_ridge2</item>
+        <item name="hRidge3">@color/light_ridge3</item>
+        <item name="hSnow">@color/light_snow</item>
+    </style>
+
+    <!-- High contrast (PRD 11): secondary text becomes primary text, glass becomes solid. -->
+    <style name="ThemeOverlay.Himal.Contrast.Dark" parent="">
+        <item name="colorOnSurfaceVariant">@color/dark_text</item>
+        <item name="hMuted">@color/dark_text</item>
+        <item name="hGlass">@color/dark_surface</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Contrast.Light" parent="">
+        <item name="colorOnSurfaceVariant">@color/light_text</item>
+        <item name="hMuted">@color/light_text</item>
+        <item name="hGlass">@color/light_surface</item>
+    </style>
+
+    <!-- Seed overlays (PRD 5.2) -->
+    <style name="ThemeOverlay.Himal.Mountain.Dark" parent="">
+        <item name="colorPrimary">@color/mountain_d_p</item>
+        <item name="colorOnPrimary">@color/mountain_d_op</item>
+        <item name="colorPrimaryContainer">@color/mountain_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/mountain_d_opc</item>
+        <item name="colorSecondary">@color/mountain_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Mountain.Light" parent="">
+        <item name="colorPrimary">@color/mountain_l_p</item>
+        <item name="colorOnPrimary">@color/mountain_l_op</item>
+        <item name="colorPrimaryContainer">@color/mountain_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/mountain_l_opc</item>
+        <item name="colorSecondary">@color/mountain_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Phewa.Dark" parent="">
+        <item name="colorPrimary">@color/phewa_d_p</item>
+        <item name="colorOnPrimary">@color/phewa_d_op</item>
+        <item name="colorPrimaryContainer">@color/phewa_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/phewa_d_opc</item>
+        <item name="colorSecondary">@color/phewa_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Phewa.Light" parent="">
+        <item name="colorPrimary">@color/phewa_l_p</item>
+        <item name="colorOnPrimary">@color/phewa_l_op</item>
+        <item name="colorPrimaryContainer">@color/phewa_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/phewa_l_opc</item>
+        <item name="colorSecondary">@color/phewa_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Night.Dark" parent="">
+        <item name="colorPrimary">@color/night_d_p</item>
+        <item name="colorOnPrimary">@color/night_d_op</item>
+        <item name="colorPrimaryContainer">@color/night_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/night_d_opc</item>
+        <item name="colorSecondary">@color/night_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Night.Light" parent="">
+        <item name="colorPrimary">@color/night_l_p</item>
+        <item name="colorOnPrimary">@color/night_l_op</item>
+        <item name="colorPrimaryContainer">@color/night_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/night_l_opc</item>
+        <item name="colorSecondary">@color/night_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Terai.Dark" parent="">
+        <item name="colorPrimary">@color/terai_d_p</item>
+        <item name="colorOnPrimary">@color/terai_d_op</item>
+        <item name="colorPrimaryContainer">@color/terai_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/terai_d_opc</item>
+        <item name="colorSecondary">@color/terai_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Terai.Light" parent="">
+        <item name="colorPrimary">@color/terai_l_p</item>
+        <item name="colorOnPrimary">@color/terai_l_op</item>
+        <item name="colorPrimaryContainer">@color/terai_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/terai_l_opc</item>
+        <item name="colorSecondary">@color/terai_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Flags.Dark" parent="">
+        <item name="colorPrimary">@color/flags_d_p</item>
+        <item name="colorOnPrimary">@color/flags_d_op</item>
+        <item name="colorPrimaryContainer">@color/flags_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/flags_d_opc</item>
+        <item name="colorSecondary">@color/flags_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.Flags.Light" parent="">
+        <item name="colorPrimary">@color/flags_l_p</item>
+        <item name="colorOnPrimary">@color/flags_l_op</item>
+        <item name="colorPrimaryContainer">@color/flags_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/flags_l_opc</item>
+        <item name="colorSecondary">@color/flags_l_p</item>
+    </style>
+
+    <!-- Custom colour overlays (Theme › Colour › Custom) -->
+    <style name="ThemeOverlay.Himal.CRed.Dark" parent="">
+        <item name="colorPrimary">@color/c_red_d_p</item>
+        <item name="colorOnPrimary">@color/c_red_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_red_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_red_d_opc</item>
+        <item name="colorSecondary">@color/c_red_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CRed.Light" parent="">
+        <item name="colorPrimary">@color/c_red_l_p</item>
+        <item name="colorOnPrimary">@color/c_red_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_red_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_red_l_opc</item>
+        <item name="colorSecondary">@color/c_red_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.COrange.Dark" parent="">
+        <item name="colorPrimary">@color/c_orange_d_p</item>
+        <item name="colorOnPrimary">@color/c_orange_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_orange_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_orange_d_opc</item>
+        <item name="colorSecondary">@color/c_orange_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.COrange.Light" parent="">
+        <item name="colorPrimary">@color/c_orange_l_p</item>
+        <item name="colorOnPrimary">@color/c_orange_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_orange_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_orange_l_opc</item>
+        <item name="colorSecondary">@color/c_orange_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CYellow.Dark" parent="">
+        <item name="colorPrimary">@color/c_yellow_d_p</item>
+        <item name="colorOnPrimary">@color/c_yellow_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_yellow_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_yellow_d_opc</item>
+        <item name="colorSecondary">@color/c_yellow_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CYellow.Light" parent="">
+        <item name="colorPrimary">@color/c_yellow_l_p</item>
+        <item name="colorOnPrimary">@color/c_yellow_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_yellow_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_yellow_l_opc</item>
+        <item name="colorSecondary">@color/c_yellow_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CGreen.Dark" parent="">
+        <item name="colorPrimary">@color/c_green_d_p</item>
+        <item name="colorOnPrimary">@color/c_green_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_green_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_green_d_opc</item>
+        <item name="colorSecondary">@color/c_green_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CGreen.Light" parent="">
+        <item name="colorPrimary">@color/c_green_l_p</item>
+        <item name="colorOnPrimary">@color/c_green_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_green_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_green_l_opc</item>
+        <item name="colorSecondary">@color/c_green_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CTeal.Dark" parent="">
+        <item name="colorPrimary">@color/c_teal_d_p</item>
+        <item name="colorOnPrimary">@color/c_teal_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_teal_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_teal_d_opc</item>
+        <item name="colorSecondary">@color/c_teal_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CTeal.Light" parent="">
+        <item name="colorPrimary">@color/c_teal_l_p</item>
+        <item name="colorOnPrimary">@color/c_teal_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_teal_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_teal_l_opc</item>
+        <item name="colorSecondary">@color/c_teal_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CBlue.Dark" parent="">
+        <item name="colorPrimary">@color/c_blue_d_p</item>
+        <item name="colorOnPrimary">@color/c_blue_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_blue_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_blue_d_opc</item>
+        <item name="colorSecondary">@color/c_blue_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CBlue.Light" parent="">
+        <item name="colorPrimary">@color/c_blue_l_p</item>
+        <item name="colorOnPrimary">@color/c_blue_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_blue_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_blue_l_opc</item>
+        <item name="colorSecondary">@color/c_blue_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CIndigo.Dark" parent="">
+        <item name="colorPrimary">@color/c_indigo_d_p</item>
+        <item name="colorOnPrimary">@color/c_indigo_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_indigo_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_indigo_d_opc</item>
+        <item name="colorSecondary">@color/c_indigo_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CIndigo.Light" parent="">
+        <item name="colorPrimary">@color/c_indigo_l_p</item>
+        <item name="colorOnPrimary">@color/c_indigo_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_indigo_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_indigo_l_opc</item>
+        <item name="colorSecondary">@color/c_indigo_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CPurple.Dark" parent="">
+        <item name="colorPrimary">@color/c_purple_d_p</item>
+        <item name="colorOnPrimary">@color/c_purple_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_purple_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_purple_d_opc</item>
+        <item name="colorSecondary">@color/c_purple_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CPurple.Light" parent="">
+        <item name="colorPrimary">@color/c_purple_l_p</item>
+        <item name="colorOnPrimary">@color/c_purple_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_purple_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_purple_l_opc</item>
+        <item name="colorSecondary">@color/c_purple_l_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CPink.Dark" parent="">
+        <item name="colorPrimary">@color/c_pink_d_p</item>
+        <item name="colorOnPrimary">@color/c_pink_d_op</item>
+        <item name="colorPrimaryContainer">@color/c_pink_d_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_pink_d_opc</item>
+        <item name="colorSecondary">@color/c_pink_d_p</item>
+    </style>
+    <style name="ThemeOverlay.Himal.CPink.Light" parent="">
+        <item name="colorPrimary">@color/c_pink_l_p</item>
+        <item name="colorOnPrimary">@color/c_pink_l_op</item>
+        <item name="colorPrimaryContainer">@color/c_pink_l_pc</item>
+        <item name="colorOnPrimaryContainer">@color/c_pink_l_opc</item>
+        <item name="colorSecondary">@color/c_pink_l_p</item>
+    </style>
+
+    <!-- Type scale (PRD 5.3, sp = design px / 2) -->
+    <style name="Himal" />
+    <style name="Himal.Clock">
+        <item name="android:textSize">64sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="Himal.Headline">
+        <item name="android:textSize">19sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="Himal.Title">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="Himal.BodyLarge">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="Himal.Body">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="Himal.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">?attr/hMuted</item>
+    </style>
+    <style name="Himal.Pill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/pill_text</item>
+        <item name="android:background">@drawable/bg_pill</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

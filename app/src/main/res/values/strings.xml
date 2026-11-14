@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Summit</string>
+    <string name="wordmark" translatable="false">Summit</string>
+    <string name="ambient_name">Summit ambient</string>
+
+    <!-- Header -->
+    <string name="nav_home">Home</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="tv_settings">Android TV settings</string>
+
+    <!-- Home rows -->
+    <string name="watch_tv">Watch TV</string>
+    <string name="continue_title">Continue</string>
+    <string name="favourites_title">Favourites · hold OK to pin or move</string>
+    <string name="all_apps">All apps</string>
+    <string name="show_recents">Show recent apps</string>
+    <string name="not_default_banner">Set Summit as your home screen · press OK for how</string>
+    <string name="not_default_title">Set Summit as your home screen</string>
+    <string name="not_default_help">Open Settings › Apps › Default apps › Home app and choose Summit. Some Google TV devices do not let you change the home app; Summit still works from the app list.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="usage_unavailable">Open Settings › Apps › Special app access › Usage access and allow Summit.</string>
+    <string name="move_hint">◀ ▶ move · OK drop · Back cancel</string>
+
+    <!-- Relative time -->
+    <string name="resume_min">Resume · %d min ago</string>
+    <string name="resume_h">Resume · %d h ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="days_ago">%d days ago</string>
+    <string name="last_week">Last week</string>
+    <string name="updated_now">Updated just now</string>
+    <plurals name="updated_ago">
+        <item quantity="one">Updated %d minute ago</item>
+        <item quantity="other">Updated %d minutes ago</item>
+    </plurals>
+
+    <!-- Scores -->
+    <string name="live">LIVE</string>
+    <string name="ft">FT</string>
+    <string name="scores_unavailable">Scores unavailable</string>
+    <string name="score_cd">%1$s. Press OK for details</string>
+    <string name="score_live_suffix">%1$s · LIVE</string>
+    <string name="venue_updated">%1$s · %2$s</string>
+
+    <!-- Weather -->
+    <string name="weather_unavailable">Weather unavailable</string>
+    <string name="hi_lo">H %1$s L %2$s</string>
+    <string name="hi_lo_long">High %1$s · Low %2$s</string>
+    <string name="wind_rain">Wind %1$s · Rain today %2$s</string>
+    <string name="weather_title">%1$s · Today</string>
+    <string name="mountains_line">Mountains · Namche Bazaar %1$s, %2$s</string>
+    <string name="rain_pct">Rain %d%%</string>
+    <string name="next_days">Next 3 days</string>
+    <string name="change_units">Change units in Settings</string>
+    <string name="part_morning">Morning</string>
+    <string name="part_afternoon">Afternoon</string>
+    <string name="part_evening">Evening</string>
+    <string name="part_night">Night</string>
+    <string name="cond_clear">Clear</string>
+    <string name="cond_sunny">Sunny</string>
+    <string name="cond_partly">Partly cloudy</string>
+    <string name="cond_cloudy">Cloudy</string>
+    <string name="cond_fog">Foggy</string>
+    <string name="cond_rain">Rain</string>
+    <string name="cond_snow">Snow showers</string>
+    <string name="cond_thunder">Thunderstorms</string>
+    <string name="sum_all_day">%1$s all day</string>
+    <string name="sum_morning">%1$s morning</string>
+    <string name="sum_afternoon">%1$s afternoon</string>
+    <string name="sum_rain_from">rain from %1$s</string>
+    <string name="sum_tonight">%1$s tonight</string>
+    <string name="sum_sep">", "</string>
+    <string name="unit_kmh">%s km/h</string>
+    <string name="unit_ms">%s m/s</string>
+    <string name="unit_mph">%s mph</string>
+    <string name="unit_mm">%s mm</string>
+    <string name="unit_in">%s in</string>
+    <string name="loc_kathmandu">Kathmandu</string>
+    <string name="close">Close</string>
+
+    <!-- Apps -->
+    <string name="apps_hint">◀ ▲ ▼ ▶ move · OK open · hold OK to pin to Favourites · Back to Home</string>
+    <string name="selected_app">Selected: %s</string>
+    <string name="pin">Pin to Favourites</string>
+    <string name="unpin">Unpin from Favourites</string>
+    <string name="move">Move</string>
+    <string name="app_info">App info</string>
+    <string name="uninstall">Uninstall</string>
+
+    <!-- Watch TV / system -->
+    <string name="tv_switch_failed">This TV doesn\'t allow switching inputs from apps. Use the Input button on your remote.</string>
+    <string name="no_tv_input">No TV input found</string>
+    <string name="ask_every_time">Ask every time</string>
+    <string name="choose_live_app">Choose a live TV app</string>
+    <string name="voice_unavailable">Voice search isn\'t available on this TV.</string>
+    <string name="cannot_open">This app can\'t be opened.</string>
+
+    <!-- Settings -->
+    <string name="reset">Reset to default</string>
+    <string name="reset_title">Reset all launcher settings?</string>
+    <string name="reset_body">Theme, wallpaper, language and other launcher settings go back to their defaults. Your apps and favourites stay as they are.</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="settings_hint">▲ ▼ move · OK open or choose · Back goes back. Changes apply instantly.</string>
+    <string name="leagues_header">Pick what shows on Home · %d selected</string>
+    <string name="checked">✓ %s</string>
+    <string name="preview">Preview</string>
+
+    <string name="opt_mode">Mode</string>
+    <string name="opt_colour">Colour</string>
+    <string name="opt_use_screensaver">Use as screensaver</string>
+    <string name="screensaver_setup_title">One-time setup needed</string>
+    <string name="screensaver_setup_body">This TV doesn\'t let apps change the screensaver on their own. Connect a computer once and run:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nThen turn this on again.</string>
+    <string name="wallpaper_custom">My picture</string>
+    <string name="picture_allow">Allow access to pictures</string>
+    <string name="picture_denied">Allow Photos access in Settings › Apps › Summit › Permissions.</string>
+    <string name="picture_none">No pictures found on this TV.</string>
+    <string name="picture_failed">Couldn\'t open that picture.</string>
+    <string name="picture_n">Picture %d</string>
+    <string name="opt_custom_colour">Custom colour</string>
+    <string name="opt_contrast">Contrast</string>
+    <string name="opt_animations">Animations</string>
+    <string name="opt_wallpaper">Wallpaper</string>
+    <string name="opt_dim">Dim wallpaper</string>
+    <string name="opt_text_size">Text size</string>
+    <string name="opt_digits">Devanagari digits</string>
+    <string name="opt_language">Language</string>
+    <string name="opt_calendar">Calendar</string>
+    <string name="opt_time">Time format</string>
+    <string name="opt_temp">Temperature</string>
+    <string name="opt_wind">Wind speed</string>
+    <string name="opt_rain">Rainfall</string>
+    <string name="opt_location">Location</string>
+    <string name="opt_show_home">Show on Home</string>
+    <string name="opt_watch_tile">Watch TV tile</string>
+    <string name="opt_continue">Continue row</string>
+    <string name="opt_fav_order">Favourites order</string>
+    <string name="opt_health">Health line</string>
+    <string name="opt_live_type">Watch TV uses</string>
+    <string name="opt_input">Input source</string>
+    <string name="opt_live_app">App</string>
+    <string name="opt_boot">Open when TV starts</string>
+    <string name="opt_tile_size">Tile size</string>
+    <string name="opt_tile_shape">Tile shape</string>
+    <string name="opt_labels">App names</string>
+    <string name="opt_score_max">Show on Home</string>
+    <string name="opt_live_first">Live matches first</string>
+    <string name="opt_stale">If scores can\'t update</string>
+    <string name="opt_amb_scores">Show live scores</string>
+    <string name="opt_amb_shift">Move clock to protect screen</string>
+    <string name="opt_amb_dim">Dim at night</string>
+
+    <string name="grp_cricket">Cricket</string>
+    <string name="grp_football">Football</string>
+    <string name="grp_basketball">Basketball</string>
+    <string name="grp_us">US sports</string>
+    <string name="grp_tennis">Tennis</string>
+    <string name="grp_motor">Motorsport</string>
+    <string name="grp_golf">Golf</string>
+
+    <!-- Ambient -->
+    <string name="press_any">Press any button</string>
+    <string name="ambient_weather">%1$s %2$s %3$s</string>
+
+    <!-- Setup (PRD 6.1) -->
+    <string name="setup_title">Launcher setup</string>
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="back">Back</string>
+    <string name="next">Continue</string>
+    <string name="finish">Finish</string>
+    <string name="setup_hint">◀ ▲ ▼ ▶ move · OK select · ▶ from the choices reaches Continue · Back previous step</string>
+    <string name="s1_title">Choose your language</string>
+    <string name="s1_sub">Summit changes language as soon as you choose.</string>
+    <string name="s2_title">Where do you watch TV?</string>
+    <string name="s2_sub">Watch TV on Home opens this with one press of OK.</string>
+    <string name="signal_yes">Signal detected</string>
+    <string name="signal_no">No signal</string>
+    <string name="recommended">Recommended</string>
+    <string name="antenna">Antenna (DTV)</string>
+    <string name="s3_title">Which scores should Home show?</string>
+    <string name="s3_sub">Pick as many as you like. Live matches show first.</string>
+    <string name="s_fav_title">Pick your favourite apps</string>
+    <string name="s_fav_sub">They sit on Home, one press away. Choose as many as you like.</string>
+    <string name="s_wall_title">Choose a wallpaper</string>
+    <string name="s_wall_sub">Shown behind Home and the screensaver.</string>
+    <string name="setup_preview_note">Your Home screen. You can change all of this later in Settings.</string>
+    <string name="s4_title">Pick a look</string>
+    <string name="s4_sub">Auto is dark from 6 PM to 6 AM and light during the day.</string>
+    <string name="tennis">Tennis</string>
+    <string name="formula1">Formula 1</string>
+    <string name="usage_title">Show your recently used apps on Home?</string>
+    <string name="usage_body">Allow usage access so the Continue row can show the apps you used recently.</string>
+    <string name="allow">Allow</string>
+    <string name="skip">Skip</string>
+    <string name="run_setup">Run first-time setup</string>
+    <string name="change_city">Change city</string>
+    <string name="kick_off">Kick-off %s</string>
+    <string name="mode_input">TV input</string>
+    <string name="mode_input_sub">HDMI, AV or antenna</string>
+    <string name="mode_app">App</string>
+    <string name="mode_app_sub">A live TV app</string>
+    <string name="search_city">Search for a city</string>
+    <string name="use_current">Use current location</string>
+    <string name="use_current_named">Use current location (%s)</string>
+    <string name="searching">Searching…</string>
+    <string name="no_results">No cities found</string>
+    <string name="search_failed">Can\'t search right now. Check the internet connection.</string>
+    <string name="resume_now">Resume · just now</string>
+</resources>

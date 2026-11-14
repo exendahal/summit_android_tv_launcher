@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>थिम</item><item>फन्ट</item><item>भाषा</item><item>मौसम</item>
+        <item>गृह स्क्रिन</item><item>लाइभ टिभी</item><item>आइकन र टाइल</item><item>स्कोर</item><item>स्क्रिनसेभर</item>
+    </string-array>
+    <string-array name="e_theme_mode"><item>समय अनुसार</item><item>गाढा</item><item>उज्यालो</item></string-array>
+    <string-array name="e_theme_colour"><item>वालपेपरबाट</item><item>कोरल</item><item>हरियो</item><item>आफ्नै</item></string-array>
+    <string-array name="e_custom_colour"><item>रातो</item><item>सुन्तला</item><item>पहेँलो</item><item>हरियो</item><item>टिल</item><item>नीलो</item><item>गाढा नीलो</item><item>बैजनी</item><item>गुलाबी</item></string-array>
+    <string-array name="e_contrast"><item>सामान्य</item><item>उच्च</item></string-array>
+    <string-array name="e_animations"><item>पूरा</item><item>कम</item><item>बन्द</item></string-array>
+    <string-array name="e_wallpaper"><item>हिमाल दृश्य</item><item>डाँडाको रेखा</item><item>सादा</item><item>फेवा सूर्यास्त</item><item>हिमाली रात</item><item>तराईका खेत</item><item>लुङ्दार</item></string-array>
+    <string-array name="e_dim"><item>बन्द</item><item>३०%</item><item>६०%</item></string-array>
+    <string-array name="e_text_size"><item>सामान्य</item><item>ठूलो</item><item>धेरै ठूलो</item></string-array>
+    <string-array name="e_off_on"><item>बन्द</item><item>खुला</item></string-array>
+    <string-array name="e_on_off"><item>खुला</item><item>बन्द</item></string-array>
+    <string-array name="e_labels"><item>सधैँ</item><item>छानिएको बेला</item><item>बन्द</item></string-array>
+    <string-array name="e_show_hide"><item>देखाउने</item><item>लुकाउने</item></string-array>
+    <string-array name="e_calendar"><item>दुवै</item><item>विक्रम सम्वत्</item><item>ग्रेगोरियन</item></string-array>
+    <string-array name="e_time"><item>१२ घण्टा</item><item>२४ घण्टा</item></string-array>
+    <string-array name="e_temp"><item>°C</item><item>°F</item></string-array>
+    <string-array name="e_wind"><item>कि.मि./घण्टा</item><item>मि./से.</item><item>mph</item></string-array>
+    <string-array name="e_rain"><item>मि.मि.</item><item>इन्च</item></string-array>
+    <string-array name="e_watch_tile"><item>पङ्क्तिमा पहिलो</item><item>लुकाउने</item></string-array>
+    <string-array name="e_fav_order"><item>धेरै प्रयोग</item><item>आफैं मिलाएको</item></string-array>
+    <string-array name="e_health"><item>एम्बियन्टमा मात्र</item><item>गृह र एम्बियन्ट</item><item>बन्द</item></string-array>
+    <string-array name="e_live_type"><item>टिभी इनपुट</item><item>एप</item></string-array>
+    <string-array name="e_tile_size"><item>मध्यम</item><item>ठूलो</item><item>सानो</item></string-array>
+    <string-array name="e_tile_shape"><item>गोलाकार कुना</item><item>वर्गाकार</item></string-array>
+    <string-array name="e_score_max"><item>४ सम्म</item><item>६ सम्म</item><item>३ सम्म</item><item>२ सम्म</item></string-array>
+    <string-array name="e_stale"><item>\"उपलब्ध छैन\" भन्ने</item><item>स्कोर लुकाउने</item></string-array>
+    <string-array name="health">
+        <item>स्वास्थ्य नै साँचो धन हो। अलिकति हिँड्नुहोस्, धेरै मुस्कुराउनुहोस्।</item>
+        <item>आज २० मिनेटको हिँडाइ भोलिको तपाईंलाई उपहार हो।</item>
+        <item>अर्को एपिसोडअघि एक गिलास पानी पिउनुहोस्।</item>
+        <item>आँखालाई आराम: हरेक २० मिनेटमा २० सेकेन्ड टाढा हेर्नुहोस्।</item>
+        <item>राम्रो निद्रा नै उत्तम तालिम हो। आज समयमै टिभी बन्द गर्नुहोस्।</item>
+        <item>हरेक ब्रेकमा उठेर तन्किनुहोस्। ढाडले धन्यवाद दिनेछ।</item>
+        <item>पहाडले हेरेझैं खानुहोस्: ताजा, सादा र मौसमी।</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Motion durations in ms (PRD 5.7) -->
+    <integer name="anim_focus">220</integer>
+    <integer name="anim_shift">2000</integer>
+    <!-- Settings list: focus highlight cross-fade, outgoing and incoming list slide -->
+    <integer name="anim_row_fade">90</integer>
+    <integer name="anim_list_out">110</integer>
+    <integer name="anim_list_in">220</integer>
+    <!-- Delay before applying theme changes, so stepping through values stays responsive -->
+    <integer name="recreate_delay">600</integer>
+    <!-- Data freshness (PRD 8.3, 8.4) -->
+    <integer name="weather_max_age_min">30</integer>
+    <integer name="scores_stale_min">15</integer>
+    <integer name="max_recents">8</integer>
+    <integer name="default_favourites">8</integer>
+    <integer name="grid_columns">6</integer>
+    <integer name="night_start_hour">23</integer>
+    <integer name="night_end_hour">6</integer>
+    <integer name="dark_from_hour">18</integer>
+    <integer name="dark_until_hour">6</integer>
+</resources>

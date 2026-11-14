@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+    <ImageView android:id="@+id/wallpaper" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <View android:id="@+id/tint" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="?attr/hTint" android:visibility="gone" />
+    <View android:id="@+id/dim" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/dim" android:alpha="0" />
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

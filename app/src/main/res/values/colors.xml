@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neutral roles, dark (PRD 5.2) -->
+    <color name="dark_bg">#111318</color>
+    <color name="dark_ambient">#0D0F14</color>
+    <color name="dark_surface">#1D2027</color>
+    <color name="dark_surface_high">#272A31</color>
+    <color name="dark_secondary_container">#3A4558</color>
+    <color name="dark_outline">#3A3E47</color>
+    <color name="dark_outline_variant">#44474E</color>
+    <color name="dark_text">#E2E2E9</color>
+    <color name="dark_text2">#C4C6D0</color>
+    <color name="dark_muted">#A9ABB5</color>
+    <color name="dark_scrim">#9E080A0E</color>
+    <color name="dark_glass">#9E1D2027</color>
+    <color name="dark_tint">#750E1014</color>
+    <color name="dark_ridge1">#273149</color>
+    <color name="dark_ridge2">#1F273A</color>
+    <color name="dark_ridge3">#181D2A</color>
+    <color name="dark_snow">#C9D3E6</color>
+    <!-- Neutral roles, light -->
+    <color name="light_bg">#F9F9FF</color>
+    <color name="light_ambient">#F2F3FA</color>
+    <color name="light_surface">#EDEDF4</color>
+    <color name="light_surface_high">#E7E8EE</color>
+    <color name="light_secondary_container">#DAE2F9</color>
+    <color name="light_outline">#C4C6D0</color>
+    <color name="light_text">#191C20</color>
+    <color name="light_text2">#44474E</color>
+    <color name="light_muted">#5A5D66</color>
+    <color name="light_scrim">#52191C20</color>
+    <color name="light_glass">#ADF9F9FF</color>
+    <color name="light_tint">#94F4F1EB</color>
+    <color name="light_ridge1">#C9D6EE</color>
+    <color name="light_ridge2">#B4C4E2</color>
+    <color name="light_ridge3">#9DB1D6</color>
+    <color name="light_snow">#FFFFFF</color>
+    <color name="dim">#FF000000</color>
+
+    <!-- Seed palettes: primary (p), onPrimary (op), primaryContainer (pc), onPrimaryContainer (opc) -->
+    <color name="mountain_d_p">#A8C7FA</color><color name="mountain_d_op">#062E6F</color><color name="mountain_d_pc">#284777</color><color name="mountain_d_opc">#D6E3FF</color>
+    <color name="mountain_l_p">#415F91</color><color name="mountain_l_op">#FFFFFF</color><color name="mountain_l_pc">#D6E3FF</color><color name="mountain_l_opc">#001B3E</color>
+    <color name="phewa_d_p">#FFB59F</color><color name="phewa_d_op">#5D1A07</color><color name="phewa_d_pc">#7B2F19</color><color name="phewa_d_opc">#FFDBD1</color>
+    <color name="phewa_l_p">#8F4C38</color><color name="phewa_l_op">#FFFFFF</color><color name="phewa_l_pc">#FFDBD1</color><color name="phewa_l_opc">#3A0B01</color>
+    <color name="night_d_p">#BAC3FF</color><color name="night_d_op">#222C61</color><color name="night_d_pc">#394379</color><color name="night_d_opc">#DEE0FF</color>
+    <color name="night_l_p">#525B92</color><color name="night_l_op">#FFFFFF</color><color name="night_l_pc">#DEE0FF</color><color name="night_l_opc">#0D154B</color>
+    <color name="terai_d_p">#B1D18A</color><color name="terai_d_op">#1F3701</color><color name="terai_d_pc">#354E16</color><color name="terai_d_opc">#CDEDA3</color>
+    <color name="terai_l_p">#4C662B</color><color name="terai_l_op">#FFFFFF</color><color name="terai_l_pc">#CDEDA3</color><color name="terai_l_opc">#102000</color>
+    <color name="flags_d_p">#FFB870</color><color name="flags_d_op">#4A2800</color><color name="flags_d_pc">#6A3C00</color><color name="flags_d_opc">#FFDCBE</color>
+    <color name="flags_l_p">#8B5000</color><color name="flags_l_op">#FFFFFF</color><color name="flags_l_pc">#FFDCBE</color><color name="flags_l_opc">#2C1600</color>
+    <!-- Custom theme colours: swatch, then Material tonal palette (tones 80/20/30/90 dark, 40/100/90/10 light) -->
+    <color name="c_red">#E53935</color><color name="c_red_d_p">#FFB4AC</color><color name="c_red_d_op">#690006</color><color name="c_red_d_pc">#93000D</color><color name="c_red_d_opc">#FFDAD6</color>
+    <color name="c_red_l_p">#BB171C</color><color name="c_red_l_op">#FFFFFF</color><color name="c_red_l_pc">#FFDAD6</color><color name="c_red_l_opc">#410002</color>
+    <color name="c_orange">#FB8C00</color><color name="c_orange_d_p">#FFB77B</color><color name="c_orange_d_op">#4C2700</color><color name="c_orange_d_pc">#6D3A00</color><color name="c_orange_d_opc">#FFDCC2</color>
+    <color name="c_orange_l_p">#8F4E00</color><color name="c_orange_l_op">#FFFFFF</color><color name="c_orange_l_pc">#FFDCC2</color><color name="c_orange_l_opc">#2E1500</color>
+    <color name="c_yellow">#FDD835</color><color name="c_yellow_d_p">#E8C41D</color><color name="c_yellow_d_op">#3A3000</color><color name="c_yellow_d_pc">#544600</color><color name="c_yellow_d_opc">#FFE16E</color>
+    <color name="c_yellow_l_p">#705D00</color><color name="c_yellow_l_op">#FFFFFF</color><color name="c_yellow_l_pc">#FFE16E</color><color name="c_yellow_l_opc">#221B00</color>
+    <color name="c_green">#43A047</color><color name="c_green_d_p">#7DDC7A</color><color name="c_green_d_op">#00390A</color><color name="c_green_d_pc">#005313</color><color name="c_green_d_opc">#98F994</color>
+    <color name="c_green_l_p">#006E1C</color><color name="c_green_l_op">#FFFFFF</color><color name="c_green_l_pc">#98F994</color><color name="c_green_l_opc">#002204</color>
+    <color name="c_teal">#00897B</color><color name="c_teal_d_p">#54DBC8</color><color name="c_teal_d_op">#003731</color><color name="c_teal_d_pc">#005048</color><color name="c_teal_d_opc">#74F8E4</color>
+    <color name="c_teal_l_p">#006B5F</color><color name="c_teal_l_op">#FFFFFF</color><color name="c_teal_l_pc">#74F8E4</color><color name="c_teal_l_opc">#00201C</color>
+    <color name="c_blue">#1E88E5</color><color name="c_blue_d_p">#A2C9FF</color><color name="c_blue_d_op">#00315B</color><color name="c_blue_d_pc">#004881</color><color name="c_blue_d_opc">#D3E4FF</color>
+    <color name="c_blue_l_p">#0060A8</color><color name="c_blue_l_op">#FFFFFF</color><color name="c_blue_l_pc">#D3E4FF</color><color name="c_blue_l_opc">#001C38</color>
+    <color name="c_indigo">#3949AB</color><color name="c_indigo_d_p">#BBC3FF</color><color name="c_indigo_d_op">#0E2288</color><color name="c_indigo_d_pc">#2C3C9E</color><color name="c_indigo_d_opc">#DEE0FF</color>
+    <color name="c_indigo_l_p">#4555B7</color><color name="c_indigo_l_op">#FFFFFF</color><color name="c_indigo_l_pc">#DEE0FF</color><color name="c_indigo_l_opc">#000E5E</color>
+    <color name="c_purple">#8E24AA</color><color name="c_purple_d_p">#F3AEFF</color><color name="c_purple_d_op">#55006A</color><color name="c_purple_d_pc">#790096</color><color name="c_purple_d_opc">#FDD6FF</color>
+    <color name="c_purple_l_p">#942CB0</color><color name="c_purple_l_op">#FFFFFF</color><color name="c_purple_l_pc">#FDD6FF</color><color name="c_purple_l_opc">#340042</color>
+    <color name="c_pink">#D81B60</color><color name="c_pink_d_p">#FFB2BF</color><color name="c_pink_d_op">#660028</color><color name="c_pink_d_pc">#90003B</color><color name="c_pink_d_opc">#FFD9DE</color>
+    <color name="c_pink_l_p">#BC004F</color><color name="c_pink_l_op">#FFFFFF</color><color name="c_pink_l_pc">#FFD9DE</color><color name="c_pink_l_opc">#3F0016</color>
+</resources>

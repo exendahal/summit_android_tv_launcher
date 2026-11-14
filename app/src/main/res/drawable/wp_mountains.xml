@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="960dp" android:height="540dp" android:viewportWidth="192" android:viewportHeight="108">
+    <path android:fillColor="?android:attr/colorBackground" android:pathData="M0,0h192v108h-192z" />
+    <path android:fillColor="?attr/hRidge1" android:pathData="M0,62L22,48L38,55L62,30L80,44L98,36L120,50L142,26L166,46L192,38L192,108L0,108Z" />
+    <path android:fillColor="?attr/hSnow" android:pathData="M62,30L55,37L60,36L64,39L69,35Z" />
+    <path android:fillColor="?attr/hSnow" android:pathData="M142,26L135,33L140,32L144,35L149,31Z" />
+    <path android:fillColor="?attr/hRidge2" android:pathData="M0,76L30,60L52,70L78,52L104,68L130,58L160,72L192,60L192,108L0,108Z" />
+    <path android:fillColor="?attr/hRidge3" android:pathData="M0,92L40,80L76,88L112,78L150,90L192,82L192,108L0,108Z" />
+</vector>
