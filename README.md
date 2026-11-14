@@ -33,7 +33,7 @@ Inside **Screensaver**, the preview shows the screensaver instead.
 
 | Category | Options |
 |---|---|
-| Theme | Mode (auto by time, dark, light), wallpaper (7 illustrations or a picture from the TV), wallpaper dim, colour (from wallpaper, coral, green or 9 custom colours), contrast, animations |
+| Theme | Mode (auto by time, dark, light), wallpaper (built-in, [community](#community-wallpapers) or a picture from the TV), wallpaper dim, colour (from wallpaper, coral, green or 9 custom colours), contrast, animations |
 | Font | Text size, regional digits |
 | Language | 43 languages with local date formats, time format, calendar |
 | Weather | Location (current or any city), units, show on Home |
@@ -44,6 +44,12 @@ Inside **Screensaver**, the preview shows the screensaver instead.
 | Screensaver | Use as screensaver, live scores, move clock to protect the screen, dim at night |
 
 With **Colour › From wallpaper**, a picture wallpaper sets the theme colour to the closest of the 9 colours.
+
+### Community wallpapers
+Besides the built-in illustrations, Summit offers mountain wallpapers from this repository's
+[`wallpapers/`](wallpapers) folder. When the TV is online it checks the list once a day; a wallpaper is downloaded the
+first time it is picked and then works offline, so new wallpapers never make the app bigger. Anyone can add one with a
+pull request; see [wallpapers/README.md](wallpapers/README.md).
 
 ### First-run setup
 A short guided setup in the same style, with a live preview of Home: where you watch TV, favourite apps, wallpaper,
@@ -189,6 +195,7 @@ A single activity with one screen per feature. The code is in `app/src/main/java
 | `TileAdapter`, `FocusMemoryRecyclerView`, `Ui` | Tiles and focus visuals, row focus memory, shared UI helpers |
 | `ThemeController` | Dark/light/auto, colour overlays, high contrast, wallpaper, picture → nearest colour |
 | `CustomWallpaper` | Picture wallpapers from the TV's MediaStore, saved scaled and upright in app storage |
+| `OnlineWallpapers` | Community wallpapers: daily list refresh, thumbnails, download on first use |
 | `Prefs` | Settings storage |
 | `AppsRepo`, `TvSource` | Installed apps, favourites, recents, Watch TV input/app launch, voice search |
 | `Weather`, `Scores`, `BikramSambat` | Open-Meteo client and cache, score model and ordering, calendar conversion |
@@ -214,6 +221,7 @@ Two GitHub Actions workflows live in `.github/workflows/`:
 |---|---|---|
 | `pr-check.yml` | Pull requests into `develop` | Builds the release APK, runs the unit tests and lint |
 | `release.yml` | Pushing a tag that starts with `v` | Builds a signed APK, verifies the signature and publishes a GitHub release with it |
+| `wallpapers-check.yml` | Pull requests that change `wallpapers/` | Validates `index.json`, image sizes and file sizes |
 
 To publish a release, tag a commit and push the tag:
 
@@ -243,6 +251,7 @@ Bug reports, ideas and pull requests are welcome.
 - **Report a bug** with the *Bug report* form under Issues. Include the TV or box model, Android version and the remote
   buttons that lead to the problem; for crashes, attach `adb logcat -d > summit-log.txt`.
 - **Suggest a feature** with the *Feature request* form, describing how it would work with a TV remote.
+- **Add a wallpaper** by following [wallpapers/README.md](wallpapers/README.md).
 - **Open a pull request** using the template: say what changed and how you tested it, make sure
   `./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease` passes, and add screenshots for
   UI changes.
