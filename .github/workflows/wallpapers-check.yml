@@ -2,7 +2,7 @@ name: Wallpapers check
 
 on:
   pull_request:
-    paths: ['wallpapers/**', '.github/scripts/check_wallpapers.py']
+    paths: ['wallpapers/**', '.github/scripts/check_wallpapers.py', 'app/src/main/res/xml/locales_config.xml']
 
 permissions:
   contents: read

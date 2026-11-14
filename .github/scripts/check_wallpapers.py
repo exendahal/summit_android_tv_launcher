@@ -3,14 +3,18 @@ import json
 import os
 import re
 import sys
+import xml.etree.ElementTree as ET
 
 from PIL import Image
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..", "wallpapers")
+LOCALES = os.path.join(os.path.dirname(__file__), "..", "..", "app", "src", "main", "res", "xml", "locales_config.xml")
 RULES = {"image": ((1920, 1080), 600), "thumb": ((384, 216), 60)}  # size in pixels, max KB
 EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp")
 
 errors = []
+LANGUAGES = [e.get("{http://schemas.android.com/apk/res/android}name") for e in ET.parse(LOCALES).getroot()]
+TRANSLATED = [code for code in LANGUAGES if code != "en"]  # English is the "name" field
 
 
 def check_file(entry, field):
@@ -52,8 +56,16 @@ for entry in index["wallpapers"]:
     for field in ("name", "author"):
         if not isinstance(entry.get(field), str) or not entry[field].strip():
             errors.append(f"{wid}: missing '{field}'")
-    if not isinstance(entry.get("names", {}), dict):
-        errors.append(f"{wid}: 'names' must map language codes to names")
+    names = entry.get("names")
+    if not isinstance(names, dict):
+        errors.append(f"{wid}: 'names' must map every app language code to a name")
+    else:
+        missing = [code for code in TRANSLATED if not str(names.get(code, "")).strip()]
+        unknown = [code for code in names if code not in TRANSLATED]
+        if missing:
+            errors.append(f"{wid}: 'names' is missing {', '.join(missing)}")
+        if unknown:
+            errors.append(f"{wid}: 'names' has codes the app does not offer: {', '.join(unknown)}")
     for field in RULES:
         used.add(check_file(entry, field))
 
