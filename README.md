@@ -1,7 +1,7 @@
 # Summit
 
 A calm, fast home screen for Android TV. Summit puts live TV one press away, keeps your favourite apps in reach,
-and shows the time, date and weather at a glance. It works in 40+ languages, with local date formats and an
+and shows the time, date and weather at a glance. It is translated into 43 languages, with local date formats and an
 optional regional calendar. It is built to stay light on 1 GB TV boxes.
 
 ![Home](docs/screenshots/home.png)
@@ -35,7 +35,7 @@ Inside **Screensaver**, the preview shows the screensaver instead.
 |---|---|
 | Theme | Mode (auto by time, dark, light), wallpaper (built-in, [community](#community-wallpapers) or a picture from the TV), wallpaper dim, colour (from wallpaper, coral, green or 9 custom colours), contrast, animations |
 | Font | Text size, regional digits |
-| Language | 43 languages with local date formats, time format, calendar |
+| Language | 43 fully translated languages with local date formats, time format, calendar |
 | Weather | Location (current or any city), units, show on Home |
 | Home screen | Watch TV tile, Continue row, favourites order, health tip |
 | Live TV | TV input or app, open Watch TV when the TV starts |
@@ -219,7 +219,7 @@ Two GitHub Actions workflows live in `.github/workflows/`:
 
 | Workflow | Runs on | Does |
 |---|---|---|
-| `pr-check.yml` | Pull requests into `develop` | Builds the release APK, runs the unit tests and lint |
+| `pr-check.yml` | Pull requests into `develop` | Checks every language is fully translated, builds the release APK, runs the unit tests and lint |
 | `release.yml` | Pushing a tag that starts with `v` | Builds a signed APK, verifies the signature and publishes a GitHub release with it |
 | `wallpapers-check.yml` | Pull requests that change `wallpapers/` | Validates `index.json`, image sizes and file sizes |
 
@@ -252,6 +252,8 @@ Bug reports, ideas and pull requests are welcome.
   buttons that lead to the problem; for crashes, attach `adb logcat -d > summit-log.txt`.
 - **Suggest a feature** with the *Feature request* form, describing how it would work with a TV remote.
 - **Add a wallpaper** by following [wallpapers/README.md](wallpapers/README.md).
+- **Improve a translation.** Most languages were machine-translated and welcome a native speaker's review; they live in
+  `app/src/main/res/values-<language>/`. New text must be added to every language: the PR check fails otherwise.
 - **Open a pull request** using the template: say what changed and how you tested it, make sure
   `./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease` passes, and add screenshots for
   UI changes.
