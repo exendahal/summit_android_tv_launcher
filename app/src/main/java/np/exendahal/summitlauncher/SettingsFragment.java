@@ -36,7 +36,9 @@ import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -201,6 +203,10 @@ public class SettingsFragment extends Screen {
                 o.add(new Opt(Prefs.THEME_MODE, R.string.opt_mode, v("auto", "dark", "light"), arr(R.array.e_theme_mode)));
                 List<String> wv = new ArrayList<>(Arrays.asList(ThemeController.WALLPAPERS));
                 List<String> wn = new ArrayList<>(Arrays.asList(arr(R.array.e_wallpaper)));
+                for (OnlineWallpapers.Item w : OnlineWallpapers.list(requireContext())) {
+                    wv.add(OnlineWallpapers.PREFIX + w.id);
+                    wn.add(w.name(Ui.locale(p)));
+                }
                 wv.add("custom");
                 wn.add(getString(R.string.wallpaper_custom));
                 o.add(new Opt(Prefs.WALLPAPER, R.string.opt_wallpaper, wv.toArray(new String[0]), wn.toArray(new String[0])));
@@ -431,6 +437,10 @@ public class SettingsFragment extends Screen {
      * their grids instead.
      */
     private void choose(Opt o, String value) {
+        if (Prefs.WALLPAPER.equals(o.key) && value.startsWith(OnlineWallpapers.PREFIX)) {
+            useOnline(value.substring(OnlineWallpapers.PREFIX.length()));
+            return;
+        }
         if (Prefs.WALLPAPER.equals(o.key) && "custom".equals(value)) {
             openOption = PICTURE;
             focusTag = null;
@@ -453,8 +463,11 @@ public class SettingsFragment extends Screen {
     /** Wallpapers or custom colours as a grid of previews (quicker to scan than a list). */
     private void renderGrid(Opt o) {
         Context c = requireContext();
+        Context app = c.getApplicationContext();
         int current = index(o);
         GridLayout grid = addGrid();
+        Map<String, OnlineWallpapers.Item> online = new HashMap<>();
+        for (OnlineWallpapers.Item w : OnlineWallpapers.list(c)) online.put(OnlineWallpapers.PREFIX + w.id, w);
         for (int i = 0; i < o.values.length; i++) {
             String value = o.values[i];
             ImageView img = addCell(grid, "val:" + value, o.names[i], i == current, () -> choose(o, value));
@@ -471,10 +484,24 @@ public class SettingsFragment extends Screen {
                     img.setImageTintList(AppCompatResources.getColorStateList(c, R.color.pref_icon));
                     img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
                 }
+            } else if (online.containsKey(value)) {
+                OnlineWallpapers.Item item = online.get(value);
+                img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
+                Weather.IO.execute(() -> {
+                    Bitmap thumb = OnlineWallpapers.thumbnail(app, item);
+                    if (thumb != null) img.post(() -> img.setImageBitmap(thumb));
+                });
             } else {
                 int res = ThemeController.wallpaperRes(value);
                 if (res != 0) img.setImageResource(res); else img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
             }
+        }
+        if (Prefs.WALLPAPER.equals(o.key)) {
+            Weather.IO.execute(() -> {
+                if (OnlineWallpapers.refresh(app)) root.post(() -> {
+                    if (isAdded() && level == LEVEL_VALUES && Prefs.WALLPAPER.equals(openOption)) render(0);
+                });
+            });
         }
     }
 
@@ -508,6 +535,28 @@ public class SettingsFragment extends Screen {
     }
 
     /** Saves the picture off the main thread, then applies it like any wallpaper choice. */
+    /** Downloads an online wallpaper (once) off the main thread, then applies it like any wallpaper choice. */
+    private void useOnline(String id) {
+        OnlineWallpapers.Item item = OnlineWallpapers.find(requireContext(), id);
+        if (item == null) return;
+        Context app = requireContext().getApplicationContext();
+        Weather.IO.execute(() -> {
+            boolean ok = OnlineWallpapers.use(app, item);
+            root.post(() -> {
+                if (!isAdded()) return;
+                if (!ok) {
+                    Toast.makeText(requireContext(), R.string.wallpaper_download_failed, Toast.LENGTH_LONG).show();
+                    return;
+                }
+                level = LEVEL_OPTIONS;
+                focusTag = Prefs.WALLPAPER;
+                render(-1);
+                host().bindWallpaper();
+                host().onSettingChanged(Prefs.WALLPAPER);
+            });
+        });
+    }
+
     private void pickPicture(long id) {
         Context app = requireContext().getApplicationContext();
         Weather.IO.execute(() -> {

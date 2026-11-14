@@ -115,6 +115,7 @@
     <string name="screensaver_setup_title">One-time setup needed</string>
     <string name="screensaver_setup_body">This TV doesn\'t let apps change the screensaver on their own. Connect a computer once and run:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nThen turn this on again.</string>
     <string name="wallpaper_custom">My picture</string>
+    <string name="wallpaper_download_failed">Couldn\'t download that wallpaper. Check the internet connection.</string>
     <string name="picture_allow">Allow access to pictures</string>
     <string name="picture_denied">Allow Photos access in Settings › Apps › Summit › Permissions.</string>
     <string name="picture_none">No pictures found on this TV.</string>

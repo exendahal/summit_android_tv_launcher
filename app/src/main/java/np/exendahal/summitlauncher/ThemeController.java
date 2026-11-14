@@ -105,9 +105,12 @@ public final class ThemeController {
         if (p.is(Prefs.THEME_COLOUR, "coral")) return "phewa";
         if (p.is(Prefs.THEME_COLOUR, "green")) return "terai";
         if (p.is(Prefs.THEME_COLOUR, "custom")) return p.str(Prefs.THEME_CUSTOM);
-        switch (p.str(Prefs.WALLPAPER)) {
-            case "phewa": case "night": case "terai": case "flags": return p.str(Prefs.WALLPAPER);
-            case "custom": return p.str(Prefs.WALLPAPER_SEED).isEmpty() ? "mountain" : p.str(Prefs.WALLPAPER_SEED);
+        String wallpaper = p.str(Prefs.WALLPAPER);
+        if (wallpaper.equals("custom") || wallpaper.startsWith(OnlineWallpapers.PREFIX)) { // colour taken from the picture
+            return p.str(Prefs.WALLPAPER_SEED).isEmpty() ? "mountain" : p.str(Prefs.WALLPAPER_SEED);
+        }
+        switch (wallpaper) {
+            case "phewa": case "night": case "terai": case "flags": return wallpaper;
             default: return "mountain";
         }
     }
@@ -140,16 +143,18 @@ public final class ThemeController {
         }
     }
 
-    /** Illustrated wallpapers and pictures get the legibility tint; Mountain, Ridge and Plain do not (PRD 5.2). */
+    /** Illustrations and pictures get the legibility tint; the quiet Mountain, Ridge and Plain do not (PRD 5.2). */
     public static boolean needsTint(String id) {
-        return id.equals("custom") || id.equals("phewa") || id.equals("night") || id.equals("terai") || id.equals("flags");
+        return !id.equals("mountains") && !id.equals("ridge") && !id.equals("plain");
     }
 
     /** Binds wallpaper, tint and dim views. Any argument may be null. */
     public static void bindWallpaper(Context c, ImageView wallpaper, View tint, View dim) {
         Prefs p = Prefs.get(c);
         String id = p.str(Prefs.WALLPAPER);
-        Bitmap picture = "custom".equals(id) ? CustomWallpaper.bitmap(c) : null;
+        Bitmap picture = "custom".equals(id) ? CustomWallpaper.bitmap(c)
+                : id.startsWith(OnlineWallpapers.PREFIX) ? OnlineWallpapers.bitmap(c, id.substring(OnlineWallpapers.PREFIX.length()))
+                : null;
         if (wallpaper != null) {
             if (picture != null) wallpaper.setImageBitmap(picture); else wallpaper.setImageResource(wallpaperRes(id));
         }

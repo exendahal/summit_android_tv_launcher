@@ -72,22 +72,31 @@ public final class CustomWallpaper {
 
     /** Copies picture {@code id} into app storage as the wallpaper. Call off the main thread. @return success. */
     public static boolean save(Context c, long id) {
-        DisplayMetrics m = c.getResources().getDisplayMetrics();
-        int sw = Math.max(m.widthPixels, m.heightPixels), sh = Math.min(m.widthPixels, m.heightPixels);
-        Bitmap b = decode(c, uri(id), sw, sh, Bitmap.Config.ARGB_8888);
+        Bitmap b = saveScaled(c, uri(id), file(c));
         if (b == null) return false;
-        float scale = Math.max((float) sw / b.getWidth(), (float) sh / b.getHeight()); // cover the screen
-        if (scale < 1f) b = replace(b, Bitmap.createScaledBitmap(b, Math.round(b.getWidth() * scale), Math.round(b.getHeight() * scale), true));
-        File tmp = new File(c.getFilesDir(), FILE + ".tmp");
-        try (FileOutputStream out = new FileOutputStream(tmp)) {
-            if (!b.compress(Bitmap.CompressFormat.JPEG, 90, out)) return false;
-        } catch (IOException e) {
-            return false;
-        }
-        if (!tmp.renameTo(file(c))) return false;
         cached = b;
         Prefs.get(c).set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
         return true;
+    }
+
+    /**
+     * Decodes {@code src}, turns it upright, scales it to cover the screen and writes it to {@code target} as JPEG.
+     * Call off the main thread. @return the saved bitmap, or null if unreadable or not writable.
+     */
+    static Bitmap saveScaled(Context c, Uri src, File target) {
+        DisplayMetrics m = c.getResources().getDisplayMetrics();
+        int sw = Math.max(m.widthPixels, m.heightPixels), sh = Math.min(m.widthPixels, m.heightPixels);
+        Bitmap b = decode(c, src, sw, sh, Bitmap.Config.ARGB_8888);
+        if (b == null) return null;
+        float scale = Math.max((float) sw / b.getWidth(), (float) sh / b.getHeight()); // cover the screen
+        if (scale < 1f) b = replace(b, Bitmap.createScaledBitmap(b, Math.round(b.getWidth() * scale), Math.round(b.getHeight() * scale), true));
+        File tmp = new File(target.getPath() + ".tmp");
+        try (FileOutputStream out = new FileOutputStream(tmp)) {
+            if (!b.compress(Bitmap.CompressFormat.JPEG, 90, out)) return null;
+        } catch (IOException e) {
+            return null;
+        }
+        return tmp.renameTo(target) ? b : null;
     }
 
     private static File file(Context c) { return new File(c.getFilesDir(), FILE); }
