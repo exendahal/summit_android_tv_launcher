@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_scroll"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false">
+<LinearLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:clipChildren="false" android:clipToPadding="false"
+    android:paddingStart="@dimen/pad_h" android:paddingEnd="@dimen/pad_h"
+    android:paddingTop="@dimen/pad_v" android:paddingBottom="@dimen/pad_v">
+
+    <include layout="@layout/header_home" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/clock" style="@style/Himal.Clock"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:orientation="vertical">
+            <TextView android:id="@+id/bs_date" style="@style/Himal.Title" android:textSize="17sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/ad_date" style="@style/Himal.BodyLarge" android:textColor="?attr/colorOnSurfaceVariant"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/health_line" style="@style/Himal.Body"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/scores_row" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="11dp" android:orientation="horizontal" android:gravity="center_vertical"
+        android:clipChildren="false" />
+
+    <TextView android:id="@+id/default_banner" style="@style/Himal.BodyLarge"
+        android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginTop="10dp"
+        android:gravity="center" android:paddingStart="14dp" android:paddingEnd="14dp"
+        android:background="@drawable/bg_glass_focus" android:focusable="true" android:clickable="true"
+        android:text="@string/not_default_banner" android:visibility="gone" />
+
+    <TextView android:id="@+id/continue_title" style="@style/Himal.Title"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:text="@string/continue_title" />
+    <np.exendahal.summitlauncher.FocusMemoryRecyclerView android:id="@+id/continue_row"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:clipChildren="false" android:clipToPadding="false" android:paddingTop="8dp" android:paddingBottom="8dp" />
+
+    <TextView android:id="@+id/fav_title" style="@style/Himal.Title"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:text="@string/favourites_title" />
+    <np.exendahal.summitlauncher.FocusMemoryRecyclerView android:id="@+id/fav_row"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:clipChildren="false" android:clipToPadding="false" android:paddingTop="8dp" android:paddingBottom="8dp" />
+</LinearLayout>
+</ScrollView>

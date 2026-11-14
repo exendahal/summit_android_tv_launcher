@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/fav_w" android:layout_height="@dimen/fav_h"
+    android:layout_marginEnd="@dimen/tile_gap" android:focusable="true" android:clickable="true"
+    app:cardBackgroundColor="?attr/colorSurfaceContainer" app:cardElevation="0dp"
+    app:cardCornerRadius="@dimen/r_tile" app:strokeColor="?attr/colorOnSurface" app:strokeWidth="0dp">
+    <!-- Rounded itself, not only by the card's outline clip: screen transitions draw a software snapshot of the
+         outgoing screen, which ignores outline clipping and would show square banners for a moment -->
+    <com.google.android.material.imageview.ShapeableImageView android:id="@+id/banner" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:visibility="gone" android:importantForAccessibility="no" />
+    <LinearLayout android:id="@+id/body" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center" android:padding="6dp">
+        <ImageView android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp" android:importantForAccessibility="no" />
+        <TextView android:id="@+id/title" style="@style/Himal.BodyLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+            android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+    <!-- App name over the banner; inset so the focus ring never touches it -->
+    <TextView android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:background="@drawable/bg_name_scrim" android:gravity="start"
+        android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingTop="12dp" android:paddingBottom="8dp"
+        android:textSize="12sp" android:fontFamily="sans-serif-medium" android:textColor="@android:color/white"
+        android:shadowColor="#66000000" android:shadowRadius="2" android:shadowDy="1"
+        android:singleLine="true" android:ellipsize="end" android:visibility="gone" android:importantForAccessibility="no" />
+</com.google.android.material.card.MaterialCardView>
