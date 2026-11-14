@@ -1,123 +1,223 @@
 # Summit
 
-Android TV home-screen launcher: one-press live TV, weather, scores and recent/favourite apps, in 40+ languages,
-with Nepal extras (Bikram Sambat date, Devanagari digits) where the TV is in Nepal. Product spec (written under the
-earlier name Himal): `Himal_Launcher_PRD.md`.
+A calm, fast home screen for Android TV. Summit puts live TV one press away, keeps your favourite apps in reach,
+and shows the time, date and weather at a glance. It works in 40+ languages, with local date formats and an
+optional regional calendar. It is built to stay light on 1 GB TV boxes.
 
-Package ID: `np.exendahal.summitlauncher`. Builds from before the rename used `np.himal.launcher`; Android treats that
-as a different app, so its settings do not carry over.
+![Home](docs/screenshots/home.png)
 
-## Requirements
-- JDK 17, Android SDK platform 34, Gradle 8.7 (wrapper included), AGP 8.5.2.
-- An Android TV device or emulator, API 26+.
+## Features
 
-## Build variants
+### Home
+- **Watch TV** first: one press of OK opens your TV input (HDMI, AV, antenna) or live-TV app.
+- **Continue**: the apps you used last, with how long ago (needs usage access, see [Installation](#installation)).
+- **Favourites**: your pinned apps; hold OK to pin, unpin or move them.
+- Large clock with the date (and an optional regional calendar date), a daily health tip, and live match scores.
+- Header with Home, Apps and Settings, a weather chip that opens a full forecast, voice search and the TV's own settings.
+
+### Apps
+Every installed TV app in one alphabetical grid. Holding OK (or pressing Menu) opens a side panel to pin to
+Favourites, move, open app info or uninstall.
+
+| Apps | App menu |
+|---|---|
+| ![Apps](docs/screenshots/apps.png) | ![App menu](docs/screenshots/app-menu.png) |
+
+### Settings
+Android TV style lists with a live preview of Home beside them, so every change is visible as you make it.
+Inside **Screensaver**, the preview shows the screensaver instead.
+
+| Settings | Screensaver preview |
+|---|---|
+| ![Settings](docs/screenshots/settings.png) | ![Screensaver settings](docs/screenshots/settings-screensaver.png) |
+
+| Category | Options |
+|---|---|
+| Theme | Mode (auto by time, dark, light), wallpaper (7 illustrations or a picture from the TV), wallpaper dim, colour (from wallpaper, coral, green or 9 custom colours), contrast, animations |
+| Font | Text size, regional digits |
+| Language | 43 languages with local date formats, time format, calendar |
+| Weather | Location (current or any city), units, show on Home |
+| Home screen | Watch TV tile, Continue row, favourites order, health tip |
+| Live TV | TV input or app, open Watch TV when the TV starts |
+| Icons & tiles | Tile size, tile shape (rounded or square), app names (always, when selected, off) |
+| Scores | Leagues, how many, live first, stale scores |
+| Screensaver | Use as screensaver, live scores, move clock to protect the screen, dim at night |
+
+With **Colour › From wallpaper**, a picture wallpaper sets the theme colour to the closest of the 9 colours.
+
+### First-run setup
+A short guided setup in the same style, with a live preview of Home: where you watch TV, favourite apps, wallpaper,
+look (mode and colour), language, and scores. Every choice applies immediately and can be changed later in
+Settings; **Settings › Run first-time setup** opens it again.
+
+![Setup](docs/screenshots/setup.png)
+
+### Ambient screensaver
+A quiet clock with the dates, weather, health tip and live scores over a faded wallpaper. It shifts every minute to
+protect the screen from burn-in and dims at night. See [Set Summit as the screensaver](#set-summit-as-the-screensaver).
+
+![Screensaver](docs/screenshots/screensaver.png)
+
+## OS support
+
+| | |
+|---|---|
+| Platform | Android TV and Google TV (leanback launcher apps) |
+| Android version | 8.0 (API 26) or newer; targets Android 14 (API 34) |
+| Tested on | Xiaomi Mi TV (MiTV-AXSO0), Android 9 |
+| Memory | Designed for 1 GB boxes |
+| Not supported | Phones and tablets (it is a TV launcher), Fire TV (Amazon blocks third-party home screens) |
+
+Notes by version and device:
+- **Picture wallpapers** ask for photo access: *Files and media* on Android 8–12, *Photos* on Android 13 and newer.
+- **Google TV** devices give their stock launcher priority; disable it as shown in
+  [Make Summit the default home screen](#make-summit-the-default-home-screen). Some Google TV builds do not allow
+  another home screen at all; Summit then still runs from the app list.
+- **Screensaver settings** are missing on some TVs (Mi TV shows a photo-album picker instead), so Summit can set
+  itself as the screensaver after a one-time grant.
+
+## Installation
+
+### 1. Build
+Requirements: JDK 17, Android SDK platform 34. The Gradle 8.7 wrapper is included.
+
+```sh
+./gradlew assembleProdDataRelease        # app/build/outputs/apk/prodData/release/app-prodData-release.apk
+./gradlew testFakeDataDebugUnitTest      # calendar, units, score ordering, picture colour
+```
+
 | Variant | Data |
 |---|---|
-| `fakeData` | Appendix B demo weather and scores, no network |
 | `prodData` | Live weather (Open-Meteo) and live scores (ESPN public scoreboard) |
+| `fakeData` | Demo weather and scores from the product spec, no network |
+
+Release builds are signed with the debug key so they can be sideloaded. Add a real `signingConfig` before publishing
+to Google Play. On Windows, if the unit tests fail with `Could not find or load main class Files\...`, your `PATH`
+contains a stray `"` character; remove it or run with a cleaned `PATH`.
+
+### 2. Install on the TV
+Turn on developer options and network debugging on the TV, then from a computer on the same network:
 
 ```sh
-./gradlew assembleProdDataRelease        # app/build/outputs/apk/prodData/release/
-./gradlew testFakeDataDebugUnitTest      # BS calendar, units, score ordering
-```
-On Windows, if the unit tests fail with `Could not find or load main class Files\...`, your `PATH` contains a stray
-`"` character. Remove it or run with a cleaned `PATH`.
-
-Release builds are signed with the debug key so you can sideload them. Before publishing to Play, add a real
-`signingConfig`.
-
-## Run on a TV over ADB
-```sh
-adb connect 192.168.101.14
+adb connect <tv-ip-address>
 adb install -r app/build/outputs/apk/prodData/release/app-prodData-release.apk
 adb shell appops set np.exendahal.summitlauncher GET_USAGE_STATS allow   # Continue row (recent apps)
-adb shell am start -n np.exendahal.summitlauncher/.HomeActivity
 ```
 
-### Make it the default home screen
-The stock Google TV launcher (`com.google.android.tvlauncher`) is a system app with a higher HOME priority, so
-Android ignores any other home choice. Disable it for the user, then set Summit:
+Without the last command Summit asks for usage access at the end of setup instead.
+
+### 3. Make Summit the default home screen
+On most TVs, press Home and choose Summit, or open **Settings › Apps › Default apps › Home app**.
+
+Google TV's stock launcher (`com.google.android.tvlauncher`) has a higher priority, so Android ignores any other
+choice. Disable it for the current user, then set Summit:
+
 ```sh
 adb shell pm disable-user --user 0 com.google.android.tvlauncher
 adb shell cmd package set-home-activity np.exendahal.summitlauncher/.HomeActivity
 ```
-To undo this and restore the stock launcher:
+
+To restore the stock launcher:
+
 ```sh
 adb shell pm enable com.google.android.tvlauncher
 adb shell cmd package set-home-activity com.google.android.tvlauncher/.MainActivity
 ```
 
-### First run
-On a fresh install (or **Settings › Run first-time setup**), onboarding asks:
-1. **Where do you watch TV?** First choose **TV input** or **App**, then pick the HDMI/AV/antenna input or the live-TV app.
-   Only physical inputs are listed; apps' preview inputs are filtered out.
-2. **Scores:** which leagues to show on Home.
-3. **Language:** English, Nepali and 41 other languages. Only English and Nepali are translated so far; the others use
-   English text with local date formats.
-4. **Look:** Auto, Dark or Light.
+### 4. First run
+Pressing Home opens first-run setup. Choose your TV input or live-TV app, favourite apps, wallpaper, look and
+language, then **Finish**.
+
+## Set Summit as the screensaver
+
+**Option A: from Summit (any TV).** Android only lets an app change the system screensaver after a one-time grant:
+
+1. Connect to the TV with `adb connect <tv-ip-address>`.
+2. Grant the permission:
+   ```sh
+   adb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS
+   ```
+3. On the TV, open **Settings › Screensaver** in Summit and turn on **Use as screensaver**.
+
+Turning it off again restores the screensaver Summit replaced. Without the grant, the option opens the TV's own
+screensaver settings, or shows the command above on TVs that have none.
+
+**Option B: from the TV's settings.** On TVs with a standard screensaver menu, open
+**Settings › Device Preferences › Screen saver** and choose **Summit ambient**. **When to start** sets the delay.
+
+**Option C: over ADB only**, without the grant:
+```sh
+adb shell settings put secure screensaver_components np.exendahal.summitlauncher/.AmbientDreamService
+adb shell settings put secure screensaver_enabled 1
+```
+
+To try it straight away, start the screensaver with
+`adb shell am start -n com.android.systemui/.Somnambulator`; any button returns to Home.
+
+## How it works
 
 ### Weather location
-By default weather follows the TV's **current location**, found once a day from its public IP address (ipapi.co,
-falling back to ipwho.is). The detection is city-level and stops being used once you search for a city. To change the city,
-open the weather chip on Home (or **Settings › Weather › Location**). **Change city** offers *Use current location*
-or a search box that finds any city through Open-Meteo geocoding.
+By default weather follows the TV's current location, found once a day from its public IP address (ipapi.co,
+falling back to ipwho.is). The detection is city-level and stops once you choose a city. Open the weather chip on
+Home (or **Settings › Weather › Location**) to use the current location or search any city through Open-Meteo
+geocoding.
 
-### Region (Nepal-only options)
-Summit treats the TV as in Nepal when the **system** region is NP **or** the time zone is Kathmandu
-(`Asia/Kathmandu` / `Asia/Katmandu`). Many boxes sold in Nepal run en-US, so the time zone is the main signal.
-Outside Nepal the **Calendar** and **Devanagari digits** options are hidden and only the Gregorian date is shown.
-Choosing Nepali as the app language still uses Devanagari digits anywhere.
-
-### Scores on Home
-Home only shows matches that are live, start within the next hour, or finished within the last hour. If none
-qualify, the scores row is hidden.
-
-`prodData` reads ESPN's public scoreboard (`site.api.espn.com`, unofficial, no key) for Premier League, LaLiga,
-Champions League, Serie A, Bundesliga, Ligue 1, NBA, NFL, NHL and MLB. It refreshes every 60 s while a match is
-live and every 15 min otherwise. Cricket (NPL, IPL, Big Bash, internationals), EuroLeague, tennis, F1, MotoGP and
-golf have no source yet, so they show nothing. `fakeData` shows the PRD's demo matches. Google is not used:
-it has no scores API, and scraping its result pages is against its terms and gets blocked.
-
-### Use the ambient screensaver
-Turn on **Settings › Screensaver › Use as screensaver** in Summit; turning it off restores the previous screensaver.
-Android only lets an app change the system screensaver after a one-time grant over ADB:
-```sh
-adb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS
-```
-Without the grant, the option opens the TV's own screensaver settings, or explains the grant on TVs that have none
-(e.g. Mi TV, which replaces that screen with a photo-album picker).
+### Scores
+Home only shows matches that are live, start within the next hour, or finished within the last hour; otherwise the
+scores row is hidden. `prodData` reads ESPN's public scoreboard (`site.api.espn.com`, unofficial, no key) for
+Premier League, LaLiga, Champions League, Serie A, Bundesliga, Ligue 1, NBA, NFL, NHL and MLB, refreshing every
+60 s while a match is live and every 15 min otherwise. Cricket (IPL, Big Bash, internationals), EuroLeague,
+tennis, F1, MotoGP and golf have no source yet. Google is not used: it has no scores API, and scraping its result
+pages is against its terms.
 
 ## Architecture
-A single activity with one screen per feature. Everything is in `app/src/main/java/np/exendahal/summitlauncher/`:
+A single activity with one screen per feature. The code is in `app/src/main/java/np/exendahal/summitlauncher/`:
 
 | Class | Role |
 |---|---|
-| `HomeActivity` | HOME activity. Hosts Home/Apps/Settings fragments (fade-through), wallpaper layer, Home/Search/Settings keys, Back hierarchy (PRD 7.2), minute tick, package-change receiver |
-| `HomeFragment` | Header, clock, BS/AD dates, weather chip and summary, score chips, Continue and Favourites rows, move mode |
-| `AppsFragment` | All TV apps in one alphabetical 6-column grid with the hold-OK/Menu app menu. No category filters: apps declare categories unreliably (VLC says audio). |
-| `SetupFragment` | First-run onboarding: TV source (input or app), scores, language, look |
-| `SettingsFragment` | Android TV preference-style drill-down: categories → options (title + current value) → values (radio list, wallpaper thumbnails); Back goes up a level; live Home preview beside the list |
-| `AmbientDreamService` | Screensaver with burn-in shift and night dim |
-| `FocusMemoryRecyclerView` | Row focus memory and keyline scrolling (PRD 7.3) |
-| `TileAdapter`, `Ui` | Tiles, focus visuals (scale, ring, corner morph), cookie badge, text scaling, digits |
-| `ThemeController` | Dark/light/auto, seed overlays (5 wallpaper seeds + 9 custom colours, × 2 modes), high contrast, wallpaper + tint + dim, picture → nearest colour |
-| `Prefs` | Settings (keys and defaults from PRD 9) |
-| `CustomWallpaper` | Theme › Wallpaper › My picture: lists the TV's pictures (MediaStore), saves the pick scaled and upright in app storage |
-| `AppsRepo`, `TvSource` | Installed apps, favourites, recents (UsageStats), Watch TV input/app launch, voice search |
-| `Weather`, `Scores`, `BikramSambat` | Open-Meteo client, cache and summary; score model and ordering; BS conversion |
+| `HomeActivity` | HOME activity: hosts the screens with a fade-through, wallpaper layer, Home/Search/Settings keys, Back hierarchy, minute tick, package changes |
+| `Screen` | Base for the screens: shared header (nav bar, gear, clock) and nav focus |
+| `HomeFragment` | Clock and dates, weather chip, score chips, Watch TV, Continue and Favourites rows, move mode |
+| `AppsFragment` | All TV apps in an alphabetical grid with the app menu |
+| `SettingsFragment` | Categories → options → values, with grids for wallpapers, colours and pictures |
+| `SetupFragment` | First-run setup |
+| `PrefRow` | The Android TV settings row shared by Settings and setup |
+| `Preview` | Settings and setup preview: Home or the screensaver from their own layouts, scaled down |
+| `AmbientDreamService` | Screensaver, burn-in shift, night dim; switching the system screensaver |
+| `TileAdapter`, `FocusMemoryRecyclerView`, `Ui` | Tiles and focus visuals, row focus memory, shared UI helpers |
+| `ThemeController` | Dark/light/auto, colour overlays, high contrast, wallpaper, picture → nearest colour |
+| `CustomWallpaper` | Picture wallpapers from the TV's MediaStore, saved scaled and upright in app storage |
+| `Prefs` | Settings storage |
+| `AppsRepo`, `TvSource` | Installed apps, favourites, recents, Watch TV input/app launch, voice search |
+| `Weather`, `Scores`, `BikramSambat` | Open-Meteo client and cache, score model and ordering, calendar conversion |
+| `Dialogs` | Weather, score, app menu, city picker and confirmation dialogs |
 
-The BS month table in `res/raw/bs_calendar.json` (BS 2000–2090) comes from the MIT-licensed
-`nepali-date-converter` 3.4.2. It is verified against official new-year dates and Kartik 1 2083 = 18 Oct 2026.
+The calendar month table in `res/raw/bs_calendar.json` comes from the MIT-licensed `nepali-date-converter` 3.4.2.
 
-## Deliberate departures from the PRD tech stack
-To keep the app light on 1 GB boxes and the code small, the PRD stack was simplified:
+The product spec is in `Himal_Launcher_PRD.md`. To stay light on 1 GB boxes, the implementation uses a simpler
+stack than the spec suggests:
 
-| PRD | Here | Upgrade when |
+| Spec | Summit | Upgrade when |
 |---|---|---|
 | Hilt, ViewModel/LiveData | Plain singletons, fragments bind directly | Screens get tested in isolation or grow state |
 | Room | SharedPreferences (favourites list, weather JSON cache) | Data outgrows a few KB |
 | Retrofit/OkHttp/Moshi | `HttpURLConnection` + `org.json` | More than one API |
 | WorkManager refresh | Refresh on Home resume when the cache is over 30 min old | Background freshness matters |
-| Bundled Roboto Flex / Noto fonts | System fonts (Android ships Noto Devanagari) | Variable-width typography is required |
-| Settings stored as typed values | All values stored as stable strings, read by typed getters | Never needed |
+| Bundled Roboto Flex / Noto fonts | System fonts (Android ships the Noto scripts) | Variable-width typography is required |
+
+## Contributing
+Bug reports, ideas and pull requests are welcome.
+
+- **Report a bug** with the *Bug report* form under Issues. Include the TV or box model, Android version and the remote
+  buttons that lead to the problem; for crashes, attach `adb logcat -d > summit-log.txt`.
+- **Suggest a feature** with the *Feature request* form, describing how it would work with a TV remote.
+- **Open a pull request** using the template: say what changed and how you tested it, make sure
+  `./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease` passes, and add screenshots for
+  UI changes.
+
+The forms and template live in [`.github/`](.github).
+
+## License
+Summit is released under the [MIT License](LICENSE).
+
+It includes the calendar month table from `nepali-date-converter` 3.4.2, also under the MIT License.
