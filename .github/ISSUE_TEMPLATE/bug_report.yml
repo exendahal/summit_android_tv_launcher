@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in Summit doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The remote buttons you pressed, starting from Home.
+      placeholder: |
+        1. On Home, press Up to the nav bar
+        2. Press Right to Settings and OK
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: TV or box model
+      placeholder: e.g. Xiaomi Mi TV P1, Chromecast with Google TV
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      description: Settings › Device Preferences › About › Version
+      placeholder: e.g. Android 9
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Summit version
+      placeholder: e.g. 0.1.0, or the commit you built from
+  - type: dropdown
+    id: variant
+    attributes:
+      label: Build variant
+      options:
+        - prodData (live weather and scores)
+        - fakeData (demo data)
+        - Not sure
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        If Summit crashed or froze, attach the log from right after it happened:
+        `adb logcat -d > summit-log.txt`
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video
+      description: "`adb exec-out screencap -p > screen.png` takes a screenshot from the TV."

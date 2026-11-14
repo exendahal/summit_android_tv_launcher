@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an idea or improvement for Summit
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: The need behind the idea, e.g. "I want to reach my live TV app faster from the screensaver".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How you imagine it working with the TV remote. Sketches or screenshots welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Home
+        - Apps
+        - Settings
+        - First-run setup
+        - Screensaver
+        - Weather or scores
+        - Languages
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've tried
+      description: Other launchers, apps or settings that do something similar today.
