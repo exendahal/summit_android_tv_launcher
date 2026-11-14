@@ -10,7 +10,7 @@ optional regional calendar. It is built to stay light on 1 GB TV boxes.
 
 ### Home
 - **Watch TV** first: one press of OK opens your TV input (HDMI, AV, antenna) or live-TV app.
-- **Continue**: the apps you used last, with how long ago (needs usage access, see [Installation](#installation)).
+- **Continue**: the apps you used last, with how long ago (needs usage access, which Summit asks for at the end of setup).
 - **Favourites**: your pinned apps; hold OK to pin, unpin or move them.
 - Large clock with the date (and an optional regional calendar date), a daily health tip, and live match scores.
 - Header with Home, Apps and Settings, a weather chip that opens a full forecast, voice search and the TV's own settings.
@@ -76,65 +76,10 @@ protect the screen from burn-in and dims at night. See [Set Summit as the screen
 
 Notes by version and device:
 - **Picture wallpapers** ask for photo access: *Files and media* on Android 8–12, *Photos* on Android 13 and newer.
-- **Google TV** devices give their stock launcher priority; disable it as shown in
-  [Make Summit the default home screen](#make-summit-the-default-home-screen). Some Google TV builds do not allow
+- **Google TV** devices give their stock launcher priority over other home screens, and some builds do not allow
   another home screen at all; Summit then still runs from the app list.
 - **Screensaver settings** are missing on some TVs (Mi TV shows a photo-album picker instead), so Summit can set
   itself as the screensaver after a one-time grant.
-
-## Installation
-
-### 1. Build
-Requirements: JDK 17, Android SDK platform 34. The Gradle 8.7 wrapper is included.
-
-```sh
-./gradlew assembleProdDataRelease        # app/build/outputs/apk/prodData/release/app-prodData-release.apk
-./gradlew testFakeDataDebugUnitTest      # calendar, units, score ordering, picture colour
-```
-
-| Variant | Data |
-|---|---|
-| `prodData` | Live weather (Open-Meteo) and live scores (ESPN public scoreboard) |
-| `fakeData` | Demo weather and scores from the product spec, no network |
-
-Local release builds are signed with the debug key so they can be sideloaded; signed releases come from
-[GitHub Actions](#releases-and-ci). On Windows, if the unit tests fail with `Could not find or load main class Files\...`,
-your `PATH` contains a stray `"` character; remove it or run with a cleaned `PATH`.
-
-Pre-built, signed APKs are attached to each [GitHub release](../../releases).
-
-### 2. Install on the TV
-Turn on developer options and network debugging on the TV, then from a computer on the same network:
-
-```sh
-adb connect <tv-ip-address>
-adb install -r app/build/outputs/apk/prodData/release/app-prodData-release.apk
-adb shell appops set np.exendahal.summitlauncher GET_USAGE_STATS allow   # Continue row (recent apps)
-```
-
-Without the last command Summit asks for usage access at the end of setup instead.
-
-### 3. Make Summit the default home screen
-On most TVs, press Home and choose Summit, or open **Settings › Apps › Default apps › Home app**.
-
-Google TV's stock launcher (`com.google.android.tvlauncher`) has a higher priority, so Android ignores any other
-choice. Disable it for the current user, then set Summit:
-
-```sh
-adb shell pm disable-user --user 0 com.google.android.tvlauncher
-adb shell cmd package set-home-activity np.exendahal.summitlauncher/.HomeActivity
-```
-
-To restore the stock launcher:
-
-```sh
-adb shell pm enable com.google.android.tvlauncher
-adb shell cmd package set-home-activity com.google.android.tvlauncher/.MainActivity
-```
-
-### 4. First run
-Pressing Home opens first-run setup. Choose your TV input or live-TV app, favourite apps, wallpaper, look and
-language, then **Finish**.
 
 ## Set Summit as the screensaver
 
@@ -177,73 +122,6 @@ Premier League, LaLiga, Champions League, Serie A, Bundesliga, Ligue 1, NBA, NFL
 60 s while a match is live and every 15 min otherwise. Cricket (IPL, Big Bash, internationals), EuroLeague,
 tennis, F1, MotoGP and golf have no source yet. Google is not used: it has no scores API, and scraping its result
 pages is against its terms.
-
-## Architecture
-A single activity with one screen per feature. The code is in `app/src/main/java/np/exendahal/summitlauncher/`:
-
-| Class | Role |
-|---|---|
-| `HomeActivity` | HOME activity: hosts the screens with a fade-through, wallpaper layer, Home/Search/Settings keys, Back hierarchy, minute tick, package changes |
-| `Screen` | Base for the screens: shared header (nav bar, gear, clock) and nav focus |
-| `HomeFragment` | Clock and dates, weather chip, score chips, Watch TV, Continue and Favourites rows, move mode |
-| `AppsFragment` | All TV apps in an alphabetical grid with the app menu |
-| `SettingsFragment` | Categories → options → values, with grids for wallpapers, colours and pictures |
-| `SetupFragment` | First-run setup |
-| `PrefRow` | The Android TV settings row shared by Settings and setup |
-| `Preview` | Settings and setup preview: Home or the screensaver from their own layouts, scaled down |
-| `AmbientDreamService` | Screensaver, burn-in shift, night dim; switching the system screensaver |
-| `TileAdapter`, `FocusMemoryRecyclerView`, `Ui` | Tiles and focus visuals, row focus memory, shared UI helpers |
-| `ThemeController` | Dark/light/auto, colour overlays, high contrast, wallpaper, picture → nearest colour |
-| `CustomWallpaper` | Picture wallpapers from the TV's MediaStore, saved scaled and upright in app storage |
-| `OnlineWallpapers` | Community wallpapers: daily list refresh, thumbnails, download on first use |
-| `Prefs` | Settings storage |
-| `AppsRepo`, `TvSource` | Installed apps, favourites, recents, Watch TV input/app launch, voice search |
-| `Weather`, `Scores`, `BikramSambat` | Open-Meteo client and cache, score model and ordering, calendar conversion |
-| `Dialogs` | Weather, score, app menu, city picker and confirmation dialogs |
-
-The calendar month table in `res/raw/bs_calendar.json` comes from the MIT-licensed `nepali-date-converter` 3.4.2.
-
-The product spec is in `Himal_Launcher_PRD.md`. To stay light on 1 GB boxes, the implementation uses a simpler
-stack than the spec suggests:
-
-| Spec | Summit | Upgrade when |
-|---|---|---|
-| Hilt, ViewModel/LiveData | Plain singletons, fragments bind directly | Screens get tested in isolation or grow state |
-| Room | SharedPreferences (favourites list, weather JSON cache) | Data outgrows a few KB |
-| Retrofit/OkHttp/Moshi | `HttpURLConnection` + `org.json` | More than one API |
-| WorkManager refresh | Refresh on Home resume when the cache is over 30 min old | Background freshness matters |
-| Bundled Roboto Flex / Noto fonts | System fonts (Android ships the Noto scripts) | Variable-width typography is required |
-
-## Releases and CI
-Two GitHub Actions workflows live in `.github/workflows/`:
-
-| Workflow | Runs on | Does |
-|---|---|---|
-| `pr-check.yml` | Pull requests into `develop` | Checks every language is fully translated, builds the release APK, runs the unit tests and lint |
-| `release.yml` | Pushing a tag that starts with `v` | Builds a signed APK, verifies the signature and publishes a GitHub release with it |
-| `wallpapers-check.yml` | Pull requests that change `wallpapers/` | Validates `index.json`, image sizes and file sizes |
-
-To publish a release, tag a commit and push the tag:
-
-```sh
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-The tag sets the version name (`v0.1.0` becomes `0.1.0`) and the workflow run number sets the version code. Tags
-with a suffix, such as `v0.2.0-beta.1`, are published as pre-releases.
-
-The release workflow signs with these repository secrets (**Settings › Secrets and variables › Actions**):
-
-| Secret | Value |
-|---|---|
-| `ANDROID_KEYSTORE_BASE64` | The keystore file encoded as one line of base64 |
-| `ANDROID_KEYSTORE_PASSWORD` | Keystore password |
-| `ANDROID_KEY_ALIAS` | Alias of the signing key |
-| `ANDROID_KEY_PASSWORD` | Password of the signing key |
-
-To build a signed APK locally, set the same values as environment variables, with `ANDROID_KEYSTORE_PATH` pointing
-to the keystore file instead of the base64 secret.
 
 ## Contributing
 Bug reports, ideas and pull requests are welcome.
