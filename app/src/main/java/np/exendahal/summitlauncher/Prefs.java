@@ -39,8 +39,8 @@ public final class Prefs {
 
     static {
         String[][] d = {
-                {THEME_MODE, "auto"}, {THEME_COLOUR, "wallpaper"}, {THEME_CUSTOM, "blue"}, {CONTRAST, "standard"}, {ANIMATIONS, "full"},
-                {WALLPAPER, "mountains"}, {WALLPAPER_DIM, "0"}, {TEXT_SCALE, "1.0"}, {NEPALI_DIGITS, "false"},
+                {THEME_MODE, "dark"}, {THEME_COLOUR, "wallpaper"}, {THEME_CUSTOM, "blue"}, {CONTRAST, "standard"}, {ANIMATIONS, "full"},
+                {WALLPAPER, "flags"}, {WALLPAPER_DIM, "0"}, {TEXT_SCALE, "1.0"}, {NEPALI_DIGITS, "false"},
                 {CALENDAR, "both"}, {TIME_FORMAT, "12h"}, {TEMP_UNIT, "c"}, {WIND_UNIT, "kmh"}, {RAIN_UNIT, "mm"},
                 {LOCATION, "auto"}, {WEATHER_SHOW, "true"}, {WATCH_TILE, "first"}, {CONTINUE_ROW, "true"},
                 {FAV_ORDER, "most_used"}, {HEALTH_LINE, "ambient"}, {LIVE_TYPE, "input"}, {LIVE_INPUT, ""},
