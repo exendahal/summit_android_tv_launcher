@@ -128,6 +128,8 @@ public class SettingsFragment extends Screen {
         listPane = root.findViewById(R.id.list_pane);
         // Fade without an off-screen buffer: far cheaper on low-end TV GPUs, and rows do not overlap anyway.
         listPane.forceHasOverlappingRendering(false);
+        ((TextView) root.findViewById(R.id.version)).setText(
+                getString(R.string.app_name) + " " + BuildConfig.VERSION_NAME + " (" + BuildConfig.VERSION_CODE + ")");
         bindHeader(root, R.id.nav_settings, true);
         Ui.scaleText(root, prefs().decimal(Prefs.TEXT_SCALE)); // before render(), which scales the rows it adds
         render(0);
