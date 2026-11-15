@@ -60,7 +60,7 @@ public class SettingsFragment extends Screen {
     private static String focusTag;
 
     /** Supported languages; display names in R.array.languages (same order). */
-    static final String[] LANG_CODES = {"en", "ne", "hi", "zh-Hans", "es", "fr", "ar", "pt", "ru", "ja", "de", "ko", "zh-Hant", "bn", "ur", "it", "tr", "id", "ms", "vi", "th", "fil", "fa", "he", "pl", "uk", "nl", "sv", "da", "nb", "fi", "cs", "hu", "ro", "el", "sw", "ta", "te", "pa", "gu", "si", "my", "bo"};
+    static final String[] LANG_CODES = {"en", "ne", "hi", "zh-Hans"};
 
     /** League chips (PRD 6.6.2): group label, then id/name pairs. */
     private static final Object[][] LEAGUES = {

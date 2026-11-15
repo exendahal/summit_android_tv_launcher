@@ -61,11 +61,8 @@ for entry in index["wallpapers"]:
         errors.append(f"{wid}: 'names' must map every app language code to a name")
     else:
         missing = [code for code in TRANSLATED if not str(names.get(code, "")).strip()]
-        unknown = [code for code in names if code not in TRANSLATED]
-        if missing:
+        if missing:  # names in languages the app does not offer yet are allowed, and kept for later
             errors.append(f"{wid}: 'names' is missing {', '.join(missing)}")
-        if unknown:
-            errors.append(f"{wid}: 'names' has codes the app does not offer: {', '.join(unknown)}")
     for field in RULES:
         used.add(check_file(entry, field))
 

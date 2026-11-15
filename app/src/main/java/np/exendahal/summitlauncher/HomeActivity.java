@@ -184,6 +184,10 @@ public class HomeActivity extends AppCompatActivity {
     /** @return true if the locale changed (AppCompat then recreates the activity). */
     private boolean applyLocale() {
         String lang = Prefs.get(this).str(Prefs.LANGUAGE);
+        if (!Arrays.asList(SettingsFragment.LANG_CODES).contains(lang)) { // a language no longer offered
+            lang = "en";
+            Prefs.get(this).set(Prefs.LANGUAGE, lang);
+        }
         if (lang.equals(AppCompatDelegate.getApplicationLocales().toLanguageTags())) return false;
         AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(lang));
         return true;

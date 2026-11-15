@@ -25,7 +25,7 @@ Mountains are the theme: every wallpaper should have mountains as its main subje
    - `id`: lowercase letters, digits and `-`; unique; never change it once published, as TVs remember it
    - `name`: the English name shown in Settings
    - `names`: the name in every other language the app offers, keyed by the codes in
-     [`locales_config.xml`](../app/src/main/res/xml/locales_config.xml) (`ne`, `hi`, `zh-Hans`, `es` and so on).
+     [`locales_config.xml`](../app/src/main/res/xml/locales_config.xml) (`ne`, `hi` and `zh-Hans`).
      All of them are required; copy an existing entry as a template. Machine translation is fine as a start
    - `author`: you, or the artist
 4. Open a pull request. The *Wallpapers check* workflow validates the entry, every language name, sizes and file sizes.
