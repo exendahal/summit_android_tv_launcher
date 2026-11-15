@@ -20,6 +20,18 @@ public class CoreLogicTest {
         BikramSambat.load(new String(Files.readAllBytes(Paths.get("src/main/res/raw/bs_calendar.json")), "UTF-8"));
     }
 
+    @Test
+    public void newerReleaseIsDetected() {
+        assertTrue(Updates.isNewer("v0.2.0", "0.1.0"));
+        assertTrue(Updates.isNewer("v0.10.0", "0.9.5")); // numbers, not text
+        assertTrue(Updates.isNewer("1.0", "0.9.9"));
+        assertTrue(!Updates.isNewer("v0.1.0", "0.1.0"));
+        assertTrue(!Updates.isNewer("v0.1.0", "0.1.0-debug"));
+        assertTrue(!Updates.isNewer("v0.1", "0.1.0"));
+        assertTrue(!Updates.isNewer("v0.1.0", "0.2.0"));
+        assertTrue(!Updates.isNewer("nightly", "0.1.0")); // an unversioned tag never nags
+    }
+
     /** BS date -> AD date. New-year dates are Nepal's official Baisakh 1 dates. */
     private static final Object[][] KNOWN = {
             {2000, 1, 1, "1943-04-14"},

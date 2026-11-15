@@ -198,6 +198,8 @@
     <string name="allow">अनुमति दें</string>
     <string name="skip">छोड़ें</string>
     <string name="run_setup">शुरुआती सेटअप चलाएं</string>
+    <string name="update_available">अपडेट उपलब्ध है</string>
+    <string name="up_to_date">अप-टू-डेट है</string>
     <string name="change_city">शहर बदलें</string>
     <string name="kick_off">किक-ऑफ़ %s</string>
     <string name="mode_input">टीवी इनपुट</string>

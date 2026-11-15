@@ -128,11 +128,10 @@ public class SettingsFragment extends Screen {
         listPane = root.findViewById(R.id.list_pane);
         // Fade without an off-screen buffer: far cheaper on low-end TV GPUs, and rows do not overlap anyway.
         listPane.forceHasOverlappingRendering(false);
-        ((TextView) root.findViewById(R.id.version)).setText(
-                getString(R.string.app_name) + " " + BuildConfig.VERSION_NAME + " (" + BuildConfig.VERSION_CODE + ")");
         bindHeader(root, R.id.nav_settings, true);
         Ui.scaleText(root, prefs().decimal(Prefs.TEXT_SCALE)); // before render(), which scales the rows it adds
         render(0);
+        checkForUpdate();
         root.post(this::focusNav); // after render's first-row focus, which waits for attach too
         onTick();
         root.findViewById(R.id.preview).post(this::bindPreview); // the preview scales to the box's laid-out width
@@ -365,6 +364,47 @@ public class SettingsFragment extends Screen {
         return null;
     }
 
+    /** Checks GitHub once per process; the row is added in place so the user's focus is left alone. */
+    private void checkForUpdate() {
+        if (Updates.checked()) return;
+        Weather.IO.execute(() -> {
+            Updates.check();
+            root.post(() -> {
+                View old = isAdded() && level == LEVEL_CATEGORIES ? list.findViewWithTag("update") : null;
+                if (old == null) return;
+                View row = updateRow();
+                Ui.scaleText(row, prefs().decimal(Prefs.TEXT_SCALE));
+                boolean focused = old.hasFocus();
+                int at = list.indexOfChild(old);
+                list.removeView(old);
+                list.addView(row, at);
+                if (focused) row.requestFocus();
+            });
+        });
+    }
+
+    /**
+     * The last Settings row: "Up to date" or "Update available" over the app name and version. Until GitHub has
+     * answered it claims neither and only names the installed version. An update opens the releases page, or
+     * names it where the TV has no browser.
+     */
+    private View updateRow() {
+        String name = getString(R.string.app_name), installed = "v" + BuildConfig.VERSION_NAME, newer = Updates.newer();
+        if (newer == null) {
+            return Updates.checked()
+                    ? row(getString(R.string.up_to_date), name + " " + installed, R.drawable.ic_info, PrefRow.Mark.NONE, "update", () -> {})
+                    : row(name, installed, R.drawable.ic_info, PrefRow.Mark.NONE, "update", () -> {});
+        }
+        return row(getString(R.string.update_available), name + " " + newer, R.drawable.ic_info, PrefRow.Mark.CHEVRON, "update", () -> {
+            try {
+                startActivity(new android.content.Intent(android.content.Intent.ACTION_VIEW,
+                        android.net.Uri.parse("https://" + Updates.PAGE)));
+            } catch (RuntimeException e) {
+                Toast.makeText(requireContext(), Updates.PAGE, Toast.LENGTH_LONG).show();
+            }
+        });
+    }
+
     private void renderCategories(String[] cats) {
         for (int i = 0; i < cats.length; i++) {
             if (i == CAT_SCORES && !BuildConfig.SCORES_ENABLED) continue;
@@ -385,6 +425,7 @@ public class SettingsFragment extends Screen {
         });
         ((LinearLayout.LayoutParams) setup.getLayoutParams()).topMargin = Ui.px(requireContext(), R.dimen.tile_gap) * 2;
         list.addView(setup);
+        list.addView(updateRow()); // last row
     }
 
     private void renderOptions() {

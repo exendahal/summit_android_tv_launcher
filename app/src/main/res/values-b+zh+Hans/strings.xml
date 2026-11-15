@@ -197,6 +197,8 @@
     <string name="allow">允许</string>
     <string name="skip">跳过</string>
     <string name="run_setup">运行初始设置</string>
+    <string name="update_available">有可用更新</string>
+    <string name="up_to_date">已是最新版本</string>
     <string name="change_city">更改城市</string>
     <string name="kick_off">%s 开赛</string>
     <string name="mode_input">电视信号源</string>

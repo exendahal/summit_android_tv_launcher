@@ -199,6 +199,8 @@
     <string name="allow">Allow</string>
     <string name="skip">Skip</string>
     <string name="run_setup">Run first-time setup</string>
+    <string name="update_available">Update available</string>
+    <string name="up_to_date">Up to date</string>
     <string name="change_city">Change city</string>
     <string name="kick_off">Kick-off %s</string>
     <string name="mode_input">TV input</string>
