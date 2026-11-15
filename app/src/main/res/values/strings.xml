@@ -139,6 +139,7 @@
     <string name="opt_watch_tile">Watch TV tile</string>
     <string name="opt_continue">Continue row</string>
     <string name="opt_fav_order">Favourites order</string>
+    <string name="opt_card_opacity">Card opacity</string>
     <string name="opt_health">Health line</string>
     <string name="opt_live_type">Watch TV uses</string>
     <string name="opt_input">Input source</string>

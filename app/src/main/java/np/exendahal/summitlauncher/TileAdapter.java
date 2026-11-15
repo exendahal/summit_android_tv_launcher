@@ -145,6 +145,12 @@ public final class TileAdapter extends RecyclerView.Adapter<TileAdapter.VH> {
                     : com.google.android.material.R.attr.colorSurfaceContainer));
             card.setAlpha(position == moving ? 0.6f : 1f);
         }
+        if (t.type == CONTINUE) {
+            // Home › Card opacity: fades the recent cards' fill, never the icon or text.
+            int a = Math.round(Prefs.get(c).integer(Prefs.CARD_OPACITY) * 2.55f);
+            MaterialCardView card = (MaterialCardView) h.itemView;
+            card.setCardBackgroundColor(card.getCardBackgroundColor().withAlpha(a));
+        }
         if (h.icon != null && t.type == CONTINUE) {
             // Same cookie badge as the Watch TV tile: app icons are cut to the cookie shape,
             // action tiles get a primary-coloured cookie with the symbol on top.

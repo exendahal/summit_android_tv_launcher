@@ -138,6 +138,7 @@
     <string name="opt_watch_tile">टीवी देखें टाइल</string>
     <string name="opt_continue">जारी रखें पंक्ति</string>
     <string name="opt_fav_order">पसंदीदा का क्रम</string>
+    <string name="opt_card_opacity">कार्ड की अपारदर्शिता</string>
     <string name="opt_health">स्वास्थ्य संदेश</string>
     <string name="opt_live_type">टीवी देखें किससे</string>
     <string name="opt_input">इनपुट स्रोत</string>

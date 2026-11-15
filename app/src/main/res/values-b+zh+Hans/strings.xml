@@ -137,6 +137,7 @@
     <string name="opt_watch_tile">“看电视”磁贴</string>
     <string name="opt_continue">“继续观看”行</string>
     <string name="opt_fav_order">收藏排序</string>
+    <string name="opt_card_opacity">卡片不透明度</string>
     <string name="opt_health">健康小贴士</string>
     <string name="opt_live_type">“看电视”使用</string>
     <string name="opt_input">信号源</string>

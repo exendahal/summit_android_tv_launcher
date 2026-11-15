@@ -242,6 +242,8 @@ public class SettingsFragment extends Screen {
                 o.add(new Opt(Prefs.WATCH_TILE, R.string.opt_watch_tile, v("first", "hidden"), arr(R.array.e_watch_tile)));
                 o.add(new Opt(Prefs.CONTINUE_ROW, R.string.opt_continue, bool, arr(R.array.e_show_hide)));
                 o.add(new Opt(Prefs.FAV_ORDER, R.string.opt_fav_order, v("most_used", "manual"), arr(R.array.e_fav_order)));
+                o.add(new Opt(Prefs.CARD_OPACITY, R.string.opt_card_opacity, v("100", "80", "60", "40", "20", "0"),
+                        v("100%", "80%", "60%", "40%", "20%", "0%")));
                 o.add(new Opt(Prefs.HEALTH_LINE, R.string.opt_health, v("ambient", "home_ambient", "off"), arr(R.array.e_health)));
                 break;
             case CAT_LIVE:

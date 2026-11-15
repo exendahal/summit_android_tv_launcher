@@ -130,6 +130,7 @@
     <string name="opt_watch_tile">टिभी हेर्ने टाइल</string>
     <string name="opt_continue">जारी राख्ने पङ्क्ति</string>
     <string name="opt_fav_order">मनपर्नेको क्रम</string>
+    <string name="opt_card_opacity">कार्डको अपारदर्शिता</string>
     <string name="opt_health">स्वास्थ्य पङ्क्ति</string>
     <string name="opt_live_type">टिभी हेर्न प्रयोग</string>
     <string name="opt_input">इनपुट स्रोत</string>
