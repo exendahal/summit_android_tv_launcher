@@ -65,10 +65,25 @@ public class SetupFragment extends Screen {
         next = root.findViewById(R.id.next);
         back.setOnClickListener(v -> go(-1));
         next.setOnClickListener(v -> go(1));
+        Context c = requireContext();
+        focusStyle(back, android.graphics.Color.TRANSPARENT, Ui.color(c, attr.colorOnSurface));
+        focusStyle(next, Ui.color(c, attr.colorSecondaryContainer), Ui.color(c, attr.colorOnSecondaryContainer));
         Ui.scaleText(root, prefs().decimal(Prefs.TEXT_SCALE));
         render();
         root.post(this::focusSelected);
         return root;
+    }
+
+    /**
+     * On a TV the focused button must be unmistakable: it alone is filled with the primary colour and grows,
+     * and at rest a button is quiet. Material's own focus state is only a faint overlay.
+     */
+    private static void focusStyle(MaterialButton b, int restFill, int restText) {
+        Context c = b.getContext();
+        int[][] states = {{android.R.attr.state_focused}, {}};
+        b.setBackgroundTintList(new android.content.res.ColorStateList(states, new int[]{Ui.color(c, attr.colorPrimary), restFill}));
+        b.setTextColor(new android.content.res.ColorStateList(states, new int[]{Ui.color(c, attr.colorOnPrimary), restText}));
+        Ui.focusable(b, true);
     }
 
     @Override

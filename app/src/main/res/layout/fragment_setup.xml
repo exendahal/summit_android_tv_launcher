@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:clipChildren="false" android:clipToPadding="false"
     android:paddingStart="@dimen/pad_h" android:paddingEnd="@dimen/pad_h"
     android:paddingTop="@dimen/pad_v" android:paddingBottom="@dimen/pad_v"
     android:background="?attr/hTint">
@@ -20,7 +21,8 @@
     </LinearLayout>
 
     <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
-        android:layout_marginTop="14dp" android:orientation="horizontal" android:baselineAligned="false">
+        android:layout_marginTop="14dp" android:orientation="horizontal" android:baselineAligned="false"
+        android:clipChildren="false">
 
         <!-- One list per step, in the Settings row style -->
         <LinearLayout android:id="@+id/body" android:layout_width="400dp" android:layout_height="match_parent"
@@ -40,7 +42,7 @@
         </LinearLayout>
 
         <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent"
-            android:layout_marginStart="20dp" android:orientation="vertical">
+            android:layout_marginStart="20dp" android:orientation="vertical" android:clipChildren="false">
             <TextView style="@style/Himal.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:text="@string/preview" />
             <FrameLayout android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="210dp"
@@ -53,9 +55,11 @@
             </FrameLayout>
             <TextView style="@style/Himal.Caption" android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:layout_marginTop="10dp" android:text="@string/setup_preview_note" />
-            <!-- Beside the list, so Right from any row reaches them however long the list is -->
+            <!-- Beside the list, so Right from any row reaches them however long the list is.
+                 No clipping here or above: a focused button grows past the row's edge -->
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="20dp" android:orientation="horizontal" android:gravity="end">
+                android:layout_marginTop="20dp" android:orientation="horizontal" android:gravity="end"
+                android:clipChildren="false">
                 <com.google.android.material.button.MaterialButton android:id="@+id/back"
                     style="@style/Widget.Material3.Button.OutlinedButton"
                     android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back" />
