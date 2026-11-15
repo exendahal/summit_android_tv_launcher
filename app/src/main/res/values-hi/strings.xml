@@ -111,6 +111,7 @@
     <string name="opt_mode">मोड</string>
     <string name="opt_colour">रंग</string>
     <string name="opt_use_screensaver">स्क्रीनसेवर के रूप में इस्तेमाल करें</string>
+    <string name="opt_start_screensaver">स्क्रीनसेवर अभी शुरू करें</string>
     <string name="screensaver_setup_title">एक बार सेटअप ज़रूरी है</string>
     <string name="screensaver_setup_body">यह टीवी ऐप्स को खुद स्क्रीनसेवर बदलने नहीं देता। एक बार कंप्यूटर जोड़ें और यह चलाएं:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nफिर इसे दोबारा चालू करें।</string>
     <string name="wallpaper_custom">मेरी तस्वीर</string>

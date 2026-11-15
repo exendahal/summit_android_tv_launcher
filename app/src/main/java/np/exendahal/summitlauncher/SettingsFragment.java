@@ -407,6 +407,16 @@ public class SettingsFragment extends Screen {
             View use = row(getString(R.string.opt_use_screensaver), arr(R.array.e_on_off)[on ? 0 : 1], 0, PrefRow.Mark.NONE,
                     "use_screensaver", () -> useScreensaver(!on));
             list.addView(use, 0);
+            if (on) { // the system starts whichever screensaver is selected, so offer this only when it is ours
+                list.addView(row(getString(R.string.opt_start_screensaver), null, 0, PrefRow.Mark.NONE, "start_screensaver", () -> {
+                    try { // SystemUI's "start dreaming now" entry point; apps cannot call the dream manager directly
+                        startActivity(new android.content.Intent(android.content.Intent.ACTION_MAIN)
+                                .setClassName("com.android.systemui", "com.android.systemui.Somnambulator"));
+                    } catch (RuntimeException e) { // TVs without it: their own screensaver settings can start it
+                        TvSource.open(requireActivity(), Settings.ACTION_DREAM_SETTINGS);
+                    }
+                })); // last option, below Dim at night
+            }
         }
         if (openCategory == CAT_SCORES) addLeagues();
         View reset = row(getString(R.string.reset), null, R.drawable.ic_restart_alt, PrefRow.Mark.NONE, "reset", () -> Dialogs.resetConfirm(c, () -> {

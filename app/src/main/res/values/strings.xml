@@ -112,6 +112,7 @@
     <string name="opt_mode">Mode</string>
     <string name="opt_colour">Colour</string>
     <string name="opt_use_screensaver">Use as screensaver</string>
+    <string name="opt_start_screensaver">Start screensaver now</string>
     <string name="screensaver_setup_title">One-time setup needed</string>
     <string name="screensaver_setup_body">This TV doesn\'t let apps change the screensaver on their own. Connect a computer once and run:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nThen turn this on again.</string>
     <string name="wallpaper_custom">My picture</string>

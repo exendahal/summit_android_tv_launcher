@@ -103,6 +103,7 @@
     <string name="opt_mode">मोड</string>
     <string name="opt_colour">रङ</string>
     <string name="opt_use_screensaver">स्क्रिनसेभरको रूपमा प्रयोग</string>
+    <string name="opt_start_screensaver">स्क्रिनसेभर अहिले सुरु गर्नुहोस्</string>
     <string name="screensaver_setup_title">एक पटक सेटअप चाहिन्छ</string>
     <string name="screensaver_setup_body">यो टिभीले एपलाई आफैं स्क्रिनसेभर बदल्न दिँदैन। एक पटक कम्प्युटर जोडेर यो चलाउनुहोस्:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nत्यसपछि यसलाई फेरि खोल्नुहोस्।</string>
     <string name="wallpaper_custom">मेरो तस्बिर</string>

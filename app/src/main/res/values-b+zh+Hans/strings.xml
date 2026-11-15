@@ -110,6 +110,7 @@
     <string name="opt_mode">模式</string>
     <string name="opt_colour">颜色</string>
     <string name="opt_use_screensaver">用作屏幕保护程序</string>
+    <string name="opt_start_screensaver">立即启动屏幕保护程序</string>
     <string name="screensaver_setup_title">需要进行一次性设置</string>
     <string name="screensaver_setup_body">此电视不允许应用自行更改屏幕保护程序。请连接一次电脑并运行：\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\n然后再次开启此选项。</string>
     <string name="wallpaper_custom">我的图片</string>
