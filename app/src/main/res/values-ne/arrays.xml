@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="categories">
-        <item>थिम</item><item>फन्ट</item><item>भाषा</item><item>मौसम</item>
+        <item>देखावट</item><item>फन्ट</item><item>भाषा</item><item>मौसम</item>
         <item>गृह स्क्रिन</item><item>लाइभ टिभी</item><item>आइकन र टाइल</item><item>स्कोर</item><item>स्क्रिनसेभर</item>
     </string-array>
     <string-array name="e_theme_mode"><item>समय अनुसार</item><item>गाढा</item><item>उज्यालो</item></string-array>

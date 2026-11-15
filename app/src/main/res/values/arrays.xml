@@ -2,7 +2,7 @@
 <resources>
     <!-- Display names for settings values. Order must match the value arrays in SettingsFragment. -->
     <string-array name="categories">
-        <item>Theme</item><item>Font</item><item>Language</item><item>Weather</item>
+        <item>Appearance</item><item>Font</item><item>Language</item><item>Weather</item>
         <item>Home screen</item><item>Live TV</item><item>Icons &amp; tiles</item><item>Scores</item><item>Screensaver</item>
     </string-array>
     <string-array name="e_theme_mode"><item>Auto by time</item><item>Dark</item><item>Light</item></string-array>

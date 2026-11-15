@@ -218,14 +218,15 @@ public class SettingsFragment extends Screen {
                 if (p.is(Prefs.THEME_COLOUR, "custom")) {
                     o.add(new Opt(Prefs.THEME_CUSTOM, R.string.opt_custom_colour, ThemeController.CUSTOM, arr(R.array.e_custom_colour)));
                 }
-                o.add(new Opt(Prefs.CONTRAST, R.string.opt_contrast, v("standard", "high"), arr(R.array.e_contrast)));
-                o.add(new Opt(Prefs.ANIMATIONS, R.string.opt_animations, v("full", "reduced", "off"), arr(R.array.e_animations)));
-                break;
-            case CAT_FONT:
+                o.add(new Opt(Prefs.TILE_SIZE, R.string.opt_tile_size, v("medium", "large", "small"), arr(R.array.e_tile_size)));
+                o.add(new Opt(Prefs.TILE_SHAPE, R.string.opt_tile_shape, v("rounded", "square"), arr(R.array.e_tile_shape)));
+                o.add(new Opt(Prefs.TILE_LABELS, R.string.opt_labels, v("true", "focus", "false"), arr(R.array.e_labels)));
                 o.add(new Opt(Prefs.TEXT_SCALE, R.string.opt_text_size, v("1.0", "1.15", "1.3"), arr(R.array.e_text_size)));
                 if (Ui.inNepal(requireContext())) { // Devanagari digits are offered only in Nepal
                     o.add(new Opt(Prefs.NEPALI_DIGITS, R.string.opt_digits, boolOff, arr(R.array.e_off_on)));
                 }
+                o.add(new Opt(Prefs.CONTRAST, R.string.opt_contrast, v("standard", "high"), arr(R.array.e_contrast)));
+                o.add(new Opt(Prefs.ANIMATIONS, R.string.opt_animations, v("full", "reduced", "off"), arr(R.array.e_animations)));
                 break;
             case CAT_LANGUAGE:
                 o.add(new Opt(Prefs.LANGUAGE, R.string.opt_language, LANG_CODES, arr(R.array.languages)));
@@ -265,11 +266,6 @@ public class SettingsFragment extends Screen {
                     o.add(new Opt(Prefs.LIVE_APP, R.string.opt_live_app, pkgs, labels));
                 }
                 o.add(new Opt(Prefs.LIVE_ON_BOOT, R.string.opt_boot, boolOff, arr(R.array.e_off_on)));
-                break;
-            case CAT_TILES:
-                o.add(new Opt(Prefs.TILE_SIZE, R.string.opt_tile_size, v("medium", "large", "small"), arr(R.array.e_tile_size)));
-                o.add(new Opt(Prefs.TILE_SHAPE, R.string.opt_tile_shape, v("rounded", "square"), arr(R.array.e_tile_shape)));
-                o.add(new Opt(Prefs.TILE_LABELS, R.string.opt_labels, v("true", "focus", "false"), arr(R.array.e_labels)));
                 break;
             case CAT_SCORES:
                 o.add(new Opt(Prefs.SCORE_MAX, R.string.opt_score_max, v("4", "6", "3", "2"), arr(R.array.e_score_max)));
@@ -372,6 +368,9 @@ public class SettingsFragment extends Screen {
     private void renderCategories(String[] cats) {
         for (int i = 0; i < cats.length; i++) {
             if (i == CAT_SCORES && !BuildConfig.SCORES_ENABLED) continue;
+            // ponytail: Font and Icons & tiles merged into Appearance (CAT_THEME); their slots stay in the
+            // localized category arrays, drop them there if the arrays are ever re-translated
+            if (i == CAT_FONT || i == CAT_TILES) continue;
             int cat = i;
             list.addView(row(cats[i], null, CAT_ICONS[i], PrefRow.Mark.CHEVRON, "cat:" + i, () -> {
                 level = LEVEL_OPTIONS;
