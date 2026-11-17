@@ -1,0 +1,36 @@
+name: Pages
+
+# Publishes the privacy policy to https://exendahal.github.io/summit_android_tv_launcher/privacy-policy/
+# (the URL given to Google Play). Repository Settings › Pages › Source must be "GitHub Actions".
+on:
+  push:
+    branches: [main]
+    paths: ['PRIVACY.md', '.github/scripts/build_pages.py', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}privacy-policy/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install markdown==3.7
+      - run: python .github/scripts/build_pages.py . _site
+      - uses: actions/upload-pages-artifact@v3
+      - id: deployment
+        uses: actions/deploy-pages@v4

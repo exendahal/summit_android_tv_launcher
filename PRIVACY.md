@@ -1,32 +1,64 @@
-# Summit privacy policy
+# Privacy Policy
 
-_Last updated: 17 November 2026_
+**App:** Summit (Android TV home screen), package `np.exendahal.summitlauncher`
+**Effective date:** 17 November 2026
 
-Summit is a home screen for Android TV. It has no account, no ads, no analytics and no crash reporting, and the
-developer does not receive any data from it.
+This Privacy Policy explains what information the Summit app ("Summit", "the app", "we") handles, how it is used,
+and the choices you have. By using Summit you agree to this policy.
 
-## What stays on your TV
-- **App usage** (for the Continue row) is read from Android's usage access and never leaves the TV.
-- **Pictures** you choose as a wallpaper are read from the TV's storage and never leave the TV.
-- **Settings**, favourites and cached weather are stored only on the TV and are removed when Summit is uninstalled.
+## 1. Information we collect
+Summit has no account, no advertising, no analytics and no crash reporting. **The developer does not collect, store
+or receive any personal information from the app.**
 
-## What Summit sends over the internet
-Summit only contacts these services, and only for the features named:
+## 2. Information processed on your device
+The following stays on your TV and is never sent to the developer or any third party:
 
-| Service | What it receives | Why |
+- **App usage**, read through Android's usage access (only if you grant it), to show the apps you used last in the
+  Continue row.
+- **Pictures** you choose as a wallpaper. The chosen picture is copied into the app's private storage.
+- **Settings**, favourite apps and cached weather.
+
+## 3. Information sent to third-party services
+To provide some features, Summit contacts the services below directly from your TV. Like any internet request, each
+one receives your TV's public IP address. Their own privacy policies apply.
+
+| Service | Data sent | Purpose |
 |---|---|---|
-| [ipapi.co](https://ipapi.co/privacy/), falling back to [ipwho.is](https://ipwho.is/) | The TV's public IP address (as any web request does) | Find the approximate city for weather, at most once a day, only while weather follows the current location |
-| [Open-Meteo](https://open-meteo.com/en/terms#privacy) | The latitude and longitude of the weather city, or the city name you type in search | Weather forecast and city search |
-| GitHub (`raw.githubusercontent.com`, `api.github.com`) | The TV's public IP address | Community wallpaper list and downloads, and the latest version number shown in Settings |
+| [ipapi.co](https://ipapi.co/privacy/), falling back to [ipwho.is](https://ipwho.is/) | Public IP address | Find your approximate city for weather, at most once a day, only while weather uses the current location |
+| [Open-Meteo](https://open-meteo.com/en/terms#privacy) | Latitude and longitude of the weather city, or the city name you search for | Weather forecast and city search |
+| [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) | Public IP address | Community wallpaper list and downloads; the latest version number (GitHub version only) |
 
-No identifiers, app lists or personal information are sent. Choosing a city in **Settings › Weather › Location**
-stops the IP lookup.
+No device identifiers, installed-app lists, usage data or pictures are sent. All requests use encrypted HTTPS.
 
-## Children
-Summit does not knowingly collect any personal information from anyone, including children.
+## 4. Location
+Summit does not use GPS or the Android location permission. Approximate location is derived from your IP address
+only for weather. You can stop this at any time by choosing a city in **Settings › Weather › Location**.
 
-## Changes
-Changes to this policy are published in this file, with the date above updated.
+## 5. Permissions
+| Permission | Why |
+|---|---|
+| Internet, network state | Weather, wallpapers and the version check |
+| Usage access (optional) | The Continue row on Home |
+| Read photos (GitHub version only) | List your pictures to choose a wallpaper |
+| Read TV listings | Find your TV inputs and live-TV channels for Watch TV |
+| Run at start-up | Open Watch TV when the TV starts, if you turn that on |
+| Change secure settings (only if you grant it over adb) | Set Summit as the screensaver |
 
-## Contact
-Open an issue at https://github.com/exendahal/summit_android_tv_launcher/issues.
+## 6. Data retention and deletion
+All data Summit keeps is stored on your TV. Clearing the app's data or uninstalling Summit deletes it. The developer
+holds no data about you, so there is nothing to request or delete from us.
+
+## 7. Children's privacy
+Summit is not directed at children and does not knowingly collect personal information from anyone, including
+children under 13.
+
+## 8. Security
+Summit stores its data in Android's private app storage, which other apps cannot read, and uses HTTPS for every
+network request.
+
+## 9. Changes to this policy
+We may update this policy. Changes are published at this address with a new effective date.
+
+## 10. Contact
+Questions about this policy: open an issue at
+[github.com/exendahal/summit_android_tv_launcher/issues](https://github.com/exendahal/summit_android_tv_launcher/issues).

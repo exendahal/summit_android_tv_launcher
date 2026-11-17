@@ -17,7 +17,7 @@ one) and no GitHub update check.
 | Feature graphic 1024×500 | `images/featureGraphic.png` |
 | Android TV banner 1280×720 | `images/tvBanner.png` |
 | Android TV screenshots 1920×1080 | `images/tvScreenshots/` |
-| Privacy policy URL | https://github.com/exendahal/summit_android_tv_launcher/blob/main/PRIVACY.md |
+| Privacy policy URL | https://exendahal.github.io/summit_android_tv_launcher/privacy-policy/ (published by `.github/workflows/pages.yml`) |
 
 ## App content answers
 - **Category:** Tools (or Personalization). **Ads:** No. **Target audience:** 13+ (not designed for children).
