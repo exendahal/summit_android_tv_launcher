@@ -39,7 +39,7 @@ body:
     id: version
     attributes:
       label: Summit version
-      placeholder: e.g. 1.0.0, or the commit you built from
+      placeholder: e.g. 1.0.1, or the commit you built from
   - type: dropdown
     id: variant
     attributes:
