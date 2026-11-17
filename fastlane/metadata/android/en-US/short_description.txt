@@ -1,1 +1,0 @@
-A calm, fast Android TV home screen with live TV, favourites, weather and clock.

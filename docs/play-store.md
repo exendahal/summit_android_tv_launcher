@@ -1,6 +1,6 @@
 # Google Play release
 
-Listing text and graphics live in `fastlane/metadata/android/en-US/` (the layout `fastlane supply` uploads, or copy
+Listing text and graphics live in `fastlane/metadata/android/en-US/` (git-ignored, kept locally) (the layout `fastlane supply` uploads, or copy
 them by hand). The upload file is `summit-vX.Y.Z.aab` from the GitHub release.
 
 That bundle is the `play` build type (`./gradlew bundleProdDataPlay`). It differs from the GitHub APK only where Play

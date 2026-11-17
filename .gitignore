@@ -3,3 +3,6 @@ build/
 local.properties
 .idea/
 *.iml
+
+# Play Store listing assets (kept locally, uploaded by hand)
+/fastlane/
