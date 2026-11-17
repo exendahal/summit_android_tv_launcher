@@ -129,6 +129,9 @@ Bug reports, ideas and pull requests are welcome.
   `./gradlew assembleProdDataRelease testFakeDataDebugUnitTest lintProdDataRelease` passes, and add screenshots for
   UI changes.
 
+## Privacy
+Summit has no account, ads or tracking. See the [privacy policy](https://exendahal.github.io/summit_android_tv_launcher/privacy-policy/).
+
 ## License
 Summit is released under the [MIT License](LICENSE).
 

@@ -44,7 +44,11 @@ jobs:
           "$APKSIGNER" verify --print-certs "$APK"
           cp "$APK" "summit-$GITHUB_REF_NAME.apk"
           # Google Play takes the bundle (upload key = this keystore when Play App Signing is on).
-          cp app/build/outputs/bundle/prodDataPlay/app-prodData-play.aab "summit-$GITHUB_REF_NAME.aab"
+          AAB=app/build/outputs/bundle/prodDataPlay/app-prodData-play.aab
+          VERIFY=$(jarsigner -verify "$AAB"); echo "$VERIFY"
+          grep -q "^jar verified" <<< "$VERIFY"  # "jar is unsigned" fails here
+          keytool -printcert -jarfile "$AAB"
+          cp "$AAB" "summit-$GITHUB_REF_NAME.aab"
 
       - name: Publish release
         env:
@@ -54,7 +58,9 @@ jobs:
           PRERELEASE=""
           case "$GITHUB_REF_NAME" in *-*) PRERELEASE="--prerelease" ;; esac
           gh release create "$GITHUB_REF_NAME" "summit-$GITHUB_REF_NAME.apk" "summit-$GITHUB_REF_NAME.aab" \
-            --title "Summit $GITHUB_REF_NAME" --generate-notes $PRERELEASE
+            --title "Summit $GITHUB_REF_NAME" --generate-notes $PRERELEASE \
+            --notes "**Downloads:** \`.apk\` to sideload on a TV, \`.aab\` for Google Play.
+          **Privacy policy:** https://exendahal.github.io/summit_android_tv_launcher/privacy-policy/"
 
       - name: Remove keystore
         if: always()

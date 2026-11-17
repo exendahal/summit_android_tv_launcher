@@ -4,7 +4,7 @@ name: Pages
 # (the URL given to Google Play). Repository Settings › Pages › Source must be "GitHub Actions".
 on:
   push:
-    branches: [main]
+    branches: [develop]
     paths: ['PRIVACY.md', '.github/scripts/build_pages.py', '.github/workflows/pages.yml']
   workflow_dispatch:
 
