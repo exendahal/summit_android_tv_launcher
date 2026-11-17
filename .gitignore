@@ -6,3 +6,4 @@ local.properties
 
 # Play Store listing assets (kept locally, uploaded by hand)
 /fastlane/
+/docs/
