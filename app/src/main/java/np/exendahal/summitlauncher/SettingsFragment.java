@@ -92,6 +92,12 @@ public class SettingsFragment extends Screen {
                 else Toast.makeText(requireContext(), R.string.picture_denied, Toast.LENGTH_LONG).show();
             });
 
+    /** Play builds have no photo permission (Play policy), so they pick through the system picker instead. */
+    private final ActivityResultLauncher<String> pickSystemPicture = registerForActivityResult(
+            new ActivityResultContracts.GetContent(), uri -> {
+                if (uri != null && isAdded()) pickPicture(uri);
+            });
+
     private View root;
     private LinearLayout list;
     private View listPane;
@@ -208,8 +214,10 @@ public class SettingsFragment extends Screen {
                     wv.add(OnlineWallpapers.PREFIX + w.id);
                     wn.add(w.name(p.str(Prefs.LANGUAGE)));
                 }
-                wv.add("custom");
-                wn.add(getString(R.string.wallpaper_custom));
+                if (!BuildConfig.PLAY || CustomWallpaper.canPick(requireContext()) || p.is(Prefs.WALLPAPER, "custom")) {
+                    wv.add("custom");
+                    wn.add(getString(R.string.wallpaper_custom));
+                }
                 o.add(new Opt(Prefs.WALLPAPER, R.string.opt_wallpaper, wv.toArray(new String[0]), wn.toArray(new String[0])));
                 o.add(new Opt(PICTURE, R.string.wallpaper_custom, v("pick"), v("")));
                 o.add(new Opt(Prefs.WALLPAPER_DIM, R.string.opt_dim, v("0", "30", "60"), arr(R.array.e_dim)));
@@ -366,7 +374,7 @@ public class SettingsFragment extends Screen {
 
     /** Checks GitHub once per process; the row is added in place so the user's focus is left alone. */
     private void checkForUpdate() {
-        if (Updates.checked()) return;
+        if (BuildConfig.PLAY || Updates.checked()) return; // Play updates the app itself; no GitHub link there
         Weather.IO.execute(() -> {
             Updates.check();
             root.post(() -> {
@@ -496,6 +504,14 @@ public class SettingsFragment extends Screen {
             return;
         }
         if (Prefs.WALLPAPER.equals(o.key) && "custom".equals(value)) {
+            if (BuildConfig.PLAY) {
+                try {
+                    pickSystemPicture.launch("image/*");
+                } catch (android.content.ActivityNotFoundException e) {
+                    Toast.makeText(requireContext(), R.string.picture_failed, Toast.LENGTH_LONG).show();
+                }
+                return;
+            }
             openOption = PICTURE;
             focusTag = null;
             render(1);
@@ -579,7 +595,7 @@ public class SettingsFragment extends Screen {
         Context app = c.getApplicationContext();
         for (int i = 0; i < ids.size(); i++) {
             long id = ids.get(i);
-            ImageView img = addCell(grid, "pic:" + id, null, false, () -> pickPicture(id));
+            ImageView img = addCell(grid, "pic:" + id, null, false, () -> pickPicture(CustomWallpaper.uri(id)));
             ((View) img.getParent()).setContentDescription(getString(R.string.picture_n, i + 1));
             Weather.IO.execute(() -> {
                 Bitmap thumb = CustomWallpaper.thumbnail(app, id);
@@ -611,10 +627,10 @@ public class SettingsFragment extends Screen {
         });
     }
 
-    private void pickPicture(long id) {
+    private void pickPicture(android.net.Uri picture) {
         Context app = requireContext().getApplicationContext();
         Weather.IO.execute(() -> {
-            boolean ok = CustomWallpaper.save(app, id);
+            boolean ok = CustomWallpaper.save(app, picture);
             root.post(() -> {
                 if (!isAdded()) return;
                 if (!ok) {

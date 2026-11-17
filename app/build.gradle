@@ -7,6 +7,7 @@ android {
     defaultConfig {
         // Sports scores need a licensed data API (PRD open question 1); hidden everywhere until one exists.
         buildConfigField 'boolean', 'SCORES_ENABLED', 'false'
+        buildConfigField 'boolean', 'PLAY', 'false'
         applicationId 'np.exendahal.summitlauncher'
         minSdk 26
         targetSdk 34
@@ -48,6 +49,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
             // Signed with the release key in CI; local builds use the debug key so they can still be sideloaded.
             signingConfig System.getenv('ANDROID_KEYSTORE_PATH') ? signingConfigs.release : signingConfigs.debug
+        }
+        // Google Play build (bundleProdDataPlay): no photo permission and no GitHub update check, per Play policy.
+        play {
+            initWith release
+            matchingFallbacks = ['release']
+            buildConfigField 'boolean', 'PLAY', 'true'
         }
     }
 }

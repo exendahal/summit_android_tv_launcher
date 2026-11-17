@@ -1,0 +1,36 @@
+Summit is a calm, fast home screen for Android TV. It puts live TV one press away, keeps your favourite apps in reach, and shows the time, date and weather at a glance. It is built to stay light, even on TV boxes with 1 GB of memory.
+
+<b>Home</b>
+• Watch TV first: one press of OK opens your TV input (HDMI, AV, antenna) or your live-TV app.
+• Continue: the apps you used last, with how long ago.
+• Favourites: pin your apps, then hold OK to move or unpin them.
+• A large clock with the date, an optional regional calendar date and a daily health tip.
+• Weather at a glance, with a full forecast one click away.
+• Voice search and the TV's own settings right from the header.
+
+<b>Apps</b>
+Every installed TV app in one alphabetical grid. Hold OK or press Menu to pin, move, open app info or uninstall.
+
+<b>Make it yours</b>
+Settings show a live preview of Home beside them, so every change is visible as you make it.
+• Theme: automatic by time of day, dark or light.
+• Wallpapers: built-in illustrations, community mountain wallpapers, or a picture from your TV.
+• Colour taken from your wallpaper, or one of 9 colours, with adjustable contrast.
+• Text size, tile size and shape, and app-name display.
+• Weather for your current location or any city, in °C or °F.
+
+<b>Ambient screensaver</b>
+A quiet clock with the date, weather and health tip over a faded wallpaper. It moves every minute to protect your screen from burn-in and dims at night.
+
+<b>Languages</b>
+English, Nepali, Hindi and Chinese (Simplified), with local date formats, regional digits and an optional regional calendar.
+
+<b>Quick setup</b>
+A short guided setup picks where you watch TV, your favourite apps, wallpaper, look and language. Every choice can be changed later in Settings.
+
+<b>Privacy</b>
+No account, no ads, no tracking. Your app usage and pictures never leave the TV.
+
+Summit is open source under the MIT License.
+
+Requires Android TV or Google TV running Android 8.0 or newer. Some Google TV devices do not allow another home screen; Summit then still runs from the app list.

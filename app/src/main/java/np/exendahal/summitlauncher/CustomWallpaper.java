@@ -70,9 +70,15 @@ public final class CustomWallpaper {
         return replace(b, Bitmap.createScaledBitmap(b, THUMB_W, Math.max(1, b.getHeight() * THUMB_W / b.getWidth()), true));
     }
 
-    /** Copies picture {@code id} into app storage as the wallpaper. Call off the main thread. @return success. */
-    public static boolean save(Context c, long id) {
-        Bitmap b = saveScaled(c, uri(id), file(c));
+    /** Whether the TV has a system picker for pictures (many Android TV builds have none). */
+    public static boolean canPick(Context c) {
+        return new android.content.Intent(android.content.Intent.ACTION_GET_CONTENT).setType("image/*")
+                .addCategory(android.content.Intent.CATEGORY_OPENABLE).resolveActivity(c.getPackageManager()) != null;
+    }
+
+    /** Copies {@code picture} into app storage as the wallpaper. Call off the main thread. @return success. */
+    public static boolean save(Context c, Uri picture) {
+        Bitmap b = saveScaled(c, picture, file(c));
         if (b == null) return false;
         cached = b;
         Prefs.get(c).set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
@@ -101,7 +107,7 @@ public final class CustomWallpaper {
 
     private static File file(Context c) { return new File(c.getFilesDir(), FILE); }
 
-    private static Uri uri(long id) { return ContentUris.withAppendedId(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id); }
+    static Uri uri(long id) { return ContentUris.withAppendedId(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id); }
 
     /** Decodes at the smallest power-of-two size still covering w×h, turned upright by its EXIF orientation. */
     private static Bitmap decode(Context c, Uri uri, int w, int h, Bitmap.Config config) {
