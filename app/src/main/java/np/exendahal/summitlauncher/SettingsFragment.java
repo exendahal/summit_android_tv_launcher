@@ -372,29 +372,34 @@ public class SettingsFragment extends Screen {
         return null;
     }
 
-    /** Checks GitHub once per process; the row is added in place so the user's focus is left alone. */
+    /** Checks Play (Play build) or GitHub once per process; the row is swapped in place so focus is left alone. */
     private void checkForUpdate() {
-        if (BuildConfig.PLAY || Updates.checked()) return; // Play updates the app itself; no GitHub link there
+        if (Updates.checked()) return;
+        Runnable refresh = () -> {
+            View old = isAdded() && level == LEVEL_CATEGORIES ? list.findViewWithTag("update") : null;
+            if (old == null) return;
+            View row = updateRow();
+            Ui.scaleText(row, prefs().decimal(Prefs.TEXT_SCALE));
+            boolean focused = old.hasFocus();
+            int at = list.indexOfChild(old);
+            list.removeView(old);
+            list.addView(row, at);
+            if (focused) row.requestFocus();
+        };
+        if (BuildConfig.PLAY) {
+            Updates.checkPlay(requireContext().getApplicationContext(), refresh);
+            return;
+        }
         Weather.IO.execute(() -> {
             Updates.check();
-            root.post(() -> {
-                View old = isAdded() && level == LEVEL_CATEGORIES ? list.findViewWithTag("update") : null;
-                if (old == null) return;
-                View row = updateRow();
-                Ui.scaleText(row, prefs().decimal(Prefs.TEXT_SCALE));
-                boolean focused = old.hasFocus();
-                int at = list.indexOfChild(old);
-                list.removeView(old);
-                list.addView(row, at);
-                if (focused) row.requestFocus();
-            });
+            root.post(refresh);
         });
     }
 
     /**
-     * The last Settings row: "Up to date" or "Update available" over the app name and version. Until GitHub has
-     * answered it claims neither and only names the installed version. An update opens the releases page, or
-     * names it where the TV has no browser.
+     * The last Settings row: "Up to date" or "Update available" over the app name and version. Until the check
+     * has answered it claims neither and only names the installed version. An update opens the Play Store (Play
+     * build) or the releases page, or names the page where the TV has no browser.
      */
     private View updateRow() {
         String name = getString(R.string.app_name), installed = "v" + BuildConfig.VERSION_NAME, newer = Updates.newer();
@@ -403,7 +408,13 @@ public class SettingsFragment extends Screen {
                     ? row(getString(R.string.up_to_date), name + " " + installed, R.drawable.ic_info, PrefRow.Mark.NONE, "update", () -> {})
                     : row(name, installed, R.drawable.ic_info, PrefRow.Mark.NONE, "update", () -> {});
         }
-        return row(getString(R.string.update_available), name + " " + newer, R.drawable.ic_info, PrefRow.Mark.CHEVRON, "update", () -> {
+        // Play doesn't give the new version's name, so the subtitle names the installed one.
+        String sub = name + " " + (newer.isEmpty() ? installed : newer);
+        return row(getString(R.string.update_available), sub, R.drawable.ic_info, PrefRow.Mark.CHEVRON, "update", () -> {
+            if (BuildConfig.PLAY) {
+                if (!Updates.openPlay(requireContext())) Toast.makeText(requireContext(), R.string.update_available, Toast.LENGTH_LONG).show();
+                return;
+            }
             try {
                 startActivity(new android.content.Intent(android.content.Intent.ACTION_VIEW,
                         android.net.Uri.parse("https://" + Updates.PAGE)));

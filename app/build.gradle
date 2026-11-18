@@ -50,7 +50,7 @@ android {
             // Signed with the release key in CI; local builds use the debug key so they can still be sideloaded.
             signingConfig System.getenv('ANDROID_KEYSTORE_PATH') ? signingConfigs.release : signingConfigs.debug
         }
-        // Google Play build (bundleProdDataPlay): no photo permission and no GitHub update check, per Play policy.
+        // Google Play build (bundleProdDataPlay): no photo permission, and updates are checked on Play instead of GitHub.
         play {
             initWith release
             matchingFallbacks = ['release']
@@ -63,6 +63,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    // Play build only asks Play for updates; R8 drops it from the GitHub build (BuildConfig.PLAY is constant).
+    implementation 'com.google.android.play:app-update:2.1.0'
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.json:json:20231013'
