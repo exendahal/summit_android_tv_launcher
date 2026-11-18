@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/home_scroll"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false">
+    android:scrollbars="none" android:fillViewport="true" android:clipChildren="false" android:clipToPadding="false">
 <LinearLayout
     android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
     android:clipChildren="false" android:clipToPadding="false"
@@ -35,6 +35,9 @@
         android:gravity="center" android:paddingStart="14dp" android:paddingEnd="14dp"
         android:background="@drawable/bg_glass_focus" android:focusable="true" android:clickable="true"
         android:text="@string/not_default_banner" android:visibility="gone" />
+
+    <!-- Takes the spare height so the rows stay anchored at the bottom when Continue is hidden (issue #1). -->
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
 
     <TextView android:id="@+id/continue_title" style="@style/Himal.Title"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
