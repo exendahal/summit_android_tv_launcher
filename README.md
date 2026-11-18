@@ -4,6 +4,8 @@ A calm, fast home screen for Android TV. Summit puts live TV one press away, kee
 and shows the time, date and weather at a glance. It is available in English, Nepali, Hindi and Chinese, with local date formats and an
 optional regional calendar. It is built to stay light on 1 GB TV boxes.
 
+![Home](screenshots/home.png)
+
 ## Features
 
 ### Home
@@ -17,9 +19,17 @@ optional regional calendar. It is built to stay light on 1 GB TV boxes.
 Every installed TV app in one alphabetical grid. Holding OK (or pressing Menu) opens a side panel to pin to
 Favourites, move, open app info or uninstall.
 
+| Apps | App menu |
+|---|---|
+| ![Apps](screenshots/apps.png) | ![App menu](screenshots/app-menu.png) |
+
 ### Settings
 Android TV style lists with a live preview of Home beside them, so every change is visible as you make it.
 Inside **Screensaver**, the preview shows the screensaver instead.
+
+| Settings | Screensaver preview |
+|---|---|
+| ![Settings](screenshots/settings.png) | ![Screensaver settings](screenshots/settings-screensaver.png) |
 
 | Category | Options |
 |---|---|
@@ -45,9 +55,13 @@ A short guided setup in the same style, with a live preview of Home: where you w
 look (mode and colour) and language. Every choice applies immediately and can be changed later in
 Settings; **Settings › Run first-time setup** opens it again.
 
+![Setup](screenshots/setup.png)
+
 ### Ambient screensaver
 A quiet clock with the dates, weather and health tip over a faded wallpaper. It shifts every minute to
 protect the screen from burn-in and dims at night. See [Set Summit as the screensaver](#set-summit-as-the-screensaver).
+
+![Screensaver](screenshots/screensaver.png)
 
 ## OS support
 
