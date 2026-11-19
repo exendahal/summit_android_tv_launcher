@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">Configuration unique requise</string>
     <string name="screensaver_setup_body">Ce téléviseur ne permet pas aux applis de changer elles-mêmes l\'économiseur d\'écran. Connectez un ordinateur une fois et exécutez :\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPuis réactivez cette option.</string>
     <string name="wallpaper_custom">Mon image</string>
+    <string name="wallpaper_wikimedia">Wikimedia du jour</string>
+    <string name="wallpaper_nasa">NASA du jour</string>
+    <string name="wallpaper_same">Comme l\'accueil</string>
     <string name="wallpaper_download_failed">Impossible de télécharger ce fond d\'écran. Vérifiez la connexion Internet.</string>
     <string name="picture_allow">Autoriser l\'accès aux images</string>
     <string name="picture_denied">Autorisez l\'accès aux photos dans Paramètres › Applis › Summit › Autorisations.</string>

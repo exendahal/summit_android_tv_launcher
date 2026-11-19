@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Inahitaji kuwekwa mara moja</string>
     <string name="screensaver_setup_body">TV hii hairuhusu programu kubadilisha kiokoa skrini zenyewe. Unganisha kompyuta mara moja kisha uendeshe:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nKisha uwashe chaguo hili tena.</string>
     <string name="wallpaper_custom">Picha yangu</string>
+    <string name="wallpaper_wikimedia">Wikimedia kila siku</string>
+    <string name="wallpaper_nasa">NASA kila siku</string>
+    <string name="wallpaper_same">Sawa na Nyumbani</string>
     <string name="wallpaper_download_failed">Imeshindwa kupakua picha hiyo ya mandharinyuma. Angalia muunganisho wa intaneti.</string>
     <string name="picture_allow">Ruhusu ufikiaji wa picha</string>
     <string name="picture_denied">Ruhusu ufikiaji wa Picha kwenye Mipangilio › Programu › Summit › Ruhusa.</string>

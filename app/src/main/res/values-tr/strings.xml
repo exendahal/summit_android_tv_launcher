@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Tek seferlik kurulum gerekli</string>
     <string name="screensaver_setup_body">Bu TV, uygulamaların ekran koruyucuyu kendi başına değiştirmesine izin vermiyor. Bir kez bilgisayar bağlayıp şunu çalıştırın:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nArdından bunu yeniden açın.</string>
     <string name="wallpaper_custom">Resmim</string>
+    <string name="wallpaper_wikimedia">Wikimedia günlük</string>
+    <string name="wallpaper_nasa">NASA günlük</string>
+    <string name="wallpaper_same">Ana ekranla aynı</string>
     <string name="wallpaper_download_failed">Duvar kâğıdı indirilemedi. İnternet bağlantısını kontrol edin.</string>
     <string name="picture_allow">Resimlere erişime izin ver</string>
     <string name="picture_denied">Ayarlar › Uygulamalar › Summit › İzinler bölümünden Fotoğraflar erişimine izin verin.</string>

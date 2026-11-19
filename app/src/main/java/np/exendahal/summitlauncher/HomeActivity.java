@@ -39,6 +39,7 @@ public class HomeActivity extends AppCompatActivity {
             if (ThemeController.isDark(HomeActivity.this) != dark) { recreate(); return; } // Auto by time flip
             Screen s = screen();
             if (s != null) s.onTick();
+            DailyWallpapers.refreshInUse(HomeActivity.this, HomeActivity.this::bindWallpaper);
         }
     };
 
@@ -51,12 +52,22 @@ public class HomeActivity extends AppCompatActivity {
     };
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(Ui.tvSized(base)); // phones and tablets lay out like a 1080p TV
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         ThemeController.apply(this);
         dark = ThemeController.isDark(this);
         super.onCreate(null); // stateNotNeeded: screens are rebuilt from settings, not restored
         applyLocale();
         setContentView(R.layout.activity_home);
+        if (!Ui.isTv(this)) { // full screen like a TV; a swipe from the edge shows the bars for a moment
+            androidx.core.view.WindowInsetsControllerCompat bars = androidx.core.view.WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+            bars.hide(androidx.core.view.WindowInsetsCompat.Type.systemBars());
+            bars.setSystemBarsBehavior(androidx.core.view.WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
+        }
         bindWallpaper();
         if (!Prefs.get(this).bool(Prefs.SETUP_COMPLETED)) current = SETUP; // first run (PRD 6.1)
         show(current, false);
@@ -104,6 +115,8 @@ public class HomeActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         if (ThemeController.isDark(this) != dark) { recreate(); return; }
+        DailyWallpapers.refreshInUse(this, this::bindWallpaper);
+        refreshOnlineWallpapers();
         Prefs p = Prefs.get(this);
         if (p.bool(Prefs.BOOT_PENDING) && p.bool(Prefs.SETUP_COMPLETED)) { // "Open when TV starts" (PRD 6.9)
             p.set(Prefs.BOOT_PENDING, "false");
@@ -159,8 +172,24 @@ public class HomeActivity extends AppCompatActivity {
         return f instanceof Screen ? (Screen) f : null;
     }
 
+    /** Daily check of the online wallpaper list; Home is rebuilt if its wallpaper was removed from it. */
+    private void refreshOnlineWallpapers() {
+        Context app = getApplicationContext();
+        String before = Prefs.get(this).str(Prefs.WALLPAPER);
+        Weather.IO.execute(() -> {
+            if (!OnlineWallpapers.refresh(app, OnlineWallpapers.DAY_MS)) return;
+            handler.post(() -> {
+                if (isDestroyed()) return;
+                Screen s = screen();
+                if (s instanceof SettingsFragment) s.onTick(); // the screensaver preview may have changed
+                if (!before.equals(Prefs.get(this).str(Prefs.WALLPAPER))) onSettingChanged(Prefs.WALLPAPER);
+            });
+        });
+    }
+
     public void bindWallpaper() {
         ThemeController.bindWallpaper(this, findViewById(R.id.wallpaper), findViewById(R.id.tint), findViewById(R.id.dim));
+        DailyWallpapers.bindCredit(findViewById(R.id.credit), Prefs.get(this).str(Prefs.WALLPAPER));
     }
 
     /** Applies a settings change everywhere (PRD 6.6: changes apply instantly). */

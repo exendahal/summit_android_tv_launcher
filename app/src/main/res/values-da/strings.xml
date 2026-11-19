@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Engangsopsætning påkrævet</string>
     <string name="screensaver_setup_body">Dette tv tillader ikke, at apps selv skifter pauseskærm. Tilslut en computer én gang, og kør:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSlå det derefter til igen.</string>
     <string name="wallpaper_custom">Mit billede</string>
+    <string name="wallpaper_wikimedia">Wikimedia dagligt</string>
+    <string name="wallpaper_nasa">NASA dagligt</string>
+    <string name="wallpaper_same">Samme som Hjem</string>
     <string name="wallpaper_download_failed">Baggrunden kunne ikke downloades. Tjek internetforbindelsen.</string>
     <string name="picture_allow">Tillad adgang til billeder</string>
     <string name="picture_denied">Tillad adgang til fotos i Indstillinger › Apps › Summit › Tilladelser.</string>

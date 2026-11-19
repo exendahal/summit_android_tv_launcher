@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Engångsinställning krävs</string>
     <string name="screensaver_setup_body">Den här tv:n låter inte appar byta skärmsläckare själva. Anslut en dator en gång och kör:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSlå sedan på detta igen.</string>
     <string name="wallpaper_custom">Min bild</string>
+    <string name="wallpaper_wikimedia">Wikimedia dagligen</string>
+    <string name="wallpaper_nasa">NASA dagligen</string>
+    <string name="wallpaper_same">Samma som Hem</string>
     <string name="wallpaper_download_failed">Det gick inte att ladda ned bakgrunden. Kontrollera internetanslutningen.</string>
     <string name="picture_allow">Tillåt åtkomst till bilder</string>
     <string name="picture_denied">Tillåt åtkomst till foton i Inställningar › Appar › Summit › Behörigheter.</string>

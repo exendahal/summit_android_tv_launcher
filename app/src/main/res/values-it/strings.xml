@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">Configurazione una tantum necessaria</string>
     <string name="screensaver_setup_body">Questa TV non consente alle app di cambiare da sole il salvaschermo. Collega un computer una volta ed esegui:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPoi riattiva questa opzione.</string>
     <string name="wallpaper_custom">La mia immagine</string>
+    <string name="wallpaper_wikimedia">Wikimedia del giorno</string>
+    <string name="wallpaper_nasa">NASA del giorno</string>
+    <string name="wallpaper_same">Come la Home</string>
     <string name="wallpaper_download_failed">Impossibile scaricare lo sfondo. Controlla la connessione a Internet.</string>
     <string name="picture_allow">Consenti l\'accesso alle immagini</string>
     <string name="picture_denied">Consenti l\'accesso alle foto in Impostazioni › App › Summit › Autorizzazioni.</string>

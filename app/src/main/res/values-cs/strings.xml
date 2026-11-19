@@ -116,6 +116,9 @@
     <string name="screensaver_setup_title">Je potřeba jednorázové nastavení</string>
     <string name="screensaver_setup_body">Tato televize nedovoluje aplikacím samostatně měnit spořič obrazovky. Jednou připojte počítač a spusťte:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPotom tuto volbu znovu zapněte.</string>
     <string name="wallpaper_custom">Můj obrázek</string>
+    <string name="wallpaper_wikimedia">Wikimedia denně</string>
+    <string name="wallpaper_nasa">NASA denně</string>
+    <string name="wallpaper_same">Stejná jako Domů</string>
     <string name="wallpaper_download_failed">Tapetu se nepodařilo stáhnout. Zkontrolujte připojení k internetu.</string>
     <string name="picture_allow">Povolit přístup k obrázkům</string>
     <string name="picture_denied">Povolte přístup k fotkám v Nastavení › Aplikace › Summit › Oprávnění.</string>

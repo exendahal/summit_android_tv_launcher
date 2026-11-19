@@ -25,8 +25,10 @@ import java.util.List;
 
 /**
  * Wallpapers published in the repository's {@code wallpapers/} folder, so new ones reach TVs without growing the
- * app. The list is refreshed at most once a day; a wallpaper's image is downloaded when it is first picked and kept,
- * so it keeps working offline. Prefs store a chosen one as {@link #PREFIX} + id.
+ * app. Home checks the list once a day and the wallpaper grid whenever it opens; a wallpaper's image is downloaded
+ * when it is first picked and kept, so it keeps working offline. A wallpaper removed from the folder is removed from
+ * TVs too: its files are deleted and Home or the screensaver using it goes back to the default.
+ * Prefs store a chosen one as {@link #PREFIX} + id.
  */
 final class OnlineWallpapers {
     private OnlineWallpapers() {}
@@ -35,7 +37,8 @@ final class OnlineWallpapers {
 
     /** HEAD is the repository's default branch. */
     private static final String BASE = "https://raw.githubusercontent.com/exendahal/summit_android_tv_launcher/HEAD/wallpapers/";
-    private static final long MAX_AGE_MS = 24 * 60 * 60 * 1000L;
+    /** How old the cached list may be: a day for Home's background check, minutes when the grid is open. */
+    static final long DAY_MS = 24 * 60 * 60 * 1000L, GRID_MS = 10 * 60 * 1000L;
     private static final int MAX_BYTES = 8 * 1024 * 1024;
 
     static final class Item {
@@ -80,19 +83,42 @@ final class OnlineWallpapers {
         return null;
     }
 
-    /** Downloads the list if the cached copy is over a day old. Call off the main thread. @return true if it changed. */
-    static boolean refresh(Context c) {
+    /**
+     * Downloads the list if the cached copy is older than {@code maxAgeMs}, then drops wallpapers no longer in it.
+     * Call off the main thread. @return true if it changed.
+     */
+    static boolean refresh(Context c, long maxAgeMs) {
         File index = indexFile(c);
-        if (index.exists() && System.currentTimeMillis() - index.lastModified() < MAX_AGE_MS) return false;
+        if (index.exists() && System.currentTimeMillis() - index.lastModified() < maxAgeMs) return false;
         try {
             byte[] fresh = fetch(BASE + "index.json");
-            parse(new String(fresh, StandardCharsets.UTF_8)); // never cache a broken list
+            List<Item> items = parse(new String(fresh, StandardCharsets.UTF_8)); // never cache a broken list
             byte[] old = index.exists() ? Files.readAllBytes(index.toPath()) : null;
             write(index, fresh);
-            return old == null || !Arrays.equals(old, fresh);
+            if (old != null && Arrays.equals(old, fresh)) return false;
+            prune(c, items);
+            return true;
         } catch (IOException | JSONException e) {
             return false;
         }
+    }
+
+    /** Deletes images and thumbnails of wallpapers gone from {@code items}; Home or the screensaver using one goes back to its default. */
+    private static void prune(Context c, List<Item> items) {
+        java.util.Set<String> ids = new java.util.HashSet<>();
+        for (Item i : items) ids.add(i.id);
+        Prefs p = Prefs.get(c);
+        for (String key : new String[]{Prefs.WALLPAPER, Prefs.AMBIENT_WALLPAPER}) {
+            String v = p.str(key);
+            if (v.startsWith(PREFIX) && !ids.contains(v.substring(PREFIX.length()))) p.raw().edit().remove(key).apply();
+        }
+        File[] images = indexFile(c).getParentFile().listFiles((dir, name) -> name.endsWith(".jpg"));
+        File[] thumbs = new File(c.getCacheDir(), "online-thumbs").listFiles();
+        for (File[] files : new File[][]{images, thumbs}) {
+            if (files == null) continue;
+            for (File f : files) if (!ids.contains(f.getName().replaceFirst("\\.jpg$", ""))) f.delete();
+        }
+        if (cachedId != null && !ids.contains(cachedId)) cachedBitmap = null;
     }
 
     /** @return the thumbnail, downloading it once into the cache. Call off the main thread. */
@@ -107,10 +133,10 @@ final class OnlineWallpapers {
     }
 
     /**
-     * Downloads {@code item} if needed and makes it the wallpaper, with the theme colour taken from the picture.
-     * Call off the main thread. @return false if it could not be downloaded.
+     * Downloads {@code item} if needed and makes it the {@code key} wallpaper; for Home the theme colour is taken
+     * from the picture. Call off the main thread. @return false if it could not be downloaded.
      */
-    static boolean use(Context c, Item item) {
+    static boolean use(Context c, Item item, String key) {
         File target = imageFile(c, item.id);
         Bitmap b = target.exists() ? BitmapFactory.decodeFile(target.getPath()) : null;
         if (b == null) {
@@ -128,8 +154,8 @@ final class OnlineWallpapers {
         cachedId = item.id;
         cachedBitmap = b;
         Prefs p = Prefs.get(c);
-        p.set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
-        p.set(Prefs.WALLPAPER, PREFIX + item.id);
+        if (Prefs.WALLPAPER.equals(key)) p.set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
+        p.set(key, PREFIX + item.id);
         return true;
     }
 
@@ -152,10 +178,12 @@ final class OnlineWallpapers {
         return items;
     }
 
-    private static byte[] fetch(String url) throws IOException {
+    static byte[] fetch(String url) throws IOException {
         HttpURLConnection http = (HttpURLConnection) new URL(url).openConnection();
         http.setConnectTimeout(10_000);
         http.setReadTimeout(20_000);
+        http.setRequestProperty("User-Agent", "SummitLauncher/" + BuildConfig.VERSION_NAME
+                + " (https://github.com/exendahal/summit_android_tv_launcher)"); // Wikimedia asks every client to name itself
         try {
             if (http.getResponseCode() != HttpURLConnection.HTTP_OK) throw new IOException("HTTP " + http.getResponseCode());
             try (InputStream in = http.getInputStream(); ByteArrayOutputStream out = new ByteArrayOutputStream()) {
@@ -171,7 +199,7 @@ final class OnlineWallpapers {
         }
     }
 
-    private static void write(File f, byte[] data) throws IOException {
+    static void write(File f, byte[] data) throws IOException {
         File dir = f.getParentFile();
         if (dir != null && !dir.isDirectory() && !dir.mkdirs()) throw new IOException("cannot create " + dir);
         File tmp = new File(f.getPath() + ".tmp");

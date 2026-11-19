@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">Configuración única necesaria</string>
     <string name="screensaver_setup_body">Esta TV no permite que las apps cambien el salvapantallas por sí solas. Conecta un ordenador una vez y ejecuta:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nDespués vuelve a activar esta opción.</string>
     <string name="wallpaper_custom">Mi imagen</string>
+    <string name="wallpaper_wikimedia">Wikimedia diario</string>
+    <string name="wallpaper_nasa">NASA diario</string>
+    <string name="wallpaper_same">Igual que Inicio</string>
     <string name="wallpaper_download_failed">No se pudo descargar ese fondo. Revisa la conexión a internet.</string>
     <string name="picture_allow">Permitir acceso a las imágenes</string>
     <string name="picture_denied">Permite el acceso a Fotos en Ajustes › Apps › Summit › Permisos.</string>

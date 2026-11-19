@@ -118,6 +118,9 @@
     <string name="screensaver_setup_title">يلزم إعداد لمرة واحدة</string>
     <string name="screensaver_setup_body">لا يسمح هذا التلفزيون للتطبيقات بتغيير شاشة التوقف بنفسها. وصّل جهاز كمبيوتر مرة واحدة وشغّل:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nثم فعّل هذا الخيار مجددًا.</string>
     <string name="wallpaper_custom">صورتي</string>
+    <string name="wallpaper_wikimedia">ويكيميديا اليومية</string>
+    <string name="wallpaper_nasa">ناسا اليومية</string>
+    <string name="wallpaper_same">مثل الشاشة الرئيسية</string>
     <string name="wallpaper_download_failed">تعذّر تنزيل هذه الخلفية. تحقق من الاتصال بالإنترنت.</string>
     <string name="picture_allow">السماح بالوصول إلى الصور</string>
     <string name="picture_denied">اسمح بالوصول إلى الصور من الإعدادات › التطبيقات › Summit › الأذونات.</string>

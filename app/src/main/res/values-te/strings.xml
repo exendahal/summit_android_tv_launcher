@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">ఒకసారి సెటప్ అవసరం</string>
     <string name="screensaver_setup_body">ఈ టీవీ యాప్‌లను సొంతంగా స్క్రీన్‌సేవర్ మార్చనివ్వదు. ఒకసారి కంప్యూటర్‌ను కనెక్ట్ చేసి ఇది రన్ చేయండి:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nతర్వాత దీన్ని మళ్లీ ఆన్ చేయండి.</string>
     <string name="wallpaper_custom">నా చిత్రం</string>
+    <string name="wallpaper_wikimedia">వికీమీడియా రోజువారీ</string>
+    <string name="wallpaper_nasa">నాసా రోజువారీ</string>
+    <string name="wallpaper_same">హోమ్ లాగానే</string>
     <string name="wallpaper_download_failed">ఆ వాల్‌పేపర్‌ను డౌన్‌లోడ్ చేయలేకపోయాం. ఇంటర్నెట్ కనెక్షన్ తనిఖీ చేయండి.</string>
     <string name="picture_allow">చిత్రాల యాక్సెస్‌ను అనుమతించు</string>
     <string name="picture_denied">సెట్టింగ్‌లు › యాప్‌లు › Summit › అనుమతులు లో ఫోటోల యాక్సెస్‌ను అనుమతించండి.</string>

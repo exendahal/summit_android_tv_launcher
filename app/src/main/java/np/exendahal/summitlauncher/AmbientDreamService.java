@@ -52,7 +52,10 @@ public class AmbientDreamService extends DreamService {
         ThemeController.apply(themed);
         root = LayoutInflater.from(themed).inflate(R.layout.dream, null);
         setContentView(root);
-        ThemeController.bindWallpaper(themed, (ImageView) root.findViewById(R.id.wallpaper), null, null);
+        ThemeController.bindScreensaverWallpaper(themed, root.findViewById(R.id.wallpaper), root.findViewById(R.id.credit));
+        // a new daily picture may be due; the TV often sits in the screensaver all day
+        DailyWallpapers.refreshInUse(this, () -> { if (root != null)
+                ThemeController.bindScreensaverWallpaper(themed, root.findViewById(R.id.wallpaper), root.findViewById(R.id.credit)); });
         Ui.scaleText(root, Prefs.get(this).decimal(Prefs.TEXT_SCALE));
         Weather.IO.execute(() -> {
             String line = weatherLine(getApplicationContext(), Weather.load(getApplicationContext()));

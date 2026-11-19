@@ -116,6 +116,9 @@
     <string name="screensaver_setup_title">Wymagana jednorazowa konfiguracja</string>
     <string name="screensaver_setup_body">Ten telewizor nie pozwala aplikacjom samodzielnie zmieniać wygaszacza. Podłącz raz komputer i uruchom:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nNastępnie włącz tę opcję ponownie.</string>
     <string name="wallpaper_custom">Moje zdjęcie</string>
+    <string name="wallpaper_wikimedia">Wikimedia dzienne</string>
+    <string name="wallpaper_nasa">NASA dzienne</string>
+    <string name="wallpaper_same">Taka sama jak Ekran główny</string>
     <string name="wallpaper_download_failed">Nie udało się pobrać tapety. Sprawdź połączenie z internetem.</string>
     <string name="picture_allow">Zezwól na dostęp do zdjęć</string>
     <string name="picture_denied">Zezwól na dostęp do zdjęć w Ustawienia › Aplikacje › Summit › Uprawnienia.</string>

@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">એક વખત સેટઅપ જરૂરી છે</string>
     <string name="screensaver_setup_body">આ ટીવી ઍપ્સને જાતે સ્ક્રીનસેવર બદલવા દેતું નથી. એક વાર કમ્પ્યુટર જોડો અને આ ચલાવો:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nપછી આ ફરી ચાલુ કરો.</string>
     <string name="wallpaper_custom">મારું ચિત્ર</string>
+    <string name="wallpaper_wikimedia">વિકિમીડિયા દૈનિક</string>
+    <string name="wallpaper_nasa">નાસા દૈનિક</string>
+    <string name="wallpaper_same">હોમ જેવું જ</string>
     <string name="wallpaper_download_failed">તે વૉલપેપર ડાઉનલોડ થઈ શક્યું નથી. ઇન્ટરનેટ કનેક્શન તપાસો.</string>
     <string name="picture_allow">ચિત્રોની ઍક્સેસની મંજૂરી આપો</string>
     <string name="picture_denied">સેટિંગ્સ › ઍપ્સ › Summit › પરવાનગીઓમાં ફોટાની મંજૂરી આપો.</string>

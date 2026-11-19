@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">ஒருமுறை அமைப்பு தேவை</string>
     <string name="screensaver_setup_body">இந்த டிவி ஆப்ஸைத் தானாக ஸ்கிரீன்சேவரை மாற்ற அனுமதிக்காது. ஒருமுறை கணினியை இணைத்து இதை இயக்கவும்:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nபிறகு இதை மீண்டும் இயக்கவும்.</string>
     <string name="wallpaper_custom">எனது படம்</string>
+    <string name="wallpaper_wikimedia">விக்கிமீடியா தினசரி</string>
+    <string name="wallpaper_nasa">நாசா தினசரி</string>
+    <string name="wallpaper_same">முகப்பைப் போலவே</string>
     <string name="wallpaper_download_failed">அந்த வால்பேப்பரைப் பதிவிறக்க முடியவில்லை. இணைய இணைப்பைச் சரிபார்க்கவும்.</string>
     <string name="picture_allow">படங்களை அணுக அனுமதி</string>
     <string name="picture_denied">அமைப்புகள் › ஆப்ஸ் › Summit › அனுமதிகள் என்பதில் படங்கள் அணுகலை அனுமதிக்கவும்.</string>

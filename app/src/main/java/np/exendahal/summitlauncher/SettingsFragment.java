@@ -169,7 +169,7 @@ public class SettingsFragment extends Screen {
     @Override
     public boolean onBack() {
         if (level == LEVEL_VALUES && PICTURE.equals(openOption)) {
-            openOption = Prefs.WALLPAPER;
+            openOption = wallpaperKey();
             focusTag = "val:custom";
         } else if (level == LEVEL_VALUES) {
             level = LEVEL_OPTIONS;
@@ -208,18 +208,7 @@ public class SettingsFragment extends Screen {
         switch (cat) {
             case CAT_THEME:
                 o.add(new Opt(Prefs.THEME_MODE, R.string.opt_mode, v("auto", "dark", "light"), arr(R.array.e_theme_mode)));
-                List<String> wv = new ArrayList<>(Arrays.asList(ThemeController.WALLPAPERS));
-                List<String> wn = new ArrayList<>(Arrays.asList(arr(R.array.e_wallpaper)));
-                for (OnlineWallpapers.Item w : OnlineWallpapers.list(requireContext())) {
-                    wv.add(OnlineWallpapers.PREFIX + w.id);
-                    wn.add(w.name(p.str(Prefs.LANGUAGE)));
-                }
-                if (!BuildConfig.PLAY || CustomWallpaper.canPick(requireContext()) || p.is(Prefs.WALLPAPER, "custom")) {
-                    wv.add("custom");
-                    wn.add(getString(R.string.wallpaper_custom));
-                }
-                o.add(new Opt(Prefs.WALLPAPER, R.string.opt_wallpaper, wv.toArray(new String[0]), wn.toArray(new String[0])));
-                o.add(new Opt(PICTURE, R.string.wallpaper_custom, v("pick"), v("")));
+                addWallpaper(o, Prefs.WALLPAPER);
                 o.add(new Opt(Prefs.WALLPAPER_DIM, R.string.opt_dim, v("0", "30", "60"), arr(R.array.e_dim)));
                 o.add(new Opt(Prefs.THEME_COLOUR, R.string.opt_colour, v("wallpaper", "coral", "green", "custom"), arr(R.array.e_theme_colour)));
                 if (p.is(Prefs.THEME_COLOUR, "custom")) {
@@ -280,6 +269,7 @@ public class SettingsFragment extends Screen {
                 o.add(new Opt(Prefs.SCORE_STALE, R.string.opt_stale, v("unavailable", "hide"), arr(R.array.e_stale)));
                 break;
             case CAT_SCREENSAVER:
+                addWallpaper(o, Prefs.AMBIENT_WALLPAPER);
                 if (BuildConfig.SCORES_ENABLED) o.add(new Opt(Prefs.AMBIENT_SCORES, R.string.opt_amb_scores, bool, arr(R.array.e_on_off)));
                 o.add(new Opt(Prefs.AMBIENT_SHIFT, R.string.opt_amb_shift, bool, arr(R.array.e_on_off)));
                 o.add(new Opt(Prefs.AMBIENT_NIGHT_DIM, R.string.opt_amb_dim, bool, arr(R.array.e_on_off)));
@@ -288,6 +278,41 @@ public class SettingsFragment extends Screen {
                 break;
         }
         return o;
+    }
+
+    /** Adds the wallpaper option for {@code key} and its (hidden) My picture grid; the screensaver's also offers "Same as Home". */
+    private void addWallpaper(List<Opt> o, String key) {
+        Prefs p = prefs();
+        List<String> wv = new ArrayList<>(), wn = new ArrayList<>();
+        if (Prefs.AMBIENT_WALLPAPER.equals(key)) {
+            wv.add("same");
+            wn.add(getString(R.string.wallpaper_same));
+        }
+        wv.addAll(Arrays.asList(ThemeController.WALLPAPERS));
+        wn.addAll(Arrays.asList(arr(R.array.e_wallpaper)));
+        for (OnlineWallpapers.Item w : OnlineWallpapers.list(requireContext())) {
+            wv.add(OnlineWallpapers.PREFIX + w.id);
+            wn.add(w.name(p.str(Prefs.LANGUAGE)));
+        }
+        wv.add(DailyWallpapers.PREFIX + DailyWallpapers.WIKIMEDIA);
+        wn.add(getString(R.string.wallpaper_wikimedia));
+        wv.add(DailyWallpapers.PREFIX + DailyWallpapers.NASA);
+        wn.add(getString(R.string.wallpaper_nasa));
+        if (!BuildConfig.PLAY || CustomWallpaper.canPick(requireContext()) || p.is(key, "custom")) {
+            wv.add("custom");
+            wn.add(getString(R.string.wallpaper_custom));
+        }
+        o.add(new Opt(key, R.string.opt_wallpaper, wv.toArray(new String[0]), wn.toArray(new String[0])));
+        o.add(new Opt(PICTURE, R.string.wallpaper_custom, v("pick"), v("")));
+    }
+
+    /** The wallpaper key of the open category: the screensaver's own, otherwise Home's. */
+    private static String wallpaperKey() {
+        return openCategory == CAT_SCREENSAVER ? Prefs.AMBIENT_WALLPAPER : Prefs.WALLPAPER;
+    }
+
+    private static boolean isWallpaper(String key) {
+        return Prefs.WALLPAPER.equals(key) || Prefs.AMBIENT_WALLPAPER.equals(key);
     }
 
     // ---- Rendering ----
@@ -502,7 +527,7 @@ public class SettingsFragment extends Screen {
 
     /** Wallpapers, pictures and custom colours are picked from a grid of previews. */
     private static boolean isGrid(String key) {
-        return Prefs.WALLPAPER.equals(key) || Prefs.THEME_CUSTOM.equals(key) || PICTURE.equals(key);
+        return isWallpaper(key) || Prefs.THEME_CUSTOM.equals(key) || PICTURE.equals(key);
     }
 
     /**
@@ -510,11 +535,15 @@ public class SettingsFragment extends Screen {
      * their grids instead.
      */
     private void choose(Opt o, String value) {
-        if (Prefs.WALLPAPER.equals(o.key) && value.startsWith(OnlineWallpapers.PREFIX)) {
+        if (isWallpaper(o.key) && value.startsWith(OnlineWallpapers.PREFIX)) {
             useOnline(value.substring(OnlineWallpapers.PREFIX.length()));
             return;
         }
-        if (Prefs.WALLPAPER.equals(o.key) && "custom".equals(value)) {
+        if (isWallpaper(o.key) && DailyWallpapers.is(value)) {
+            useDaily(value.substring(DailyWallpapers.PREFIX.length()));
+            return;
+        }
+        if (isWallpaper(o.key) && "custom".equals(value)) {
             if (BuildConfig.PLAY) {
                 try {
                     pickSystemPicture.launch("image/*");
@@ -552,38 +581,49 @@ public class SettingsFragment extends Screen {
         for (int i = 0; i < o.values.length; i++) {
             String value = o.values[i];
             ImageView img = addCell(grid, "val:" + value, o.names[i], i == current, () -> choose(o, value));
+            // "Same as Home" previews Home's wallpaper
+            String key = "same".equals(value) ? Prefs.WALLPAPER : o.key, shown = "same".equals(value) ? prefs().str(key) : value;
             if (Prefs.THEME_CUSTOM.equals(o.key)) {
                 img.setBackgroundColor(c.getColor(ThemeController.CUSTOM_SWATCH[i]));
-            } else if ("custom".equals(value)) {
-                Bitmap picture = CustomWallpaper.bitmap(c);
-                if (picture != null) img.setImageBitmap(picture);
-                else { // nothing picked yet
-                    int inset = Ui.px(c, R.dimen.wallpaper_thumb_h) / 4;
-                    img.setImageResource(R.drawable.ic_landscape);
-                    img.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                    img.setPadding(0, inset, 0, inset);
-                    img.setImageTintList(AppCompatResources.getColorStateList(c, R.color.pref_icon));
-                    img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
-                }
-            } else if (online.containsKey(value)) {
-                OnlineWallpapers.Item item = online.get(value);
+            } else if ("custom".equals(shown)) {
+                Bitmap picture = CustomWallpaper.bitmap(c, key);
+                if (picture != null) img.setImageBitmap(picture); else placeholder(img); // nothing picked yet
+            } else if (DailyWallpapers.is(shown)) {
+                Bitmap picture = DailyWallpapers.bitmap(c, shown.substring(DailyWallpapers.PREFIX.length()));
+                if (picture != null) img.setImageBitmap(picture); else placeholder(img); // not downloaded yet
+            } else if (online.containsKey(shown)) {
+                OnlineWallpapers.Item item = online.get(shown);
                 img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
                 Weather.IO.execute(() -> {
                     Bitmap thumb = OnlineWallpapers.thumbnail(app, item);
                     if (thumb != null) img.post(() -> img.setImageBitmap(thumb));
                 });
+            } else if (shown.startsWith(OnlineWallpapers.PREFIX)) { // Home's online pick, gone from the list
+                Bitmap b = OnlineWallpapers.bitmap(c, shown.substring(OnlineWallpapers.PREFIX.length()));
+                if (b != null) img.setImageBitmap(b);
             } else {
-                int res = ThemeController.wallpaperRes(value);
+                int res = ThemeController.wallpaperRes(shown);
                 if (res != 0) img.setImageResource(res); else img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
             }
         }
-        if (Prefs.WALLPAPER.equals(o.key)) {
+        if (isWallpaper(o.key)) {
             Weather.IO.execute(() -> {
-                if (OnlineWallpapers.refresh(app)) root.post(() -> {
-                    if (isAdded() && level == LEVEL_VALUES && Prefs.WALLPAPER.equals(openOption)) render(0);
+                if (OnlineWallpapers.refresh(app, OnlineWallpapers.GRID_MS)) root.post(() -> {
+                    if (isAdded() && level == LEVEL_VALUES && o.key.equals(openOption)) render(0);
                 });
             });
         }
+    }
+
+    /** A landscape symbol in a cell whose picture is not on the TV yet. */
+    private void placeholder(ImageView img) {
+        Context c = img.getContext();
+        int inset = Ui.px(c, R.dimen.wallpaper_thumb_h) / 4;
+        img.setImageResource(R.drawable.ic_landscape);
+        img.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        img.setPadding(0, inset, 0, inset);
+        img.setImageTintList(AppCompatResources.getColorStateList(c, R.color.pref_icon));
+        img.setBackgroundColor(Ui.color(c, android.R.attr.colorBackground));
     }
 
     /** The TV's newest pictures as a grid (after asking for access); picking one makes it the wallpaper. */
@@ -615,47 +655,64 @@ public class SettingsFragment extends Screen {
         }
     }
 
-    /** Saves the picture off the main thread, then applies it like any wallpaper choice. */
     /** Downloads an online wallpaper (once) off the main thread, then applies it like any wallpaper choice. */
     private void useOnline(String id) {
         OnlineWallpapers.Item item = OnlineWallpapers.find(requireContext(), id);
         if (item == null) return;
         Context app = requireContext().getApplicationContext();
+        String key = wallpaperKey();
         Weather.IO.execute(() -> {
-            boolean ok = OnlineWallpapers.use(app, item);
+            boolean ok = OnlineWallpapers.use(app, item, key);
             root.post(() -> {
                 if (!isAdded()) return;
                 if (!ok) {
                     Toast.makeText(requireContext(), R.string.wallpaper_download_failed, Toast.LENGTH_LONG).show();
                     return;
                 }
-                level = LEVEL_OPTIONS;
-                focusTag = Prefs.WALLPAPER;
-                render(-1);
-                host().bindWallpaper();
-                host().onSettingChanged(Prefs.WALLPAPER);
+                applied(key);
             });
         });
     }
 
+    /** Fetches today's daily picture (if not already here) off the main thread, then applies it like any wallpaper choice. */
+    private void useDaily(String source) {
+        Context app = requireContext().getApplicationContext();
+        String key = wallpaperKey();
+        Weather.IO.execute(() -> {
+            boolean ok = DailyWallpapers.use(app, source, key);
+            root.post(() -> {
+                if (!isAdded()) return;
+                if (!ok) Toast.makeText(requireContext(), R.string.wallpaper_download_failed, Toast.LENGTH_LONG).show();
+                else applied(key);
+            });
+        });
+    }
+
+    /** Saves the picture off the main thread, then applies it like any wallpaper choice. */
     private void pickPicture(android.net.Uri picture) {
         Context app = requireContext().getApplicationContext();
+        String key = wallpaperKey();
         Weather.IO.execute(() -> {
-            boolean ok = CustomWallpaper.save(app, picture);
+            boolean ok = CustomWallpaper.save(app, key, picture);
             root.post(() -> {
                 if (!isAdded()) return;
                 if (!ok) {
                     Toast.makeText(requireContext(), R.string.picture_failed, Toast.LENGTH_LONG).show();
                     return;
                 }
-                prefs().set(Prefs.WALLPAPER, "custom");
-                level = LEVEL_OPTIONS;
-                focusTag = Prefs.WALLPAPER;
-                render(-1);
-                host().bindWallpaper();
-                host().onSettingChanged(Prefs.WALLPAPER);
+                prefs().set(key, "custom");
+                applied(key);
             });
         });
+    }
+
+    /** Back to the options after a picture or online wallpaper was saved as {@code key}. */
+    private void applied(String key) {
+        level = LEVEL_OPTIONS;
+        focusTag = key;
+        render(-1);
+        if (Prefs.WALLPAPER.equals(key)) host().bindWallpaper();
+        host().onSettingChanged(key);
     }
 
     private GridLayout addGrid() {

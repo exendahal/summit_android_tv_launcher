@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Απαιτείται εφάπαξ ρύθμιση</string>
     <string name="screensaver_setup_body">Αυτή η τηλεόραση δεν επιτρέπει σε εφαρμογές να αλλάζουν μόνες τους την προφύλαξη οθόνης. Συνδέστε μία φορά έναν υπολογιστή και εκτελέστε:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nΣτη συνέχεια ενεργοποιήστε ξανά αυτή τη ρύθμιση.</string>
     <string name="wallpaper_custom">Η εικόνα μου</string>
+    <string name="wallpaper_wikimedia">Wikimedia ημέρας</string>
+    <string name="wallpaper_nasa">NASA ημέρας</string>
+    <string name="wallpaper_same">Ίδια με την Αρχική</string>
     <string name="wallpaper_download_failed">Δεν ήταν δυνατή η λήψη της ταπετσαρίας. Ελέγξτε τη σύνδεση στο διαδίκτυο.</string>
     <string name="picture_allow">Να επιτρέπεται η πρόσβαση στις εικόνες</string>
     <string name="picture_denied">Επιτρέψτε την πρόσβαση στις φωτογραφίες από Ρυθμίσεις › Εφαρμογές › Summit › Άδειες.</string>

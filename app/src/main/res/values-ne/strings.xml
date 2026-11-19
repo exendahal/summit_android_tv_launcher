@@ -107,6 +107,9 @@
     <string name="screensaver_setup_title">एक पटक सेटअप चाहिन्छ</string>
     <string name="screensaver_setup_body">यो टिभीले एपलाई आफैं स्क्रिनसेभर बदल्न दिँदैन। एक पटक कम्प्युटर जोडेर यो चलाउनुहोस्:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nत्यसपछि यसलाई फेरि खोल्नुहोस्।</string>
     <string name="wallpaper_custom">मेरो तस्बिर</string>
+    <string name="wallpaper_wikimedia">विकिमिडिया दैनिक</string>
+    <string name="wallpaper_nasa">नासा दैनिक</string>
+    <string name="wallpaper_same">होम जस्तै</string>
     <string name="wallpaper_download_failed">त्यो वालपेपर डाउनलोड हुन सकेन। इन्टरनेट जडान जाँच्नुहोस्।</string>
     <string name="picture_allow">तस्बिरहरूमा पहुँच दिनुहोस्</string>
     <string name="picture_denied">सेटिङ › एप › Summit › अनुमतिमा गई तस्बिर पहुँच दिनुहोस्।</string>

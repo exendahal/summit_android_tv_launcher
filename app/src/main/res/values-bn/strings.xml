@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">একবার সেটআপ করতে হবে</string>
     <string name="screensaver_setup_body">এই টিভি অ্যাপকে নিজে থেকে স্ক্রিনসেভার বদলাতে দেয় না। একবার কম্পিউটার যুক্ত করে চালান:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nতারপর এটি আবার চালু করুন।</string>
     <string name="wallpaper_custom">আমার ছবি</string>
+    <string name="wallpaper_wikimedia">উইকিমিডিয়া দৈনিক</string>
+    <string name="wallpaper_nasa">নাসা দৈনিক</string>
+    <string name="wallpaper_same">হোমের মতো</string>
     <string name="wallpaper_download_failed">ওয়ালপেপারটি ডাউনলোড করা যায়নি। ইন্টারনেট সংযোগ দেখুন।</string>
     <string name="picture_allow">ছবি দেখার অনুমতি দিন</string>
     <string name="picture_denied">সেটিংস › অ্যাপ › Summit › অনুমতি-তে ফটোর অনুমতি দিন।</string>

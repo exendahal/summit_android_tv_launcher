@@ -29,6 +29,30 @@ import java.util.Locale;
 
 /** Small shared UI helpers: units, theme colours, focus visuals, digits and date text. */
 public final class Ui {
+    public static boolean isTv(Context c) {
+        return c.getPackageManager().hasSystemFeature(android.content.pm.PackageManager.FEATURE_LEANBACK);
+    }
+
+    /** The screen a 1080p TV gives layouts, in dp. */
+    private static final float TV_W_DP = 960f, TV_H_DP = 540f;
+
+    /**
+     * On phones and tablets (for trying UI changes without a TV) rescales dp so the screen is at least 960x540 dp,
+     * like a 1080p TV, so every layout fits as it does there, only scaled. TVs are returned unchanged.
+     */
+    public static Context tvSized(Context c) {
+        if (isTv(c)) return c;
+        android.util.DisplayMetrics m = c.getResources().getDisplayMetrics();
+        int w = m.widthPixels, h = m.heightPixels;
+        float density = Math.min(Math.max(w, h) / TV_W_DP, Math.min(w, h) / TV_H_DP);
+        android.content.res.Configuration cfg = new android.content.res.Configuration(c.getResources().getConfiguration());
+        cfg.densityDpi = Math.round(density * android.util.DisplayMetrics.DENSITY_DEFAULT);
+        cfg.screenWidthDp = Math.round(w / density);
+        cfg.screenHeightDp = Math.round(h / density);
+        cfg.smallestScreenWidthDp = Math.round(Math.min(w, h) / density);
+        return c.createConfigurationContext(cfg);
+    }
+
     private Ui() {}
 
     public static int px(Context c, int dimenRes) { return c.getResources().getDimensionPixelSize(dimenRes); }

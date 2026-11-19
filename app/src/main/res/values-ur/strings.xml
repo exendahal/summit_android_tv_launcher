@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">ایک بار سیٹ اپ ضروری ہے</string>
     <string name="screensaver_setup_body">یہ ٹی وی ایپس کو خود اسکرین سیور بدلنے نہیں دیتا۔ ایک بار کمپیوٹر جوڑیں اور یہ چلائیں:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nپھر اسے دوبارہ آن کریں۔</string>
     <string name="wallpaper_custom">میری تصویر</string>
+    <string name="wallpaper_wikimedia">وکی میڈیا روزانہ</string>
+    <string name="wallpaper_nasa">ناسا روزانہ</string>
+    <string name="wallpaper_same">ہوم جیسا</string>
     <string name="wallpaper_download_failed">وہ وال پیپر ڈاؤن لوڈ نہیں ہو سکا۔ انٹرنیٹ کنکشن چیک کریں۔</string>
     <string name="picture_allow">تصاویر تک رسائی کی اجازت دیں</string>
     <string name="picture_denied">ترتیبات › ایپس › Summit › اجازتیں میں تصاویر کی اجازت دیں۔</string>

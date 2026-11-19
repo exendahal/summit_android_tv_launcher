@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">Cần thiết lập một lần</string>
     <string name="screensaver_setup_body">TV này không cho ứng dụng tự đổi trình bảo vệ màn hình. Hãy kết nối máy tính một lần và chạy:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSau đó bật lại tùy chọn này.</string>
     <string name="wallpaper_custom">Ảnh của tôi</string>
+    <string name="wallpaper_wikimedia">Wikimedia hằng ngày</string>
+    <string name="wallpaper_nasa">NASA hằng ngày</string>
+    <string name="wallpaper_same">Giống Màn hình chính</string>
     <string name="wallpaper_download_failed">Không tải được hình nền đó. Hãy kiểm tra kết nối Internet.</string>
     <string name="picture_allow">Cho phép truy cập ảnh</string>
     <string name="picture_denied">Cho phép truy cập Ảnh trong Cài đặt › Ứng dụng › Summit › Quyền.</string>

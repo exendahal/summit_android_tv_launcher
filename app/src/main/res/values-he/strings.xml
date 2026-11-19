@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">נדרשת הגדרה חד-פעמית</string>
     <string name="screensaver_setup_body">הטלוויזיה הזו לא מאפשרת לאפליקציות לשנות את שומר המסך בעצמן. חברו מחשב פעם אחת והריצו:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nואז הפעילו את האפשרות שוב.</string>
     <string name="wallpaper_custom">התמונה שלי</string>
+    <string name="wallpaper_wikimedia">ויקימדיה יומי</string>
+    <string name="wallpaper_nasa">נאס״א יומי</string>
+    <string name="wallpaper_same">כמו במסך הבית</string>
     <string name="wallpaper_download_failed">לא ניתן להוריד את הטפט. בדקו את החיבור לאינטרנט.</string>
     <string name="picture_allow">מתן גישה לתמונות</string>
     <string name="picture_denied">אשרו גישה לתמונות בהגדרות › אפליקציות › Summit › הרשאות.</string>

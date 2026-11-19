@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Eenmalige instelling nodig</string>
     <string name="screensaver_setup_body">Op deze tv kunnen apps de screensaver niet zelf wijzigen. Sluit eenmalig een computer aan en voer uit:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nZet dit daarna opnieuw aan.</string>
     <string name="wallpaper_custom">Mijn afbeelding</string>
+    <string name="wallpaper_wikimedia">Wikimedia dagelijks</string>
+    <string name="wallpaper_nasa">NASA dagelijks</string>
+    <string name="wallpaper_same">Zelfde als Start</string>
     <string name="wallpaper_download_failed">Kan die achtergrond niet downloaden. Controleer de internetverbinding.</string>
     <string name="picture_allow">Toegang tot afbeeldingen toestaan</string>
     <string name="picture_denied">Sta toegang tot foto\'s toe via Instellingen › Apps › Summit › Rechten.</string>

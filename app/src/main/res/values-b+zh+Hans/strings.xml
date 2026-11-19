@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">需要进行一次性设置</string>
     <string name="screensaver_setup_body">此电视不允许应用自行更改屏幕保护程序。请连接一次电脑并运行：\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\n然后再次开启此选项。</string>
     <string name="wallpaper_custom">我的图片</string>
+    <string name="wallpaper_wikimedia">维基每日</string>
+    <string name="wallpaper_nasa">NASA 每日</string>
+    <string name="wallpaper_same">与主屏幕相同</string>
     <string name="wallpaper_download_failed">无法下载该壁纸。请检查网络连接。</string>
     <string name="picture_allow">允许访问图片</string>
     <string name="picture_denied">请在 设置 › 应用 › Summit › 权限 中允许访问照片。</string>

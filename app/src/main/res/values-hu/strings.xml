@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Egyszeri beállítás szükséges</string>
     <string name="screensaver_setup_body">Ez a TV nem engedi, hogy az alkalmazások maguk módosítsák a képernyőkímélőt. Csatlakoztasson egyszer egy számítógépet, és futtassa:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nEzután kapcsolja be újra ezt a beállítást.</string>
     <string name="wallpaper_custom">Saját kép</string>
+    <string name="wallpaper_wikimedia">Wikimedia napi</string>
+    <string name="wallpaper_nasa">NASA napi</string>
+    <string name="wallpaper_same">Ugyanaz, mint a Kezdőlap</string>
     <string name="wallpaper_download_failed">Nem sikerült letölteni a háttérképet. Ellenőrizze az internetkapcsolatot.</string>
     <string name="picture_allow">Hozzáférés engedélyezése a képekhez</string>
     <string name="picture_denied">Engedélyezze a fotókhoz való hozzáférést: Beállítások › Alkalmazások › Summit › Engedélyek.</string>

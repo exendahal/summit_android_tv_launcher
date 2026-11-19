@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">Persediaan sekali sahaja diperlukan</string>
     <string name="screensaver_setup_body">TV ini tidak membenarkan apl menukar penyelamat skrin dengan sendiri. Sambungkan komputer sekali dan jalankan:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nKemudian hidupkan pilihan ini semula.</string>
     <string name="wallpaper_custom">Gambar saya</string>
+    <string name="wallpaper_wikimedia">Wikimedia harian</string>
+    <string name="wallpaper_nasa">NASA harian</string>
+    <string name="wallpaper_same">Sama seperti Laman Utama</string>
     <string name="wallpaper_download_failed">Tidak dapat memuat turun kertas dinding itu. Semak sambungan internet.</string>
     <string name="picture_allow">Benarkan akses kepada gambar</string>
     <string name="picture_denied">Benarkan akses Foto dalam Tetapan › Apl › Summit › Kebenaran.</string>

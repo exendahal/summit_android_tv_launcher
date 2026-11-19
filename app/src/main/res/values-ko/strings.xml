@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">최초 1회 설정 필요</string>
     <string name="screensaver_setup_body">이 TV에서는 앱이 직접 화면 보호기를 변경할 수 없습니다. 컴퓨터를 한 번 연결하고 다음을 실행하세요.\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\n그런 다음 이 옵션을 다시 켜세요.</string>
     <string name="wallpaper_custom">내 사진</string>
+    <string name="wallpaper_wikimedia">위키미디어 매일</string>
+    <string name="wallpaper_nasa">NASA 매일</string>
+    <string name="wallpaper_same">홈과 동일</string>
     <string name="wallpaper_download_failed">배경화면을 다운로드할 수 없습니다. 인터넷 연결을 확인하세요.</string>
     <string name="picture_allow">사진 액세스 허용</string>
     <string name="picture_denied">설정 › 앱 › Summit › 권한에서 사진 액세스를 허용하세요.</string>

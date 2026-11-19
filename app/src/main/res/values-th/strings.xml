@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">ต้องตั้งค่าครั้งเดียว</string>
     <string name="screensaver_setup_body">ทีวีเครื่องนี้ไม่อนุญาตให้แอปเปลี่ยนภาพพักหน้าจอเอง เชื่อมต่อคอมพิวเตอร์หนึ่งครั้งแล้วเรียกใช้:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nจากนั้นเปิดตัวเลือกนี้อีกครั้ง</string>
     <string name="wallpaper_custom">รูปของฉัน</string>
+    <string name="wallpaper_wikimedia">Wikimedia รายวัน</string>
+    <string name="wallpaper_nasa">NASA รายวัน</string>
+    <string name="wallpaper_same">เหมือนหน้าหลัก</string>
     <string name="wallpaper_download_failed">ดาวน์โหลดวอลเปเปอร์นั้นไม่ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="picture_allow">อนุญาตให้เข้าถึงรูปภาพ</string>
     <string name="picture_denied">อนุญาตการเข้าถึงรูปภาพใน การตั้งค่า › แอป › Summit › สิทธิ์</string>

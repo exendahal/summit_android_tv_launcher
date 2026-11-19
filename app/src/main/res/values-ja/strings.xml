@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">初回のみ設定が必要です</string>
     <string name="screensaver_setup_body">このテレビでは、アプリが自分でスクリーンセーバーを変更できません。一度パソコンを接続して、次のコマンドを実行してください:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nその後、もう一度オンにしてください。</string>
     <string name="wallpaper_custom">自分の写真</string>
+    <string name="wallpaper_wikimedia">Wikimedia 毎日</string>
+    <string name="wallpaper_nasa">NASA 毎日</string>
+    <string name="wallpaper_same">ホームと同じ</string>
     <string name="wallpaper_download_failed">壁紙をダウンロードできませんでした。インターネット接続を確認してください。</string>
     <string name="picture_allow">写真へのアクセスを許可</string>
     <string name="picture_denied">設定 › アプリ › Summit › 権限 で写真へのアクセスを許可してください。</string>

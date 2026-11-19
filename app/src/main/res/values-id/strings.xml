@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">Perlu penyiapan satu kali</string>
     <string name="screensaver_setup_body">TV ini tidak mengizinkan aplikasi mengganti screensaver sendiri. Hubungkan komputer sekali, lalu jalankan:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSetelah itu, aktifkan lagi opsi ini.</string>
     <string name="wallpaper_custom">Gambar saya</string>
+    <string name="wallpaper_wikimedia">Wikimedia harian</string>
+    <string name="wallpaper_nasa">NASA harian</string>
+    <string name="wallpaper_same">Sama seperti Beranda</string>
     <string name="wallpaper_download_failed">Tidak dapat mengunduh wallpaper itu. Periksa koneksi internet.</string>
     <string name="picture_allow">Izinkan akses ke gambar</string>
     <string name="picture_denied">Izinkan akses Foto di Setelan › Aplikasi › Summit › Izin.</string>

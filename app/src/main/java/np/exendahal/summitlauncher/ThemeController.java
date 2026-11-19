@@ -106,7 +106,7 @@ public final class ThemeController {
         if (p.is(Prefs.THEME_COLOUR, "green")) return "terai";
         if (p.is(Prefs.THEME_COLOUR, "custom")) return p.str(Prefs.THEME_CUSTOM);
         String wallpaper = p.str(Prefs.WALLPAPER);
-        if (wallpaper.equals("custom") || wallpaper.startsWith(OnlineWallpapers.PREFIX)) { // colour taken from the picture
+        if (wallpaper.equals("custom") || wallpaper.startsWith(OnlineWallpapers.PREFIX) || DailyWallpapers.is(wallpaper)) { // colour taken from the picture
             return p.str(Prefs.WALLPAPER_SEED).isEmpty() ? "mountain" : p.str(Prefs.WALLPAPER_SEED);
         }
         switch (wallpaper) {
@@ -148,12 +148,24 @@ public final class ThemeController {
         return !id.equals("mountains") && !id.equals("ridge") && !id.equals("plain");
     }
 
-    /** Binds wallpaper, tint and dim views. Any argument may be null. */
+    /** Binds Home's wallpaper, tint and dim views. Any argument may be null. */
     public static void bindWallpaper(Context c, ImageView wallpaper, View tint, View dim) {
+        bindWallpaper(c, Prefs.WALLPAPER, wallpaper, tint, dim);
+    }
+
+    /** Binds the screensaver's wallpaper and its credit (for daily pictures): its own choice, or Home's when set to "same". */
+    public static void bindScreensaverWallpaper(Context c, ImageView wallpaper, android.widget.TextView credit) {
+        String key = Prefs.get(c).is(Prefs.AMBIENT_WALLPAPER, "same") ? Prefs.WALLPAPER : Prefs.AMBIENT_WALLPAPER;
+        bindWallpaper(c, key, wallpaper, null, null);
+        DailyWallpapers.bindCredit(credit, Prefs.get(c).str(key));
+    }
+
+    private static void bindWallpaper(Context c, String key, ImageView wallpaper, View tint, View dim) {
         Prefs p = Prefs.get(c);
-        String id = p.str(Prefs.WALLPAPER);
-        Bitmap picture = "custom".equals(id) ? CustomWallpaper.bitmap(c)
+        String id = p.str(key);
+        Bitmap picture = "custom".equals(id) ? CustomWallpaper.bitmap(c, key)
                 : id.startsWith(OnlineWallpapers.PREFIX) ? OnlineWallpapers.bitmap(c, id.substring(OnlineWallpapers.PREFIX.length()))
+                : DailyWallpapers.is(id) ? DailyWallpapers.bitmap(c, id.substring(DailyWallpapers.PREFIX.length()))
                 : null;
         if (wallpaper != null) {
             if (picture != null) wallpaper.setImageBitmap(picture); else wallpaper.setImageResource(wallpaperRes(id));

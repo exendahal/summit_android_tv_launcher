@@ -29,7 +29,7 @@ public final class Prefs {
             TILE_SIZE = "tile_size", TILE_SHAPE = "tile_shape", TILE_LABELS = "tile_labels",
             SCORE_LEAGUES = "score_leagues", SCORE_MAX = "score_max", SCORE_LIVE_FIRST = "score_live_first",
             SCORE_STALE = "score_stale", AMBIENT_SCORES = "ambient_scores", AMBIENT_SHIFT = "ambient_shift",
-            AMBIENT_NIGHT_DIM = "ambient_night_dim";
+            AMBIENT_NIGHT_DIM = "ambient_night_dim", AMBIENT_WALLPAPER = "ambient_wallpaper";
 
     /** Non-setting state kept in the same file; untouched by {@link #reset()}. */
     public static final String FAVOURITES = "favourites", BANNER_DISMISSED = "default_banner_dismissed",
@@ -47,7 +47,7 @@ public final class Prefs {
                 {LIVE_APP, "ask"}, {LIVE_ON_BOOT, "false"}, {TILE_SIZE, "medium"}, {TILE_SHAPE, "rounded"},
                 {TILE_LABELS, "false"}, {SCORE_LEAGUES, "npl,pl,laliga,ucl"}, {SCORE_MAX, "4"},
                 {SCORE_LIVE_FIRST, "true"}, {SCORE_STALE, "unavailable"}, {AMBIENT_SCORES, "true"},
-                {AMBIENT_SHIFT, "true"}, {AMBIENT_NIGHT_DIM, "true"},
+                {AMBIENT_SHIFT, "true"}, {AMBIENT_NIGHT_DIM, "true"}, {AMBIENT_WALLPAPER, "same"},
         };
         for (String[] kv : d) DEFAULTS.put(kv[0], kv[1]);
         // PRD 9: device locale if supported, else English. v1 ships en + ne translations.

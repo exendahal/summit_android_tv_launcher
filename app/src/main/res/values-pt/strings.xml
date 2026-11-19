@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">Configuração única necessária</string>
     <string name="screensaver_setup_body">Esta TV não permite que apps mudem o protetor de tela sozinhos. Conecte um computador uma vez e execute:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nDepois ative esta opção de novo.</string>
     <string name="wallpaper_custom">Minha imagem</string>
+    <string name="wallpaper_wikimedia">Wikimedia diário</string>
+    <string name="wallpaper_nasa">NASA diário</string>
+    <string name="wallpaper_same">Igual à Início</string>
     <string name="wallpaper_download_failed">Não foi possível baixar esse plano de fundo. Verifique a conexão com a internet.</string>
     <string name="picture_allow">Permitir acesso às imagens</string>
     <string name="picture_denied">Permita o acesso a Fotos em Configurações › Apps › Summit › Permissões.</string>

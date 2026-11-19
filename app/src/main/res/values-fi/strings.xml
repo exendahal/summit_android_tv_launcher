@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Kertaluonteinen määritys tarvitaan</string>
     <string name="screensaver_setup_body">Tämä TV ei anna sovellusten vaihtaa näytönsäästäjää itse. Yhdistä tietokone kerran ja suorita:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nOta tämä sitten uudelleen käyttöön.</string>
     <string name="wallpaper_custom">Oma kuva</string>
+    <string name="wallpaper_wikimedia">Wikimedia päivittäin</string>
+    <string name="wallpaper_nasa">NASA päivittäin</string>
+    <string name="wallpaper_same">Sama kuin Koti</string>
     <string name="wallpaper_download_failed">Taustakuvan lataus epäonnistui. Tarkista internetyhteys.</string>
     <string name="picture_allow">Salli kuvien käyttö</string>
     <string name="picture_denied">Salli kuvien käyttö kohdassa Asetukset › Sovellukset › Summit › Käyttöoikeudet.</string>

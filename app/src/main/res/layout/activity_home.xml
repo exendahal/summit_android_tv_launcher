@@ -9,4 +9,8 @@
     <View android:id="@+id/dim" android:layout_width="match_parent" android:layout_height="match_parent"
         android:background="@color/dim" android:alpha="0" />
     <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <!-- Author and licence of a daily wallpaper (Wikimedia's CC BY-SA pictures require it); hidden otherwise -->
+    <TextView android:id="@+id/credit" style="@style/Himal.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_marginEnd="@dimen/pad_h" android:layout_marginBottom="12dp"
+        android:maxWidth="560dp" android:maxLines="1" android:ellipsize="end" android:alpha="0.7" android:visibility="gone" />
 </FrameLayout>

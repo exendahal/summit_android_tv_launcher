@@ -116,6 +116,9 @@
     <string name="screensaver_setup_title">Потрібне одноразове налаштування</string>
     <string name="screensaver_setup_body">Цей телевізор не дозволяє додаткам самостійно змінювати заставку. Один раз під\'єднайте комп\'ютер і виконайте:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nПотім знову ввімкніть цей параметр.</string>
     <string name="wallpaper_custom">Моє зображення</string>
+    <string name="wallpaper_wikimedia">Вікімедіа дня</string>
+    <string name="wallpaper_nasa">NASA дня</string>
+    <string name="wallpaper_same">Як на головному екрані</string>
     <string name="wallpaper_download_failed">Не вдалося завантажити шпалери. Перевірте підключення до інтернету.</string>
     <string name="picture_allow">Дозволити доступ до зображень</string>
     <string name="picture_denied">Дозвольте доступ до фото в розділі Налаштування › Додатки › Summit › Дозволи.</string>

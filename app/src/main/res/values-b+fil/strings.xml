@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Kailangan ng isang beses na setup</string>
     <string name="screensaver_setup_body">Hindi pinapayagan ng TV na ito ang mga app na palitan mismo ang screensaver. Magkonekta ng computer nang isang beses at patakbuhin ang:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nPagkatapos, i-on ulit ito.</string>
     <string name="wallpaper_custom">Aking larawan</string>
+    <string name="wallpaper_wikimedia">Wikimedia araw-araw</string>
+    <string name="wallpaper_nasa">NASA araw-araw</string>
+    <string name="wallpaper_same">Pareho sa Home</string>
     <string name="wallpaper_download_failed">Hindi ma-download ang wallpaper na iyon. Tingnan ang koneksyon sa internet.</string>
     <string name="picture_allow">Payagan ang access sa mga larawan</string>
     <string name="picture_denied">Payagan ang access sa Photos sa Mga Setting › Mga App › Summit › Mga Pahintulot.</string>

@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">یک بار راه‌اندازی لازم است</string>
     <string name="screensaver_setup_body">این تلویزیون اجازه نمی‌دهد برنامه‌ها خودشان محافظ صفحه را تغییر دهند. یک بار رایانه را وصل کنید و این را اجرا کنید:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nسپس دوباره این گزینه را روشن کنید.</string>
     <string name="wallpaper_custom">تصویر من</string>
+    <string name="wallpaper_wikimedia">ویکی‌مدیا روزانه</string>
+    <string name="wallpaper_nasa">ناسا روزانه</string>
+    <string name="wallpaper_same">مانند صفحه اصلی</string>
     <string name="wallpaper_download_failed">دانلود این تصویر زمینه ممکن نشد. اتصال اینترنت را بررسی کنید.</string>
     <string name="picture_allow">اجازه دسترسی به تصاویر</string>
     <string name="picture_denied">دسترسی به عکس‌ها را در تنظیمات › برنامه‌ها › Summit › مجوزها مجاز کنید.</string>

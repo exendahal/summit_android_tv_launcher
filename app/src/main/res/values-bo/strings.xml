@@ -113,6 +113,9 @@
     <string name="screensaver_setup_title">ཐེངས་གཅིག་སྒྲིག་འགོད་དགོས།</string>
     <string name="screensaver_setup_body">བརྙན་འཕྲིན་འདིས་མཉེན་ཆས་རང་ཉིད་ཀྱིས་བརྙན་ཡོལ་སྲུང་སྐྱོབ་བསྒྱུར་དུ་མི་འཇུག ཐེངས་གཅིག་གློག་ཀླད་སྦྲེལ་ནས་འདི་འཁོར་སྐྱོད་གནང་།\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nདེ་རྗེས་འདི་ཡང་བསྐྱར་སྤར།</string>
     <string name="wallpaper_custom">ངའི་པར།</string>
+    <string name="wallpaper_wikimedia">Wikimedia ཉིན་རེ།</string>
+    <string name="wallpaper_nasa">NASA ཉིན་རེ།</string>
+    <string name="wallpaper_same">གཙོ་ངོས་དང་གཅིག་པ།</string>
     <string name="wallpaper_download_failed">རྒྱབ་ལྗོངས་པར་དེ་ཕབ་ལེན་བྱེད་མ་ཐུབ། དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་བརྟག་ཞིབ་གནང་།</string>
     <string name="picture_allow">པར་ལ་ལག་ཁྱེར་སྤྲོད།</string>
     <string name="picture_denied">སྒྲིག་འགོད། › མཉེན་ཆས། › Summit › ཆོག་མཆན་ནང་པར་རིས་ལ་ལག་ཁྱེར་སྤྲོད།</string>

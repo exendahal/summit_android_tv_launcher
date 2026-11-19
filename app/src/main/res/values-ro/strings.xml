@@ -115,6 +115,9 @@
     <string name="screensaver_setup_title">Este necesară o configurare unică</string>
     <string name="screensaver_setup_body">Acest televizor nu permite aplicațiilor să schimbe singure screensaverul. Conectează o dată un computer și rulează:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nApoi activează din nou această opțiune.</string>
     <string name="wallpaper_custom">Imaginea mea</string>
+    <string name="wallpaper_wikimedia">Wikimedia zilnic</string>
+    <string name="wallpaper_nasa">NASA zilnic</string>
+    <string name="wallpaper_same">La fel ca Acasă</string>
     <string name="wallpaper_download_failed">Imaginea de fundal nu a putut fi descărcată. Verifică conexiunea la internet.</string>
     <string name="picture_allow">Permite accesul la imagini</string>
     <string name="picture_denied">Permite accesul la fotografii din Setări › Aplicații › Summit › Permisiuni.</string>

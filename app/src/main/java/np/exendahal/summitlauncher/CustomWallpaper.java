@@ -28,12 +28,12 @@ import java.util.List;
 public final class CustomWallpaper {
     private CustomWallpaper() {}
 
-    private static final String FILE = "wallpaper.jpg";
     /** Newest pictures listed in the picker; older ones are not paged in. */
     private static final int MAX_PICTURES = 60;
     private static final int THUMB_W = 320;
 
-    private static volatile Bitmap cached;
+    /** Saved pictures by pref key (Home and screensaver each have their own). */
+    private static final java.util.Map<String, Bitmap> cached = new java.util.concurrent.ConcurrentHashMap<>();
 
     /** Permission needed to list the TV's pictures. */
     public static String permission() {
@@ -44,10 +44,13 @@ public final class CustomWallpaper {
         return c.checkSelfPermission(permission()) == PackageManager.PERMISSION_GRANTED;
     }
 
-    /** @return the saved wallpaper, or null if none (or unreadable). */
-    public static Bitmap bitmap(Context c) {
-        Bitmap b = cached;
-        if (b == null && file(c).exists()) cached = b = BitmapFactory.decodeFile(file(c).getPath());
+    /** @return the picture saved for {@code key} (Prefs.WALLPAPER or AMBIENT_WALLPAPER), or null if none (or unreadable). */
+    public static Bitmap bitmap(Context c, String key) {
+        Bitmap b = cached.get(key);
+        if (b == null && file(c, key).exists()) {
+            b = BitmapFactory.decodeFile(file(c, key).getPath());
+            if (b != null) cached.put(key, b);
+        }
         return b;
     }
 
@@ -76,12 +79,12 @@ public final class CustomWallpaper {
                 .addCategory(android.content.Intent.CATEGORY_OPENABLE).resolveActivity(c.getPackageManager()) != null;
     }
 
-    /** Copies {@code picture} into app storage as the wallpaper. Call off the main thread. @return success. */
-    public static boolean save(Context c, Uri picture) {
-        Bitmap b = saveScaled(c, picture, file(c));
+    /** Copies {@code picture} into app storage as the {@code key} wallpaper. Call off the main thread. @return success. */
+    public static boolean save(Context c, String key, Uri picture) {
+        Bitmap b = saveScaled(c, picture, file(c, key));
         if (b == null) return false;
-        cached = b;
-        Prefs.get(c).set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
+        cached.put(key, b);
+        if (Prefs.WALLPAPER.equals(key)) Prefs.get(c).set(Prefs.WALLPAPER_SEED, ThemeController.seedFor(c, b));
         return true;
     }
 
@@ -105,7 +108,8 @@ public final class CustomWallpaper {
         return tmp.renameTo(target) ? b : null;
     }
 
-    private static File file(Context c) { return new File(c.getFilesDir(), FILE); }
+    /** "wallpaper.jpg" for Home (the name older versions used), "ambient_wallpaper.jpg" for the screensaver. */
+    private static File file(Context c, String key) { return new File(c.getFilesDir(), key + ".jpg"); }
 
     static Uri uri(long id) { return ContentUris.withAppendedId(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id); }
 

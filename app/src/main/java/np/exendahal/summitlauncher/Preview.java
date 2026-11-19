@@ -39,7 +39,7 @@ final class Preview {
         if (box.getWidth() == 0) return;
         Context c = box.getContext();
         View dream = LayoutInflater.from(c).inflate(R.layout.dream, box, false);
-        ThemeController.bindWallpaper(c, dream.findViewById(R.id.wallpaper), null, null);
+        ThemeController.bindScreensaverWallpaper(c, dream.findViewById(R.id.wallpaper), dream.findViewById(R.id.credit));
         Ui.scaleText(dream, Prefs.get(c).decimal(Prefs.TEXT_SCALE));
         AmbientDreamService.bind(c, dream, null, null);
         place(box, dream);

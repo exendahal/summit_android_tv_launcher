@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">Einmalige Einrichtung nötig</string>
     <string name="screensaver_setup_body">Dieser Fernseher erlaubt Apps nicht, den Bildschirmschoner selbst zu ändern. Verbinde einmal einen Computer und führe aus:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nSchalte diese Option danach erneut ein.</string>
     <string name="wallpaper_custom">Mein Bild</string>
+    <string name="wallpaper_wikimedia">Wikimedia täglich</string>
+    <string name="wallpaper_nasa">NASA täglich</string>
+    <string name="wallpaper_same">Wie Startseite</string>
     <string name="wallpaper_download_failed">Hintergrund konnte nicht heruntergeladen werden. Prüfe die Internetverbindung.</string>
     <string name="picture_allow">Zugriff auf Bilder erlauben</string>
     <string name="picture_denied">Erlaube den Fotozugriff unter Einstellungen › Apps › Summit › Berechtigungen.</string>

@@ -114,6 +114,9 @@
     <string name="screensaver_setup_title">එක් වරක් පිහිටුවීමක් අවශ්‍යයි</string>
     <string name="screensaver_setup_body">මෙම රූපවාහිනිය යෙදුම්වලට තනිවම තිර සුරැකුම වෙනස් කිරීමට ඉඩ නොදේ. එක් වරක් පරිගණකයක් සම්බන්ධ කර මෙය ධාවනය කරන්න:\n\nadb shell pm grant np.exendahal.summitlauncher android.permission.WRITE_SECURE_SETTINGS\n\nඉන්පසු මෙය නැවත සක්‍රිය කරන්න.</string>
     <string name="wallpaper_custom">මගේ පින්තූරය</string>
+    <string name="wallpaper_wikimedia">විකිමීඩියා දෛනික</string>
+    <string name="wallpaper_nasa">නාසා දෛනික</string>
+    <string name="wallpaper_same">මුල් පිටුව හා සමාන</string>
     <string name="wallpaper_download_failed">එම බිතුපත බාගත කළ නොහැකි විය. අන්තර්ජාල සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
     <string name="picture_allow">පින්තූරවලට ප්‍රවේශය දෙන්න</string>
     <string name="picture_denied">සැකසීම් › යෙදුම් › Summit › අවසර තුළ ඡායාරූප ප්‍රවේශයට ඉඩ දෙන්න.</string>
